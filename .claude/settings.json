@@ -1,0 +1,52 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Buffer__get_account",
+      "mcp__Buffer__list_channels",
+      "mcp__Buffer__get_channel",
+      "mcp__Buffer__list_posts",
+      "mcp__Buffer__get_post",
+      "mcp__Buffer__create_post",
+      "mcp__Buffer__edit_post",
+      "mcp__Buffer__get_aggregated_post_metrics",
+      "mcp__Metricool_Social_Media_Management__getBrandSettings",
+      "mcp__Metricool_Social_Media_Management__getScheduledPosts",
+      "mcp__Metricool_Social_Media_Management__createScheduledPost",
+      "mcp__Metricool_Social_Media_Management__updateScheduledPost",
+      "mcp__Metricool_Social_Media_Management__getBestTimeToPostByNetwork",
+      "mcp__Metricool_Social_Media_Management__getAnalyticsAvailableMetrics",
+      "mcp__Metricool_Social_Media_Management__getAnalyticsDataByMetrics",
+      "Artifact",
+      "ArtifactData",
+      "mcp__claude-code-remote__send_later",
+      "WebFetch(domain:erreklamatu.com)",
+      "WebFetch(domain:eur-lex.europa.eu)",
+      "WebFetch(domain:www.boe.es)",
+      "WebFetch(domain:curia.europa.eu)",
+      "WebFetch(domain:www.poderjudicial.es)",
+      "WebFetch(domain:www.bde.es)",
+      "WebFetch(domain:www.eitb.eus)",
+      "WebFetch(domain:orain.eus)",
+      "WebFetch(domain:www.elcorreo.com)",
+      "WebFetch(domain:www.hosteltur.com)",
+      "Bash(git status*)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Bash(git fetch *)",
+      "Bash(git log*)",
+      "Bash(git diff*)",
+      "Bash(python3 *)",
+      "Bash(ffmpeg *)",
+      "Bash(ffprobe *)",
+      "Bash(curl *)",
+      "Bash(pip install *)"
+    ],
+    "deny": [
+      "mcp__Buffer__delete_post",
+      "mcp__Buffer__delete_post_template",
+      "Bash(git push --force*)",
+      "Bash(git push -f*)"
+    ]
+  }
+}
