@@ -6,10 +6,11 @@ Uso:
   python3 documento.py ocr pagina.png                   -> pagina.tsv (tesseract, castellano)
   python3 documento.py recorte spec.json carpeta        -> fragmento anonimizado + vista previa con el subrayado
   python3 documento.py todo spec.json carpeta           -> voz + recorte + vídeo 1080 × 1920
+  python3 documento.py video spec.json carpeta          -> solo el montaje del vídeo
 
 Spec (JSON):
 {
- "id": "D1-athletic", "categoria": "UN CASO NUESTRO", "juzgado": "Juzgado de Primera Instancia n.º 9 de Bilbao",
+ "id": "D1-athletic", "categoria": "UN CASO REAL", "juzgado": "Juzgado de Primera Instancia n.º 9 de Bilbao",
  "pagina": "/ruta/LOCAL/a/la/pagina.png",       # NUNCA en el repositorio: las sentencias tienen datos personales
  "subrayar": ["con mas claridad en el caso de los billetes perdidos", "procede estimar la plena compatibilidad ..."],
  "ocultar": [],   # palabras que se tapan siempre; los nombres de clientes van en sentencias/<pdf>.ocultar.txt (solo en el Mac) (además de fechas, DNI, CSV, NIG…)
@@ -93,93 +94,146 @@ def recorte(spec, out):
     prev.save(f"{out}/fragmento-previa.png")
     print("fragmento", frag.size, "líneas subrayadas", len(rel), "tapadas", tapadas)
 
-# ---------- vídeo ----------
-DW = 960   # ancho del documento en el vídeo
-def fondo_doc(spec, frag_png, marcas, sub, size):
-    """Página del documento en el vídeo: tarjeta de papel con la franja verde dibujada en CSS (animación de izquierda a derecha)."""
-    k = DW / size[0]; h = round(size[1] * k)
-    barras = "".join(f'<div class="bar" style="left:{(b[0]-6)*k}px;top:{(b[1]-2)*k}px;height:{(b[3]-b[1]+8)*k}px;width:{(b[2]-b[0]+12)*k}px;animation-delay:{0.35+0.45*i}s"></div>' for i, b in enumerate(marcas)) if sub else ""
+# ---------- vídeo (versión 2, 29/10/2026, tras las correcciones de Sergio a PUB-0520) ----------
+# Cada tramo = fondo de vídeo de archivo (aeropuerto, avión…) + una capa HTML transparente animada encima.
+#  - «gancho»: vídeo a pantalla completa con el titular descriptivo (se entiende solo, sin la voz).
+#  - «doc»: primero el vídeo; la sentencia entra justo cuando se subraya («doc_entra», segundos desde que empieza la voz).
+#  - «lista»: lo que concedió el juez, partida a partida, al ritmo de la voz («en»), y el total.
+#  - «consejo»: vídeo enmarcado arriba y el consejo en grande debajo.
+# El rótulo de la sentencia es «Sentencia del <juzgado> · <fecha>». Los vídeos de archivo están en la carpeta
+# Magnific/stock del Mac (licencia de Magnific: no se suben al repositorio público); procedencia en recursos/stock/FUENTES.md.
+DW = 1000   # ancho de la sentencia en el vídeo
+STOCK = os.environ.get("STOCK", "/mnt/user-data/uploads/Magnific/stock")
+
+def _cat(spec): return html.escape(spec.get("categoria", "UN CASO REAL"))
+
+def _doc(cuerpo, extra_css=""):
     return f"""<!doctype html><meta charset="utf-8"><style>{css().replace('{W}', str(VW)).replace('{H}', str(VH))}
-.card{{position:absolute;left:{(VW-DW)//2}px;top:410px;width:{DW}px;height:{h}px;background:#fff;box-shadow:0 18px 40px rgba(0,0,0,.45)}}
-.card img{{width:100%;height:100%;display:block}}
-.bar{{position:absolute;background:rgba(62,233,140,.45);transform-origin:left;transform:scaleX(0);animation:s .5s ease-out forwards;mix-blend-mode:multiply}}
-@keyframes s{{to{{transform:scaleX(1)}}}}</style><body>
-<div style="position:absolute;left:60px;top:150px">{logo_caja(84)}</div>
-<div class="tit" style="position:absolute;right:60px;top:158px;font-size:58px;color:{VERDE}">{html.escape(spec.get('categoria','UN CASO NUESTRO'))}</div>
-<div style="position:absolute;left:60px;right:60px;top:280px;color:#cfe0ff;font:600 28px/1.3 Poppins">{html.escape(spec.get('juzgado',''))} · datos personales ocultos</div>
-<div class="card"><img src="{Path(frag_png).resolve().as_uri()}">{barras}</div>{cita_html(spec) if sub else ''}</body>"""
+body{{background:transparent}}
+.an{{opacity:0;animation:ap .45s ease-out forwards}} @keyframes ap{{from{{opacity:0;transform:translateY(40px)}}to{{opacity:1;transform:none}}}}
+.fi{{opacity:0;animation:fi .5s ease-out forwards}} @keyframes fi{{to{{opacity:1}}}}
+.pie{{position:absolute;left:0;right:0;bottom:0;height:560px;background:linear-gradient(rgba(6,22,60,0),rgba(6,22,60,.88) 45%)}}
+.top{{position:absolute;left:60px;right:60px;top:120px;display:flex;justify-content:space-between;align-items:center}}
+.pill{{font-family:Bangers;font-size:54px;letter-spacing:1px;color:{NAVY};background:{VERDE};padding:6px 22px 2px;box-shadow:6px 6px 0 rgba(0,0,0,.35)}}
+{extra_css}</style><body>{cuerpo}</body>"""
 
-def cita_html(spec):
-    """La frase subrayada, copiada literalmente de la sentencia y en grande: en el móvil el escaneo no se lee."""
-    c = spec.get("cita")
-    if not c: return ""
-    return f"""<div style="position:absolute;left:50px;right:50px;top:{spec.get('cita_top', 900)}px;background:#fff;border-left:16px solid {VERDE};padding:30px 36px;box-shadow:0 14px 34px rgba(0,0,0,.45);opacity:0;animation:f .4s ease-out 1.1s forwards">
-<div style="font:600 44px/1.32 Poppins,sans-serif;color:{NAVY}">{comic.marcado(c).replace('<b>','<b style="background:rgba(62,233,140,.55);color:#0b2a6b">')}</div>
-<div style="margin-top:14px;font:500 26px Poppins;color:#5a6b8c">Texto literal de la sentencia</div></div><style>@keyframes f{{to{{opacity:1}}}}</style>"""
+def capa_gancho(spec, fondo_img=None):
+    t = spec["titulo"]
+    bg = f'<img src="{Path(fondo_img).resolve().as_uri()}" style="position:absolute;inset:0;width:{VW}px;height:{VH}px;object-fit:cover">' if fondo_img else ""
+    return _doc(f"""{bg}<div class="pie"></div>
+<div style="position:absolute;left:0;right:0;top:0;padding:120px 60px 170px;background:linear-gradient(rgba(6,22,60,.95) 72%,rgba(6,22,60,0));display:flex;flex-direction:column;gap:34px">
+<div style="display:flex;justify-content:space-between;align-items:center">{logo_caja(84)}<div class="pill">{_cat(spec)}</div></div>
+<div class="tit" style="font-size:104px;color:#fff;margin-top:20px">{html.escape(t[0])}</div>
+<div style="font:700 48px/1.25 Poppins,sans-serif;color:{VERDE}">{comic.marcado(t[1]).replace('<b>', '<b style="color:#fff">')}</div></div>""")
 
-def portada(spec, frag_png):
-    g = spec["gancho"]
-    return f"""<!doctype html><meta charset="utf-8"><style>{css().replace('{W}', str(VW)).replace('{H}', str(VH))}</style><body>
-<img src="{Path(frag_png).resolve().as_uri()}" style="position:absolute;left:-60px;top:520px;width:1200px;filter:blur(3px);opacity:.35">
-<div style="position:absolute;inset:0;background:linear-gradient({NAVY} 35%,rgba(11,42,107,.55) 65%,{NAVY})"></div>
-<div style="position:absolute;left:60px;top:150px">{logo_caja(84)}</div>
-<div class="tit" style="position:absolute;right:60px;top:158px;font-size:58px;color:{VERDE}">{html.escape(spec.get('categoria','UN CASO NUESTRO'))}</div>
-<div class="tit" style="position:absolute;left:60px;right:60px;top:420px;font-size:120px;color:#fff">{html.escape(g[0])}<br><span style="color:{VERDE}">{html.escape(g[1])}</span></div>
-<div style="position:absolute;left:60px;right:60px;bottom:260px;color:#fff;font:600 38px Poppins">Lo que dijo el juez, subrayado 👇</div></body>"""
+def capa_doc(spec, frag_png, marcas, size, t0):
+    """La sentencia entra en t0 (s); el subrayado empieza 0,5 s después y la cita literal, tras el subrayado."""
+    k = DW / size[0]; h = round(size[1] * k); top = 440
+    barras = "".join(f'<div class="bar" style="left:{(b[0]-6)*k}px;top:{(b[1]-2)*k}px;height:{(b[3]-b[1]+8)*k}px;width:{(b[2]-b[0]+12)*k}px;animation-delay:{t0+0.4+0.25*i:.2f}s"></div>' for i, b in enumerate(marcas))
+    tc = t0 + 0.4 + 0.25 * len(marcas) + 0.2
+    rot = f"Sentencia del {spec.get('juzgado','')} · {spec.get('fecha','')}"
+    cita = spec.get("cita", "")
+    return _doc(f"""<div class="fi" style="position:absolute;inset:0;background:rgba(6,22,60,.86);animation-delay:{t0-0.15:.2f}s"></div>
+<div class="pie"></div>
+<div class="top">{logo_caja(84)}<div class="pill">{_cat(spec)}</div></div>
+<div class="an" style="position:absolute;left:60px;right:60px;top:300px;color:#fff;font:700 38px/1.3 Poppins;animation-delay:{t0:.2f}s">{html.escape(rot)}</div>
+<div class="an card" style="top:{top}px;height:{h}px;animation-delay:{t0:.2f}s"><img src="{Path(frag_png).resolve().as_uri()}">{barras}</div>
+<div class="an" style="position:absolute;left:50px;right:50px;top:{top + h + 50}px;background:#fff;border-left:16px solid {VERDE};padding:26px 32px;box-shadow:0 14px 34px rgba(0,0,0,.45);animation-delay:{tc:.2f}s">
+<div style="font:600 44px/1.3 Poppins,sans-serif;color:{NAVY}">{comic.marcado(cita).replace('<b>','<b style="background:rgba(62,233,140,.55);color:#0b2a6b">')}</div>
+<div style="margin-top:12px;font:500 26px Poppins;color:#5a6b8c">Texto literal de la sentencia</div></div>""",
+f""".card{{position:absolute;left:{(VW-DW)//2}px;width:{DW}px;background:#fff;box-shadow:0 18px 40px rgba(0,0,0,.5)}} .card img{{width:100%;height:100%;display:block}}
+.bar{{position:absolute;background:rgba(62,233,140,.5);transform-origin:left;transform:scaleX(0);animation:s .45s ease-out forwards;mix-blend-mode:multiply}}
+@keyframes s{{to{{transform:scaleX(1)}}}}""")
 
-def tarjeta(spec, t):
-    return f"""<!doctype html><meta charset="utf-8"><style>{css().replace('{W}', str(VW)).replace('{H}', str(VH))}</style><body>
-<div style="position:absolute;left:60px;top:150px">{logo_caja(84)}</div>
-<div class="tit" style="position:absolute;right:60px;top:158px;font-size:58px;color:{VERDE}">{html.escape(spec.get('categoria','UN CASO NUESTRO'))}</div>
-<div style="position:absolute;left:70px;right:70px;top:520px;text-align:center">
-<div class="tit" style="font-size:{t.get('tam',104)}px;color:#fff">{comic.marcado(t['grande']).replace('<b>', f'<b style="color:{VERDE}">')}</div>
-<div style="margin-top:40px;color:#dfe8ff;font:600 40px/1.35 Poppins">{html.escape(t.get('pequeno',''))}</div></div></body>"""
+def capa_lista(spec, t, pre):
+    filas = "".join(f"""<div class="an fila" style="animation-delay:{pre + it.get('en', 0):.2f}s"><div class="ico">✓</div>
+<div><div class="tit" style="font-size:92px;color:#fff">{html.escape(it['t'])}</div><div style="font:600 38px/1.25 Poppins;color:#dfe8ff;margin-top:6px">{html.escape(it['d'])}</div></div></div>""" for it in t["items"])
+    ult = pre + max(it.get("en", 0) for it in t["items"]) + 0.6
+    return _doc(f"""<div style="position:absolute;inset:0;background:rgba(6,22,60,.72)"></div><div class="pie"></div>
+<div style="position:absolute;left:60px;right:60px;top:130px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;justify-content:space-between;align-items:center">{logo_caja(84)}<div class="pill">{_cat(spec)}</div></div>
+<div class="tit" style="font-size:84px;color:{VERDE};margin:14px 0 4px">{html.escape(t['cabecera'])}</div>
+{filas}
+<div class="an" style="margin-top:8px;background:{VERDE};color:{NAVY};padding:22px 30px;box-shadow:8px 8px 0 rgba(0,0,0,.4);animation-delay:{ult:.2f}s">
+<div style="font:700 36px Poppins">{html.escape(t['total'][0])}</div><div class="tit" style="font-size:104px;text-shadow:none">{html.escape(t['total'][1])}</div></div></div>""",
+f""".fila{{display:flex;gap:30px;align-items:center;background:rgba(255,255,255,.10);border-left:10px solid {VERDE};padding:34px 30px}}
+.ico{{flex:none;width:90px;height:90px;border-radius:50%;background:{VERDE};color:{NAVY};font:700 60px/90px Poppins;text-align:center}}""")
+
+def capa_consejo(spec, t):
+    y = MARCO_Y + MARCO_H + 70
+    return _doc(f"""<div class="pie"></div>
+<div class="top">{logo_caja(84)}<div class="pill">{_cat(spec)}</div></div>
+<div style="position:absolute;left:60px;right:60px;top:{y}px;text-align:center">
+<div class="tit" style="font-size:{t.get('tam', 120)}px;color:#fff">{comic.marcado(t['grande']).replace('<b>', f'<b style="color:{VERDE}">')}</div>
+<div style="margin-top:26px;color:#fff;font:700 46px/1.3 Poppins">{html.escape(t.get('pequeno',''))}</div>
+<div style="display:inline-block;margin-top:30px;border:3px solid {VERDE};color:{VERDE};font:600 32px Poppins;padding:10px 24px">{html.escape(t.get('norma',''))}</div></div>""")
+
+MARCO_Y, MARCO_H = 300, 608
+def fondo(t, D, sal):
+    """Fondo de vídeo de archivo de D segundos. modo «lleno»: a pantalla completa; «marco»: el vídeo apaisado en un recuadro
+    sobre una copia desenfocada y oscurecida (así no se pierde nitidez al pasarlo a vertical)."""
+    src = t["stock"] if os.path.isabs(t["stock"]) else os.path.join(STOCK, t["stock"])
+    ss = t.get("desde", 0); z = t.get("zoom", 0.06)
+    cover = f"scale={VW}:{VH}:force_original_aspect_ratio=increase,crop={VW}:{VH}"
+    if t.get("modo", "lleno") == "lleno":
+        fl = f"[0:v]fps=30,{cover},scale=w='{VW}*(1+{z}*t/{D})':h=-1:eval=frame,crop={VW}:{VH},format=yuv420p[v]"
+    else:
+        fl = (f"[0:v]fps=30,split[a][b];[a]{cover},boxblur=30:2,eq=brightness=-0.25[bg];"
+              f"[b]scale={VW}:-2,scale=w='{VW}*(1+{z}*t/{D})':h=-1:eval=frame,crop={VW}:{MARCO_H}[fg];[bg][fg]overlay=0:{MARCO_Y},format=yuv420p[v]")
+    run("ffmpeg", "-v", "error", "-y", "-stream_loop", -1, "-ss", ss, "-i", src, "-t", D, "-filter_complex", fl, "-map", "[v]", "-an", "-r", 30, "-c:v", "libx264", "-crf", 18, sal)
+
+def fotogramas(nav, doc, D, carpeta):
+    """Graba la capa HTML (transparente) fotograma a fotograma, a 30 fps, controlando el reloj de las animaciones."""
+    import tempfile
+    pg = nav.b.new_page(viewport={"width": VW, "height": VH})
+    with tempfile.NamedTemporaryFile("w", suffix=".html", delete=False, encoding="utf8") as f: f.write(doc)
+    pg.goto(Path(f.name).as_uri()); pg.wait_for_timeout(400)
+    pg.evaluate("document.getAnimations().forEach(a=>a.pause())")
+    carpeta.mkdir(exist_ok=True)
+    for p in carpeta.iterdir(): p.unlink()
+    for i in range(int(round(D * 30))):
+        pg.evaluate(f"document.getAnimations().forEach(a=>a.currentTime={i*1000/30})")
+        pg.screenshot(path=str(carpeta / f"{i:04d}.png"), omit_background=True)
+    pg.close(); os.unlink(f.name)
 
 def video(spec, out, nav):
     tmp = Path(out) / "vtmp"; tmp.mkdir(exist_ok=True)
     meta = json.load(open(f"{out}/fragmento.json")); frag = f"{out}/fragmento.png"
-    nav.png(portada(spec, frag), tmp / "portada.png", VW, VH)
-    segs = []
-    run("ffmpeg", "-v", "error", "-y", "-loop", 1, "-t", 1.2, "-i", tmp / "portada.png", "-vf", "fps=30,format=yuv420p", "-c:v", "libx264", "-crf", 18, tmp / "s00.mp4")
-    segs.append((tmp / "s00.mp4", None, 1.2))
+    segs = []; PRE = comic.PRE
     tramos = spec["tramos"] + [dict(tipo="cierre", **spec["cierre"])]
     for n, t in enumerate(tramos, 1):
         a = f"{out}/voz/{n:02d}.wav"; va = dur(a) if os.path.exists(a) else 0
-        D = round(comic.PRE + va + comic.POST + (0.6 if t.get("subrayado") else 0), 3) if va else float(t.get("dur", 2.5))
-        if t["tipo"] == "doc":
-            # la animación CSS se graba fotograma a fotograma con Playwright (vídeo de la página)
-            seg = tmp / f"s{n:02d}.mp4"; grabar(nav, fondo_doc(spec, frag, meta["marcas"], t.get("subrayado"), meta["size"]), seg, D, zoom=t.get("subrayado"))
-            base = seg
-        else:
-            p = tmp / f"t{n:02d}.png"; nav.png(cierre_html(spec, VW, VH) if t["tipo"] == "cierre" else tarjeta(spec, t), p, VW, VH)
-            base = tmp / f"b{n:02d}.mp4"; run("ffmpeg", "-v", "error", "-y", "-loop", 1, "-t", D, "-i", p, "-vf", "fps=30,format=yuv420p", "-c:v", "libx264", "-crf", 18, base)
-        frases = t.get("subtitulos") or []; tot = sum(len(f) for f in frases) or 1; t0 = comic.PRE; ins = ["-i", base]; fl = []; cur = "[0:v]"
+        D = round(PRE + va + comic.POST + float(t.get("extra", 0)), 3) if va else float(t.get("dur", 2.5))
+        sal = tmp / f"f{n:02d}.mp4"
+        frases = t.get("subtitulos") or []; tot = sum(len(f) for f in frases) or 1
+        subs = []; t0 = PRE
         for j, f in enumerate(frases):
             dd = (va or D) * len(f) / tot; sp = tmp / f"sub-{n}-{j}.png"; nav.png(subtitulo_html(f), sp, VW, 300, transparente=True)
-            ins += ["-loop", "1", "-t", D, "-i", sp]; y = 1520 if t["tipo"] != "cierre" else 1590
-            fl.append(f"{cur}[{j+1}:v]overlay=0:{y}:enable='between(t,{t0:.3f},{t0+dd:.3f})'[o{j}]"); cur = f"[o{j}]"; t0 += dd
-        fl.append(f"{cur}fade=t=in:st=0:d=0.2,format=yuv420p[v]")
-        sal = tmp / f"f{n:02d}.mp4"
+            subs.append((sp, t0, t0 + dd)); t0 += dd
+        if t["tipo"] == "cierre":
+            p = tmp / "cierre.png"; nav.png(cierre_html(spec, VW, VH), p, VW, VH)
+            ins = ["-loop", 1, "-t", D, "-i", p]; fl = ["[0:v]fps=30,format=rgba[c0]"]; cur = "[c0]"
+        else:
+            bg = tmp / f"bg{n:02d}.mp4"; fondo(t, D, bg)
+            if t["tipo"] == "gancho": doc = capa_gancho(spec)
+            elif t["tipo"] == "doc": doc = capa_doc(spec, frag, meta["marcas"], meta["size"], PRE + float(t.get("doc_entra", 0)))
+            elif t["tipo"] == "lista": doc = capa_lista(spec, t, PRE)
+            else: doc = capa_consejo(spec, t)
+            fr = tmp / f"fr{n:02d}"; fotogramas(nav, doc, D, fr)
+            ins = ["-i", bg, "-framerate", 30, "-i", fr / "%04d.png"]; fl = ["[0:v][1:v]overlay=0:0:format=auto[c0]"]; cur = "[c0]"
+            if t["tipo"] == "gancho":     # portada del vídeo (miniatura): un fotograma del fondo con el titular
+                fimg = tmp / "fondo-portada.jpg"; run("ffmpeg", "-v", "error", "-y", "-ss", min(2.0, D / 2), "-i", bg, "-frames:v", 1, "-q:v", 2, fimg)
+                nav.png(capa_gancho(spec, fimg), tmp / "portada.png", VW, VH)
+        k0 = 1 if t["tipo"] == "cierre" else 2
+        for j, (sp, a0, a1) in enumerate(subs):
+            ins += ["-loop", 1, "-t", D, "-i", sp]
+            y = 1590 if t["tipo"] == "cierre" else 1500
+            fl.append(f"{cur}[{k0+j}:v]overlay=0:{y}:enable='between(t,{a0:.3f},{a1:.3f})'[o{j}]"); cur = f"[o{j}]"
+        fl.append(f"{cur}{'fade=t=in:st=0:d=0.2,' if n == 1 else ''}format=yuv420p[v]")
         run("ffmpeg", "-v", "error", "-y", *ins, "-filter_complex", ";".join(fl), "-map", "[v]", "-t", D, "-r", 30, "-c:v", "libx264", "-crf", 18, sal)
         segs.append((sal, a if va else None, D))
+        print("tramo", n, t["tipo"], f"{D:.2f}s")
     comic.mezclar_y_cerrar(spec, out, tmp, segs)
-
-def grabar(nav, doc, sal, D, zoom=False):
-    """Graba una página HTML animada: captura fotogramas con Playwright a 30 fps (la animación se controla con el reloj de la página)."""
-    import tempfile
-    pg = nav.b.new_page(viewport={"width": VW, "height": VH})
-    with tempfile.NamedTemporaryFile("w", suffix=".html", delete=False, encoding="utf8") as f: f.write(doc)
-    pg.goto(Path(f.name).as_uri()); pg.wait_for_timeout(300)
-    pg.evaluate("document.getAnimations().forEach(a=>a.pause())")
-    fr = Path(str(sal) + "_fr"); fr.mkdir(exist_ok=True); n = int(D * 30)
-    for i in range(n):
-        pg.evaluate(f"document.getAnimations().forEach(a=>a.currentTime={i*1000/30})")
-        pg.screenshot(path=str(fr / f"{i:04d}.png"))
-    pg.close(); os.unlink(f.name)
-    z = f",scale=w='{VW}*(1+0.05*t/{D})':h=-1:eval=frame,crop={VW}:{VH}" if zoom else ""
-    run("ffmpeg", "-v", "error", "-y", "-framerate", 30, "-i", fr / "%04d.png", "-vf", f"format=yuv420p{z}", "-c:v", "libx264", "-crf", 18, sal)
-    for p in fr.iterdir(): p.unlink()
-    fr.rmdir()
 
 def voz(spec, out):
     d = spec["_dir"]; os.makedirs(f"{out}/voz", exist_ok=True)
@@ -195,6 +249,6 @@ if __name__ == "__main__":
     if cmd == "ocr": print(len(ocr(sys.argv[2])), "palabras"); sys.exit()
     spec = comic.cargar(sys.argv[2]); out = sys.argv[3]; os.makedirs(out, exist_ok=True)
     if cmd in ("recorte", "todo"): recorte(spec, out)
-    if cmd == "todo":
-        voz(spec, out)
+    if cmd == "todo": voz(spec, out)
+    if cmd in ("todo", "video"):          # «video»: solo vuelve a montar (usa el recorte y las voces ya preparados)
         with Navegador() as nav: video(spec, out, nav)
