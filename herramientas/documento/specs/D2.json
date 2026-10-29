@@ -1,6 +1,6 @@
 {
  "id": "D2-menores-irlanda",
- "categoria": "UN CASO NUESTRO",
+ "categoria": "UN CASO REAL",
  "juzgado": "Juzgado de Primera Instancia n.º 9 de Pamplona",
  "pdf": "sentencia-D2.pdf",
  "pagina_num": 9,
@@ -13,20 +13,18 @@
   200,
   60
  ],
- "gancho": [
-  "500 € más a cada pasajero",
-  "por lo que sufrieron."
- ],
  "tramos": [
   {
-   "tipo": "doc",
+   "tipo": "gancho",
    "subtitulos": [
     "Su vuelo de vuelta desde Irlanda se canceló sin aviso.",
     "Eran menores, y viajaban sin sus padres."
    ],
    "locucion": "Su vuelo de vuelta desde Irlanda se canceló sin aviso. Eran menores, y viajaban sin sus padres.",
    "voz": "../../../recursos/voces/documento/D2-1.mp3",
-   "subrayado": false
+   "stock": "durmiendo-puerta-embarque-IA_7460780.mp4",
+   "modo": "marco",
+   "marco_y": 800
   },
   {
    "tipo": "doc",
@@ -35,21 +33,46 @@
    ],
    "locucion": "Para el juez, aquello causó un sufrimiento real.",
    "voz": "../../../recursos/voces/documento/D2-2.mp3",
-   "subrayado": true
+   "stock": "panel-cancelado-IA_7462012.mp4",
+   "modo": "marco",
+   "doc_entra": 0.3,
+   "extra": 3.8
   },
   {
-   "tipo": "texto",
-   "subtitulos": [
-    "Además de la compensación,",
-    "quinientos euros más a cada uno por daño moral."
-   ],
+   "tipo": "lista",
+   "subtitulos": [],
    "locucion": "Además de la compensación, quinientos euros más a cada uno por daño moral.",
    "voz": "../../../recursos/voces/documento/D2-3.mp3",
-   "grande": "*500 €* más por pasajero",
-   "pequeno": "Además de la compensación por la cancelación, por daño moral."
+   "stock": "aterrizaje-tren_3684388.mp4",
+   "modo": "lleno",
+   "desde": 10,
+   "cabecera": "Lo que la aerolínea tendrá que pagar",
+   "items": [
+    {
+     "t": "250 € por pasajero",
+     "d": "de compensación por la cancelación",
+     "en": 0
+    },
+    {
+     "t": "Los gastos extra",
+     "d": "lo que tuvieron que comprar",
+     "en": 0.8
+    },
+    {
+     "t": "500 € por daño moral",
+     "d": "a cada uno de los 85 menores",
+     "en": 1.6
+    }
+   ],
+   "total": [
+    "Solo por daño moral:",
+    "42.500 €"
+   ],
+   "extra": 1.6,
+   "nota": "Sin subtítulos: las partidas salen en pantalla"
   },
   {
-   "tipo": "texto",
+   "tipo": "consejo",
    "subtitulos": [
     "El daño moral no es automático: hay que probar lo que se vivió.",
     "De eso nos encargamos nosotros."
@@ -57,20 +80,29 @@
    "locucion": "El daño moral no es automático: hay que probar lo que se vivió. De eso nos encargamos nosotros.",
    "voz": "../../../recursos/voces/documento/D2-4.mp3",
    "grande": "El daño moral *no es automático*",
-   "pequeno": "Hay que probar lo que se vivió. De eso nos encargamos nosotros."
+   "pequeno": "Hay que probar lo que se vivió. De eso nos encargamos nosotros.",
+   "stock": "pasajeros-espera-vertical_8190755.mp4",
+   "modo": "marco",
+   "desde": 4,
+   "norma": ""
   }
  ],
  "cierre": {
-  "titulo": "¿TE HA PASADO?",
+  "titulo": "¿Te ha pasado?",
   "texto": "Te ayudamos a reclamar a la aerolínea.",
   "subtitulos": [
    "Llama al 944 027 596"
   ],
   "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
   "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
-  "legal": "Reglamento (CE) 261/2004, arts. 7 y 12; Convenio de Montreal, art. 19. Imagen de la sentencia con los datos personales ocultos. Cada caso se estudia de forma individual."
+  "legal": "Reglamento (CE) 261/2004, arts. 7 y 12; Convenio de Montreal, art. 19. Imágenes de aeropuerto: archivo. Cada caso se estudia de forma individual."
  },
  "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3",
  "mensajes": [],
- "cita": "«… *es incuestionable que sí es susceptible de causar por sí mismo el impacto o sufrimiento psíquico* (…) *a razón de 500 € por cada uno de los demandantes*.»"
+ "cita": "«… *es incuestionable que sí es susceptible de causar por sí mismo el impacto o sufrimiento psíquico* (…) *a razón de 500 € por cada uno de los demandantes*.»",
+ "fecha": "4 de diciembre de 2025",
+ "titulo": [
+  "Cancelan su vuelo de vuelta: 85 menores, sin sus padres",
+  "Irlanda–Pamplona. El juez: *42.500 € por daño moral*"
+ ]
 }

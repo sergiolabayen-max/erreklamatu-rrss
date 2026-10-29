@@ -31,7 +31,7 @@ AQUI = Path(__file__).resolve().parent
 SISTEMA = AQUI.parent / "sistema"
 FUENTES = AQUI / "fuentes"
 LOGO = SISTEMA / "logo-alta.png"
-NAVY, VERDE, AZUL_TXT = "#0b2a6b", "#3ee98c", "#1f4fa8"
+NAVY, VERDE, AZUL_TXT = "#003378", "#00E887", "#0A4496"
 W, H = 1080, 1350               # lámina
 VW, VH = 1080, 1920             # vídeo
 PX, PY, PW = 66, 270, 948       # panel dentro del vídeo
@@ -95,7 +95,7 @@ def lamina_html(img, lam, con_texto, contador=None, gancho=None):
         r = lam.get("rotulo")
         if r: capas.append(f'<div class="rot" style="left:{r["x"]}px;top:{r["y"]}px;width:{r["w"]}px">{marcado(r["texto"])}</div>')
         if gancho:
-            capas.append(f'<div style="position:absolute;left:0;top:0;width:{W}px;height:420px;background:linear-gradient({NAVY} 70%,rgba(11,42,107,0))"></div>')
+            capas.append(f'<div style="position:absolute;left:0;top:0;width:{W}px;height:420px;background:linear-gradient({NAVY} 70%,rgba(0,51,120,0))"></div>')
             capas.append(f'<div class="tit" style="position:absolute;left:44px;top:40px;width:992px;font-size:96px;color:#fff">{html.escape(gancho[0])}<br><span style="color:{VERDE}">{html.escape(gancho[1])}</span></div>')
     if contador:
         capas.append(f'<div style="position:absolute;right:26px;bottom:22px;background:rgba(0,0,0,.55);color:#fff;font:700 24px CN;padding:6px 14px;border-radius:16px">{contador}</div>')
@@ -270,7 +270,7 @@ def mezclar_y_cerrar(spec, out, tmp, segs):
     run("ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", 0, "-i", tmp / "lista.txt", "-c", "copy", tmp / "solo_video.mp4")
     # barra de progreso verde abajo
     final = f"{out}/{spec['id']}-video.mp4"
-    run("ffmpeg", "-v", "error", "-y", "-i", tmp / "solo_video.mp4", "-i", audio, "-f", "lavfi", "-i", f"color=c=0x3ee98c:s={VW}x12:r=30:d={total:.3f}",
+    run("ffmpeg", "-v", "error", "-y", "-i", tmp / "solo_video.mp4", "-i", audio, "-f", "lavfi", "-i", f"color=c=0x00e887:s={VW}x12:r=30:d={total:.3f}",
         "-filter_complex", f"[0:v][2:v]overlay=x='-W+W*t/{total:.3f}':y={VH - 12}:shortest=1,format=yuv420p[v]",
         "-map", "[v]", "-map", "1:a", "-c:v", "libx264", "-preset", "veryfast", "-crf", 21, "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", final)
     shutil.copy(tmp / "portada.png", f"{out}/{spec['id']}-portada.png")

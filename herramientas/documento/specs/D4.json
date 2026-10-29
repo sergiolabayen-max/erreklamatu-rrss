@@ -1,6 +1,6 @@
 {
  "id": "D4-phishing-santander",
- "categoria": "UN CASO NUESTRO",
+ "categoria": "UN CASO REAL",
  "juzgado": "Juzgado de Primera Instancia n.º 12 de Bilbao",
  "pdf": "sentencia-D4.pdf",
  "pagina_num": 10,
@@ -8,29 +8,23 @@
   "sin que se haya aportado dictamen pericial específico por la parte demandada",
   "no puede aludirse a responsabilidad alguna de la"
  ],
- "ocultar": [
-  "9",
-  "octubre",
-  "2021"
- ],
+ "ocultar": [],
  "margen": [
-  200,
+  90,
   40
- ],
- "gancho": [
-  "El banco alegó su sistema de seguridad.",
-  "Al juez no le bastó."
  ],
  "tramos": [
   {
-   "tipo": "doc",
+   "tipo": "gancho",
    "subtitulos": [
     "Un cargo de casi dos mil euros",
     "que la clienta nunca autorizó."
    ],
    "locucion": "Un cargo de casi dos mil euros que la clienta nunca autorizó.",
    "voz": "../../../recursos/voces/documento/D4-1.mp3",
-   "subrayado": false
+   "stock": "mujer-tarjeta-movil_6103004.mp4",
+   "modo": "marco",
+   "marco_y": 800
   },
   {
    "tipo": "doc",
@@ -40,21 +34,46 @@
    ],
    "locucion": "El banco alegó su sistema de seguridad. Pero no aportó ninguna prueba pericial.",
    "voz": "../../../recursos/voces/documento/D4-2.mp3",
-   "subrayado": true
+   "stock": "manos-tarjeta-portatil_7457768.mp4",
+   "modo": "marco",
+   "doc_entra": 2.3,
+   "extra": 3.6
   },
   {
-   "tipo": "texto",
-   "subtitulos": [
-    "Resultado: el banco tiene que devolverle todo,",
-    "con intereses."
-   ],
+   "tipo": "lista",
+   "subtitulos": [],
    "locucion": "Resultado: el banco tiene que devolverle todo, con intereses.",
    "voz": "../../../recursos/voces/documento/D4-3.mp3",
-   "grande": "Devolver *todo*, con intereses",
-   "pequeno": "1.923,67 € más intereses y las costas del juicio."
+   "stock": "manos-tarjeta-portatil_7457768.mp4",
+   "modo": "lleno",
+   "desde": 3,
+   "cabecera": "Lo que el banco tendrá que pagar",
+   "items": [
+    {
+     "t": "1.923,67 €",
+     "d": "el cargo que ella nunca autorizó",
+     "en": 0.82
+    },
+    {
+     "t": "Los intereses",
+     "d": "desde el día del cargo",
+     "en": 3.25
+    },
+    {
+     "t": "Las costas",
+     "d": "los gastos del juicio",
+     "en": 3.8
+    }
+   ],
+   "total": [
+    "Resultado:",
+    "Lo recupera todo"
+   ],
+   "extra": 1.6,
+   "nota": "Sin subtítulos: las partidas salen en pantalla"
   },
   {
-   "tipo": "texto",
+   "tipo": "consejo",
    "subtitulos": [
     "Si te pasa, avisa al banco enseguida,",
     "pide el bloqueo y denuncia."
@@ -62,23 +81,31 @@
    "locucion": "Si te pasa, avisa al banco enseguida, pide el bloqueo y denuncia.",
    "voz": "../../../recursos/voces/documento/D4-4.mp3",
    "grande": "Avisa al banco *enseguida*",
-   "pequeno": "Pide el bloqueo y denuncia. La prueba le toca al banco."
+   "pequeno": "Pide el bloqueo y denuncia. La prueba le toca al banco.",
+   "stock": "mujer-movil-estres_2922835.mp4",
+   "modo": "marco",
+   "norma": "Real Decreto-ley 19/2018, art. 44"
   }
  ],
  "cierre": {
-  "titulo": "¿TE HA PASADO?",
+  "titulo": "¿Te ha pasado?",
   "texto": "Te ayudamos a reclamar al banco.",
   "subtitulos": [
    "Llama al 944 027 596"
   ],
   "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
   "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
-  "legal": "Real Decreto-ley 19/2018, arts. 44 y 46. Imagen de la sentencia con los datos personales ocultos. Cada caso se estudia de forma individual."
+  "legal": "Real Decreto-ley 19/2018, arts. 44 y 46. Imágenes de archivo. Cada caso se estudia de forma individual."
  },
  "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3",
  "mensajes": [
   "MSG-024",
   "MSG-025"
  ],
- "cita": "«… *sin que se haya aportado dictamen pericial específico por la parte demandada* (…) *no puede aludirse a responsabilidad alguna de la hoy actora*…»"
+ "cita": "«… *sin que se haya aportado dictamen pericial específico por la parte demandada* (…) *no puede aludirse a responsabilidad alguna de la hoy actora*…»",
+ "fecha": "20 de mayo de 2025",
+ "titulo": [
+  "Le cargaron 1.923 € en criptomonedas con su tarjeta, sin su permiso",
+  "El juez obliga al banco a *devolvérselo todo*, con intereses"
+ ]
 }
