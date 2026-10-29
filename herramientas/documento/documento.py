@@ -107,6 +107,17 @@ STOCK = os.environ.get("STOCK", "/mnt/user-data/uploads/Magnific/stock")
 
 def _cat(spec): return html.escape(spec.get("categoria", "UN CASO REAL"))
 
+# Estilo propio del formato (no el del cómic): titulares en Poppins Black/ExtraBold, la tipografía de la marca;
+# la voz del juez (cita literal) en Lora cursiva, una serif que recuerda al documento. Sin Bangers ni sombras de cómic.
+FD = Path(__file__).resolve().parent / "fuentes"
+ESTILO = f"""@font-face{{font-family:PB;src:url({(FD/'Poppins-Black.ttf').as_uri()})}}
+@font-face{{font-family:PX;src:url({(FD/'Poppins-ExtraBold.ttf').as_uri()})}}
+@font-face{{font-family:PS;src:url({(FD/'Poppins-SemiBold.ttf').as_uri()})}}
+@font-face{{font-family:Lora;src:url({(FD/'Lora-Italic-Variable.ttf').as_uri()});font-style:italic}}
+.tit{{font-family:PB,Poppins,sans-serif;font-weight:900;letter-spacing:-0.5px;line-height:1.06;text-shadow:0 4px 18px rgba(0,0,0,.35)}}
+.pill{{font:800 30px PX,Poppins;letter-spacing:3px;text-transform:uppercase;color:{NAVY};background:{VERDE};padding:12px 22px 10px;border-radius:4px}}
+.lbl{{font:800 28px PX,Poppins;letter-spacing:3px;text-transform:uppercase;color:{VERDE}}}"""
+
 def _doc(cuerpo, extra_css=""):
     return f"""<!doctype html><meta charset="utf-8"><style>{css().replace('{W}', str(VW)).replace('{H}', str(VH))}
 body{{background:transparent}}
@@ -114,7 +125,7 @@ body{{background:transparent}}
 .fi{{opacity:0;animation:fi .5s ease-out forwards}} @keyframes fi{{to{{opacity:1}}}}
 .pie{{position:absolute;left:0;right:0;bottom:0;height:560px;background:linear-gradient(rgba(6,22,60,0),rgba(6,22,60,.88) 45%)}}
 .top{{position:absolute;left:60px;right:60px;top:120px;display:flex;justify-content:space-between;align-items:center}}
-.pill{{font-family:Bangers;font-size:54px;letter-spacing:1px;color:{NAVY};background:{VERDE};padding:6px 22px 2px;box-shadow:6px 6px 0 rgba(0,0,0,.35)}}
+{ESTILO}
 {extra_css}</style><body>{cuerpo}</body>"""
 
 def capa_gancho(spec, fondo_img=None):
@@ -123,7 +134,7 @@ def capa_gancho(spec, fondo_img=None):
     return _doc(f"""{bg}<div class="pie"></div>
 <div style="position:absolute;left:0;right:0;top:0;padding:120px 60px 170px;background:linear-gradient(rgba(6,22,60,.95) 72%,rgba(6,22,60,0));display:flex;flex-direction:column;gap:34px">
 <div style="display:flex;justify-content:space-between;align-items:center">{logo_caja(84)}<div class="pill">{_cat(spec)}</div></div>
-<div class="tit" style="font-size:104px;color:#fff;margin-top:20px">{html.escape(t[0])}</div>
+<div class="tit" style="font-size:82px;color:#fff;margin-top:20px">{html.escape(t[0])}</div>
 <div style="font:700 48px/1.25 Poppins,sans-serif;color:{VERDE}">{comic.marcado(t[1]).replace('<b>', '<b style="color:#fff">')}</div></div>""")
 
 def capa_doc(spec, frag_png, marcas, size, t0):
@@ -139,23 +150,23 @@ def capa_doc(spec, frag_png, marcas, size, t0):
 <div class="an" style="position:absolute;left:60px;right:60px;top:300px;color:#fff;font:700 38px/1.3 Poppins;animation-delay:{t0:.2f}s">{html.escape(rot)}</div>
 <div class="an card" style="top:{top}px;height:{h}px;animation-delay:{t0:.2f}s"><img src="{Path(frag_png).resolve().as_uri()}">{barras}</div>
 <div class="an" style="position:absolute;left:50px;right:50px;top:{top + h + 50}px;background:#fff;border-left:16px solid {VERDE};padding:26px 32px;box-shadow:0 14px 34px rgba(0,0,0,.45);animation-delay:{tc:.2f}s">
-<div style="font:600 44px/1.3 Poppins,sans-serif;color:{NAVY}">{comic.marcado(cita).replace('<b>','<b style="background:rgba(62,233,140,.55);color:#0b2a6b">')}</div>
-<div style="margin-top:12px;font:500 26px Poppins;color:#5a6b8c">Texto literal de la sentencia</div></div>""",
+<div style="font:italic 500 46px/1.32 Lora,serif;color:{NAVY}">{comic.marcado(cita).replace('<b>','<b style="background:rgba(62,233,140,.55);color:#0b2a6b">')}</div>
+<div class="lbl" style="margin-top:16px;color:#5a6b8c;font-size:22px">Texto literal de la sentencia</div></div>""",
 f""".card{{position:absolute;left:{(VW-DW)//2}px;width:{DW}px;background:#fff;box-shadow:0 18px 40px rgba(0,0,0,.5)}} .card img{{width:100%;height:100%;display:block}}
 .bar{{position:absolute;background:rgba(62,233,140,.5);transform-origin:left;transform:scaleX(0);animation:s .45s ease-out forwards;mix-blend-mode:multiply}}
 @keyframes s{{to{{transform:scaleX(1)}}}}""")
 
 def capa_lista(spec, t, pre):
     filas = "".join(f"""<div class="an fila" style="animation-delay:{pre + it.get('en', 0):.2f}s"><div class="ico">✓</div>
-<div><div class="tit" style="font-size:92px;color:#fff">{html.escape(it['t'])}</div><div style="font:600 38px/1.25 Poppins;color:#dfe8ff;margin-top:6px">{html.escape(it['d'])}</div></div></div>""" for it in t["items"])
+<div><div class="tit" style="font-size:62px;color:#fff">{html.escape(it['t'])}</div><div style="font:600 38px/1.25 Poppins;color:#dfe8ff;margin-top:6px">{html.escape(it['d'])}</div></div></div>""" for it in t["items"])
     ult = pre + max(it.get("en", 0) for it in t["items"]) + 0.6
     return _doc(f"""<div style="position:absolute;inset:0;background:rgba(6,22,60,.72)"></div><div class="pie"></div>
 <div style="position:absolute;left:60px;right:60px;top:130px;display:flex;flex-direction:column;gap:40px">
 <div style="display:flex;justify-content:space-between;align-items:center">{logo_caja(84)}<div class="pill">{_cat(spec)}</div></div>
-<div class="tit" style="font-size:84px;color:{VERDE};margin:14px 0 4px">{html.escape(t['cabecera'])}</div>
+<div class="tit" style="font-size:64px;color:#fff;margin:14px 0 4px">{html.escape(t['cabecera'])}</div>
 {filas}
 <div class="an" style="margin-top:8px;background:{VERDE};color:{NAVY};padding:22px 30px;box-shadow:8px 8px 0 rgba(0,0,0,.4);animation-delay:{ult:.2f}s">
-<div style="font:700 36px Poppins">{html.escape(t['total'][0])}</div><div class="tit" style="font-size:104px;text-shadow:none">{html.escape(t['total'][1])}</div></div></div>""",
+<div style="font:700 34px PS,Poppins">{html.escape(t['total'][0])}</div><div class="tit" style="font-size:88px;text-shadow:none">{html.escape(t['total'][1])}</div></div></div>""",
 f""".fila{{display:flex;gap:30px;align-items:center;background:rgba(255,255,255,.10);border-left:10px solid {VERDE};padding:34px 30px}}
 .ico{{flex:none;width:90px;height:90px;border-radius:50%;background:{VERDE};color:{NAVY};font:700 60px/90px Poppins;text-align:center}}""")
 
@@ -164,9 +175,21 @@ def capa_consejo(spec, t):
     return _doc(f"""<div class="pie"></div>
 <div class="top">{logo_caja(84)}<div class="pill">{_cat(spec)}</div></div>
 <div style="position:absolute;left:60px;right:60px;top:{y}px;text-align:center">
-<div class="tit" style="font-size:{t.get('tam', 120)}px;color:#fff">{comic.marcado(t['grande']).replace('<b>', f'<b style="color:{VERDE}">')}</div>
+<div class="tit" style="font-size:{t.get('tam', 92)}px;color:#fff">{comic.marcado(t['grande']).replace('<b>', f'<b style="color:{VERDE}">')}</div>
 <div style="margin-top:26px;color:#fff;font:700 46px/1.3 Poppins">{html.escape(t.get('pequeno',''))}</div>
 <div style="display:inline-block;margin-top:30px;border:3px solid {VERDE};color:{VERDE};font:600 32px Poppins;padding:10px 24px">{html.escape(t.get('norma',''))}</div></div>""")
+
+def cierre_doc(spec):
+    c = spec["cierre"]
+    return _doc(f"""<div style="position:absolute;inset:0;background:{NAVY}"></div>
+<div style="position:absolute;left:60px;right:60px;top:430px;text-align:center;color:#fff">
+<div class="tit" style="font-size:96px;color:{VERDE}">{html.escape(c.get('titulo', '¿Te ha pasado?'))}</div>
+<div style="font:600 42px/1.3 PS,Poppins;margin-top:26px">{html.escape(c.get('texto', ''))}</div>
+<div style="display:inline-block;margin-top:40px;background:{VERDE};color:{NAVY};font:800 30px PX,Poppins;padding:14px 30px;border-radius:4px">Consulta gratuita · Solo cobramos si ganamos</div>
+<div class="tit" style="font-size:112px;margin-top:56px;letter-spacing:0">944 027 596</div>
+<div style="font:500 34px Poppins;margin-top:14px">info@erreklamatu.com · erreklamatu.com</div>
+<div style="margin-top:50px">{logo_caja(90)}</div></div>
+<div style="position:absolute;left:60px;right:60px;bottom:440px;text-align:center;color:#9fb3dd;font:400 22px Poppins">{html.escape(c.get('legal', ''))}</div>""")
 
 MARCO_Y, MARCO_H = 300, 608
 def fondo(t, D, sal):
@@ -211,7 +234,7 @@ def video(spec, out, nav):
             dd = (va or D) * len(f) / tot; sp = tmp / f"sub-{n}-{j}.png"; nav.png(subtitulo_html(f), sp, VW, 300, transparente=True)
             subs.append((sp, t0, t0 + dd)); t0 += dd
         if t["tipo"] == "cierre":
-            p = tmp / "cierre.png"; nav.png(cierre_html(spec, VW, VH), p, VW, VH)
+            p = tmp / "cierre.png"; nav.png(cierre_doc(spec), p, VW, VH)
             ins = ["-loop", 1, "-t", D, "-i", p]; fl = ["[0:v]fps=30,format=rgba[c0]"]; cur = "[c0]"
         else:
             bg = tmp / f"bg{n:02d}.mp4"; fondo(t, D, bg)
