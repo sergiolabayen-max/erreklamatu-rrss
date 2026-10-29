@@ -1,0 +1,107 @@
+{
+ "id": "C4-deuda-pendiente",
+ "categoria": "REVOLVING",
+ "abogado": "Óscar Sánchez",
+ "gancho": [
+  "¿Debes dinero de la tarjeta?",
+  "Puedes reclamar igual"
+ ],
+ "mensajes": [
+  "MSG-060",
+  "MSG-062",
+  "MSG-055"
+ ],
+ "laminas": [
+  {
+   "img": "../../../recursos/viñetas/C4/01.png",
+   "bocadillos": [
+    {
+     "texto": "¿Y si dejo de pagar la tarjeta?",
+     "x": 560,
+     "y": 440,
+     "w": 480,
+     "cola": [
+      520,
+      600
+     ]
+    }
+   ],
+   "rotulo": null,
+   "voz": "../../../recursos/voces/comics-v2/voz-C4-01.mp3",
+   "subtitulos": [
+    "¿Aún debes dinero de la tarjeta?",
+    "Puedes reclamar igual."
+   ],
+   "locucion": "¿Aún debes dinero de la tarjeta? Puedes reclamar igual."
+  },
+  {
+   "img": "../../../recursos/viñetas/C4/02.png",
+   "bocadillos": [],
+   "rotulo": {
+    "texto": "¿Dejar de pagar? *Mejor no.*",
+    "x": 40,
+    "y": 40,
+    "w": 640
+   },
+   "voz": "../../../recursos/voces/comics-v2/voz-C4-02.mp3",
+   "subtitulos": [
+    "Dejar de pagar no es la solución."
+   ],
+   "locucion": "Dejar de pagar no es la solución."
+  },
+  {
+   "img": "../../../recursos/viñetas/C4/03.png",
+   "bocadillos": [
+    {
+     "texto": "No dejes de pagar: la deuda crece y pueden meterte en un *fichero de morosos*. Se puede reclamar *con deuda pendiente*, y esa deuda puede quedar *cancelada*.",
+     "x": 40,
+     "y": 20,
+     "w": 1000,
+     "cola": [
+      420,
+      470
+     ]
+    }
+   ],
+   "rotulo": {
+    "texto": "Consulta gratuita · Óscar Sánchez, abogado de ERREKLAMATU",
+    "x": 40,
+    "y": 1200,
+    "w": 420
+   },
+   "voz": "../../../recursos/voces/comics-v2/voz-C4-03.mp3",
+   "subtitulos": [
+    "Óscar Sánchez te lo explica en la consulta gratuita:",
+    "se puede reclamar con deuda pendiente, y esa deuda puede quedar cancelada."
+   ],
+   "locucion": "Óscar Sánchez te lo explica en la consulta gratuita: se puede reclamar con deuda pendiente, y esa deuda puede quedar cancelada."
+  },
+  {
+   "img": "../../../recursos/viñetas/C4/04.png",
+   "bocadillos": [],
+   "rotulo": {
+    "texto": "Primero se reclama. *Nosotros nos encargamos.*",
+    "x": 40,
+    "y": 40,
+    "w": 700
+   },
+   "voz": "../../../recursos/voces/comics-v2/voz-C4-04.mp3",
+   "subtitulos": [
+    "Primero se reclama.",
+    "Nuestros abogados se encargan de todo."
+   ],
+   "locucion": "Primero se reclama. Nuestros abogados se encargan de todo."
+  }
+ ],
+ "cierre": {
+  "titulo": "¿TE HA PASADO?",
+  "texto": "Te ayudamos a reclamar al banco.",
+  "subtitulos": [
+   "Llama al 944 027 596"
+  ],
+  "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
+  "legal": "Cada caso se estudia de forma individual.",
+  "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3"
+ },
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3"
+}

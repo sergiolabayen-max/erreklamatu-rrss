@@ -1,0 +1,133 @@
+{
+ "id": "C3-revolving-6500",
+ "categoria": "REVOLVING",
+ "abogado": "Óscar Sánchez",
+ "gancho": [
+  "Gastaste 3.000 €.",
+  "Pagaste 6.500 €."
+ ],
+ "mensajes": [
+  "MSG-053",
+  "MSG-054",
+  "MSG-029"
+ ],
+ "laminas": [
+  {
+   "img": "../../../recursos/viñetas/C3/01.png",
+   "bocadillos": [
+    {
+     "texto": "¿Cómo puede ser?",
+     "x": 40,
+     "y": 470,
+     "w": 420,
+     "cola": [
+      620,
+      640
+     ]
+    }
+   ],
+   "rotulo": null,
+   "voz": "../../../recursos/voces/comics-v2/voz-C3-01.mp3",
+   "subtitulos": [
+    "Gastaste 3.000 euros con tu tarjeta.",
+    "Y ya llevas pagados 6.500."
+   ],
+   "locucion": "Gastaste tres mil euros con tu tarjeta. Y ya llevas pagados seis mil quinientos."
+  },
+  {
+   "img": "../../../recursos/viñetas/C3/02.png",
+   "bocadillos": [
+    {
+     "texto": "Pago cada mes y la deuda *no baja*.",
+     "x": 40,
+     "y": 60,
+     "w": 640,
+     "cola": [
+      520,
+      420
+     ]
+    }
+   ],
+   "rotulo": null,
+   "voz": "../../../recursos/voces/comics-v2/voz-C3-02.mp3",
+   "subtitulos": [
+    "Pagas cada mes, y la deuda no baja."
+   ],
+   "locucion": "Pagas cada mes, y la deuda no baja."
+  },
+  {
+   "img": "../../../recursos/viñetas/C3/03.png",
+   "bocadillos": [
+    {
+     "texto": "Es una tarjeta *revolving*: la mayor parte de la cuota se va en intereses. Si el interés es *usurario*, te devuelven lo que pagaste de más.",
+     "x": 480,
+     "y": 30,
+     "w": 570,
+     "cola": [
+      480,
+      380
+     ]
+    }
+   ],
+   "rotulo": {
+    "texto": "Consulta gratuita · Óscar Sánchez, abogado de ERREKLAMATU",
+    "x": 40,
+    "y": 1180,
+    "w": 420
+   },
+   "voz": "../../../recursos/voces/comics-v2/voz-C3-03.mp3",
+   "subtitulos": [
+    "En la consulta gratuita, Óscar Sánchez te explica por qué:",
+    "es una tarjeta revolving, y si el interés es usurario, te devuelven lo pagado de más."
+   ],
+   "locucion": "En la consulta gratuita, Óscar Sánchez te explica por qué: es una tarjeta revolving, y si el interés es usurario, te devuelven lo pagado de más."
+  },
+  {
+   "img": "../../../recursos/viñetas/C3/04.png",
+   "bocadillos": [],
+   "rotulo": {
+    "texto": "Busca los *extractos* de la tarjeta.",
+    "x": 360,
+    "y": 40,
+    "w": 680
+   },
+   "voz": "../../../recursos/voces/comics-v2/voz-C3-04.mp3",
+   "subtitulos": [
+    "Busca los extractos de la tarjeta,"
+   ],
+   "locucion": "Busca los extractos de la tarjeta,"
+  },
+  {
+   "img": "../../../recursos/viñetas/C3/05.png",
+   "bocadillos": [
+    {
+     "texto": "Déjanos tu caso: *nosotros nos encargamos de todo*.",
+     "x": 40,
+     "y": 30,
+     "w": 1000,
+     "cola": [
+      540,
+      370
+     ]
+    }
+   ],
+   "rotulo": null,
+   "voz": "../../../recursos/voces/comics-v2/voz-C3-05.mp3",
+   "subtitulos": [
+    "y deja tu caso en nuestras manos."
+   ],
+   "locucion": "y deja tu caso en nuestras manos."
+  }
+ ],
+ "cierre": {
+  "titulo": "¿TE HA PASADO?",
+  "texto": "Te ayudamos a reclamar al banco.",
+  "subtitulos": [
+   "Llama al 944 027 596"
+  ],
+  "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
+  "legal": "Ley de Represión de la Usura de 1908; Tribunal Supremo, sentencia 258/2023. Cada caso se estudia de forma individual.",
+  "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3"
+ },
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3"
+}

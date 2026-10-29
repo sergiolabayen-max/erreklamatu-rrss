@@ -1,0 +1,144 @@
+{
+ "id": "C1-temporal-hotel",
+ "categoria": "TEMPORAL",
+ "abogado": "Jon Ortiz",
+ "gancho": [
+  "Te cancelan por el temporal:",
+  "el hotel lo paga la aerolínea"
+ ],
+ "mensajes": [
+  "MSG-003",
+  "MSG-004",
+  "MSG-022"
+ ],
+ "laminas": [
+  {
+   "img": "../../../recursos/viñetas/C1/01.png",
+   "bocadillos": [
+    {
+     "texto": "¿Y ahora qué hago?",
+     "x": 60,
+     "y": 500,
+     "w": 380,
+     "cola": [
+      330,
+      730
+     ]
+    }
+   ],
+   "rotulo": null,
+   "voz": "../../../recursos/voces/comics-v2/voz-C1-01.mp3",
+   "subtitulos": [
+    "Te cancelan el vuelo por el temporal.",
+    "Y nadie te dice dónde vas a dormir."
+   ],
+   "locucion": "Te cancelan el vuelo por el temporal. Y nadie te dice dónde vas a dormir."
+  },
+  {
+   "img": "../../../recursos/viñetas/C1/02.png",
+   "bocadillos": [
+    {
+     "texto": "¿Y ahora dónde *duermo*?",
+     "x": 60,
+     "y": 120,
+     "w": 480,
+     "cola": [
+      520,
+      690
+     ]
+    },
+    {
+     "texto": "Es el tiempo. No podemos hacer nada.",
+     "x": 600,
+     "y": 300,
+     "w": 440,
+     "cola": [
+      860,
+      650
+     ]
+    }
+   ],
+   "rotulo": null,
+   "voz": "../../../recursos/voces/comics-v2/voz-C1-02.mp3",
+   "subtitulos": [
+    "En el mostrador, solo te dicen que es el tiempo."
+   ],
+   "locucion": "En el mostrador, solo te dicen que es el tiempo."
+  },
+  {
+   "img": "../../../recursos/viñetas/C1/03.png",
+   "bocadillos": [
+    {
+     "texto": "Con un temporal puede no haber compensación. Pero te deben *otro vuelo o tu dinero*, la *comida* y, si hay que pasar la noche, el *hotel*.",
+     "x": 40,
+     "y": 30,
+     "w": 1000,
+     "cola": [
+      380,
+      520
+     ]
+    }
+   ],
+   "rotulo": {
+    "texto": "Consulta gratuita · Jon Ortiz, abogado de ERREKLAMATU",
+    "x": 640,
+    "y": 330,
+    "w": 400
+   },
+   "voz": "../../../recursos/voces/comics-v2/voz-C1-03.mp3",
+   "subtitulos": [
+    "En la consulta gratuita de ERREKLAMATU,",
+    "el abogado Jon Ortiz te lo aclara:",
+    "aunque no haya compensación, te deben hotel y comida."
+   ],
+   "locucion": "En la consulta gratuita de ERREKLAMATU, el abogado Jon Ortiz te lo aclara: aunque no haya compensación, te deben hotel y comida."
+  },
+  {
+   "img": "../../../recursos/viñetas/C1/04.png",
+   "bocadillos": [],
+   "rotulo": {
+    "texto": "Hotel, comidas, taxis: *guarda cada factura*.",
+    "x": 40,
+    "y": 40,
+    "w": 700
+   },
+   "voz": "../../../recursos/voces/comics-v2/voz-C1-04.mp3",
+   "subtitulos": [
+    "¿Lo pagaste tú? Guarda cada factura,"
+   ],
+   "locucion": "¿Lo pagaste tú? Guarda cada factura,"
+  },
+  {
+   "img": "../../../recursos/viñetas/C1/05.png",
+   "bocadillos": [
+    {
+     "texto": "Nosotros lo reclamamos por ti. *Solo cobramos si ganamos.*",
+     "x": 60,
+     "y": 40,
+     "w": 960,
+     "cola": [
+      560,
+      430
+     ]
+    }
+   ],
+   "rotulo": null,
+   "voz": "../../../recursos/voces/comics-v2/voz-C1-05.mp3",
+   "subtitulos": [
+    "y deja tu caso en manos de ERREKLAMATU."
+   ],
+   "locucion": "y deja tu caso en manos de ERREKLAMATU."
+  }
+ ],
+ "cierre": {
+  "titulo": "¿TE HA PASADO?",
+  "texto": "Te ayudamos a reclamar a la aerolínea.",
+  "subtitulos": [
+   "Llama al 944 027 596"
+  ],
+  "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
+  "legal": "Reglamento (CE) 261/2004, arts. 5, 8 y 9. Cada caso se estudia de forma individual.",
+  "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3"
+ },
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3"
+}

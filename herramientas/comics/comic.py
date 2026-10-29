@@ -64,9 +64,9 @@ def css():
 @font-face{{font-family:CN;src:url({f('ComicNeue-Bold.ttf')});font-weight:700}}
 @font-face{{font-family:CN;src:url({f('ComicNeue-Regular.ttf')});font-weight:400}}
 *{{margin:0;padding:0;box-sizing:border-box}} body{{width:{{W}}px;height:{{H}}px;overflow:hidden;background:{NAVY}}}
-.burb{{position:absolute;background:#fff;border:3px solid #111;border-radius:34px;padding:22px 28px;font:700 33px/1.28 CN,sans-serif;color:#111;text-align:center}}
+.burb{{position:absolute;background:#fff;border:3px solid #111;border-radius:34px;padding:22px 28px;font:700 38px/1.25 CN,sans-serif;color:#111;text-align:center}}
 .burb b{{color:{AZUL_TXT}}}
-.rot{{position:absolute;background:{NAVY};color:#fff;font:700 27px/1.3 CN,sans-serif;padding:14px 20px;box-shadow:7px 7px 0 {VERDE};border:2px solid #fff}}
+.rot{{position:absolute;background:{NAVY};color:#fff;font:700 30px/1.3 CN,sans-serif;padding:14px 20px;box-shadow:7px 7px 0 {VERDE};border:2px solid #fff}}
 .rot b{{color:{VERDE}}}
 svg.colas{{position:absolute;left:0;top:0}}
 .tit{{font-family:Bangers;letter-spacing:1px;line-height:.98;text-shadow:5px 5px 0 rgba(0,0,0,.35)}}
@@ -250,11 +250,15 @@ def video(spec, out, nav):
     run("ffmpeg", "-v", "error", "-y", *ins, "-filter_complex", ";".join(fl), "-map", "[voz]", "-ar", 48000, "-ac", 2, vozf)
     audio = vozf
     if spec.get("musica"):
-        mus = tmp / "musica.wav"; cierre_d = segs[-1][2]
-        run(sys.executable, SISTEMA / "sintonia.py", mus, f"{total:.2f}", spec["musica"], f"{cierre_d:.2f}")
+        mus = tmp / "musica.wav"; cierre_d = segs[-1][2]; m = spec["musica"]
+        if m in ("viva", "tranquila"):        # sintonía generada por código
+            run(sys.executable, SISTEMA / "sintonia.py", mus, f"{total:.2f}", m, f"{cierre_d:.2f}"); vol = 0.16
+        else:                                  # pista de archivo (p. ej. la lo-fi de 100 BPM que eligió Sergio el 16/10): en bucle, recortada y con fundidos
+            run("ffmpeg", "-v", "error", "-y", "-stream_loop", -1, "-i", ruta(d, m), "-t", f"{total:.3f}", "-af",
+                f"afade=t=in:d=0.4,afade=t=out:st={max(total - 1.2, 0):.3f}:d=1.2", "-ar", 48000, "-ac", 2, mus); vol = 0.22
         audio = tmp / "mezcla.wav"
         run("ffmpeg", "-v", "error", "-y", "-i", vozf, "-i", mus, "-filter_complex",
-            "[1:a]volume=0.16[m];[m][0:a]sidechaincompress=threshold=0.05:ratio=6:attack=20:release=300[md];[0:a][md]amix=inputs=2:normalize=0,alimiter=limit=0.95[a]",
+            f"[1:a]volume={vol}[m];[m][0:a]sidechaincompress=threshold=0.05:ratio=6:attack=20:release=300[md];[0:a][md]amix=inputs=2:normalize=0,alimiter=limit=0.95[a]",
             "-map", "[a]", "-ar", 48000, audio)
     with open(tmp / "lista.txt", "w") as F:
         for v_, _, _ in segs: F.write(f"file '{Path(v_).resolve()}'\n")
