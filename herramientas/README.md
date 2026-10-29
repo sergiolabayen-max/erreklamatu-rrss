@@ -34,3 +34,7 @@ Se rehacen a partir de `claude/Comics_piloto.md`. Las de la versión 1 se perdie
 
 ## Investigaciones
 `../investigacion/<fecha>-<tema>/`: datos y scripts de cada análisis (p. ej., el estudio de RRSS del 28/10/2026).
+
+## Subir una pieza al centro de control (29/10/2026)
+
+Cada creatividad lleva dos direcciones. En `publica` va la copia de GitHub (`raw.githubusercontent.com/...`), que es la que usan Buffer y Meta. En `url` va la copia del almacén del centro de control (`/_blob/...`, se sube con la herramienta Artifact, `asset: true`). El centro de control solo muestra lo que está en su almacén: si `url` apunta a GitHub, la portada y el vídeo no se ven.

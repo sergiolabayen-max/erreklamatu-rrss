@@ -236,6 +236,11 @@ def video(spec, out, nav):
         sal = tmp / f"s{k}.mp4"
         run("ffmpeg", "-v", "error", "-y", *ins, "-filter_complex", ";".join(filt), "-map", "[v]", "-t", D, "-r", 30, "-c:v", "libx264", "-crf", 18, sal)
         segs.append((sal, a if va else None, D))
+    mezclar_y_cerrar(spec, out, tmp, segs)
+
+def mezclar_y_cerrar(spec, out, tmp, segs):
+    """Voz en su sitio, música con ducking, concatenación, barra de progreso, portada y copia ligera. Lo usan también otros formatos."""
+    d = spec["_dir"]; tmp = Path(tmp)
     total = sum(s[2] for s in segs)
     # audio: silencio + voz de cada tramo en su sitio
     partes = []; t = 0.0

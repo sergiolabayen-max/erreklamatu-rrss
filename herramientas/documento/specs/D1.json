@@ -1,0 +1,80 @@
+{
+ "id": "D1-athletic-roma",
+ "categoria": "UN CASO NUESTRO",
+ "juzgado": "Juzgado de Primera Instancia n.º 9 de Bilbao",
+ "pdf": "sentencia-D1.pdf",
+ "pagina_num": 4,
+ "subrayar": [
+  "con mas claridad en el caso de los billetes perdidos",
+  "procede estimar la plena compatibilidad de su derecho a ser indemnizados"
+ ],
+ "ocultar": [],
+ "margen": [
+  220,
+  60
+ ],
+ "gancho": [
+  "Un retraso les hizo perder el partido.",
+  "El juez les devolvió las entradas."
+ ],
+ "tramos": [
+  {
+   "tipo": "doc",
+   "subtitulos": [
+    "Un retraso les hizo perder la conexión a Roma.",
+    "Y el partido del Athletic."
+   ],
+   "locucion": "Un retraso les hizo perder la conexión a Roma. Y el partido del Athletic.",
+   "voz": "../../../recursos/voces/documento/D1-1.mp3",
+   "subrayado": false
+  },
+  {
+   "tipo": "doc",
+   "subtitulos": [
+    "La aerolínea solo quería pagar la compensación.",
+    "Para el juez, eso no bastaba."
+   ],
+   "locucion": "La aerolínea solo quería pagar la compensación. Para el juez, eso no bastaba.",
+   "voz": "../../../recursos/voces/documento/D1-2.mp3",
+   "subrayado": true
+  },
+  {
+   "tipo": "texto",
+   "subtitulos": [
+    "Doscientos cincuenta euros por pasajero,",
+    "las entradas del partido y el taxi."
+   ],
+   "locucion": "Doscientos cincuenta euros por pasajero, las entradas del partido y el taxi.",
+   "voz": "../../../recursos/voces/documento/D1-3.mp3",
+   "grande": "250 € *+ entradas + taxi*",
+   "pequeno": "Compensación por pasajero, las entradas que no pudieron usar y el taxi en destino."
+  },
+  {
+   "tipo": "texto",
+   "subtitulos": [
+    "¿Te pasó en los últimos cinco años?",
+    "Aún estás a tiempo."
+   ],
+   "locucion": "¿Te pasó en los últimos cinco años? Aún estás a tiempo.",
+   "voz": "../../../recursos/voces/documento/D1-4.mp3",
+   "grande": "¿Te pasó en los últimos *5 años*?",
+   "pequeno": "Aún estás a tiempo de reclamar."
+  }
+ ],
+ "cierre": {
+  "titulo": "¿TE HA PASADO?",
+  "texto": "Te ayudamos a reclamar a la aerolínea.",
+  "subtitulos": [
+   "Llama al 944 027 596"
+  ],
+  "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
+  "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
+  "legal": "Reglamento (CE) 261/2004, arts. 7 y 12; Código Civil, art. 1101. Imagen de la sentencia con los datos personales ocultos. Cada caso se estudia de forma individual."
+ },
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3",
+ "mensajes": [
+  "MSG-002",
+  "MSG-006"
+ ],
+ "cita": "«… *con mas claridad en el caso de los billetes perdidos* (…) *procede estimar la plena compatibilidad de su derecho a ser indemnizados*…»"
+}

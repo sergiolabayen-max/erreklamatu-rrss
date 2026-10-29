@@ -1,0 +1,76 @@
+{
+ "id": "D2-menores-irlanda",
+ "categoria": "UN CASO NUESTRO",
+ "juzgado": "Juzgado de Primera Instancia n.º 9 de Pamplona",
+ "pdf": "sentencia-D2.pdf",
+ "pagina_num": 9,
+ "subrayar": [
+  "es incuestionable que sí es susceptible de causar por sí mismo el impacto o sufrimiento psíquico",
+  "a razón de 500 € por cada uno de los demandantes"
+ ],
+ "ocultar": [],
+ "margen": [
+  200,
+  60
+ ],
+ "gancho": [
+  "500 € más a cada pasajero",
+  "por lo que sufrieron."
+ ],
+ "tramos": [
+  {
+   "tipo": "doc",
+   "subtitulos": [
+    "Su vuelo de vuelta desde Irlanda se canceló sin aviso.",
+    "Eran menores, y viajaban sin sus padres."
+   ],
+   "locucion": "Su vuelo de vuelta desde Irlanda se canceló sin aviso. Eran menores, y viajaban sin sus padres.",
+   "voz": "../../../recursos/voces/documento/D2-1.mp3",
+   "subrayado": false
+  },
+  {
+   "tipo": "doc",
+   "subtitulos": [
+    "Para el juez, aquello causó un sufrimiento real."
+   ],
+   "locucion": "Para el juez, aquello causó un sufrimiento real.",
+   "voz": "../../../recursos/voces/documento/D2-2.mp3",
+   "subrayado": true
+  },
+  {
+   "tipo": "texto",
+   "subtitulos": [
+    "Además de la compensación,",
+    "quinientos euros más a cada uno por daño moral."
+   ],
+   "locucion": "Además de la compensación, quinientos euros más a cada uno por daño moral.",
+   "voz": "../../../recursos/voces/documento/D2-3.mp3",
+   "grande": "*500 €* más por pasajero",
+   "pequeno": "Además de la compensación por la cancelación, por daño moral."
+  },
+  {
+   "tipo": "texto",
+   "subtitulos": [
+    "El daño moral no es automático: hay que probar lo que se vivió.",
+    "De eso nos encargamos nosotros."
+   ],
+   "locucion": "El daño moral no es automático: hay que probar lo que se vivió. De eso nos encargamos nosotros.",
+   "voz": "../../../recursos/voces/documento/D2-4.mp3",
+   "grande": "El daño moral *no es automático*",
+   "pequeno": "Hay que probar lo que se vivió. De eso nos encargamos nosotros."
+  }
+ ],
+ "cierre": {
+  "titulo": "¿TE HA PASADO?",
+  "texto": "Te ayudamos a reclamar a la aerolínea.",
+  "subtitulos": [
+   "Llama al 944 027 596"
+  ],
+  "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
+  "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
+  "legal": "Reglamento (CE) 261/2004, arts. 7 y 12; Convenio de Montreal, art. 19. Imagen de la sentencia con los datos personales ocultos. Cada caso se estudia de forma individual."
+ },
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3",
+ "mensajes": [],
+ "cita": "«… *es incuestionable que sí es susceptible de causar por sí mismo el impacto o sufrimiento psíquico* (…) *a razón de 500 € por cada uno de los demandantes*.»"
+}
