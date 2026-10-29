@@ -1,6 +1,6 @@
 # Formatos nuevos de RRSS: preparación y guiones (28/10/2026)
 
-Origen: informe «Redes sociales de Erreklamatu: qué funciona y nuevos contenidos» (https://claude.ai/artifact/DQSKeDzMaQEXF2fxTPqYCX). Aprobado por Sergio el 28/10/2026: todos los formatos salvo «¿Cuánto te deben desde Loiu?». Créditos de Magnific: «gasta los que necesites». Jon Ortiz autoriza su voz real con su versión ilustrada. Jon en vuelos, Óscar Sánchez en banca. Sin tope de vídeos al día: si dan buenos resultados, se publican los que haga falta.
+Origen: informe «Redes sociales de Erreklamatu: qué funciona y nuevos contenidos» (https://claude.ai/artifact/DQSKeDzMaQEXF2fxTPqYCX). Aprobado por Sergio el 28/10/2026: todos los formatos salvo «¿Cuánto te deben desde Loiu?». Créditos de Magnific: «gasta los que necesites». Jon Ortiz y Óscar Sánchez autorizan su voz real con su versión ilustrada (no van a grabar nada nuevo de momento). Jon en vuelos, Óscar Sánchez en banca. Sin tope de vídeos al día: si dan buenos resultados, se publican los que haga falta.
 
 ## Criterios comunes (de los datos de octubre)
 - 20 a 30 segundos. Los clips que funcionaron duraban de 16 a 34 s.
@@ -18,7 +18,7 @@ Origen: informe «Redes sociales de Erreklamatu: qué funciona y nuevos contenid
 - Esquema de vídeo por zonas seguras; scripts de clips y radio en `sistema/` del centro de control.
 
 ## Lo que falta preparar
-1. **Herramientas de montaje de los cómics.** Los scripts de octubre (montar.py, render_video.py, proc.py, portada.py) estaban en una carpeta temporal que ya no existe. Hay que rehacerlos, con el arranque nuevo, y guardarlos en `sistema/`.
+1. ~~Herramientas de montaje de los cómics~~ **Hecho (29/10):** rehechas en `herramientas/comics/comic.py` del repositorio GitHub `erreklamatu-rrss`, probadas de principio a fin. Todo el archivo de herramientas está ahora en el repositorio (normas en `herramientas/README.md`).
 2. **Plantilla de gancho** (primer segundo) común a todos los formatos, y plantillas de «Mito o verdad», «El documento, subrayado», «Esta semana en los aeropuertos», «Reseñas en vídeo» y «Alerta en vídeo».
 3. **Banco de vídeo de archivo** de Magnific (unos 50 clips verticales, sin logotipos): aviones, terminal, paneles, mostrador, cinta de maletas, móvil con SMS, cajero, documentos.
 4. **Personajes:** hoja de expresiones de Koldo (vuelos) y de Laura (banca); retrato frontal ilustrado de Jon apto para *Speak*.
@@ -106,7 +106,7 @@ Formato: 20-25 s. Primer segundo: la frase del fallo subrayada sobre la sentenci
 El Jon ilustrado del cómic, en primer plano, habla con su propia voz sacada de la radio. 20-25 s, gancho en pantalla en el primer segundo.
 - **H1:** fragmento de PUB-0213 (Radio Popular, exceso de carga): «Serían tres conceptos: una asistencia mínima, la indemnización según la distancia y los gastos generados.» Rótulo: «Te bajan del avión: 3 cosas que te deben».
 - **H2:** fragmento de PUB-0426 (Radio Popular): «El porcentaje de éxito es bastante alto. Para librarse de pagar, tiene que ser algo extraordinario… y aun así tienen que darte asistencia.» Rótulo: «¿Quién gana, tú o la aerolínea?»
-- **Banca (Óscar):** no hay audios de Óscar hablando de banca; los de banca son de Ainhoa. Por eso el piloto se hace con Jon. Para banca habría que esperar a que Óscar grabe o usar voz sintética.
+- **Óscar (28/10):** autoriza, como Jon, pero de momento no graba. De Óscar hay decenas de fragmentos de vuelos en TV (SIML, En Jake, TVE…), que sirven para «Óscar habla» de vuelos tal cual. Para banca, con su voz: clonarla a partir de esos audios si Magnific lo permite (lo compruebo). Si no, voz sintética neutra («si no puede ser con su voz, ponemos otra»).
 
 ## Plantillas que faltan por definir al producir
 - **F · Esta semana en los aeropuertos vascos:** carrusel y vídeo de 15 s. Vuelos cancelados y con más de 3 h de retraso por aeropuerto (Loiu, Hondarribia, Foronda, Noain, Biarritz), qué se puede reclamar y cierre. Sale cuando haya una semana de datos guardados.
