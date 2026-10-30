@@ -16,9 +16,9 @@
    "subtitulos": [],
    "locucion": "¿Vuelas hoy a Italia? Hay convocada una huelga general.",
    "voz": "../../../recursos/voces/alertas/H1-1.mp3",
-   "stock": "pareja-panel-salidas_1864121.mp4",
+   "stock": "mujer-escalera-mecanica-movil_4663202.mp4",
    "modo": "marco",
-   "desde": 6,
+   "desde": 3,
    "marco_y": 820
   },
   {
@@ -32,34 +32,39 @@
    "voz": "../../../recursos/voces/alertas/H1-2.mp3",
    "grande": "Mira tu vuelo *antes de salir*",
    "pequeno": "Italia ordenó aplazar la huelga en el transporte. El sindicato USB dice que la mantiene.",
-   "stock": "pasajera-ventana-movil_52318.mp4",
+   "stock": "terminal-gente-reflejos_7231913.mp4",
    "modo": "marco",
-   "desde": 1
+   "desde": 0
   },
   {
    "tipo": "lista",
    "subtitulos": [],
-   "locucion": "Si te lo cancelan, tú eliges: el reembolso en siete días u otro vuelo. Te deben comida y, si hace falta, hotel, también con huelga. ¿Y compensación? Depende de la causa, y la prueba le toca a la aerolínea.",
+   "locucion": "Si te lo cancelan, tú eliges: el reembolso en siete días u otro vuelo. Y te deben comida y, si hace falta, hotel. ¿Compensación? Una huelga ajena a la aerolínea, como esta, es una circunstancia extraordinaria, así que no hay. Pero el resto de derechos se mantienen. Si la huelga fuera del personal de la propia aerolínea, sí la habría.",
    "voz": "../../../recursos/voces/alertas/H1-3.mp3",
-   "stock": "aterrizaje-tren_3684388.mp4",
+   "stock": "pasajeros-espera-vertical_8190755.mp4",
    "modo": "lleno",
-   "desde": 12,
+   "desde": 18,
    "cabecera": "Si te cancelan el vuelo",
    "items": [
     {
      "t": "Reembolso u otro vuelo",
      "d": "tú eliges; el dinero, en 7 días",
-     "en": 0
+     "palabra": "tú eliges"
     },
     {
      "t": "Comida y, si hace falta, hotel",
      "d": "también si la causa es la huelga",
-     "en": 5.2
+     "palabra": "Y te deben"
     },
     {
-     "t": "¿Compensación? Depende",
-     "d": "la prueba le toca a la aerolínea",
-     "en": 10.2
+     "t": "¿Compensación? Con esta huelga, no",
+     "d": "es ajena a la aerolínea: circunstancia extraordinaria",
+     "palabra": "¿Compensación?"
+    },
+    {
+     "t": "Si fuera de su propio personal",
+     "d": "sí habría compensación",
+     "palabra": "Si la huelga fuera"
     }
    ],
    "total": [
@@ -77,10 +82,10 @@
   ],
   "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
   "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
-  "legal": "Reglamento (CE) 261/2004, arts. 5, 8 y 9. Huelga: ordenanza 204 T del Ministerio de Transportes italiano (27/10) y comunicado de USB (28/10). Imágenes de aeropuerto: archivo."
+  "legal": "Reglamento (CE) 261/2004, arts. 5, 8 y 9. Huelga: ordenanza 204 T del Ministerio de Transportes italiano (27/10) y comunicado de USB (28/10). Imágenes de archivo."
  },
  "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3",
- "portada_stock": "pareja-panel-salidas_1864121.mp4",
+ "portada_stock": "mujer-escalera-mecanica-movil_4663202.mp4",
  "portada_desde": 8,
  "portada_pie": "Consulta gratuita · 944 027 596",
  "portada_foto_y": 50,

@@ -22,7 +22,10 @@
    ],
    "locucion": "Le cargaron casi dos mil euros en criptomonedas con su tarjeta, sin su permiso. Y el juez obliga al Santander a devolvérselo todo.",
    "voz": "../../../recursos/voces/documento-v3/D4-1.mp3",
-   "stock": "TBD"
+   "stock": "mujer-pago-fallido-tarjeta_6963009.mp4",
+   "modo": "marco",
+   "marco_y": 820,
+   "desde": 5
   },
   {
    "tipo": "doc",
@@ -43,7 +46,8 @@
    "voz": "../../../recursos/voces/documento-v3/D4-2.mp3",
    "doc_entra": 0.1,
    "extra": 1.2,
-   "stock": "TBD"
+   "stock": "manos-tarjeta-movil-vertical_6602706.mp4",
+   "modo": "lleno"
   },
   {
    "tipo": "doc",
@@ -63,7 +67,8 @@
    "locucion": "Pero no aportó ningún informe pericial. Y ella había avisado al banco y denunciado enseguida.",
    "voz": "../../../recursos/voces/documento-v3/D4-3.mp3",
    "doc_entra": 0.1,
-   "stock": "TBD"
+   "stock": "manos-tarjeta-portatil_7457768.mp4",
+   "modo": "marco"
   },
   {
    "tipo": "doc",
@@ -85,7 +90,9 @@
    "voz": "../../../recursos/voces/documento-v3/D4-4.mp3",
    "doc_entra": 0.1,
    "extra": 1.2,
-   "stock": "TBD"
+   "stock": "manos-tarjeta-movil-vertical_6602706.mp4",
+   "modo": "lleno",
+   "desde": 7
   },
   {
    "tipo": "lista",
@@ -115,7 +122,9 @@
      "palabra": "las costas"
     }
    ],
-   "stock": "TBD"
+   "stock": "manos-tarjeta-portatil_7457768.mp4",
+   "modo": "lleno",
+   "desde": 4
   },
   {
    "tipo": "consejo",
@@ -128,7 +137,9 @@
    "grande": "Avisa al banco *enseguida*",
    "pequeno": "Pide el bloqueo y denuncia. La prueba le toca al banco.",
    "norma": "Real Decreto-ley 19/2018, art. 44",
-   "stock": "TBD"
+   "stock": "mujer-pago-fallido-tarjeta_6963009.mp4",
+   "modo": "marco",
+   "desde": 13
   }
  ],
  "cierre": {
@@ -141,5 +152,9 @@
   "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
   "legal": "Real Decreto-ley 19/2018, arts. 44 y 46. Imágenes de archivo. Cada caso se estudia de forma individual."
  },
- "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3"
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3",
+ "portada_stock": "mujer-pago-fallido-tarjeta_6963009.mp4",
+ "portada_desde": 6.5,
+ "portada_modo": "marco",
+ "portada_marco_y": 640
 }

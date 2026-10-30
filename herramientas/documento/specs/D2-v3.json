@@ -22,7 +22,9 @@
    ],
    "locucion": "Ciento veinte pasajeros, casi todos menores, tirados en Irlanda sin sus padres. Más de noventa mil euros de indemnización.",
    "voz": "../../../recursos/voces/documento-v3/D2-1.mp3",
-   "stock": "TBD"
+   "stock": "panel-cancelado-IA_7462012.mp4",
+   "modo": "marco",
+   "marco_y": 820
   },
   {
    "tipo": "doc",
@@ -44,7 +46,9 @@
    "locucion": "Su vuelo a Pamplona se canceló sin aviso, y llegaron un día tarde. Para el juez, siendo menores, en el extranjero y sin sus padres, el sufrimiento era incuestionable.",
    "voz": "../../../recursos/voces/documento-v3/D2-2.mp3",
    "doc_entra": 2.0,
-   "stock": "TBD"
+   "stock": "aterrizaje-tren_3684388.mp4",
+   "modo": "marco",
+   "desde": 20
   },
   {
    "tipo": "doc",
@@ -66,7 +70,9 @@
    "voz": "../../../recursos/voces/documento-v3/D2-3.mp3",
    "doc_entra": 0.1,
    "extra": 0.8,
-   "stock": "TBD"
+   "stock": "aterrizaje-tren_3684388.mp4",
+   "modo": "marco",
+   "desde": 30
   },
   {
    "tipo": "lista",
@@ -101,7 +107,9 @@
      "palabra": "los intereses"
     }
    ],
-   "stock": "TBD"
+   "stock": "aterrizaje-tren_3684388.mp4",
+   "modo": "lleno",
+   "desde": 10
   },
   {
    "tipo": "consejo",
@@ -113,7 +121,8 @@
    "voz": "../../../recursos/voces/documento-v3/D2-5.mp3",
    "grande": "Más de *90.000 €*",
    "pequeno": "85 pasajeros por sentencia y 35 más sin juicio, con el mismo criterio.",
-   "stock": "TBD"
+   "stock": "panel-cancelado-IA_7462012.mp4",
+   "modo": "marco"
   },
   {
    "tipo": "consejo",
@@ -125,7 +134,9 @@
    "voz": "../../../recursos/voces/documento-v3/D2-6.mp3",
    "grande": "El daño moral *no es automático*",
    "pequeno": "Hay que probar lo que se vivió. De eso nos encargamos nosotros.",
-   "stock": "TBD"
+   "stock": "aterrizaje-tren_3684388.mp4",
+   "modo": "marco",
+   "desde": 38
   }
  ],
  "cierre": {
@@ -138,5 +149,9 @@
   "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
   "legal": "Reglamento (CE) 261/2004, arts. 7 y 12; Convenio de Montreal, art. 19. Imágenes de archivo. Cada caso se estudia de forma individual."
  },
- "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3"
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3",
+ "portada_stock": "panel-cancelado-IA_7462012.mp4",
+ "portada_desde": 2.5,
+ "portada_modo": "marco",
+ "portada_marco_y": 640
 }

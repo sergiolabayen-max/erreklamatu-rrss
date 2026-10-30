@@ -22,7 +22,9 @@
    ],
    "locucion": "Un retraso de Vueling les hizo perder el partido del Athletic en Roma. Y el juez obliga a la aerolínea a pagarles la entrada.",
    "voz": "../../../recursos/voces/documento-v3/D1-1.mp3",
-   "stock": "TBD"
+   "stock": "bufanda-rojiblanca-estadio-IA_8428504.mp4",
+   "modo": "marco",
+   "marco_y": 820
   },
   {
    "tipo": "doc",
@@ -43,7 +45,9 @@
    "locucion": "Vueling solo aceptaba pagar la compensación de doscientos cincuenta euros. Para todo lo demás, decía que no había base legal.",
    "voz": "../../../recursos/voces/documento-v3/D1-2.mp3",
    "doc_entra": 0.2,
-   "stock": "TBD"
+   "stock": "pareja-panel-salidas_1864121.mp4",
+   "modo": "marco",
+   "desde": 6
   },
   {
    "tipo": "doc",
@@ -64,7 +68,8 @@
    "locucion": "Pero el juez le recordó que hay que compensar a los pasajeros por todo el perjuicio. Y que las entradas perdidas eran el caso más claro.",
    "voz": "../../../recursos/voces/documento-v3/D1-3.mp3",
    "doc_entra": 0.2,
-   "stock": "TBD"
+   "stock": "aficion-estadio-IA_1973144.mp4",
+   "modo": "lleno"
   },
   {
    "tipo": "doc",
@@ -85,7 +90,9 @@
    "voz": "../../../recursos/voces/documento-v3/D1-4.mp3",
    "doc_entra": 0.1,
    "extra": 1.2,
-   "stock": "TBD"
+   "stock": "pareja-panel-salidas_1864121.mp4",
+   "modo": "marco",
+   "desde": 10
   },
   {
    "tipo": "lista",
@@ -120,7 +127,9 @@
      "palabra": "los intereses"
     }
    ],
-   "stock": "TBD"
+   "stock": "aficion-estadio-IA_1973144.mp4",
+   "modo": "lleno",
+   "desde": 4
   },
   {
    "tipo": "consejo",
@@ -133,7 +142,9 @@
    "grande": "¿Perdiste algo *que ya habías pagado*?",
    "pequeno": "Guarda los justificantes: tienes 5 años para reclamar.",
    "norma": "Reglamento (CE) 261/2004, art. 12",
-   "stock": "TBD"
+   "stock": "pasajera-ventana-movil_52318.mp4",
+   "modo": "marco",
+   "desde": 1
   }
  ],
  "cierre": {
@@ -146,5 +157,9 @@
   "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
   "legal": "Reglamento (CE) 261/2004, arts. 7 y 12; Código Civil, art. 1101. Imágenes de archivo. Cada caso se estudia de forma individual."
  },
- "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3"
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3",
+ "portada_stock": "bufanda-rojiblanca-estadio-IA_8428504.mp4",
+ "portada_desde": 3,
+ "portada_modo": "marco",
+ "portada_marco_y": 640
 }

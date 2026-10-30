@@ -23,7 +23,10 @@
    ],
    "locucion": "Doce profesionales vascos se quedaron sin su congreso en Gran Canaria. Vueling les canceló el vuelo sin aviso, y ahora tendrá que pagarles más de trece mil quinientos euros.",
    "voz": "../../../recursos/voces/documento-v3/D3-1.mp3",
-   "stock": "TBD"
+   "stock": "publico-congreso_1917437.mp4",
+   "modo": "marco",
+   "marco_y": 820,
+   "desde": 5
   },
   {
    "tipo": "doc",
@@ -44,7 +47,8 @@
    "voz": "../../../recursos/voces/documento-v3/D3-2.mp3",
    "doc_entra": 0.0,
    "extra": 2.4,
-   "stock": "TBD"
+   "stock": "las-canteras-gran-canaria_3449043.mp4",
+   "modo": "marco"
   },
   {
    "tipo": "doc",
@@ -67,7 +71,9 @@
    "voz": "../../../recursos/voces/documento-v3/D3-3.mp3",
    "doc_entra": 0.1,
    "extra": 0.8,
-   "stock": "TBD"
+   "stock": "las-canteras-gran-canaria_3449043.mp4",
+   "modo": "marco",
+   "desde": 4
   },
   {
    "tipo": "lista",
@@ -107,7 +113,9 @@
      "palabra": "los intereses"
     }
    ],
-   "stock": "TBD"
+   "stock": "las-canteras-gran-canaria_3449043.mp4",
+   "modo": "lleno",
+   "desde": 2
   },
   {
    "tipo": "consejo",
@@ -120,7 +128,8 @@
    "grande": "¿No te avisaron con *2 semanas*?",
    "pequeno": "Puedes tener derecho a compensación.",
    "norma": "Reglamento (CE) 261/2004, art. 5",
-   "stock": "TBD"
+   "stock": "publico-congreso_1917437.mp4",
+   "modo": "marco"
   }
  ],
  "cierre": {
@@ -133,5 +142,9 @@
   "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
   "legal": "Reglamento (CE) 261/2004, arts. 5 y 7. Imágenes de archivo. Cada caso se estudia de forma individual."
  },
- "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3"
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3",
+ "portada_stock": "publico-congreso_1917437.mp4",
+ "portada_desde": 9,
+ "portada_modo": "marco",
+ "portada_marco_y": 640
 }
