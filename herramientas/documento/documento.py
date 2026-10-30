@@ -277,7 +277,12 @@ def video(spec, out, nav):
             if t["tipo"] == "gancho": doc = capa_gancho(spec)
             elif t["tipo"] == "doc":
                 frag, meta = frag_de(n); doc = capa_doc(spec, frag, meta["marcas"], meta["size"], PRE + float(t.get("doc_entra", 0)), t.get("cita"))
-            elif t["tipo"] == "lista": doc = capa_lista(spec, t, PRE)
+            elif t["tipo"] == "lista":
+                loc = t.get("locucion", "")
+                for it in t["items"]:      # «palabra»: la partida entra cuando la voz la nombra (reparto por caracteres)
+                    if it.get("palabra") and va and loc.find(it["palabra"]) >= 0:
+                        it["en"] = round(max(0, va * loc.find(it["palabra"]) / len(loc) - 0.2), 2)
+                doc = capa_lista(spec, t, PRE)
             else: doc = capa_consejo(spec, t)
             fr = tmp / f"fr{n:02d}"; fotogramas(nav, doc, D, fr)
             ins = ["-i", bg, "-framerate", 30, "-i", fr / "%04d.png"]; fl = ["[0:v][1:v]overlay=0:0:format=auto[c0]"]; cur = "[c0]"

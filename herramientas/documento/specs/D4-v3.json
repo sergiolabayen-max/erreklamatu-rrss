@@ -1,0 +1,145 @@
+{
+ "id": "D4-cripto-santander",
+ "categoria": "UN CASO REAL",
+ "juzgado": "Juzgado de Primera Instancia n.º 12 de Bilbao",
+ "fecha": "20 de mayo de 2025",
+ "pdf": "sentencia-D4.pdf",
+ "titulo": [
+  "Le cargaron 1.923 € en criptomonedas con su tarjeta, sin su permiso",
+  "El juez obliga al Santander a *devolvérselo todo, con intereses*"
+ ],
+ "titulo_tam": 72,
+ "portada_dato": [
+  "1.923 €",
+  "devueltos con intereses: sentencia firme"
+ ],
+ "tramos": [
+  {
+   "tipo": "gancho",
+   "subtitulos": [
+    "Le cargaron casi 2.000 euros en criptomonedas con su tarjeta, sin su permiso.",
+    "Y el juez obliga al Santander a devolvérselo todo."
+   ],
+   "locucion": "Le cargaron casi dos mil euros en criptomonedas con su tarjeta, sin su permiso. Y el juez obliga al Santander a devolvérselo todo.",
+   "voz": "../../../recursos/voces/documento-v3/D4-1.mp3",
+   "stock": "TBD"
+  },
+  {
+   "tipo": "doc",
+   "pagina_num": 6,
+   "subrayar": [
+    "dicha operación se",
+    "efectuó mediante el empleo de un sistema de autenticación reforzado"
+   ],
+   "margen": [
+    110,
+    40
+   ],
+   "cita": "«… *dicha operación se efectuó mediante el empleo de un sistema de autenticación reforzado*…»",
+   "subtitulos": [
+    "El banco alegó que la compra había pasado su sistema de seguridad reforzado."
+   ],
+   "locucion": "El banco alegó que la compra había pasado su sistema de seguridad reforzado.",
+   "voz": "../../../recursos/voces/documento-v3/D4-2.mp3",
+   "doc_entra": 0.1,
+   "extra": 1.2,
+   "stock": "TBD"
+  },
+  {
+   "tipo": "doc",
+   "pagina_num": 10,
+   "subrayar": [
+    "sin que se haya aportado dictamen pericial específico por la parte demandada"
+   ],
+   "margen": [
+    90,
+    40
+   ],
+   "cita": "«… *sin que se haya aportado dictamen pericial específico por la parte demandada*…»",
+   "subtitulos": [
+    "Pero no aportó ningún informe pericial.",
+    "Y ella había avisado al banco y denunciado enseguida."
+   ],
+   "locucion": "Pero no aportó ningún informe pericial. Y ella había avisado al banco y denunciado enseguida.",
+   "voz": "../../../recursos/voces/documento-v3/D4-3.mp3",
+   "doc_entra": 0.1,
+   "stock": "TBD"
+  },
+  {
+   "tipo": "doc",
+   "pagina_num": 12,
+   "subrayar": [
+    "La prueba exigible a la entidad financiera va mucho más allá de la mera",
+    "afirmación de cumplimiento de los protocolos de seguridad"
+   ],
+   "margen": [
+    60,
+    60
+   ],
+   "cita": "«*La prueba exigible a la entidad financiera va mucho más allá de la mera afirmación de cumplimiento de los protocolos de seguridad*…»",
+   "subtitulos": [
+    "Para el juez, al banco no le basta con decir",
+    "que cumplió sus protocolos de seguridad."
+   ],
+   "locucion": "Para el juez, al banco no le basta con decir que cumplió sus protocolos de seguridad.",
+   "voz": "../../../recursos/voces/documento-v3/D4-4.mp3",
+   "doc_entra": 0.1,
+   "extra": 1.2,
+   "stock": "TBD"
+  },
+  {
+   "tipo": "lista",
+   "subtitulos": [],
+   "locucion": "Esto es lo que el Santander tendrá que devolverle: los mil novecientos veintitrés euros, los intereses desde el día del cargo y las costas. Y la sentencia es firme.",
+   "voz": "../../../recursos/voces/documento-v3/D4-5.mp3",
+   "cabecera": "Lo que el Santander tendrá que devolverle",
+   "total": [
+    "Sentencia firme:",
+    "lo recupera todo"
+   ],
+   "extra": 0.8,
+   "items": [
+    {
+     "t": "1.923,67 €",
+     "d": "el cargo que ella nunca autorizó",
+     "palabra": "los mil"
+    },
+    {
+     "t": "Los intereses",
+     "d": "desde el día del cargo",
+     "palabra": "los intereses"
+    },
+    {
+     "t": "Las costas",
+     "d": "el banco paga también el juicio",
+     "palabra": "las costas"
+    }
+   ],
+   "stock": "TBD"
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Si te pasa, avisa al banco enseguida,",
+    "pide el bloqueo y denuncia."
+   ],
+   "locucion": "Si te pasa, avisa al banco enseguida, pide el bloqueo y denuncia.",
+   "voz": "../../../recursos/voces/documento-v3/D4-6.mp3",
+   "grande": "Avisa al banco *enseguida*",
+   "pequeno": "Pide el bloqueo y denuncia. La prueba le toca al banco.",
+   "norma": "Real Decreto-ley 19/2018, art. 44",
+   "stock": "TBD"
+  }
+ ],
+ "cierre": {
+  "titulo": "¿Te ha pasado?",
+  "texto": "Te ayudamos a reclamar al banco.",
+  "subtitulos": [
+   "Llama al 944 027 596"
+  ],
+  "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
+  "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
+  "legal": "Real Decreto-ley 19/2018, arts. 44 y 46. Imágenes de archivo. Cada caso se estudia de forma individual."
+ },
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3"
+}

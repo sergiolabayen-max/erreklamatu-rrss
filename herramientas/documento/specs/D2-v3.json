@@ -1,0 +1,142 @@
+{
+ "id": "D2-menores-irlanda",
+ "categoria": "UN CASO REAL",
+ "juzgado": "Juzgado de Primera Instancia n.º 9 de Pamplona",
+ "fecha": "4 de diciembre de 2025",
+ "pdf": "sentencia-D2.pdf",
+ "titulo": [
+  "Menores tirados en Irlanda, sin sus padres",
+  "Más de *90.000 € de indemnización* para 120 pasajeros"
+ ],
+ "titulo_tam": 80,
+ "portada_dato": [
+  "+90.000 €",
+  "para 120 pasajeros, casi todos menores"
+ ],
+ "tramos": [
+  {
+   "tipo": "gancho",
+   "subtitulos": [
+    "120 pasajeros, casi todos menores, tirados en Irlanda sin sus padres.",
+    "Más de 90.000 euros de indemnización."
+   ],
+   "locucion": "Ciento veinte pasajeros, casi todos menores, tirados en Irlanda sin sus padres. Más de noventa mil euros de indemnización.",
+   "voz": "../../../recursos/voces/documento-v3/D2-1.mp3",
+   "stock": "TBD"
+  },
+  {
+   "tipo": "doc",
+   "pagina_num": 9,
+   "subrayar": [
+    "en el extranjero y tratándose de menores de edad todos ellos sin la compañía de sus padres",
+    "es incuestionable que sí es susceptible de causar por sí mismo el impacto o sufrimiento psíquico"
+   ],
+   "margen": [
+    60,
+    40
+   ],
+   "cita": "«… *teniendo lugar en el extranjero y tratándose de menores de edad todos ellos sin la compañía de sus padres* (…) *es incuestionable que sí es susceptible de causar por sí mismo el impacto o sufrimiento psíquico*…»",
+   "subtitulos": [
+    "Su vuelo a Pamplona se canceló sin aviso, y llegaron un día tarde.",
+    "Para el juez, siendo menores, en el extranjero y sin sus padres,",
+    "el sufrimiento era incuestionable."
+   ],
+   "locucion": "Su vuelo a Pamplona se canceló sin aviso, y llegaron un día tarde. Para el juez, siendo menores, en el extranjero y sin sus padres, el sufrimiento era incuestionable.",
+   "voz": "../../../recursos/voces/documento-v3/D2-2.mp3",
+   "doc_entra": 2.0,
+   "stock": "TBD"
+  },
+  {
+   "tipo": "doc",
+   "pagina_num": 9,
+   "subrayar": [
+    "la cantidad interesada por el daño moral más simbólica que",
+    "reparadora del daño efectivamente ocasionado"
+   ],
+   "margen": [
+    80,
+    60
+   ],
+   "cita": "«… *Siendo la cantidad interesada por el daño moral más simbólica que reparadora del daño efectivamente ocasionado*…»",
+   "subtitulos": [
+    "Y llegó a decir que los 500 euros pedidos por daño moral",
+    "eran una cantidad más simbólica que reparadora."
+   ],
+   "locucion": "Y llegó a decir que los quinientos euros pedidos por daño moral eran una cantidad más simbólica que reparadora.",
+   "voz": "../../../recursos/voces/documento-v3/D2-3.mp3",
+   "doc_entra": 0.1,
+   "extra": 0.8,
+   "stock": "TBD"
+  },
+  {
+   "tipo": "lista",
+   "subtitulos": [],
+   "locucion": "Esto es lo que la aerolínea tendrá que pagar a cada pasajero del juicio: doscientos cincuenta euros de compensación, quinientos por daño moral, sus gastos, los intereses y las costas.",
+   "voz": "../../../recursos/voces/documento-v3/D2-4.mp3",
+   "cabecera": "Lo que la aerolínea paga a cada pasajero del juicio",
+   "total": [
+    "A cada uno:",
+    "750 € + gastos"
+   ],
+   "extra": 1.0,
+   "items": [
+    {
+     "t": "250 € de compensación",
+     "d": "por la cancelación",
+     "palabra": "doscientos"
+    },
+    {
+     "t": "500 € por daño moral",
+     "d": "42.500 € entre los 85",
+     "palabra": "quinientos"
+    },
+    {
+     "t": "Sus gastos",
+     "d": "lo que tuvieron que comprar",
+     "palabra": "sus gastos"
+    },
+    {
+     "t": "Intereses y costas",
+     "d": "la aerolínea paga también el juicio",
+     "palabra": "los intereses"
+    }
+   ],
+   "stock": "TBD"
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Con ese mismo criterio, la aerolínea pagó sin juicio a otros 35.",
+    "En total, más de 90.000 euros."
+   ],
+   "locucion": "Con ese mismo criterio, la aerolínea pagó sin juicio a otros treinta y cinco. En total, más de noventa mil euros.",
+   "voz": "../../../recursos/voces/documento-v3/D2-5.mp3",
+   "grande": "Más de *90.000 €*",
+   "pequeno": "85 pasajeros por sentencia y 35 más sin juicio, con el mismo criterio.",
+   "stock": "TBD"
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "El daño moral no es automático: hay que probar lo que se vivió.",
+    "De eso nos encargamos nosotros."
+   ],
+   "locucion": "El daño moral no es automático: hay que probar lo que se vivió. De eso nos encargamos nosotros.",
+   "voz": "../../../recursos/voces/documento-v3/D2-6.mp3",
+   "grande": "El daño moral *no es automático*",
+   "pequeno": "Hay que probar lo que se vivió. De eso nos encargamos nosotros.",
+   "stock": "TBD"
+  }
+ ],
+ "cierre": {
+  "titulo": "¿Te ha pasado?",
+  "texto": "Te ayudamos a reclamar a la aerolínea.",
+  "subtitulos": [
+   "Llama al 944 027 596"
+  ],
+  "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
+  "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
+  "legal": "Reglamento (CE) 261/2004, arts. 7 y 12; Convenio de Montreal, art. 19. Imágenes de archivo. Cada caso se estudia de forma individual."
+ },
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3"
+}
