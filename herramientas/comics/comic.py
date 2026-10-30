@@ -37,6 +37,7 @@ VW, VH = 1080, 1920             # vídeo
 PX, PY, PW = 66, 270, 948       # panel dentro del vídeo
 PH = round(PW * H / W)          # 1185
 PRE, POST, FUNDIDO, ZOOM, PORTADA = 0.12, 0.28, 0.2, 0.06, 0.8
+# 30/10/2026 (Sergio, PUB-0517): el zoom de cámara solo mueve la viñeta; bocadillos y rótulos quedan fijos para que nunca se corten ni se tapen.
 
 def run(*a, **k): return subprocess.run([str(x) for x in a], check=True, **k)
 def dur(f): return float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(f)]).decode())
@@ -123,6 +124,14 @@ class Navegador:
         pg.goto(Path(f.name).as_uri()); pg.wait_for_timeout(250)
         pg.screenshot(path=str(sal), omit_background=transparente); pg.close(); os.unlink(f.name)
     def __exit__(self, *a): self.b.close(); self.p.stop()
+
+def capa_texto(con, sin, sal, umbral=10):
+    """Solo bocadillos, colas y rótulos sobre transparente (lo que cambia entre la lámina con texto y la limpia).
+    Así el zoom de cámara mueve la viñeta y el texto se queda quieto: no se corta ni se tapa (PUB-0517, 30/10/2026)."""
+    from PIL import Image, ImageChops, ImageFilter
+    a = Image.open(con).convert("RGB"); b = Image.open(sin).convert("RGB")
+    m = ImageChops.difference(a, b).convert("L").point(lambda p: 255 if p > umbral else 0).filter(ImageFilter.MaxFilter(5))
+    a = a.convert("RGBA"); a.putalpha(m); a.save(sal)
 
 def ruta(spec_dir, r): return r if os.path.isabs(r) else str(Path(spec_dir) / r)
 
@@ -221,9 +230,10 @@ def video(spec, out, nav):
             ins += ["-loop", "1", "-t", D, "-i", tmp / "cierre.png"]; base = "[0:v]"; nxt = 1
             filt.append(f"{base}fps=30,format=rgba[bg]"); cur = "[bg]"
         else:
-            ins += ["-loop", "1", "-t", D, "-i", tmp / "fondo.png", "-loop", "1", "-t", D, "-i", f"{out}/v{k}-limpia.png", "-loop", "1", "-t", D, "-i", f"{out}/v{k}.png"]; nxt = 3
+            capa_texto(f"{out}/v{k}.png", f"{out}/v{k}-limpia.png", f"{out}/v{k}-texto.png")
+            ins += ["-loop", "1", "-t", D, "-i", tmp / "fondo.png", "-loop", "1", "-t", D, "-i", f"{out}/v{k}-limpia.png", "-loop", "1", "-t", D, "-i", f"{out}/v{k}-texto.png"]; nxt = 3
             z = f"scale=w='{PW}*(1+{ZOOM}*t/{D})':h=-1:eval=frame,crop={PW}:{PH}"
-            filt += [f"[1:v]fps=30,{z}[lim]", f"[2:v]fps=30,{z},format=rgba,fade=t=in:st={PRE + 0.05}:d=0.25:alpha=1[tex]",
+            filt += [f"[1:v]fps=30,{z}[lim]", f"[2:v]fps=30,scale={PW}:{PH},format=rgba,fade=t=in:st={PRE + 0.05}:d=0.25:alpha=1[tex]",
                      f"[0:v]fps=30[bg0]", f"[bg0][lim]overlay={PX}:{PY}[bg1]", f"[bg1][tex]overlay={PX}:{PY}[bg]"]
             cur = "[bg]"
         for j, (f, (t0, t1)) in enumerate(zip(frases, tiempos)):
