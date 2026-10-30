@@ -5,8 +5,8 @@
  "fecha": "29 de marzo de 2025",
  "pdf": "sentencia-D3.pdf",
  "titulo": [
-  "12 profesionales vascos se quedaron sin su congreso en Gran Canaria",
-  "El juez condena a Vueling a pagarles *más de 13.500 €*"
+  "Iban a un congreso de trabajo en Gran Canaria y Vueling les canceló el vuelo",
+  "*Más de 13.500 €*, daño moral incluido, para 12 profesionales vascos"
  ],
  "titulo_tam": 72,
  "portada_dato": [
@@ -17,16 +17,15 @@
   {
    "tipo": "gancho",
    "subtitulos": [
-    "Doce profesionales vascos se quedaron sin su congreso en Gran Canaria.",
-    "Vueling les canceló el vuelo sin aviso,",
-    "y ahora tendrá que pagarles más de 13.500 euros."
+    "Doce profesionales vascos viajaban por trabajo a un congreso en Gran Canaria.",
+    "Vueling les canceló el vuelo sin aviso y se quedaron sin congreso.",
+    "Ahora tendrá que pagarles más de 13.500 euros, daño moral incluido."
    ],
-   "locucion": "Doce profesionales vascos se quedaron sin su congreso en Gran Canaria. Vueling les canceló el vuelo sin aviso, y ahora tendrá que pagarles más de trece mil quinientos euros.",
-   "voz": "../../../recursos/voces/documento-v3/D3-1.mp3",
-   "stock": "publico-congreso_1917437.mp4",
+   "locucion": "Doce profesionales vascos viajaban por trabajo a un congreso en Gran Canaria. Vueling les canceló el vuelo sin aviso y se quedaron sin congreso. Ahora tendrá que pagarles más de trece mil quinientos euros, daño moral incluido.",
+   "voz": "../../../recursos/voces/documento-v3/D3-1b.mp3",
+   "stock": "profesionales-maleta-caminando_1275754.mp4",
    "modo": "marco",
-   "marco_y": 820,
-   "desde": 5
+   "marco_y": 820
   },
   {
    "tipo": "doc",
@@ -47,8 +46,9 @@
    "voz": "../../../recursos/voces/documento-v3/D3-2.mp3",
    "doc_entra": 0.0,
    "extra": 2.4,
-   "stock": "las-canteras-gran-canaria_3449043.mp4",
-   "modo": "marco"
+   "stock": "aterrizaje-tren_3684388.mp4",
+   "modo": "marco",
+   "desde": 20
   },
   {
    "tipo": "doc",
@@ -104,7 +104,7 @@
     },
     {
      "t": "200 € de daño moral a cada uno",
-     "d": "2.400 €, algo poco habitual",
+     "d": "2.400 €: algo poco habitual en estos casos",
      "palabra": "doscientos"
     },
     {
@@ -128,8 +128,9 @@
    "grande": "¿No te avisaron con *2 semanas*?",
    "pequeno": "Puedes tener derecho a compensación.",
    "norma": "Reglamento (CE) 261/2004, art. 5",
-   "stock": "publico-congreso_1917437.mp4",
-   "modo": "marco"
+   "stock": "profesionales-maleta-caminando_1275754.mp4",
+   "modo": "marco",
+   "desde": 6
   }
  ],
  "cierre": {
@@ -143,8 +144,8 @@
   "legal": "Reglamento (CE) 261/2004, arts. 5 y 7. Imágenes de archivo. Cada caso se estudia de forma individual."
  },
  "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3",
- "portada_stock": "publico-congreso_1917437.mp4",
- "portada_desde": 9,
+ "portada_stock": "profesionales-maleta-caminando_1275754.mp4",
+ "portada_desde": 3,
  "portada_modo": "marco",
  "portada_marco_y": 640
 }

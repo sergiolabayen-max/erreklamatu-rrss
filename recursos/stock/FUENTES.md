@@ -10,7 +10,7 @@ Los archivos están en la carpeta del Mac `Documents/LANA/Erreklamatu/Marketing/
 | `pasajera-ventana-movil_52318.mp4` | https://www.magnific.com/premium-video/female-passenger-sits-windowsill-airport-terminal-uses-smartphone-against-back_52318 | 29/10/2026 | Real, 1280 × 720, 13 s | D3 (consejo) |
 | `pareja-panel-salidas_1864121.mp4` | https://www.magnific.com/premium-video/couple-looking-departure-board-4k_1864121 | 29/10/2026 | Real, 1280 × 720, 17 s | D1 (gancho) |
 | `aficion-estadio-IA_1973144.mp4` | https://www.magnific.com/premium-video/colorful-confetti-falling-silhouette-fans-cheering-sports-stadium-background_1973144 | 29/10/2026 | **Generado con IA**: siluetas de afición y estadío, sin escudos | D1 (resultado, tras velo) |
-| `durmiendo-puerta-embarque-IA_7460780.mp4` | https://www.magnific.com/premium-video/sleeping-man-wearing-patterned-shirt-jeans-resting-airport-gate-delay-with-blankets_7460780 | 29/10/2026 | **Generado con IA**: pasajeros durmiendo en la puerta de embarque | D2 (gancho) |
+| `durmiendo-puerta-embarque-IA_7460780.mp4` | https://www.magnific.com/premium-video/sleeping-man-wearing-patterned-shirt-jeans-resting-airport-gate-delay-with-blankets_7460780 | 29/10/2026 | **Generado con IA**: pasajeros durmiendo en la puerta de embarque | D2 v2 (retirado en v3: adultos; Sergio pidió menores) |
 | `mujer-tarjeta-movil_6103004.mp4` | https://www.magnific.com/premium-video/woman-looking-worried-with-credit-card-phone_6103004 | 29/10/2026 | Real, 1280 × 672 | D4 (gancho) |
 | `manos-tarjeta-portatil_7457768.mp4` | https://www.magnific.com/premium-video/close-up-hands-typing-credit-card-details-laptop-online-shopping_7457768 | 29/10/2026 | Real, 1280 × 672 | D4 (sentencia, resultado) |
 | `mujer-movil-estres_2922835.mp4` | https://www.magnific.com/premium-video/phone-stress-woman-studio-with-credit-card_2922835 | 29/10/2026 | Real, 1280 × 720 | D4 (consejo) |
@@ -19,10 +19,13 @@ Los archivos están en la carpeta del Mac `Documents/LANA/Erreklamatu/Marketing/
 | `bufanda-rojiblanca-estadio-IA_8428504.mp4` | https://www.magnific.com/premium-video/vibrant-celebration-team-spirit-captured-two-frames-fans-wearing-team-colors-energetic-stadium-gathering_8428504 | 30/10/2026 | **Generado con IA**: bufanda rojiblanca y afición, sin escudos, 8 s | D1 v3 (gancho, portada) |
 | `mujer-escalera-mecanica-movil_4663202.mp4` | https://www.magnific.com/premium-video/woman-using-phone-airport-escalator_4663202 | 30/10/2026 | Real, 18 s | H1 / PUB-0523 (gancho, portada) |
 | `terminal-gente-reflejos_7231913.mp4` | https://www.magnific.com/premium-video/low-angle-video-shot-capturing-busy-airport-terminal-focusing-travelers-reflections_7231913 | 30/10/2026 | Real, 10 s | H1 / PUB-0523 (consejo) |
-| `publico-congreso_1917437.mp4` | https://www.magnific.com/premium-video/business-people-attending-meeting-conference-room_1917437 | 30/10/2026 | Real, 15 s | D3 v3 (gancho, portada) |
+| `publico-congreso_1917437.mp4` | https://www.magnific.com/premium-video/business-people-attending-meeting-conference-room_1917437 | 30/10/2026 | Real, 15 s | Retirado de D3 v3 el 30/10 (aspecto no mediterráneo, criterio de Sergio) |
 | `las-canteras-gran-canaria_3449043.mp4` | https://www.magnific.com/premium-video/tranquil-morning-las-canteras-beach-las-palmas-gran-canaria_3449043 | 30/10/2026 | Real, dron, 17 s | D3 v3 |
 | `mujer-pago-fallido-tarjeta_6963009.mp4` | https://www.magnific.com/premium-video/young-woman-sees-payment-fail-smartphone-blocked-card-suspected-fraud-panics-calls-support-help_6963009 | 30/10/2026 | Real, 19 s | D4 v3 (gancho, consejo, portada) |
 | `manos-tarjeta-movil-vertical_6602706.mp4` | https://www.magnific.com/premium-video/using-credit-card-phone_6602706 | 30/10/2026 | Real, vertical, 15 s | D4 v3 |
+| `adolescentes-aeropuerto-cenital_8190935.mp4` | https://www.magnific.com/premium-video/overhead-view-women-waiting-airport-terminal-looking-phone_8190935 | 30/10/2026 | Real, vertical 720 × 1280, 40 s; chicas jóvenes con maletas en la sala de espera, vista cenital | D2 v3 (gancho, lista, consejo, portada) |
+| `grupo-esperando-cenital_8190669.mp4` | https://www.magnific.com/premium-video/overhead-view-diverse-passengers-waiting-airport-lounge_8190669 | 30/10/2026 | Real, vertical 720 × 1280, 24 s; grupo de jóvenes esperando, vista cenital, sin caras | D2 v3 (sentencia, consejo) |
+| `profesionales-maleta-caminando_1275754.mp4` | https://www.magnific.com/premium-video/they-re-their-way_1275754 | 30/10/2026 | Real, 1280 × 720, 12 s; tres profesionales de aspecto mediterráneo con maleta | D3 v3 (gancho, consejo, portada) |
 
 Cómo saber si es IA: la ficha de Magnific muestra la etiqueta «AI-generated».
 

@@ -53,10 +53,10 @@ S["D2"] = dict(id="D2-menores-irlanda", categoria="UN CASO REAL", juzgado="Juzga
  cierre=dict(CIERRE_V, legal="Reglamento (CE) 261/2004, arts. 7 y 12; Convenio de Montreal, art. 19. Imágenes de archivo. Cada caso se estudia de forma individual."), musica=MUS)
 
 S["D3"] = dict(id="D3-gran-canaria", categoria="UN CASO REAL", juzgado="Juzgado de Primera Instancia n.º 12 de Bilbao", fecha="29 de marzo de 2025", pdf="sentencia-D3.pdf",
- titulo=["12 profesionales vascos se quedaron sin su congreso en Gran Canaria", "El juez condena a Vueling a pagarles *más de 13.500 €*"], titulo_tam=72,
+ titulo=["Iban a un congreso de trabajo en Gran Canaria y Vueling les canceló el vuelo", "*Más de 13.500 €*, daño moral incluido, para 12 profesionales vascos"], titulo_tam=72,
  portada_dato=["13.509 €", "para los 12 pasajeros, daño moral incluido"],
  tramos=[
-  dict(tipo="gancho", subtitulos=["Doce profesionales vascos se quedaron sin su congreso en Gran Canaria.", "Vueling les canceló el vuelo sin aviso,", "y ahora tendrá que pagarles más de 13.500 euros."], locucion="Doce profesionales vascos se quedaron sin su congreso en Gran Canaria. Vueling les canceló el vuelo sin aviso, y ahora tendrá que pagarles más de trece mil quinientos euros.", voz=V+"D3-1.mp3"),
+  dict(tipo="gancho", subtitulos=["Doce profesionales vascos viajaban por trabajo a un congreso en Gran Canaria.", "Vueling les canceló el vuelo sin aviso y se quedaron sin congreso.", "Ahora tendrá que pagarles más de 13.500 euros, daño moral incluido."], locucion="Doce profesionales vascos viajaban por trabajo a un congreso en Gran Canaria. Vueling les canceló el vuelo sin aviso y se quedaron sin congreso. Ahora tendrá que pagarles más de trece mil quinientos euros, daño moral incluido.", voz=V+"D3-1b.mp3"),
   dict(tipo="doc", pagina_num=3, subrayar=["La parte demandada no contestó a la demanda en el plazo concedido", "siendo declarada en situación de rebeldía procesal"], margen=[90, 60],
        cita="«*La parte demandada no contestó a la demanda en el plazo concedido* a tal efecto *siendo declarada en situación de rebeldía procesal*…»",
        subtitulos=["Vueling ni siquiera contestó a la demanda."], locucion="Vueling ni siquiera contestó a la demanda.", voz=V+"D3-2.mp3", doc_entra=0.0, extra=2.4),
@@ -66,7 +66,7 @@ S["D3"] = dict(id="D3-gran-canaria", categoria="UN CASO REAL", juzgado="Juzgado 
   dict(tipo="lista", subtitulos=[], locucion="Esto es lo que Vueling tendrá que pagarles: cuatrocientos euros a cada uno, los billetes, el hotel y otros gastos, doscientos euros por daño moral a cada uno, los intereses y las costas.", voz=V+"D3-4.mp3",
        cabecera="Lo que Vueling tendrá que pagarles", total=["En total, para los 12:", "13.509,42 €"], extra=1.0,
        items=[dict(t="400 € a cada uno", d="de compensación: 4.800 €", palabra="cuatrocientos"), dict(t="Los billetes", d="3.348,77 €", palabra="los billetes"),
-              dict(t="El hotel y otros gastos", d="2.960,65 €", palabra="el hotel"), dict(t="200 € de daño moral a cada uno", d="2.400 €, algo poco habitual", palabra="doscientos"),
+              dict(t="El hotel y otros gastos", d="2.960,65 €", palabra="el hotel"), dict(t="200 € de daño moral a cada uno", d="2.400 €: algo poco habitual en estos casos", palabra="doscientos"),
               dict(t="Intereses y costas", d="Vueling paga también el juicio", palabra="los intereses")]),
   dict(tipo="consejo", subtitulos=["Si no te avisan con dos semanas de antelación,", "puedes tener derecho a compensación."], locucion="Si no te avisan con dos semanas de antelación, puedes tener derecho a compensación.", voz=V+"D3-5.mp3",
        grande="¿No te avisaron con *2 semanas*?", pequeno="Puedes tener derecho a compensación.", norma="Reglamento (CE) 261/2004, art. 5"),

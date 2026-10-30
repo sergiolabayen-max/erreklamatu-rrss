@@ -301,12 +301,34 @@ def video(spec, out, nav):
         print("tramo", n, t["tipo"], f"{D:.2f}s")
     comic.mezclar_y_cerrar(spec, out, tmp, segs)
 
+def sin_ruiditos(src, dst, umbral=-40, max_blip=0.14, hueco=0.15):
+    """Quita ruidos sueltos (respiraciones, chasquidos) de una locución: tramos con sonido de menos de max_blip s rodeados
+    de silencio de al menos hueco s a cada lado. Corrección de Sergio (30/10/2026): «un suspiro, un ruidito que se ha escapado»."""
+    import numpy as np, wave
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", str(src), "-ac", "1", "-ar", "48000", "-f", "s16le", "-"], capture_output=True, check=True).stdout
+    a = np.frombuffer(raw, dtype=np.int16).copy(); w = 960; n = len(a) // w   # ventanas de 20 ms
+    e = np.array([20 * np.log10(np.sqrt(np.mean((a[i*w:(i+1)*w] / 32768.0) ** 2)) + 1e-9) for i in range(n)])
+    on = e > umbral; segs = []; s = None
+    for i, v in enumerate(on):
+        if v and s is None: s = i
+        if not v and s is not None: segs.append([s, i]); s = None
+    if s is not None: segs.append([s, n])
+    quitados = []
+    for k, (s0, s1) in enumerate(segs):
+        antes = s0 - (segs[k-1][1] if k else 0); despues = (segs[k+1][0] if k + 1 < len(segs) else n) - s1
+        if (s1 - s0) * 0.02 < max_blip and antes * 0.02 >= hueco and despues * 0.02 >= hueco:
+            a[max(0, s0 - 2) * w:min(n, s1 + 2) * w] = 0; quitados.append(round(s0 * 0.02, 2))
+    with wave.open(str(dst), "wb") as f: f.setnchannels(1); f.setsampwidth(2); f.setframerate(48000); f.writeframes(a.tobytes())
+    return quitados
+
 def voz(spec, out):
     d = spec["_dir"]; os.makedirs(f"{out}/voz", exist_ok=True)
     tramos = spec["tramos"] + [spec["cierre"]]
     for n, t in enumerate(tramos, 1):
         if not t.get("voz"): continue
-        run("ffmpeg", "-v", "error", "-y", "-i", comic.ruta(d, t["voz"]), "-af",
+        limpio = f"{out}/voz/{n:02d}-limpio.wav"; q = sin_ruiditos(comic.ruta(d, t["voz"]), limpio)
+        if q: print("voz", n, "ruiditos quitados en", q)
+        run("ffmpeg", "-v", "error", "-y", "-i", limpio, "-af",
             "silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.02,areverse,silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.05,areverse,"
             "silenceremove=stop_periods=-1:stop_duration=0.22:stop_threshold=-42dB:stop_silence=0.22,atempo=1.08,aresample=48000", "-ac", "1", f"{out}/voz/{n:02d}.wav")
 
