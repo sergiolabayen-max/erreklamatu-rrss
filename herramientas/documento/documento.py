@@ -73,7 +73,7 @@ def recortes(spec, out):
         if t["tipo"] == "doc" and t.get("subrayar"):
             sub = dict(spec); sub.update({k: t[k] for k in ("pagina_num", "subrayar", "margen", "columna", "ocultar") if k in t}); sub.pop("pagina", None)
             recorte(sub, out, f"-{n:02d}"); hechos += 1
-    if not hechos: recorte(spec, out)
+    if not hechos and spec.get("pdf"): recorte(spec, out)   # sin sentencia (p. ej. alertas): no hay recorte
 
 def recorte(spec, out, suf=""):
     from PIL import Image, ImageDraw
@@ -154,12 +154,16 @@ def capa_gancho(spec, fondo_img=None):
     para que no quede ningún hueco vacío (corrección de Sergio, 30/10/2026). «portada_foto_y» (0-100) encuadra la foto."""
     t = spec["titulo"]
     bg = (f'<img src="{Path(fondo_img).resolve().as_uri()}" style="position:absolute;inset:0;width:{VW}px;height:{VH}px;object-fit:cover;'
-          f'object-position:50% {spec.get("portada_foto_y", 50)}%">') if fondo_img else ""
+          f'object-position:{spec.get("portada_foto_x", 50)}% {spec.get("portada_foto_y", 50)}%">') if fondo_img else ""
+    if fondo_img and spec.get("portada_modo") == "marco":   # foto apaisada entera en el centro, sobre una copia desenfocada (como el modo «marco» del vídeo)
+        u = Path(fondo_img).resolve().as_uri()
+        bg = (f'<img src="{u}" style="position:absolute;inset:0;width:{VW}px;height:{VH}px;object-fit:cover;filter:blur(30px) brightness(.7)">'
+              f'<img src="{u}" style="position:absolute;left:0;top:{spec.get("portada_marco_y", 640)}px;width:{VW}px;height:{round(VW*9/16)}px;object-fit:cover">')
     dato = spec.get("portada_dato")
     franja = (f"""<div style="position:absolute;left:0;right:0;bottom:0;padding:70px 60px 120px;background:linear-gradient(rgba(11,31,68,0),rgba(11,31,68,.92) 30%);text-align:center">
 <div style="display:inline-block;background:{VERDE};color:{NAVY};padding:18px 36px 14px;box-shadow:8px 8px 0 rgba(0,0,0,.35)"><div class="tit" style="font-size:104px;text-shadow:none">{html.escape(dato[0])}</div></div>
 <div style="font:700 42px/1.25 Poppins,sans-serif;color:#fff;margin-top:26px">{html.escape(dato[1])}</div>
-<div class="lbl" style="margin-top:22px;color:#cfe0ff">Sentencia real · Caso de ERREKLAMATU</div></div>""") if (fondo_img and dato) else '<div class="pie"></div>'
+<div class="lbl" style="margin-top:22px;color:#cfe0ff">{html.escape(spec.get("portada_pie", "Sentencia real · Caso de ERREKLAMATU"))}</div></div>""") if (fondo_img and dato) else '<div class="pie"></div>'
     return _doc(f"""{bg}{franja}
 <div style="position:absolute;left:0;right:0;top:0;padding:120px 60px 170px;background:linear-gradient(rgba(11,31,68,.95) 72%,rgba(11,31,68,0));display:flex;flex-direction:column;gap:34px">
 <div style="display:flex;justify-content:space-between;align-items:center">{logo_caja(84)}<div class="pill">{_cat(spec)}</div></div>
