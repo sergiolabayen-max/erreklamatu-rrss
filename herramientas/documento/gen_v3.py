@@ -31,7 +31,7 @@ S["D1"] = dict(id="D1-athletic-roma", categoria="UN CASO REAL", juzgado="Juzgado
  cierre=dict(CIERRE_V, legal="Reglamento (CE) 261/2004, arts. 7 y 12; Código Civil, art. 1101. Imágenes de archivo. Cada caso se estudia de forma individual."), musica=MUS)
 
 S["D2"] = dict(id="D2-menores-irlanda", categoria="UN CASO REAL", juzgado="Juzgado de Primera Instancia n.º 9 de Pamplona", fecha="4 de diciembre de 2025", pdf="sentencia-D2.pdf",
- titulo=["Menores tirados en Irlanda, sin sus padres", "Más de *90.000 € de indemnización* para 120 pasajeros"], titulo_tam=80,
+ titulo=["120 pasajeros, casi todos menores, tirados en un aeropuerto irlandés", "*Más de 90.000 €* de indemnización"], titulo_tam=80,
  portada_dato=["+90.000 €", "para 120 pasajeros, casi todos menores"],
  tramos=[
   dict(tipo="gancho", subtitulos=["120 pasajeros, casi todos menores, tirados en Irlanda sin sus padres.", "Más de 90.000 euros de indemnización."], locucion="Ciento veinte pasajeros, casi todos menores, tirados en Irlanda sin sus padres. Más de noventa mil euros de indemnización.", voz=V+"D2-1.mp3"),

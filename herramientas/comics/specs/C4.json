@@ -3,7 +3,7 @@
  "categoria": "REVOLVING",
  "abogado": "Óscar Sánchez",
  "gancho": [
-  "¿Debes dinero de la tarjeta?",
+  "¿Debes dinero de tu tarjeta revolving?",
   "Puedes reclamar igual"
  ],
  "mensajes": [
@@ -16,7 +16,7 @@
    "img": "../../../recursos/viñetas/C4/01.png",
    "bocadillos": [
     {
-     "texto": "¿Y si dejo de pagar la tarjeta?",
+     "texto": "¿Y si dejo de pagar la *revolving*?",
      "x": 560,
      "y": 440,
      "w": 480,
@@ -27,12 +27,12 @@
     }
    ],
    "rotulo": null,
-   "voz": "../../../recursos/voces/comics-v2/voz-C4-01.mp3",
+   "voz": "../../../recursos/voces/comics-v2/voz-C4-01-v2.mp3",
    "subtitulos": [
-    "¿Aún debes dinero de la tarjeta?",
+    "¿Aún debes dinero de tu tarjeta revolving?",
     "Puedes reclamar igual."
    ],
-   "locucion": "¿Aún debes dinero de la tarjeta? Puedes reclamar igual."
+   "locucion": "¿Aún debes dinero de tu tarjeta revolving? Puedes reclamar igual."
   },
   {
    "img": "../../../recursos/viñetas/C4/02.png",

@@ -3,7 +3,7 @@
  "categoria": "TEMPORAL",
  "abogado": "Jon Ortiz",
  "gancho": [
-  "Te cancelan por el temporal:",
+  "Te cancelan por un temporal:",
   "el hotel lo paga la aerolínea"
  ],
  "mensajes": [
@@ -27,12 +27,12 @@
     }
    ],
    "rotulo": null,
-   "voz": "../../../recursos/voces/comics-v2/voz-C1-01.mp3",
+   "voz": "../../../recursos/voces/comics-v2/voz-C1-01-v2.mp3",
    "subtitulos": [
-    "Te cancelan el vuelo por el temporal.",
+    "Te cancelan el vuelo por un temporal.",
     "Y nadie te dice dónde vas a dormir."
    ],
-   "locucion": "Te cancelan el vuelo por el temporal. Y nadie te dice dónde vas a dormir."
+   "locucion": "Te cancelan el vuelo por un temporal. Y nadie te dice dónde vas a dormir."
   },
   {
    "img": "../../../recursos/viñetas/C1/02.png",
