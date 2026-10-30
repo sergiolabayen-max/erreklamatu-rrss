@@ -24,3 +24,9 @@
 - **Imágenes de recurso:** centradas en la zona visible, ligadas a lo que dice la locución en cada momento; personas de la edad del caso (si son menores, adolescentes) y con aspecto local; IA solo si no se nota.
 - **Audio:** sin silencios largos ni ruidos sueltos; escuchar cada locución antes de montar.
 - **Textos de los posts:** siempre con sujeto («dos aficionados del Athletic de la Margen Izquierda», «una clienta del Santander»).
+
+## Limpieza de la voz (30/10/2026)
+`voz()` pasa primero cada locución por `sin_ruiditos()`: quita tramos con sonido de menos de 0,14 s rodeados de silencio (respiraciones, chasquidos). Corrección de Sergio a PUB-0519: «un suspiro, un ruidito que se ha escapado». Imprime en qué segundo quitó algo. No sustituye a escuchar la pieza antes de aprobar.
+
+## Imágenes de archivo recortadas (30/10/2026)
+Un vídeo vertical cuyo motivo está arriba (p. ej. `adolescentes-aeropuerto-cenital_8190935`) se recorta con ffmpeg (`crop=720:430:0:0`) a un archivo `…-arriba_…mp4` en la carpeta STOCK y se usa en modo «marco», para que el titular no tape las caras.
