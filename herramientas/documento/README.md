@@ -15,3 +15,12 @@
 - El recorte se ajusta solo a líneas completas.
 - Estilo de marca: Poppins Bold, #003378 y #00E887, etiquetas en mayúsculas con espaciado .2em. Única excepción: la cita literal en Lora redonda (serif), solo para texto literal de sentencias.
 - Comando: `python3 documento.py todo specs/Dn.json carpeta` (con `STOCK` y `SENTENCIAS` apuntando a las copias de la carpeta del Mac).
+
+## Versión 3 (30/10/2026, correcciones de Sergio a PUB-0518, 0519 y 0521; valen para todos los vídeos de sentencias)
+- **Arranque fuerte:** lo más noticioso del caso (lo que destaca la nota de prensa o, si no, la sentencia) va en los 2-3 primeros segundos, en la voz y en el titular. En cada caso se elige bien qué es lo noticioso (p. ej., el total y no solo una partida).
+- **La sentencia, protagonista:** 2-3 pasajes de la sentencia (qué alegó la otra parte, cómo lo rebatió el juez, algún dato llamativo), cada uno con su locución. Nunca una frase seguida de un silencio. Cada tramo `doc` puede llevar su propio `pagina_num`, `subrayar`, `margen` y `cita` (fragmentos `fragmento-NN.png`).
+- **Lo conseguido, partida a partida y presentado:** «Esto es lo que X tendrá que pagarles:», con intereses y costas. Nada de «además de la compensación…».
+- **Miniatura:** titular descriptivo con sujeto y dato; foto a sangre ligada al caso (`portada_stock`, `portada_desde`, `portada_foto_y`); abajo, el dato clave (`portada_dato`), sin huecos vacíos.
+- **Imágenes de recurso:** centradas en la zona visible, ligadas a lo que dice la locución en cada momento; personas de la edad del caso (si son menores, adolescentes) y con aspecto local; IA solo si no se nota.
+- **Audio:** sin silencios largos ni ruidos sueltos; escuchar cada locución antes de montar.
+- **Textos de los posts:** siempre con sujeto («dos aficionados del Athletic de la Margen Izquierda», «una clienta del Santander»).

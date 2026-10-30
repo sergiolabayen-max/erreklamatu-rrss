@@ -65,12 +65,22 @@ def cajas_por_linea(words, idx):
         a[0] = min(a[0], w["x"]); a[1] = min(a[1], w["y"]); a[2] = max(a[2], w["x"] + w["w"]); a[3] = max(a[3], w["y"] + w["h"])
     return sorted(lines.values(), key=lambda b: b[1])
 
-def recorte(spec, out):
+def recortes(spec, out):
+    """Versión 3 (30/10/2026): cada tramo «doc» puede llevar su propio fragmento (pagina_num, subrayar, cita, margen).
+    Así el vídeo puede enseñar dos o tres pasajes de la sentencia, no uno solo."""
+    hechos = 0
+    for n, t in enumerate(spec["tramos"], 1):
+        if t["tipo"] == "doc" and t.get("subrayar"):
+            sub = dict(spec); sub.update({k: t[k] for k in ("pagina_num", "subrayar", "margen", "columna", "ocultar") if k in t}); sub.pop("pagina", None)
+            recorte(sub, out, f"-{n:02d}"); hechos += 1
+    if not hechos: recorte(spec, out)
+
+def recorte(spec, out, suf=""):
     from PIL import Image, ImageDraw
     pg = spec.get("pagina")
     if not pg or not os.path.exists(pg):          # se rasteriza desde el PDF de la carpeta «sentencias» del Mac (nunca se sube al repositorio)
         pdf = os.path.join(os.environ.get("SENTENCIAS", "/mnt/user-data/uploads/Magnific/sentencias"), spec["pdf"])
-        pg = f"{out}/pagina"; run("pdftoppm", "-r", 200, "-png", "-f", spec["pagina_num"], "-l", spec["pagina_num"], "-singlefile", pdf, pg); pg += ".png"
+        pg = f"{out}/pagina{suf}"; run("pdftoppm", "-r", 200, "-png", "-f", spec["pagina_num"], "-l", spec["pagina_num"], "-singlefile", pdf, pg); pg += ".png"
     words = ocr(pg); im = Image.open(pg).convert("RGB")
     marcas = []
     for f in spec["subrayar"]: marcas += cajas_por_linea(words, buscar(words, f))
@@ -97,13 +107,13 @@ def recorte(spec, out):
         if w["n"] in ocultar or any(re.search(p, w["t"]) for p in SENSIBLE):
             d.rectangle([w["x"] - 4, w["y"] - 4, w["x"] + w["w"] + 4, w["y"] + w["h"] + 4], fill=(20, 20, 20)); tapadas.append(w["t"])
     frag = im.crop((X0, top, X1, bot))
-    frag.save(f"{out}/fragmento.png")
+    frag.save(f"{out}/fragmento{suf}.png")
     rel = [[b[0] - X0, b[1] - top, b[2] - X0, b[3] - top] for b in marcas]
-    json.dump(dict(size=frag.size, marcas=rel, tapadas=tapadas), open(f"{out}/fragmento.json", "w"), ensure_ascii=False)
+    json.dump(dict(size=frag.size, marcas=rel, tapadas=tapadas), open(f"{out}/fragmento{suf}.json", "w"), ensure_ascii=False)
     prev = frag.copy(); dp = ImageDraw.Draw(prev, "RGBA")
     for b in rel: dp.rectangle([b[0] - 6, b[1] - 2, b[2] + 6, b[3] + 6], fill=(62, 233, 140, 110))
-    prev.save(f"{out}/fragmento-previa.png")
-    print("fragmento", frag.size, "líneas subrayadas", len(rel), "tapadas", tapadas)
+    prev.save(f"{out}/fragmento{suf}-previa.png")
+    print("fragmento" + suf, frag.size, "líneas subrayadas", len(rel), "tapadas", tapadas)
 
 # ---------- vídeo (versión 2, 29/10/2026, tras las correcciones de Sergio a PUB-0520) ----------
 # Cada tramo = fondo de vídeo de archivo (aeropuerto, avión…) + una capa HTML transparente animada encima.
@@ -140,21 +150,29 @@ body{{background:transparent}}
 {extra_css}</style><body>{cuerpo}</body>"""
 
 def capa_gancho(spec, fondo_img=None):
+    """Titular del arranque. Con fondo_img es la portada (miniatura): foto a sangre y, abajo, el dato clave en una franja,
+    para que no quede ningún hueco vacío (corrección de Sergio, 30/10/2026). «portada_foto_y» (0-100) encuadra la foto."""
     t = spec["titulo"]
-    bg = f'<img src="{Path(fondo_img).resolve().as_uri()}" style="position:absolute;inset:0;width:{VW}px;height:{VH}px;object-fit:cover">' if fondo_img else ""
-    return _doc(f"""{bg}<div class="pie"></div>
+    bg = (f'<img src="{Path(fondo_img).resolve().as_uri()}" style="position:absolute;inset:0;width:{VW}px;height:{VH}px;object-fit:cover;'
+          f'object-position:50% {spec.get("portada_foto_y", 50)}%">') if fondo_img else ""
+    dato = spec.get("portada_dato")
+    franja = (f"""<div style="position:absolute;left:0;right:0;bottom:0;padding:70px 60px 120px;background:linear-gradient(rgba(11,31,68,0),rgba(11,31,68,.92) 30%);text-align:center">
+<div style="display:inline-block;background:{VERDE};color:{NAVY};padding:18px 36px 14px;box-shadow:8px 8px 0 rgba(0,0,0,.35)"><div class="tit" style="font-size:104px;text-shadow:none">{html.escape(dato[0])}</div></div>
+<div style="font:700 42px/1.25 Poppins,sans-serif;color:#fff;margin-top:26px">{html.escape(dato[1])}</div>
+<div class="lbl" style="margin-top:22px;color:#cfe0ff">Sentencia real · Caso de ERREKLAMATU</div></div>""") if (fondo_img and dato) else '<div class="pie"></div>'
+    return _doc(f"""{bg}{franja}
 <div style="position:absolute;left:0;right:0;top:0;padding:120px 60px 170px;background:linear-gradient(rgba(11,31,68,.95) 72%,rgba(11,31,68,0));display:flex;flex-direction:column;gap:34px">
 <div style="display:flex;justify-content:space-between;align-items:center">{logo_caja(84)}<div class="pill">{_cat(spec)}</div></div>
-<div class="tit" style="font-size:82px;color:#fff;margin-top:20px">{html.escape(t[0])}</div>
+<div class="tit" style="font-size:{spec.get('titulo_tam', 82)}px;color:#fff;margin-top:20px">{html.escape(t[0])}</div>
 <div style="font:700 48px/1.25 Poppins,sans-serif;color:{VERDE}">{comic.marcado(t[1]).replace('<b>', '<b style="color:#fff">')}</div></div>""")
 
-def capa_doc(spec, frag_png, marcas, size, t0):
+def capa_doc(spec, frag_png, marcas, size, t0, cita=None):
     """La sentencia entra en t0 (s); el subrayado empieza 0,5 s después y la cita literal, tras el subrayado."""
     k = DW / size[0]; h = round(size[1] * k); top = 440
     barras = "".join(f'<div class="bar" style="left:{(b[0]-6)*k}px;top:{(b[1]-2)*k}px;height:{(b[3]-b[1]+8)*k}px;width:{(b[2]-b[0]+12)*k}px;animation-delay:{t0+0.4+0.25*i:.2f}s"></div>' for i, b in enumerate(marcas))
     tc = t0 + 0.4 + 0.25 * len(marcas) + 0.2
     rot = f"Sentencia del {spec.get('juzgado','')} · {spec.get('fecha','')}"
-    cita = spec.get("cita", "")
+    cita = cita if cita is not None else spec.get("cita", "")
     return _doc(f"""<div class="fi" style="position:absolute;inset:0;background:rgba(11,31,68,.86);animation-delay:{t0-0.15:.2f}s"></div>
 <div class="pie"></div>
 <div class="top">{logo_caja(84)}<div class="pill">{_cat(spec)}</div></div>
@@ -232,7 +250,10 @@ def fotogramas(nav, doc, D, carpeta):
 
 def video(spec, out, nav):
     tmp = Path(out) / "vtmp"; tmp.mkdir(exist_ok=True)
-    meta = json.load(open(f"{out}/fragmento.json")); frag = f"{out}/fragmento.png"
+    def frag_de(n):
+        f = f"{out}/fragmento-{n:02d}"
+        if not os.path.exists(f + ".json"): f = f"{out}/fragmento"
+        return f + ".png", json.load(open(f + ".json"))
     segs = []; PRE = comic.PRE
     tramos = spec["tramos"] + [dict(tipo="cierre", **spec["cierre"])]
     for n, t in enumerate(tramos, 1):
@@ -250,13 +271,15 @@ def video(spec, out, nav):
         else:
             bg = tmp / f"bg{n:02d}.mp4"; fondo(t, D, bg)
             if t["tipo"] == "gancho": doc = capa_gancho(spec)
-            elif t["tipo"] == "doc": doc = capa_doc(spec, frag, meta["marcas"], meta["size"], PRE + float(t.get("doc_entra", 0)))
+            elif t["tipo"] == "doc":
+                frag, meta = frag_de(n); doc = capa_doc(spec, frag, meta["marcas"], meta["size"], PRE + float(t.get("doc_entra", 0)), t.get("cita"))
             elif t["tipo"] == "lista": doc = capa_lista(spec, t, PRE)
             else: doc = capa_consejo(spec, t)
             fr = tmp / f"fr{n:02d}"; fotogramas(nav, doc, D, fr)
             ins = ["-i", bg, "-framerate", 30, "-i", fr / "%04d.png"]; fl = ["[0:v][1:v]overlay=0:0:format=auto[c0]"]; cur = "[c0]"
             if t["tipo"] == "gancho":     # portada del vídeo (miniatura): un fotograma del fondo con el titular
-                fimg = tmp / "fondo-portada.jpg"; run("ffmpeg", "-v", "error", "-y", "-ss", min(2.0, D / 2), "-i", bg, "-frames:v", 1, "-q:v", 2, fimg)
+                fimg = tmp / "fondo-portada.jpg"; pf = spec.get("portada_stock", t["stock"]); pf = pf if os.path.isabs(pf) else os.path.join(STOCK, pf)
+                run("ffmpeg", "-v", "error", "-y", "-ss", spec.get("portada_desde", t.get("desde", 0) + 1), "-i", pf, "-frames:v", 1, "-q:v", 2, fimg)
                 nav.png(capa_gancho(spec, fimg), tmp / "portada.png", VW, VH)
         k0 = 1 if t["tipo"] == "cierre" else 2
         for j, (sp, a0, a1) in enumerate(subs):
@@ -282,7 +305,7 @@ if __name__ == "__main__":
     cmd = sys.argv[1]
     if cmd == "ocr": print(len(ocr(sys.argv[2])), "palabras"); sys.exit()
     spec = comic.cargar(sys.argv[2]); out = sys.argv[3]; os.makedirs(out, exist_ok=True)
-    if cmd in ("recorte", "todo"): recorte(spec, out)
+    if cmd in ("recorte", "todo"): recortes(spec, out)
     if cmd == "todo": voz(spec, out)
     if cmd in ("todo", "video"):          # «video»: solo vuelve a montar (usa el recorte y las voces ya preparados)
         with Navegador() as nav: video(spec, out, nav)
