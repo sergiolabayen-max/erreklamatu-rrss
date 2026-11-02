@@ -1,0 +1,150 @@
+{
+ "id": "D6-ikastola-catania",
+ "categoria": "UN CASO REAL",
+ "juzgado": "Juzgado de lo Mercantil de Bilbao",
+ "fecha": "18 de mayo de 2020",
+ "pdf": "DOC130720-13072020082709.pdf",
+ "rotulo": "Demanda de ERREKLAMATU ante el Juzgado de lo Mercantil de Bilbao · 18 de mayo de 2020",
+ "cita_etiqueta": "Texto literal de la demanda",
+ "portada_pie": "Caso real de ERREKLAMATU",
+ "titulo": [
+  "Iban a un programa escolar europeo en Sicilia y Vueling les canceló el vuelo",
+  "*Más de 7.000 €* para 6 alumnos y 3 profesores de Gernika"
+ ],
+ "titulo_tam": 72,
+ "portada_dato": [
+  "+7.000 €",
+  "para 6 alumnos y 3 profesores de una ikastola"
+ ],
+ "tramos": [
+  {
+   "tipo": "gancho",
+   "subtitulos": [
+    "Seis alumnos y tres profesores de una ikastola de Gernika iban a un programa escolar europeo en Sicilia.",
+    "Vueling les canceló el vuelo.",
+    "Y tras la demanda, tuvo que pagarles más de 7.000 euros."
+   ],
+   "locucion": "Seis alumnos y tres profesores de una ikastola de Gernika iban a un programa escolar europeo en Sicilia. Vueling les canceló el vuelo. Y tras la demanda, tuvo que pagarles más de siete mil euros.",
+   "voz": "../../../recursos/voces/documento-v3/D6-1.mp3",
+   "stock": "alumnos-mochila-pasillo-vertical_8106137.mp4",
+   "modo": "lleno",
+   "desde": 1
+  },
+  {
+   "tipo": "doc",
+   "pagina_num": 2,
+   "columna": [
+    170,
+    1440
+   ],
+   "subrayar": [
+    "teniendo que hacer noche en Roma y volar al día siguiente a Catania",
+    "llegando a destino con más de 15 horas de retraso"
+   ],
+   "margen": [
+    150,
+    110
+   ],
+   "cita": "«… *teniendo que hacer noche en Roma y volar al día siguiente a Catania, llegando a destino con más de 15 horas de retraso* sobre la hora inicialmente programada.»",
+   "subtitulos": [
+    "Les cambiaron la ruta: tuvieron que hacer noche en Roma",
+    "y llegaron a Catania con más de 15 horas de retraso."
+   ],
+   "locucion": "Les cambiaron la ruta: tuvieron que hacer noche en Roma y llegaron a Catania con más de quince horas de retraso.",
+   "voz": "../../../recursos/voces/documento-v3/D6-2.mp3",
+   "doc_entra": 0.2,
+   "extra": 0.8,
+   "stock": "roma-noche-coliseo.mp4",
+   "modo": "marco",
+   "desde": 0
+  },
+  {
+   "tipo": "doc",
+   "pagina_num": 2,
+   "columna": [
+    170,
+    1440
+   ],
+   "subrayar": [
+    "acudían a un programa escolar patrocinado por la Unión",
+    "perdiendo parte de las actividades"
+   ],
+   "margen": [
+    150,
+    110
+   ],
+   "cita": "«Los demandantes *acudían a un programa escolar patrocinado por la Unión Europea* en Catania (…), *perdiendo parte de las actividades*…»",
+   "subtitulos": [
+    "Y por el camino perdieron parte de las actividades del programa al que iban."
+   ],
+   "locucion": "Y por el camino perdieron parte de las actividades del programa al que iban.",
+   "voz": "../../../recursos/voces/documento-v3/D6-3.mp3",
+   "doc_entra": 0.1,
+   "extra": 2.4,
+   "stock": "catania-etna-dron_5028298.mp4",
+   "modo": "marco",
+   "desde": 3
+  },
+  {
+   "tipo": "lista",
+   "subtitulos": [],
+   "locucion": "Tras la demanda, esto es lo que Vueling les pagó: cuatrocientos euros a cada uno, el vuelo que tuvieron que comprar, el hotel en Roma y los traslados.",
+   "voz": "../../../recursos/voces/documento-v3/D6-4.mp3",
+   "cabecera": "Lo que Vueling les pagó tras la demanda",
+   "total": [
+    "En total, para los 9:",
+    "Más de 7.000 €"
+   ],
+   "extra": 1.2,
+   "items": [
+    {
+     "t": "400 € a cada uno",
+     "d": "de compensación por la cancelación",
+     "palabra": "cuatrocientos"
+    },
+    {
+     "t": "El vuelo que tuvieron que comprar",
+     "d": "para llegar a Catania",
+     "palabra": "el vuelo que"
+    },
+    {
+     "t": "El hotel en Roma y los traslados",
+     "d": "la noche que no tenían prevista",
+     "palabra": "el hotel"
+    }
+   ],
+   "stock": "catania-etna-dron_5028298.mp4",
+   "modo": "lleno",
+   "desde": 12
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Si te cancelan el vuelo y tienes que pagar tú otro billete o un hotel,",
+    "guarda las facturas: también se pueden reclamar."
+   ],
+   "locucion": "Si te cancelan el vuelo y tienes que pagar tú otro billete o un hotel, guarda las facturas: también se pueden reclamar.",
+   "voz": "../../../recursos/voces/documento-v3/D6-5.mp3",
+   "grande": "¿Pagaste tú *otro billete o el hotel*?",
+   "pequeno": "Guarda las facturas: también se pueden reclamar.",
+   "norma": "Reglamento (CE) 261/2004, arts. 8 y 9",
+   "stock": "hotel-recepcion-timbre_2800396.mp4",
+   "modo": "marco",
+   "desde": 1
+  }
+ ],
+ "cierre": {
+  "titulo": "¿Te ha pasado?",
+  "texto": "Te ayudamos a reclamar a la aerolínea.",
+  "subtitulos": [
+   "Llama al 944 027 596"
+  ],
+  "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
+  "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
+  "legal": "Reglamento (CE) 261/2004, arts. 5, 7, 8 y 9. Vueling pagó tras la demanda, sin juicio. Imágenes de archivo. Cada caso se estudia de forma individual."
+ },
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3",
+ "portada_stock": "alumnos-mochila-pasillo-vertical_8106137.mp4",
+ "portada_desde": 3,
+ "portada_foto_y": 40
+}

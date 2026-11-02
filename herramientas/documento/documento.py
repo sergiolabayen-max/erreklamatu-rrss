@@ -175,7 +175,7 @@ def capa_doc(spec, frag_png, marcas, size, t0, cita=None):
     k = DW / size[0]; h = round(size[1] * k); top = 440
     barras = "".join(f'<div class="bar" style="left:{(b[0]-6)*k}px;top:{(b[1]-2)*k}px;height:{(b[3]-b[1]+8)*k}px;width:{(b[2]-b[0]+12)*k}px;animation-delay:{t0+0.4+0.25*i:.2f}s"></div>' for i, b in enumerate(marcas))
     tc = t0 + 0.4 + 0.25 * len(marcas) + 0.2
-    rot = f"Sentencia del {spec.get('juzgado','')} · {spec.get('fecha','')}"
+    rot = spec.get("rotulo") or f"Sentencia del {spec.get('juzgado','')} · {spec.get('fecha','')}"   # «rotulo»: otro documento (p. ej. una demanda, 02/11/2026)
     cita = cita if cita is not None else spec.get("cita", "")
     return _doc(f"""<div class="fi" style="position:absolute;inset:0;background:rgba(11,31,68,.86);animation-delay:{t0-0.15:.2f}s"></div>
 <div class="pie"></div>
@@ -184,7 +184,7 @@ def capa_doc(spec, frag_png, marcas, size, t0, cita=None):
 <div class="an card" style="top:{top}px;height:{h}px;animation-delay:{t0:.2f}s"><img src="{Path(frag_png).resolve().as_uri()}">{barras}</div>
 <div class="an" style="position:absolute;left:50px;right:50px;top:{top + h + 50}px;background:#fff;border-left:16px solid {VERDE};padding:26px 32px;box-shadow:0 14px 34px rgba(0,0,0,.45);animation-delay:{tc:.2f}s">
 <div style="font:500 44px/1.36 Lora,serif;color:{NAVY}">{comic.marcado(cita).replace('<b>','<b style="background:rgba(0,232,135,.55);color:#003378">')}</div>
-<div class="lbl" style="margin-top:16px;color:#5a6b8c;font-size:22px">Texto literal de la sentencia</div></div>""",
+<div class="lbl" style="margin-top:16px;color:#5a6b8c;font-size:22px">{html.escape(spec.get("cita_etiqueta", "Texto literal de la sentencia"))}</div></div>""",
 f""".card{{position:absolute;left:{(VW-DW)//2}px;width:{DW}px;background:#fff;box-shadow:0 18px 40px rgba(0,0,0,.5)}} .card img{{width:100%;height:100%;display:block}}
 .bar{{position:absolute;background:rgba(0,232,135,.5);transform-origin:left;transform:scaleX(0);animation:s .45s ease-out forwards;mix-blend-mode:multiply}}
 @keyframes s{{to{{transform:scaleX(1)}}}}""")

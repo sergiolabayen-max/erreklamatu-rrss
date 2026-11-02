@@ -26,6 +26,13 @@ Los archivos están en la carpeta del Mac `Documents/LANA/Erreklamatu/Marketing/
 | `adolescentes-aeropuerto-cenital_8190935.mp4` | https://www.magnific.com/premium-video/overhead-view-women-waiting-airport-terminal-looking-phone_8190935 | 30/10/2026 | Real, vertical 720 × 1280, 40 s; chicas jóvenes con maletas en la sala de espera, vista cenital | D2 v3 (gancho, lista, consejo, portada) |
 | `grupo-esperando-cenital_8190669.mp4` | https://www.magnific.com/premium-video/overhead-view-diverse-passengers-waiting-airport-lounge_8190669 | 30/10/2026 | Real, vertical 720 × 1280, 24 s; grupo de jóvenes esperando, vista cenital, sin caras | D2 v3 (sentencia, consejo) |
 | `profesionales-maleta-caminando_1275754.mp4` | https://www.magnific.com/premium-video/they-re-their-way_1275754 | 30/10/2026 | Real, 1280 × 720, 12 s; tres profesionales de aspecto mediterráneo con maleta | D3 v3 (gancho, consejo, portada) |
+| `aeropuerto-espera-retraso_7781157.mp4` | https://www.magnific.com/premium-video/crowd-airport-waiting-after-global-disruption-delays-flight_7781157 | 02/11/2026 | Real; gente esperando en la terminal ante el panel | D5 v3 / PUB-0525 (gancho, portada) |
+| `avion-pista-atardecer_3119300.mp4` | https://www.magnific.com/premium-video/airplane-runway-dusk-with-another-jet-silhouette-sky_3119300 | 02/11/2026 | Real; avión en pista al atardecer | D5 v3 / PUB-0525 (sentencia, consejo) |
+| `estacion-autobuses-autocar_7978146.mp4` | https://www.magnific.com/premium-video/teen-girl-mother-going-vacation-via-intercity-coach-bus-station_7978146 | 02/11/2026 | Real; estación de autobuses | D5 v3 / PUB-0525 (lista) |
+| `alumnos-mochila-pasillo-vertical_8106137.mp4` | https://www.magnific.com/premium-video/vertical-video-walking-center-girl-class-school-hall-with-black-backpack-tied-sweater_8106137 | 02/11/2026 | Real, vertical; alumnos con mochila en un pasillo | D6 v3 / PUB-0526 (gancho, portada) |
+| `roma-noche-coliseo.mp4` | Magnific, colección Getty Images, ref. 623150756 | 02/11/2026 | Real; Roma de noche | D6 v3 / PUB-0526 (demanda) |
+| `catania-etna-dron_5028298.mp4` | https://www.magnific.com/premium-video/flying-towards-most-active-volcano-europe-aerial-view-mount-etna-catania-s-main-street-unesco-world-heritage-sicily-italy_5028298 | 02/11/2026 | Real, dron; Catania y el Etna | D6 v3 / PUB-0526 (demanda, lista) |
+| `hotel-recepcion-timbre_2800396.mp4` | https://www.magnific.com/free-video/close-up-view-reception-bell-counter_2800396 | 02/11/2026 | Real, gratuito; timbre de recepción de hotel | D6 v3 / PUB-0526 (consejo) |
 
 Cómo saber si es IA: la ficha de Magnific muestra la etiqueta «AI-generated».
 
