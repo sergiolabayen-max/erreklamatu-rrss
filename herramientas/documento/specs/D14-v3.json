@@ -42,6 +42,10 @@
     150,
     60
    ],
+   "columna": [
+    215,
+    1555
+   ],
    "doc_entra": 2.0,
    "cita": "«… *no tiene sentido que el demandante aceptara la modificación sólo para parte del trayecto*. En consecuencia, la denegación del *embarque debe considerarse injustificada*.»",
    "locucion": "Le habían cambiado el itinerario y él lo había aceptado. Air Canada decía que solo para una parte del viaje. Para el juez, eso no tenía sentido: la denegación de embarque fue injustificada.",
@@ -62,6 +66,10 @@
    "margen": [
     150,
     60
+   ],
+   "columna": [
+    215,
+    1555
    ],
    "doc_entra": 0.2,
    "cita": "«Las circunstancias que el actor describe *justifican una afectación psíquica*…»",
