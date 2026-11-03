@@ -190,18 +190,25 @@ f""".card{{position:absolute;left:{(VW-DW)//2}px;width:{DW}px;background:#fff;bo
 @keyframes s{{to{{transform:scaleX(1)}}}}""")
 
 def capa_lista(spec, t, pre):
+    # Ajuste a la zona segura (3/11/2026, PUB-0520): con 5 partidas o una de dos líneas, el total
+    # caía bajo la interfaz de las redes. Con muchas filas se compacta todo para que el total
+    # termine por encima de y≈1480 (las plataformas tapan la franja inferior).
+    n = len(t["items"])
+    largo = sum(len(it['t']) > 22 for it in t["items"])
+    denso = n >= 5 or (n == 4 and largo)
+    ft, fd, pad, gap, ico, fc, ftot = (50, 31, 20, 20, 70, 54, 76) if denso else (62, 38, 34, 40, 90, 64, 88)
     filas = "".join(f"""<div class="an fila" style="animation-delay:{pre + it.get('en', 0):.2f}s"><div class="ico">✓</div>
-<div><div class="tit" style="font-size:62px;color:#fff">{html.escape(it['t'])}</div><div style="font:600 38px/1.25 Poppins;color:#dfe8ff;margin-top:6px">{html.escape(it['d'])}</div></div></div>""" for it in t["items"])
+<div><div class="tit" style="font-size:{ft}px;color:#fff">{html.escape(it['t'])}</div><div style="font:600 {fd}px/1.25 Poppins;color:#dfe8ff;margin-top:4px">{html.escape(it['d'])}</div></div></div>""" for it in t["items"])
     ult = pre + max(it.get("en", 0) for it in t["items"]) + 0.6
     return _doc(f"""<div style="position:absolute;inset:0;background:rgba(11,31,68,.72)"></div><div class="pie"></div>
-<div style="position:absolute;left:60px;right:60px;top:130px;display:flex;flex-direction:column;gap:40px">
+<div style="position:absolute;left:60px;right:60px;top:130px;display:flex;flex-direction:column;gap:{gap}px">
 <div style="display:flex;justify-content:space-between;align-items:center">{logo_caja(84)}<div class="pill">{_cat(spec)}</div></div>
-<div class="tit" style="font-size:64px;color:#fff;margin:14px 0 4px">{html.escape(t['cabecera'])}</div>
+<div class="tit" style="font-size:{fc}px;color:#fff;margin:10px 0 4px">{html.escape(t['cabecera'])}</div>
 {filas}
-<div class="an" style="margin-top:8px;background:{VERDE};color:{NAVY};padding:22px 30px;box-shadow:8px 8px 0 rgba(0,0,0,.4);animation-delay:{ult:.2f}s">
-<div style="font:600 34px Poppins">{html.escape(t['total'][0])}</div><div class="tit" style="font-size:88px;text-shadow:none">{html.escape(t['total'][1])}</div></div></div>""",
-f""".fila{{display:flex;gap:30px;align-items:center;background:rgba(255,255,255,.10);border-left:10px solid {VERDE};padding:34px 30px}}
-.ico{{flex:none;width:90px;height:90px;border-radius:50%;background:{VERDE};color:{NAVY};font:700 60px/90px Poppins;text-align:center}}""")
+<div class="an" style="margin-top:8px;background:{VERDE};color:{NAVY};padding:20px 30px;box-shadow:8px 8px 0 rgba(0,0,0,.4);animation-delay:{ult:.2f}s">
+<div style="font:600 32px Poppins">{html.escape(t['total'][0])}</div><div class="tit" style="font-size:{ftot}px;text-shadow:none">{html.escape(t['total'][1])}</div></div></div>""",
+f""".fila{{display:flex;gap:26px;align-items:center;background:rgba(255,255,255,.10);border-left:10px solid {VERDE};padding:{pad}px 28px}}
+.ico{{flex:none;width:{ico}px;height:{ico}px;border-radius:50%;background:{VERDE};color:{NAVY};font:700 {int(ico*.66)}px/{ico}px Poppins;text-align:center}}""")
 
 def capa_consejo(spec, t):
     y = t.get('marco_y', MARCO_Y) + MARCO_H + 70
