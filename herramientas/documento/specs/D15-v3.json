@@ -40,6 +40,10 @@
     150,
     60
    ],
+   "columna": [
+    215,
+    1560
+   ],
    "doc_entra": 1.2,
    "cita": "«… *considera que han sido ya indemnizados los pasajeros*…»",
    "locucion": "La aerolínea ya les había pagado lo que gastaron en ropa y en lo básico. Y decía que con eso ya estaban indemnizados.",
@@ -62,6 +66,10 @@
    "margen": [
     110,
     60
+   ],
+   "columna": [
+    215,
+    1560
    ],
    "doc_entra": 0.2,
    "cita": "«… *no aparecer la maleta ya es un trastorno importante* (…) *lo fijamos en 50 euros por día*…»",
