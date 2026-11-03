@@ -54,142 +54,142 @@ def serie(k, idv, cat, titulo, dato, gancho, items, etiqueta, legal=L261, tam=84
 serie("C1c", "C1c-errores-indemnizacion-corto", "CONSEJOS", ["3 errores que te pueden dejar sin indemnización", "si te retrasan o cancelan *un vuelo*"],
  ["3 errores", "que te pueden dejar sin indemnización"],
  ["Tres errores que te pueden dejar sin indemnización si te retrasan o cancelan un vuelo."],
- [(["Uno: tirar la tarjeta de embarque. Es tu prueba."], "Tirar la *tarjeta de embarque*"),
-  (["Dos: mirar la hora de salida. Cuenta la de llegada."], "Mirar la hora *de salida*"),
-  (["Tres: aceptar un vale. Puedes estar renunciando al dinero."], "Aceptar un *vale* sin leer la letra pequeña", 84)], "ERROR")
+ [(["Uno: tirar la tarjeta de embarque.", "Es tu prueba de que ibas en ese vuelo."], "Tirar la *tarjeta de embarque*"),
+  (["Dos: mirar la hora de salida.", "Lo que cuenta es la hora de llegada."], "Mirar la hora *de salida*"),
+  (["Tres: aceptar un vale sin leer la letra pequeña.", "Puedes estar renunciando al dinero."], "Aceptar un *vale* sin leer la letra pequeña", 84)], "ERROR")
 
 # C2 · «10 preguntas frecuentes sobre cancelaciones de vuelos» (Navidad fuera). Reglamento 261/2004, arts. 5, 7, 8 y 9.
 serie("C2", "C2-cancelacion-derechos", "TUS DERECHOS", ["Te cancelan el vuelo: 5 cosas que la aerolínea te debe", "*conócelas* antes de aceptar nada"],
  ["250-600 €", "de compensación si la culpa es de la aerolínea"],
- ["¿Te han cancelado el vuelo?", "Esto es lo que la aerolínea te debe."],
- [(["Uno: tú eliges.", "Que te devuelvan el billete o que te lleven a tu destino en otro vuelo."], "Tú eliges: *reembolso u otro vuelo*"),
-  (["Dos: mientras esperas, comida y bebida.", "Y si toca pasar la noche, hotel y traslado."], "Comida, bebida y *hotel* si hace falta"),
-  (["Tres: una compensación de 250 a 600 euros, según la distancia.", "Salvo circunstancias extraordinarias."], "De *250 a 600 €* según la distancia"),
-  (["Cuatro: si te avisan con menos de 14 días, por regla general, también hay compensación."], "Aviso con menos de *14 días*"),
-  (["Cinco: si pierdes la conexión y todo iba en la misma reserva,", "te tienen que llevar hasta el destino final."], "Conexión perdida: *hasta el destino final*", 80)], "DERECHO")
+ ["¿Te han cancelado el vuelo?", "Esto es lo que la aerolínea te debe, aunque no te lo diga."],
+ [(["Uno: tú eliges.", "Que te devuelvan el billete o que te lleven a tu destino en otro vuelo,", "lo antes posible o en la fecha que te venga mejor."], "Tú eliges: *reembolso u otro vuelo*"),
+  (["Dos: mientras esperas, comida y bebida.", "Y si toca pasar la noche, hotel y traslado.", "Si lo pagas tú, guarda los tickets."], "Comida, bebida y *hotel* si hace falta"),
+  (["Tres: una compensación de 250 a 600 euros, según la distancia.", "Salvo circunstancias extraordinarias,", "y eso lo tiene que demostrar la aerolínea."], "De *250 a 600 €* según la distancia"),
+  (["Cuatro: si te avisan con menos de 14 días, por regla general, también hay compensación.", "Aunque ya te hayan devuelto el billete."], "Aviso con menos de *14 días*"),
+  (["Cinco: si pierdes la conexión y todo iba en la misma reserva,", "te tienen que llevar hasta el destino final.", "Y la compensación se calcula hasta ese destino."], "Conexión perdida: *hasta el destino final*", 80)], "DERECHO")
 serie("C2c", "C2c-cancelacion-derechos-corto", "TUS DERECHOS", ["Te cancelan el vuelo: 3 cosas que la aerolínea te debe", "*conócelas* antes de aceptar nada"],
  ["250-600 €", "de compensación si la culpa es de la aerolínea"],
- ["¿Te cancelan el vuelo? Tres cosas que te deben."],
- [(["Uno: reembolso u otro vuelo. Tú eliges."], "Tú eliges: *reembolso u otro vuelo*"),
-  (["Dos: comida, bebida y hotel si hace falta."], "Comida, bebida y *hotel* si hace falta"),
-  (["Tres: de 250 a 600 euros, si la culpa es suya."], "De *250 a 600 €* según la distancia")], "DERECHO")
+ ["¿Te cancelan el vuelo?", "Tres cosas que la aerolínea te debe."],
+ [(["Uno: reembolso u otro vuelo.", "Tú eliges, no la aerolínea."], "Tú eliges: *reembolso u otro vuelo*"),
+  (["Dos: comida, bebida y hotel si hace falta, mientras esperas."], "Comida, bebida y *hotel* si hace falta"),
+  (["Tres: de 250 a 600 euros si la culpa es suya, según la distancia."], "De *250 a 600 €* según la distancia")], "DERECHO")
 
 # C3 · «10 preguntas frecuentes sobre retrasos de vuelos» (Semana Santa fuera). Arts. 3, 6, 7, 8 y 9; STJUE Sturgeon (C-402/07) y Germanwings (C-452/13).
 # El artículo dice que se puede pedir el reembolso si el viaje «pierde su finalidad»; el vídeo usa la regla del reglamento: 5 horas o más (art. 6.1.iii).
 serie("C3", "C3-retraso-claves", "TUS DERECHOS", ["Tu vuelo se retrasa: 5 cosas que debes saber", "para *no perder* lo que te corresponde"],
  ["3 horas", "de retraso en destino: puede haber compensación"],
- ["¿Tu vuelo va con retraso?", "Cinco cosas que tienes que saber."],
- [(["Uno: con un retraso largo, te tienen que dar de comer y de beber.", "Desde dos horas, según la distancia."], "Comida y bebida *desde 2 horas*"),
-  (["Dos: el retraso se cuenta hasta que se abren las puertas del avión,", "no hasta que aterriza."], "Cuenta *cuando se abren las puertas*"),
-  (["Tres: si llegas con tres horas o más de retraso,", "puede haber una compensación de 250 a 600 euros."], "*3 horas* o más: compensación"),
-  (["Cuatro: con cinco horas o más de retraso,", "puedes no volar y pedir que te devuelvan el billete."], "*5 horas*: puedes no volar y pedir el dinero", 80),
-  (["Cinco: si sales de un aeropuerto europeo, te protege la ley europea,", "aunque la aerolínea no sea europea."], "Sales de la UE: *te protege igual*")], "CLAVE")
+ ["¿Tu vuelo va con retraso?", "Cinco cosas que tienes que saber antes de irte del aeropuerto."],
+ [(["Uno: con un retraso largo, te tienen que dar de comer y de beber.", "Desde dos horas, según la distancia.", "Y si toca pasar la noche, hotel."], "Comida y bebida *desde 2 horas*"),
+  (["Dos: el retraso se cuenta hasta que se abren las puertas del avión,", "no hasta que aterriza.", "Esos minutos pueden marcar la diferencia."], "Cuenta *cuando se abren las puertas*"),
+  (["Tres: si llegas con tres horas o más de retraso,", "puede haber una compensación de 250 a 600 euros.", "La misma que en una cancelación."], "*3 horas* o más: compensación"),
+  (["Cuatro: con cinco horas o más de retraso,", "puedes no volar y pedir que te devuelvan el billete.", "Y si estás en una escala, que te lleven de vuelta al origen."], "*5 horas*: puedes no volar y pedir el dinero", 80),
+  (["Cinco: si sales de un aeropuerto europeo, te protege la ley europea,", "aunque la aerolínea no sea europea.", "Y si vuelas a Europa con una aerolínea europea, también."], "Sales de la UE: *te protege igual*")], "CLAVE")
 serie("C3c", "C3c-retraso-claves-corto", "TUS DERECHOS", ["Tu vuelo se retrasa: 3 cosas que debes saber", "para *no perder* lo que te corresponde"],
  ["3 horas", "de retraso en destino: puede haber compensación"],
- ["¿Tu vuelo se retrasa? Tres cosas que debes saber."],
- [(["Uno: con un retraso largo, te tienen que dar de comer."], "Comida y bebida *desde 2 horas*"),
-  (["Dos: cuenta cuando se abren las puertas, no cuando aterriza."], "Cuenta *cuando se abren las puertas*"),
-  (["Tres: con tres horas o más en destino, puede haber compensación."], "*3 horas* o más: compensación")], "CLAVE")
+ ["¿Tu vuelo se retrasa?", "Tres cosas que debes saber para no perder dinero."],
+ [(["Uno: con un retraso largo, te tienen que dar de comer y de beber."], "Comida y bebida *desde 2 horas*"),
+  (["Dos: el retraso cuenta cuando se abren las puertas, no cuando aterriza."], "Cuenta *cuando se abren las puertas*"),
+  (["Tres: con tres horas o más de retraso en destino, puede haber compensación."], "*3 horas* o más: compensación")], "CLAVE")
 
 # C4 · «10 preguntas frecuentes sobre reclamaciones por equipaje» (verano fuera). Convenio de Montreal, arts. 17.3, 19 y 31.
 # No se da la cifra del tope: el artículo dice 1.288 DEG, pero desde el 28/12/2024 es 1.519 DEG (revisión de la OACI; BOE-A-2025-3872).
 serie("C4", "C4-maleta-pasos", "CONSEJOS", ["Tu maleta no aparece: 5 pasos para reclamar", "el primero, *antes de salir* del aeropuerto"],
  ["5 pasos", "para reclamar si tu maleta no aparece"],
- ["¿Tu maleta no ha salido por la cinta?", "Cinco pasos para reclamar."],
- [(["Uno: antes de salir del aeropuerto,", "haz el parte de irregularidad de equipaje en el mostrador."], "El *parte (PIR)* antes de salir"),
-  (["Dos: si tienes que comprar ropa o cosas de aseo, guarda los tickets.", "Solo lo razonable."], "Compras urgentes: *guarda los tickets*"),
-  (["Tres: aunque te digan que fue culpa del servicio de equipajes,", "responde la aerolínea."], "Responde *la aerolínea*"),
-  (["Cuatro: los plazos son cortos.", "Siete días si la maleta llega dañada, veintiuno si llega tarde."], "*7 días* si está dañada, *21* si llega tarde", 80),
-  (["Cinco: si en veintiún días no aparece, se da por perdida.", "Haz una lista de lo que llevabas."], "21 días sin maleta: *perdida*")], "PASO", legal=LMTL)
+ ["¿Tu maleta no ha salido por la cinta?", "Cinco pasos para reclamar sin perder tus derechos."],
+ [(["Uno: antes de salir del aeropuerto,", "haz el parte de irregularidad de equipaje en el mostrador.", "Y guarda tu copia."], "El *parte (PIR)* antes de salir"),
+  (["Dos: si tienes que comprar ropa o cosas de aseo, guarda los tickets.", "Solo lo razonable.", "Se reclaman aunque la maleta aparezca después."], "Compras urgentes: *guarda los tickets*"),
+  (["Tres: aunque te digan que fue culpa del servicio de equipajes,", "responde la aerolínea.", "No dejes que te manden a otro sitio."], "Responde *la aerolínea*"),
+  (["Cuatro: los plazos son cortos.", "Siete días si la maleta llega dañada, veintiuno si llega tarde.", "Siempre por escrito, y guarda una copia."], "*7 días* si está dañada, *21* si llega tarde", 80),
+  (["Cinco: si en veintiún días no aparece, se da por perdida.", "Haz una lista de lo que llevabas,", "con facturas o fotos si las tienes."], "21 días sin maleta: *perdida*")], "PASO", legal=LMTL)
 serie("C4c", "C4c-maleta-pasos-corto", "CONSEJOS", ["Tu maleta no aparece: 3 pasos para reclamar", "el primero, *antes de salir* del aeropuerto"],
  ["3 pasos", "para reclamar si tu maleta no aparece"],
- ["¿Tu maleta no aparece? Tres pasos para reclamar."],
- [(["Uno: el parte, antes de salir del aeropuerto."], "El *parte (PIR)* antes de salir"),
-  (["Dos: compras urgentes, con ticket."], "Compras urgentes: *guarda los tickets*"),
-  (["Tres: plazos cortos. Siete días si está dañada, veintiuno si llega tarde."], "*7 días* si está dañada, *21* si llega tarde", 80)], "PASO", legal=LMTL)
+ ["¿Tu maleta no aparece?", "Tres pasos para reclamar sin perder tus derechos."],
+ [(["Uno: haz el parte en el mostrador, antes de salir del aeropuerto."], "El *parte (PIR)* antes de salir"),
+  (["Dos: si haces compras urgentes, guarda los tickets."], "Compras urgentes: *guarda los tickets*"),
+  (["Tres: los plazos son cortos.", "Siete días si está dañada, veintiuno si llega tarde."], "*7 días* si está dañada, *21* si llega tarde", 80)], "PASO", legal=LMTL)
 
 # C5 · Nota de prensa «10 cosas que debes saber si vas a volar con niños» (verano fuera).
 serie("C5", "C5-volar-con-ninos", "CONSEJOS", ["Volar con niños: 5 cosas que debes saber", "antes de llegar al *aeropuerto*"],
  ["5 consejos", "para volar con niños sin sustos"],
- ["¿Vas a volar con niños?", "Cinco cosas que te pueden ahorrar un disgusto."],
- [(["Uno: la leche, el agua y la comida del bebé pueden pasar el control,", "aunque superen el límite de líquidos. Avisa al pasar."], "La comida del bebé *sí pasa el control*", 80),
-  (["Dos: pregunta si el carrito llega hasta la puerta del avión.", "Y si sale roto, haz el parte antes de salir."], "El carrito: *¿hasta la puerta del avión?*", 80),
-  (["Tres: revisa los asientos al hacer el check-in,", "para no acabar separados de tus hijos."], "Revisa los asientos *en el check-in*"),
-  (["Cuatro: lo imprescindible del bebé, en el equipaje de mano.", "Pañales, leche, medicación."], "Lo del bebé, *en el equipaje de mano*"),
-  (["Cinco: si os toca pasar la noche por un retraso o una cancelación,", "la aerolínea tiene que daros hotel y traslado."], "¿Noche fuera? *Hotel y traslado*")], "CONSEJO")
+ ["¿Vas a volar con niños?", "Cinco cosas que te pueden ahorrar un disgusto en el aeropuerto."],
+ [(["Uno: la leche, el agua y la comida del bebé pueden pasar el control,", "aunque superen el límite de líquidos.", "Avisa al pasar, y lleva solo lo del viaje."], "La comida del bebé *sí pasa el control*", 80),
+  (["Dos: pregunta si el carrito llega hasta la puerta del avión.", "Y si sale roto, haz el parte antes de salir,", "como con una maleta."], "El carrito: *¿hasta la puerta del avión?*", 80),
+  (["Tres: revisa los asientos al hacer el check-in,", "para no acabar separados de tus hijos.", "Cuanto antes, mejor."], "Revisa los asientos *en el check-in*"),
+  (["Cuatro: lo imprescindible del bebé, en el equipaje de mano.", "Pañales, leche, medicación.", "Por si la maleta no llega."], "Lo del bebé, *en el equipaje de mano*"),
+  (["Cinco: si os toca pasar la noche por un retraso o una cancelación,", "la aerolínea tiene que daros hotel y traslado.", "Y comida mientras esperáis."], "¿Noche fuera? *Hotel y traslado*")], "CONSEJO")
 serie("C5c", "C5c-volar-con-ninos-corto", "CONSEJOS", ["Volar con niños: 3 cosas que debes saber", "antes de llegar al *aeropuerto*"],
  ["3 consejos", "para volar con niños sin sustos"],
- ["¿Vas a volar con niños? Tres cosas que debes saber."],
- [(["Uno: la leche del bebé sí pasa el control."], "La comida del bebé *sí pasa el control*", 80),
-  (["Dos: revisa los asientos en el check-in."], "Revisa los asientos *en el check-in*"),
-  (["Tres: lo del bebé, en el equipaje de mano."], "Lo del bebé, *en el equipaje de mano*")], "CONSEJO")
+ ["¿Vas a volar con niños?", "Tres cosas que debes saber antes de ir al aeropuerto."],
+ [(["Uno: la leche y la comida del bebé sí pasan el control.", "Avisa al pasar."], "La comida del bebé *sí pasa el control*", 80),
+  (["Dos: revisa los asientos en el check-in, para ir juntos."], "Revisa los asientos *en el check-in*"),
+  (["Tres: lo imprescindible del bebé, en el equipaje de mano."], "Lo del bebé, *en el equipaje de mano*")], "CONSEJO")
 
 # C6 · «Diez cosas que quizá no sabías sobre tus derechos como pasajero». Arts. 4, 7, 8 y 9; plazo de 5 años (art. 1964 CC, en el Estado español).
 # El artículo describe mal el ámbito del reglamento (aerolíneas con sede en Europa «en cualquier parte del mundo»): no se usa.
 serie("C6", "C6-derechos-desconocidos", "TUS DERECHOS", ["5 derechos del pasajero que quizá no conocías", "y que *te pueden valer dinero*"],
  ["5 años", "para reclamar tu vuelo"],
- ["Cinco derechos como pasajero de avión que casi nadie conoce."],
- [(["Uno: si te dejan en tierra por overbooking,", "además de otro vuelo, tienes derecho a una compensación."], "Overbooking: *también hay compensación*"),
-  (["Dos: la compensación depende de la distancia, no de lo que pagaste.", "Aunque el billete fuera barato."], "Depende de *la distancia*, no del precio"),
-  (["Tres: si no te ofrecen otro vuelo, cómpralo tú,", "guarda la factura y reclámalo."], "¿Sin otro vuelo? *Cómpralo y reclámalo*", 80),
-  (["Cuatro: durante la espera, te tienen que dejar llamar o enviar un correo."], "Tienes derecho a *comunicarte*"),
-  (["Cinco: en el Estado español, tienes cinco años para reclamar.", "Pero mejor no esperes."], "*5 años* para reclamar")], "DERECHO")
+ ["Cinco derechos como pasajero de avión que casi nadie conoce.", "Y que te pueden valer dinero."],
+ [(["Uno: si te dejan en tierra por overbooking,", "además de otro vuelo, tienes derecho a una compensación.", "De 250 a 600 euros, según la distancia."], "Overbooking: *también hay compensación*"),
+  (["Dos: la compensación depende de la distancia, no de lo que pagaste.", "Aunque el billete fuera barato,", "o lo compraras en oferta."], "Depende de *la distancia*, no del precio"),
+  (["Tres: si no te ofrecen otro vuelo, cómpralo tú,", "guarda la factura y reclámalo.", "Lo mismo con el hotel o los taxis."], "¿Sin otro vuelo? *Cómpralo y reclámalo*", 80),
+  (["Cuatro: durante la espera, te tienen que dejar llamar o enviar un correo.", "Dos llamadas o dos correos, gratis."], "Tienes derecho a *comunicarte*"),
+  (["Cinco: en el Estado español, tienes cinco años para reclamar.", "Pero mejor no esperes:", "es más fácil con los papeles a mano."], "*5 años* para reclamar")], "DERECHO")
 serie("C6c", "C6c-derechos-desconocidos-corto", "TUS DERECHOS", ["3 derechos del pasajero que quizá no conocías", "y que *te pueden valer dinero*"],
  ["5 años", "para reclamar tu vuelo"],
- ["Tres derechos del pasajero que casi nadie conoce."],
- [(["Uno: el overbooking también da compensación."], "Overbooking: *también hay compensación*"),
-  (["Dos: depende de la distancia, no del precio."], "Depende de *la distancia*, no del precio"),
-  (["Tres: tienes cinco años para reclamar."], "*5 años* para reclamar")], "DERECHO")
+ ["Tres derechos del pasajero que casi nadie conoce, y que valen dinero."],
+ [(["Uno: el overbooking también da derecho a compensación."], "Overbooking: *también hay compensación*"),
+  (["Dos: depende de la distancia, no de lo que pagaste por el billete."], "Depende de *la distancia*, no del precio"),
+  (["Tres: en el Estado español, tienes cinco años para reclamar."], "*5 años* para reclamar")], "DERECHO")
 
 # C7 · «10 consejos prácticos para reclamar un vuelo» (agosto fuera). Arts. 8.1.a (7 días) y 15 (sin renuncias). Fuera: el «solo el 5 % cobra
 # por su cuenta», que el artículo no respalda con ninguna fuente.
 serie("C7", "C7-trucos-reclamar", "CONSEJOS", ["5 trucos para reclamar tu vuelo", "y *no dejar dinero* por el camino"],
  ["5 trucos", "para reclamar tu vuelo"],
  ["¿Vas a reclamar un vuelo?", "Cinco trucos para no dejar dinero por el camino."],
- [(["Uno: si pides el reembolso, tienen siete días para devolverte el dinero."], "Reembolso en *7 días*"),
-  (["Dos: no firmes nada en lo que renuncies a la compensación."], "No firmes *renuncias*"),
-  (["Tres: habla con el resto de pasajeros.", "Cuantos más reclaméis, más fuerza."], "Habla con *los demás pasajeros*"),
-  (["Cuatro: no entregues el talón de la maleta.", "Y si te lo piden, hazle una foto."], "El talón de la maleta: *hazle una foto*", 80),
-  (["Cinco: ponte en manos de especialistas.", "La consulta es gratis y solo cobramos si ganamos."], "Consulta *gratis*")], "TRUCO")
+ [(["Uno: si pides el reembolso, tienen siete días para devolverte el dinero.", "En dinero, no en bonos,", "salvo que tú lo aceptes firmando."], "Reembolso en *7 días*"),
+  (["Dos: no firmes nada en lo que renuncies a la compensación.", "Y si ya has firmado algo, consúltalo igualmente:", "esas renuncias no siempre valen."], "No firmes *renuncias*"),
+  (["Tres: habla con el resto de pasajeros.", "Cuantos más reclaméis, más fuerza.", "Apunta sus nombres y teléfonos."], "Habla con *los demás pasajeros*"),
+  (["Cuatro: no entregues el talón de la maleta.", "Y si te lo piden, hazle una foto.", "Te servirá para reclamar."], "El talón de la maleta: *hazle una foto*", 80),
+  (["Cinco: ponte en manos de especialistas.", "Revisamos tu caso gratis,", "y solo cobramos si ganamos."], "Consulta *gratis*")], "TRUCO")
 serie("C7c", "C7c-trucos-reclamar-corto", "CONSEJOS", ["3 trucos para reclamar tu vuelo", "y *no dejar dinero* por el camino"],
  ["3 trucos", "para reclamar tu vuelo"],
- ["Tres trucos para reclamar tu vuelo."],
- [(["Uno: el reembolso, en siete días."], "Reembolso en *7 días*"),
-  (["Dos: no firmes renuncias."], "No firmes *renuncias*"),
-  (["Tres: habla con los demás pasajeros."], "Habla con *los demás pasajeros*")], "TRUCO")
+ ["Tres trucos para reclamar tu vuelo sin dejar dinero por el camino."],
+ [(["Uno: si pides el reembolso, tienen siete días para devolvértelo."], "Reembolso en *7 días*"),
+  (["Dos: no firmes nada en lo que renuncies a la compensación."], "No firmes *renuncias*"),
+  (["Tres: habla con los demás pasajeros.", "Juntos, más fuerza."], "Habla con *los demás pasajeros*")], "TRUCO")
 
 # C8 · «20 consejos para evitar problemas con tu vuelo» (verano fuera). Prevención; fuera lo que el artículo no respalda
 # (que el check-in online «te libra» del overbooking) y las marcas de aplicaciones.
 serie("C8", "C8-evitar-problemas", "CONSEJOS", ["5 consejos para que tu vuelo no te dé problemas", "*antes* de salir de casa"],
  ["5 consejos", "antes de volar"],
- ["Cinco consejos para que tu vuelo no te dé problemas."],
- [(["Uno: si hay escalas, que vayan en la misma reserva", "y con margen entre vuelos."], "Escalas: *misma reserva y con margen*", 80),
-  (["Dos: activa las alertas de tu vuelo y mira el correo.", "Los cambios llegan por ahí."], "Activa *las alertas*"),
-  (["Tres: comprueba que tu pasaporte está vigente.", "Algunos países piden seis meses de validez."], "Pasaporte: *¿te quedan 6 meses?*"),
-  (["Cuatro: etiqueta la maleta por fuera y por dentro, con tu teléfono."], "Etiqueta *por fuera y por dentro*"),
-  (["Cinco: en el equipaje de mano, una batería y lo básico para unas horas."], "Batería y lo básico *en la mano*")], "CONSEJO")
+ ["Cinco consejos para que tu vuelo no te dé problemas.", "Apúntalos antes de salir de casa."],
+ [(["Uno: si hay escalas, que vayan en la misma reserva", "y con margen entre vuelos.", "Si van por separado y pierdes el segundo, la aerolínea no tiene por qué recolocarte."], "Escalas: *misma reserva y con margen*", 80),
+  (["Dos: activa las alertas de tu vuelo y mira el correo.", "Los cambios de horario llegan por ahí.", "Y revísalo el día antes."], "Activa *las alertas*"),
+  (["Tres: comprueba que tu pasaporte está vigente.", "Algunos países piden seis meses de validez,", "y otros, visado o autorización previa."], "Pasaporte: *¿te quedan 6 meses?*"),
+  (["Cuatro: etiqueta la maleta por fuera y por dentro, con tu teléfono.", "Y hazle una foto antes de facturar."], "Etiqueta *por fuera y por dentro*"),
+  (["Cinco: en el equipaje de mano, una batería y lo básico para unas horas.", "Medicinas incluidas.", "Por si hay retraso o la maleta no llega."], "Batería y lo básico *en la mano*")], "CONSEJO")
 serie("C8c", "C8c-evitar-problemas-corto", "CONSEJOS", ["3 consejos para que tu vuelo no te dé problemas", "*antes* de salir de casa"],
  ["3 consejos", "antes de volar"],
- ["Tres consejos para que tu vuelo no te dé problemas."],
- [(["Uno: escalas en la misma reserva."], "Escalas: *misma reserva y con margen*", 80),
-  (["Dos: activa las alertas del vuelo."], "Activa *las alertas*"),
-  (["Tres: etiqueta la maleta por fuera y por dentro."], "Etiqueta *por fuera y por dentro*")], "CONSEJO")
+ ["Tres consejos para que tu vuelo no te dé problemas.", "Apúntalos."],
+ [(["Uno: si hay escalas, que vayan en la misma reserva."], "Escalas: *misma reserva y con margen*", 80),
+  (["Dos: activa las alertas del vuelo y mira el correo."], "Activa *las alertas*"),
+  (["Tres: etiqueta la maleta por fuera y por dentro, con tu teléfono."], "Etiqueta *por fuera y por dentro*")], "CONSEJO")
 
 # C9 · «Diez malas prácticas de las compañías aéreas» (Navidad fuera). El artículo dice «más de 15 días»: el reglamento dice 2 semanas (art. 5.1.c).
 # Arts. 5, 8, 14 y 15. Se quedan 4 (las otras ya salen en C1, C2 y C6).
 serie("C9", "C9-malas-practicas", "CUIDADO", ["4 malas prácticas de las aerolíneas", "y qué hacer si *te pasan*"],
  ["4 malas prácticas", "de las aerolíneas, y qué hacer"],
- ["Cuatro malas prácticas de las aerolíneas,", "y qué hacer si te pasan."],
- [(["Una: te cambian el vuelo semanas antes.", "Si te avisan con catorce días o más, no hay compensación, pero puedes pedir que te devuelvan el dinero."], "Te cambian el vuelo: *puedes pedir el dinero*", 80),
-  (["Dos: te dicen que el billete no es reembolsable y te ofrecen un bono.", "Si cancelan ellos, no tienes que aceptarlo."], "¿Un bono? *No estás obligado*"),
-  (["Tres: «lo compraste en una agencia».", "Da igual: tus derechos son los mismos."], "«Fue en una agencia»: *da igual*"),
-  (["Cuatro: no te informan de tus derechos.", "Y tienen que dártelos por escrito."], "Te deben informar *por escrito*")], "PRÁCTICA")
+ ["Cuatro malas prácticas de las aerolíneas,", "y qué hacer si te pasan a ti."],
+ [(["Una: te cambian el vuelo semanas antes.", "Si te avisan con catorce días o más, no hay compensación,", "pero puedes pedir que te devuelvan el dinero.", "No estás obligado a aceptar el cambio."], "Te cambian el vuelo: *puedes pedir el dinero*", 80),
+  (["Dos: te dicen que el billete no es reembolsable y te ofrecen un bono.", "Si cancelan ellos, no tienes que aceptarlo.", "Tienes derecho a que te devuelvan el dinero."], "¿Un bono? *No estás obligado*"),
+  (["Tres: «lo compraste en una agencia».", "Da igual: tus derechos son los mismos.", "Responde la aerolínea que opera el vuelo."], "«Fue en una agencia»: *da igual*"),
+  (["Cuatro: no te informan de tus derechos.", "Y tienen que dártelos por escrito.", "Si cancelan o te dejan en tierra, en un papel con lo que te corresponde."], "Te deben informar *por escrito*")], "PRÁCTICA")
 serie("C9c", "C9c-malas-practicas-corto", "CUIDADO", ["3 malas prácticas de las aerolíneas", "y qué hacer si *te pasan*"],
  ["3 malas prácticas", "de las aerolíneas, y qué hacer"],
- ["Tres malas prácticas de las aerolíneas."],
- [(["Una: te ofrecen un bono. No tienes que aceptarlo."], "¿Un bono? *No estás obligado*"),
-  (["Dos: «fue en una agencia». Da igual."], "«Fue en una agencia»: *da igual*"),
-  (["Tres: no te informan. Deben hacerlo por escrito."], "Te deben informar *por escrito*")], "PRÁCTICA")
+ ["Tres malas prácticas de las aerolíneas, y qué hacer si te pasan."],
+ [(["Una: te ofrecen un bono.", "Si cancelan ellos, no tienes que aceptarlo."], "¿Un bono? *No estás obligado*"),
+  (["Dos: «fue en una agencia».", "Da igual, tus derechos son los mismos."], "«Fue en una agencia»: *da igual*"),
+  (["Tres: no te informan.", "Y deben hacerlo por escrito."], "Te deben informar *por escrito*")], "PRÁCTICA")
 
 STOCK = {
  "C1": {"1": dict(stock="movil-vuelo-cancelado-tarjeta_8212162.mp4", modo="marco", marco_y=820), "2": dict(stock="tarjeta-embarque-pasaporte-lenta_9692863.mp4", modo="marco"),
