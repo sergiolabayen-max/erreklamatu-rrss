@@ -211,10 +211,12 @@ f""".fila{{display:flex;gap:26px;align-items:center;background:rgba(255,255,255,
 .ico{{flex:none;width:{ico}px;height:{ico}px;border-radius:50%;background:{VERDE};color:{NAVY};font:700 {int(ico*.66)}px/{ico}px Poppins;text-align:center}}""")
 
 def capa_consejo(spec, t):
+    # «num» (opcional): etiqueta numerada encima del titular, para vídeos de consejos (p. ej. «ERROR 1 DE 5»)
     y = t.get('marco_y', MARCO_Y) + MARCO_H + 70
     return _doc(f"""<div class="pie"></div>
 <div class="top">{logo_caja(84)}<div class="pill">{_cat(spec)}</div></div>
 <div style="position:absolute;left:60px;right:60px;top:{y}px;text-align:center">
+{f'<div style="display:inline-block;margin-bottom:26px;background:{VERDE};color:{NAVY};font:800 40px Poppins;letter-spacing:2px;padding:10px 28px 6px">{html.escape(t["num"])}</div>' if t.get('num') else ''}
 <div class="tit" style="font-size:{t.get('tam', 92)}px;color:#fff">{comic.marcado(t['grande']).replace('<b>', f'<b style="color:{VERDE}">')}</div>
 <div style="margin-top:26px;color:#fff;font:700 46px/1.3 Poppins">{html.escape(t.get('pequeno',''))}</div>
 {f'<div style="display:inline-block;margin-top:30px;border:3px solid {VERDE};color:{VERDE};font:600 32px Poppins;padding:10px 24px">{html.escape(t["norma"])}</div>' if t.get('norma') else ''}</div>""")
