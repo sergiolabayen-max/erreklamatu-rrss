@@ -1,0 +1,152 @@
+{
+ "id": "D16-evelop-punta-cana",
+ "categoria": "UN CASO REAL",
+ "juzgado": "Juzgado de lo Mercantil n.º 3 de Bilbao",
+ "fecha": "29 de marzo de 2022",
+ "pdf": "sentencia-D16.pdf",
+ "titulo": [
+  "Bilbao–Punta Cana: les cancelaron el vuelo de Madrid a Punta Cana",
+  "El juez obliga a Evelop a pagarles *hasta las noches de hotel que perdieron*"
+ ],
+ "titulo_tam": 74,
+ "portada_dato": [
+  "719,75 €",
+  "billetes, hotel, taxi, comida y las dos noches perdidas"
+ ],
+ "tramos": [
+  {
+   "tipo": "gancho",
+   "subtitulos": [
+    "Iban de Bilbao a Punta Cana y les cancelaron el vuelo desde Madrid.",
+    "El juez obliga a Evelop a pagarles hasta las dos noches de hotel que no pudieron disfrutar."
+   ],
+   "locucion": "Iban de Bilbao a Punta Cana y les cancelaron el vuelo desde Madrid. El juez obliga a Evelop a pagarles hasta las dos noches de hotel que no pudieron disfrutar.",
+   "voz": "../../../recursos/voces/documento-v3/D16-1.mp3",
+   "stock": "D16-montaje-gancho.mp4",
+   "modo": "marco",
+   "marco_y": 820
+  },
+  {
+   "tipo": "doc",
+   "subtitulos": [
+    "Tuvieron que comprarse otro vuelo, dormir en un hotel y perder dos noches del viaje.",
+    "Evelop había avisado con tiempo, así que no había compensación."
+   ],
+   "pagina_num": 3,
+   "subrayar": [
+    "no hay derecho de compensación"
+   ],
+   "margen": [
+    150,
+    60
+   ],
+   "columna": [
+    215,
+    1560
+   ],
+   "ocultar": [
+    "6",
+    "mayo"
+   ],
+   "doc_entra": 2.0,
+   "cita": "«Existiendo, por tanto, este aviso, *no hay derecho de compensación*.»",
+   "locucion": "Tuvieron que comprarse otro vuelo, dormir en un hotel y perder dos noches del viaje. Evelop había avisado con tiempo, así que no había compensación.",
+   "voz": "../../../recursos/voces/documento-v3/D16-2.mp3",
+   "stock": "pareja-recepcion-hotel_2384284.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "doc",
+   "subtitulos": [
+    "Pero para el juez, los gastos son otra cosa:",
+    "la aerolínea tiene que pagarlos aparte, también las dos noches perdidas en Punta Cana."
+   ],
+   "pagina_num": 4,
+   "subrayar": [
+    "obligación de indemnizar al pasajero de los gastos adicionales",
+    "dos noches de hotel no disfrutadas en Punta Cana"
+   ],
+   "margen": [
+    110,
+    60
+   ],
+   "columna": [
+    215,
+    1560
+   ],
+   "doc_entra": 0.2,
+   "cita": "«… la *obligación de indemnizar al pasajero de los gastos adicionales* (…) las *dos noches de hotel no disfrutadas en Punta Cana*.»",
+   "locucion": "Pero para el juez, los gastos son otra cosa: la aerolínea tiene que pagarlos aparte, también las dos noches perdidas en Punta Cana.",
+   "voz": "../../../recursos/voces/documento-v3/D16-3.mp3",
+   "stock": "despegue-cabina-pilotos_1765936.mp4",
+   "modo": "marco",
+   "desde": 5
+  },
+  {
+   "tipo": "lista",
+   "subtitulos": [],
+   "locucion": "Esto es lo que Evelop tendrá que pagarles: el vuelo que compraron, el hotel, el taxi y la comida, las dos noches perdidas en Punta Cana y los intereses. En total, setecientos diecinueve euros con setenta y cinco.",
+   "cabecera": "Lo que Evelop tendrá que pagarles",
+   "total": [
+    "En total:",
+    "719,75 € + intereses"
+   ],
+   "extra": 1.0,
+   "items": [
+    {
+     "t": "El vuelo que compraron",
+     "d": "para poder llegar a Punta Cana",
+     "palabra": "el vuelo"
+    },
+    {
+     "t": "Hotel, taxi y comida",
+     "d": "mientras esperaban el nuevo vuelo",
+     "palabra": "el hotel"
+    },
+    {
+     "t": "Dos noches en Punta Cana",
+     "d": "las que no pudieron disfrutar",
+     "palabra": "las dos noches"
+    },
+    {
+     "t": "Intereses",
+     "d": "desde la demanda",
+     "palabra": "los intereses"
+    }
+   ],
+   "voz": "../../../recursos/voces/documento-v3/D16-4.mp3",
+   "stock": "bavaro-palmeras-dron-lenta_584504.mp4",
+   "modo": "lleno"
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "¿Te avisaron con tiempo de la cancelación?",
+    "Puede que no haya compensación, pero los gastos que te cause se pueden reclamar.",
+    "Guarda todas las facturas."
+   ],
+   "locucion": "¿Te avisaron con tiempo de la cancelación? Puede que no haya compensación, pero los gastos que te cause se pueden reclamar. Guarda todas las facturas: tienes cinco años.",
+   "grande": "¿Te avisaron *con tiempo*?",
+   "pequeno": "Sin compensación, pero los gastos se pueden reclamar. Guarda las facturas: tienes 5 años.",
+   "norma": "Reglamento (CE) 261/2004, art. 5 · Código Civil, art. 1124",
+   "voz": "../../../recursos/voces/documento-v3/D16-5.mp3",
+   "stock": "D16-montaje-consejo.mp4",
+   "modo": "marco"
+  }
+ ],
+ "cierre": {
+  "titulo": "¿Te ha pasado?",
+  "texto": "Te ayudamos a reclamar a la aerolínea.",
+  "subtitulos": [
+   "Llama al 944 027 596"
+  ],
+  "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
+  "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
+  "legal": "Reglamento (CE) 261/2004, art. 5; Código Civil, art. 1124. Imágenes de archivo. Cada caso se estudia de forma individual."
+ },
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3",
+ "portada_stock": "punta-cana-bavaro-playa_6513612.mp4",
+ "portada_desde": 2,
+ "portada_modo": "marco",
+ "portada_marco_y": 640
+}

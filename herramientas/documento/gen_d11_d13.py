@@ -124,6 +124,29 @@ S["D15"] = dict(id="D15-maletas-bangkok", categoria="UN CASO REAL", juzgado="Juz
  ],
  cierre=dict(CIERRE, legal="Convenio de Montreal, arts. 19, 22 y 31. Imágenes de archivo. Cada caso se estudia de forma individual."), musica=MUS)
 
+# D16 · Evelop, Bilbao-Punta Cana con escala en Madrid: avisó con tiempo (sin compensación), pero paga los gastos y las dos noches perdidas
+# (Mercantil n.º 3 de Bilbao, 29/3/2022). Firme. No hay artículo en el blog: los hechos salen solo de la sentencia. Sergio pidió hacerla el 3/11.
+S["D16"] = dict(id="D16-evelop-punta-cana", categoria="UN CASO REAL", juzgado="Juzgado de lo Mercantil n.º 3 de Bilbao", fecha="29 de marzo de 2022", pdf="sentencia-D16.pdf",
+ titulo=["Bilbao–Punta Cana: les cancelaron el vuelo de Madrid a Punta Cana", "El juez obliga a Evelop a pagarles *hasta las noches de hotel que perdieron*"], titulo_tam=74,
+ portada_dato=["719,75 €", "billetes, hotel, taxi, comida y las dos noches perdidas"],
+ tramos=[
+  t("gancho", "D16-1", ["Iban de Bilbao a Punta Cana y les cancelaron el vuelo desde Madrid.", "El juez obliga a Evelop a pagarles hasta las dos noches de hotel que no pudieron disfrutar."]),
+  t("doc", "D16-2", ["Tuvieron que comprarse otro vuelo, dormir en un hotel y perder dos noches del viaje.", "Evelop había avisado con tiempo, así que no había compensación."],
+    pagina_num=3, subrayar=["no hay derecho de compensación"], margen=[150, 60], columna=[215, 1560], ocultar=["6", "mayo"], doc_entra=2.0,
+    cita="«Existiendo, por tanto, este aviso, *no hay derecho de compensación*.»"),
+  t("doc", "D16-3", ["Pero para el juez, los gastos son otra cosa:", "la aerolínea tiene que pagarlos aparte, también las dos noches perdidas en Punta Cana."],
+    pagina_num=4, subrayar=["obligación de indemnizar al pasajero de los gastos adicionales", "dos noches de hotel no disfrutadas en Punta Cana"], margen=[110, 60], columna=[215, 1560], doc_entra=0.2,
+    cita="«… la *obligación de indemnizar al pasajero de los gastos adicionales* (…) las *dos noches de hotel no disfrutadas en Punta Cana*.»"),
+  t("lista", "D16-4", [], locucion="Esto es lo que Evelop tendrá que pagarles: el vuelo que compraron, el hotel, el taxi y la comida, las dos noches perdidas en Punta Cana y los intereses. En total, setecientos diecinueve euros con setenta y cinco.",
+    cabecera="Lo que Evelop tendrá que pagarles", total=["En total:", "719,75 € + intereses"], extra=1.0,
+    items=[dict(t="El vuelo que compraron", d="para poder llegar a Punta Cana", palabra="el vuelo"), dict(t="Hotel, taxi y comida", d="mientras esperaban el nuevo vuelo", palabra="el hotel"),
+           dict(t="Dos noches en Punta Cana", d="las que no pudieron disfrutar", palabra="las dos noches"), dict(t="Intereses", d="desde la demanda", palabra="los intereses")]),
+  t("consejo", "D16-5", ["¿Te avisaron con tiempo de la cancelación?", "Puede que no haya compensación, pero los gastos que te cause se pueden reclamar.", "Guarda todas las facturas."],
+    locucion="¿Te avisaron con tiempo de la cancelación? Puede que no haya compensación, pero los gastos que te cause se pueden reclamar. Guarda todas las facturas: tienes cinco años.",
+    grande="¿Te avisaron *con tiempo*?", pequeno="Sin compensación, pero los gastos se pueden reclamar. Guarda las facturas: tienes 5 años.", norma="Reglamento (CE) 261/2004, art. 5 · Código Civil, art. 1124"),
+ ],
+ cierre=dict(CIERRE, legal="Reglamento (CE) 261/2004, art. 5; Código Civil, art. 1124. Imágenes de archivo. Cada caso se estudia de forma individual."), musica=MUS)
+
 STOCK = {
  "D11": {"1": dict(stock="D11-montaje-gancho.mp4", modo="marco", marco_y=820), "2": dict(stock="D11-montaje-sentencia.mp4", modo="marco"),
          "3": dict(stock="D11-montaje-sentencia2.mp4", modo="marco"), "4": dict(stock="maleta-maletero-aeropuerto-lenta_2971254.mp4", modo="lleno"),
@@ -145,6 +168,10 @@ STOCK = {
          "3": dict(stock="bangkok-dron_29199.mp4", modo="marco", desde=8), "4": dict(stock="maletas-cinta-vertical_3626062.mp4", modo="lleno"),
          "5": dict(stock="mujer-cinta-equipajes_5951.mp4", modo="marco", desde=18),
          "portada": dict(portada_stock="mujer-cinta-equipajes_5951.mp4", portada_desde=4, portada_modo="marco", portada_marco_y=640)},
+ "D16": {"1": dict(stock="D16-montaje-gancho.mp4", modo="marco", marco_y=820), "2": dict(stock="pareja-recepcion-hotel_2384284.mp4", modo="marco"),
+         "3": dict(stock="despegue-cabina-pilotos_1765936.mp4", modo="marco", desde=5), "4": dict(stock="bavaro-palmeras-dron-lenta_584504.mp4", modo="lleno"),
+         "5": dict(stock="D16-montaje-consejo.mp4", modo="marco"),
+         "portada": dict(portada_stock="punta-cana-bavaro-playa_6513612.mp4", portada_desde=2, portada_modo="marco", portada_marco_y=640)},
 }
 
 if __name__ == "__main__":

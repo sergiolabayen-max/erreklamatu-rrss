@@ -23,4 +23,8 @@ corte munich-dron_690454.mp4 0 5 _i.mp4; corte hombre-agobiado-movil-terminal_10
 corte hombre-gafas-movil-sala-espera_4874054.mp4 20 6.5 _l.mp4; corte montreal-dron_5770753.mp4 32 6.5 _m.mp4; mont D14-montaje-consejo.mp4 _l.mp4 _m.mp4
 # D15 (Bangkok): Bangkok 5 s + mujer ante la cinta 6 s
 corte bangkok-dron_29199.mp4 0 5 _n.mp4; corte mujer-cinta-equipajes_5951.mp4 0 6 _o.mp4; mont D15-montaje-gancho.mp4 _n.mp4 _o.mp4
-rm -f _?.mp4; for f in D1[1-5]-montaje*.mp4 *-lenta_{3030775,2971254,10225718,2744563}.mp4; do echo "$f $(ffprobe -v error -show_entries format=duration -of csv=p=0 $f)"; done
+# D16 (Evelop, Punta Cana): gancho Bávaro 5 s + despegue 5,5 s · consejo pareja en la recepción del hotel 7 s + Bávaro 6,5 s · palmeras ralentizadas a 0,85×
+lento bavaro-palmeras-dron_584504.mp4 bavaro-palmeras-dron-lenta_584504.mp4 0.85
+corte punta-cana-bavaro-playa_6513612.mp4 0 5 _p.mp4; corte despegue-cabina-pilotos_1765936.mp4 0 5.5 _q.mp4; mont D16-montaje-gancho.mp4 _p.mp4 _q.mp4
+corte pareja-recepcion-hotel_2384284.mp4 7 7 _r.mp4; corte punta-cana-bavaro-playa_6513612.mp4 6 6.5 _s.mp4; mont D16-montaje-consejo.mp4 _r.mp4 _s.mp4
+rm -f _?.mp4; for f in D1[1-6]-montaje*.mp4 *-lenta_{3030775,2971254,10225718,2744563}.mp4; do echo "$f $(ffprobe -v error -show_entries format=duration -of csv=p=0 $f)"; done
