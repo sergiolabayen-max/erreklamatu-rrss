@@ -1,0 +1,165 @@
+{
+ "id": "D8-tap-doble",
+ "categoria": "UN CASO REAL",
+ "juzgado": "Juzgado de Primera Instancia n.º 11 de Bilbao",
+ "fecha": "1 de febrero de 2023",
+ "pdf": "sentencia-D8.pdf",
+ "titulo": [
+  "Lisboa–Bilbao: le cancelaron el vuelo y el de repuesto también llegó tarde",
+  "El juez obliga a TAP a pagarle *dos compensaciones*"
+ ],
+ "titulo_tam": 72,
+ "portada_dato": [
+  "530,88 €",
+  "dos compensaciones y los taxis"
+ ],
+ "tramos": [
+  {
+   "tipo": "gancho",
+   "subtitulos": [
+    "TAP le canceló el vuelo de Lisboa a Bilbao.",
+    "El de repuesto también llegó tarde.",
+    "Y el juez le dio dos compensaciones."
+   ],
+   "locucion": "TAP le canceló el vuelo de Lisboa a Bilbao. El de repuesto también llegó tarde. Y el juez le dio dos compensaciones.",
+   "voz": "../../../recursos/voces/documento-v3/D8-1.mp3",
+   "stock": "D8-montaje-gancho.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "doc",
+   "subtitulos": [
+    "TAP solo quería pagar una.",
+    "Decía que el retraso del vuelo de repuesto no se podía sumar."
+   ],
+   "pagina_num": 2,
+   "subrayar": [
+    "sólo procede una compensación por la cancelación"
+   ],
+   "margen": [
+    150,
+    60
+   ],
+   "doc_entra": 0.2,
+   "extra": 0.6,
+   "cita": "«… *sólo procede una compensación por la cancelación*, a la que no se puede adicionar la compensación por el retraso del vuelo alternativo…»",
+   "locucion": "TAP solo quería pagar una. Decía que el retraso del vuelo de repuesto no se podía sumar.",
+   "voz": "../../../recursos/voces/documento-v3/D8-2.mp3",
+   "stock": "avion-aterrizando-ciudad_4215534.mp4",
+   "modo": "marco",
+   "desde": 6
+  },
+  {
+   "tipo": "doc",
+   "subtitulos": [
+    "Pero el juez, apoyándose en el Tribunal de Justicia de la Unión Europea,",
+    "le reconoció una compensación por cada problema."
+   ],
+   "pagina_num": 3,
+   "subrayar": [
+    "un derecho a compensación por cada uno de esos sucesivos inconvenientes",
+    "procede la estimación de las dos compensaciones"
+   ],
+   "margen": [
+    110,
+    60
+   ],
+   "doc_entra": 0.2,
+   "cita": "«… *un derecho a compensación por cada uno de esos sucesivos inconvenientes* (…) *procede la estimación de las dos compensaciones*…»",
+   "locucion": "Pero el juez, apoyándose en el Tribunal de Justicia de la Unión Europea, le reconoció una compensación por cada problema.",
+   "voz": "../../../recursos/voces/documento-v3/D8-3.mp3",
+   "stock": "tranvia-lisboa-lenta_7396767.mp4",
+   "modo": "marco",
+   "desde": 3
+  },
+  {
+   "tipo": "doc",
+   "subtitulos": [
+    "TAP decía que los taxis fueron un gasto voluntario.",
+    "Para el juez, esa asistencia le tocaba a la aerolínea."
+   ],
+   "pagina_num": 4,
+   "subrayar": [
+    "Tal asistencia debía ser prestada por la aerolínea"
+   ],
+   "margen": [
+    150,
+    60
+   ],
+   "doc_entra": 1.0,
+   "cita": "«… *Tal asistencia debía ser prestada por la aerolínea* con independencia del derecho de compensación…»",
+   "locucion": "TAP decía que los taxis fueron un gasto voluntario. Para el juez, esa asistencia le tocaba a la aerolínea.",
+   "voz": "../../../recursos/voces/documento-v3/D8-4.mp3",
+   "stock": "coche-ciudad-noche_6826313.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "lista",
+   "subtitulos": [],
+   "locucion": "Esto es lo que TAP tendrá que pagarle: doscientos cincuenta euros por la cancelación, otros doscientos cincuenta por el retraso del vuelo de repuesto, los taxis, los intereses y las costas.",
+   "cabecera": "Lo que TAP tendrá que pagarle",
+   "total": [
+    "En total:",
+    "530,88 € + intereses"
+   ],
+   "extra": 1.2,
+   "items": [
+    {
+     "t": "250 €",
+     "d": "por la cancelación",
+     "palabra": "doscientos"
+    },
+    {
+     "t": "Otros 250 €",
+     "d": "por el retraso del vuelo de repuesto",
+     "palabra": "otros"
+    },
+    {
+     "t": "Los taxis en Lisboa",
+     "d": "30,88 €, al alojamiento y de vuelta al aeropuerto",
+     "palabra": "los taxis"
+    },
+    {
+     "t": "Intereses y costas",
+     "d": "TAP paga también el juicio",
+     "palabra": "los intereses"
+    }
+   ],
+   "voz": "../../../recursos/voces/documento-v3/D8-5.mp3",
+   "stock": "coche-ciudad-noche_6826313.mp4",
+   "modo": "lleno",
+   "desde": 10
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "¿Te cancelaron el vuelo y el de repuesto también llegó tarde?",
+    "Si es la misma aerolínea y llega con tres horas o más de retraso,",
+    "puedes reclamar por los dos. Tienes cinco años."
+   ],
+   "grande": "¿El vuelo de repuesto *también llegó tarde*?",
+   "pequeno": "Si es la misma aerolínea, puedes reclamar por los dos. Tienes 5 años.",
+   "norma": "Reglamento (CE) 261/2004, art. 7 · TJUE, 12 de marzo de 2020",
+   "locucion": "¿Te cancelaron el vuelo y el de repuesto también llegó tarde? Si es la misma aerolínea y llega con tres horas o más de retraso, puedes reclamar por los dos. Tienes cinco años.",
+   "voz": "../../../recursos/voces/documento-v3/D8-6.mp3",
+   "stock": "avion-aterrizando-ciudad_4215534.mp4",
+   "modo": "marco",
+   "desde": 1
+  }
+ ],
+ "cierre": {
+  "titulo": "¿Te ha pasado?",
+  "texto": "Te ayudamos a reclamar a la aerolínea.",
+  "subtitulos": [
+   "Llama al 944 027 596"
+  ],
+  "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
+  "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
+  "legal": "Reglamento (CE) 261/2004, arts. 5, 7 y 9; STJUE de 12 de marzo de 2020. Imágenes de archivo. Cada caso se estudia de forma individual."
+ },
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3",
+ "portada_stock": "tranvia-lisboa-lenta_7396767.mp4",
+ "portada_desde": 2,
+ "portada_modo": "marco",
+ "portada_marco_y": 640
+}

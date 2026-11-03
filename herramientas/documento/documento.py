@@ -31,7 +31,7 @@ import comic
 from comic import run, dur, css, logo_caja, cierre_html, subtitulo_html, Navegador, NAVY, VERDE, VW, VH
 
 TESS = os.environ.get("TESSDATA", "/tmp/tess")
-SENSIBLE = [r"^\d{1,2}/\d{1,2}/\d{2,4}$", r"\d{6,}", r"^[XYZ]?-?\d{7,8}-?[A-Z]$", r"CSV", r"NIG"]  # fechas, números largos, DNI/NIE, años
+SENSIBLE = [r"^\d{1,2}/\d{1,2}/\d{2,4}$", r"\d{6,}", r"^[XYZ]?-?\d{7,8}-?[A-Z]$", r"CSV", r"NIG", r"^(1\.9|2\.0)\d{2}[,.]?$"]  # fechas, números largos, DNI/NIE, años (también «2.021»)
 
 def norm(w): return re.sub(r"[^a-z0-9€]", "", unicodedata.normalize("NFKD", w.lower()).encode("ascii", "ignore").decode())
 
