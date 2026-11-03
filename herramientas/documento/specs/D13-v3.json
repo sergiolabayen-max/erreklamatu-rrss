@@ -40,6 +40,15 @@
     150,
     60
    ],
+   "columna": [
+    215,
+    1555
+   ],
+   "ocultar": [
+    "8",
+    "7",
+    "noviembre"
+   ],
    "doc_entra": 1.2,
    "cita": "«… *la compañía aérea admite que no ofreció una alternativa* al pasajero…»",
    "locucion": "La cancelación fue el mismo día del vuelo. Y Lufthansa reconoció que no le ofreció otro hasta el día siguiente.",
@@ -62,6 +71,10 @@
    "margen": [
     110,
     60
+   ],
+   "columna": [
+    215,
+    1555
    ],
    "doc_entra": 0.2,
    "cita": "«… *es razonable que el pasajero decidiera adquirir otro vuelo* (…) *poca confianza ofrece el contenido de los registros* de la compañía aérea…»",

@@ -63,10 +63,10 @@ S["D13"] = dict(id="D13-lufthansa", categoria="UN CASO REAL", juzgado="Juzgado d
  tramos=[
   t("gancho", "D13-1", ["Lufthansa le canceló el vuelo de Múnich a Bilbao sin ofrecerle alternativa y se compró otro billete.", "El juez obliga a Lufthansa a pagárselo… aunque al final no lo usó."]),
   t("doc", "D13-2", ["La cancelación fue el mismo día del vuelo.", "Y Lufthansa reconoció que no le ofreció otro hasta el día siguiente."],
-    pagina_num=2, subrayar=["la compañía aérea admite que no ofreció una alternativa"], margen=[150, 60], doc_entra=1.2,
+    pagina_num=2, subrayar=["la compañía aérea admite que no ofreció una alternativa"], margen=[150, 60], columna=[215, 1555], ocultar=["8", "7", "noviembre"], doc_entra=1.2,
     cita="«… *la compañía aérea admite que no ofreció una alternativa* al pasajero…»"),
   t("doc", "D13-3", ["Para el juez, sin información ni alternativa, era razonable que se comprara otro vuelo.", "Y además, los registros de Lufthansa le ofrecían poca confianza."],
-    pagina_num=2, subrayar=["es razonable que el pasajero decidiera adquirir otro vuelo", "poca confianza ofrece el contenido de los registros"], margen=[110, 60], doc_entra=0.2,
+    pagina_num=2, subrayar=["es razonable que el pasajero decidiera adquirir otro vuelo", "poca confianza ofrece el contenido de los registros"], margen=[110, 60], columna=[215, 1555], doc_entra=0.2,
     cita="«… *es razonable que el pasajero decidiera adquirir otro vuelo* (…) *poca confianza ofrece el contenido de los registros* de la compañía aérea…»"),
   t("lista", "D13-4", [], locucion="Esto es lo que Lufthansa tendrá que pagarle: doscientos cincuenta euros de compensación, el billete que compró por su cuenta, los intereses y las costas.",
     cabecera="Lo que Lufthansa tendrá que pagarle", total=["En total:", "474,99 € + intereses"], extra=1.4,
