@@ -127,10 +127,10 @@ S["D15"] = dict(id="D15-maletas-bangkok", categoria="UN CASO REAL", juzgado="Juz
 STOCK = {
  "D11": {"1": dict(stock="D11-montaje-gancho.mp4", modo="marco", marco_y=820), "2": dict(stock="D11-montaje-sentencia.mp4", modo="marco"),
          "3": dict(stock="D11-montaje-sentencia2.mp4", modo="marco"), "4": dict(stock="maleta-maletero-aeropuerto-lenta_2971254.mp4", modo="lleno"),
-         "5": dict(stock="bebe-mochila-aeropuerto_3036639.mp4", modo="marco", desde=1),
-         "portada": dict(portada_stock="bebe-mochila-aeropuerto_3036639.mp4", portada_desde=3, portada_modo="marco", portada_marco_y=640)},
+         "5": dict(stock="bebe-portabebes-primer-plano_3036534.mp4", modo="marco", desde=3),
+         "portada": dict(portada_stock="bebe-portabebes-primer-plano_3036534.mp4", portada_desde=2, portada_modo="marco", portada_marco_y=640)},
  "D12": {"1": dict(stock="D12-montaje-gancho.mp4", modo="marco", marco_y=820), "2": dict(stock="ciudad-noche-ventanilla_7285533.mp4", modo="marco"),
-         "3": dict(stock="madre-nina-dormidas-terminal_56937.mp4", modo="marco", desde=6.5), "4": dict(stock="miami-dron_5026772.mp4", modo="lleno", desde=14),
+         "3": dict(stock="familia-contraluz-ventanal-aviones_3076840.mp4", modo="marco", desde=8), "4": dict(stock="miami-dron_5026772.mp4", modo="lleno", desde=14),
          "5": dict(stock="ciudad-noche-ventanilla_7285533.mp4", modo="marco", desde=11),
          "portada": dict(portada_stock="miami-dron_5026772.mp4", portada_desde=8, portada_modo="marco", portada_marco_y=640)},
  "D13": {"1": dict(stock="D13-montaje-gancho.mp4", modo="marco", marco_y=820), "2": dict(stock="hombre-movil-ventanal-aeropuerto_4960694.mp4", modo="marco", desde=3),

@@ -10,12 +10,13 @@ lento madre-bebe-avion_3030775.mp4 madre-bebe-avion-lenta_3030775.mp4 0.7
 lento maleta-maletero-aeropuerto_2971254.mp4 maleta-maletero-aeropuerto-lenta_2971254.mp4 0.55
 lento hombre-agobiado-movil-terminal_10225718.mp4 hombre-agobiado-movil-terminal-lenta_10225718.mp4 0.5
 lento mostrador-facturacion-pasaporte_2744563.mp4 mostrador-facturacion-pasaporte-lenta_2744563.mp4 0.85
-# D11 (bebé): gancho bebé 5 s + madre y bebé en el avión 5,5 s · sentencia 1: maleta 6 s + bebé 6 s · sentencia 2: madre y bebé 5 s + bebé 4,4 s
-corte bebe-mochila-aeropuerto_3036639.mp4 0 5 _a.mp4; corte madre-bebe-avion-lenta_3030775.mp4 0 5.5 _b.mp4; mont D11-montaje-gancho.mp4 _a.mp4 _b.mp4
-corte maleta-maletero-aeropuerto-lenta_2971254.mp4 0 6 _c.mp4; corte bebe-mochila-aeropuerto_3036639.mp4 6 6 _d.mp4; mont D11-montaje-sentencia.mp4 _c.mp4 _d.mp4
-corte madre-bebe-avion-lenta_3030775.mp4 5.5 5.2 _e.mp4; corte bebe-mochila-aeropuerto_3036639.mp4 11.9 4.4 _f.mp4; mont D11-montaje-sentencia2.mp4 _e.mp4 _f.mp4
-# D12 (Miami): Miami 6 s + madre e hija dormidas 6,5 s
-corte miami-dron_5026772.mp4 0 6 _g.mp4; corte madre-nina-dormidas-terminal_56937.mp4 0 6.5 _h.mp4; mont D12-montaje-gancho.mp4 _g.mp4 _h.mp4
+# D11 (bebé): gancho bebé 5 s + madre y bebé en el avión 5,5 s · sentencia 1: maleta 6 s + bebé 6 s · sentencia 2: madre y bebé 5,2 s + bebé 3,6 s
+# (planos del bebé de cerca, sin la cara de la madre: criterio de Sergio de personas de aspecto mediterráneo en casos del Estado)
+corte bebe-portabebes-primer-plano_3036534.mp4 0 5 _a.mp4; corte madre-bebe-avion-lenta_3030775.mp4 0 5.5 _b.mp4; mont D11-montaje-gancho.mp4 _a.mp4 _b.mp4
+corte maleta-maletero-aeropuerto-lenta_2971254.mp4 0 6 _c.mp4; corte madre-bebe-portabebes-aeropuerto_3036272.mp4 0 6 _d.mp4; mont D11-montaje-sentencia.mp4 _c.mp4 _d.mp4
+corte madre-bebe-avion-lenta_3030775.mp4 5.5 5.2 _e.mp4; corte madre-bebe-portabebes-aeropuerto_3036272.mp4 6 3.6 _f.mp4; mont D11-montaje-sentencia2.mp4 _e.mp4 _f.mp4
+# D12 (Miami): Miami 6 s + familia a contraluz ante el ventanal 6,5 s
+corte miami-dron_5026772.mp4 0 6 _g.mp4; corte familia-contraluz-ventanal-aviones_3076840.mp4 0 6.5 _h.mp4; mont D12-montaje-gancho.mp4 _g.mp4 _h.mp4
 # D13 (Lufthansa): Múnich 5 s + hombre agobiado 6 s + hombre ante el ventanal 2,8 s
 corte munich-dron_690454.mp4 0 5 _i.mp4; corte hombre-agobiado-movil-terminal_10225718.mp4 0 6 _j.mp4; corte hombre-movil-ventanal-aeropuerto_4960694.mp4 0 2.8 _k.mp4; mont D13-montaje-gancho.mp4 _i.mp4 _j.mp4 _k.mp4
 # D14 (Air Canada) consejo: hombre en la sala de espera 6,5 s + Montreal 6,5 s

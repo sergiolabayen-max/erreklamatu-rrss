@@ -113,9 +113,9 @@
    "norma": "Reglamento (CE) 261/2004, arts. 3 y 7",
    "locucion": "¿Viajas con un bebé en brazos? Si figura con su nombre en la reserva y tiene tarjeta de embarque, también puede tener derecho a compensación.",
    "voz": "../../../recursos/voces/documento-v3/D11-5.mp3",
-   "stock": "bebe-mochila-aeropuerto_3036639.mp4",
+   "stock": "bebe-portabebes-primer-plano_3036534.mp4",
    "modo": "marco",
-   "desde": 1
+   "desde": 3
   }
  ],
  "cierre": {
@@ -129,8 +129,8 @@
   "legal": "Reglamento (CE) 261/2004, arts. 3, 7 y 12. Imágenes de archivo. Cada caso se estudia de forma individual."
  },
  "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3",
- "portada_stock": "bebe-mochila-aeropuerto_3036639.mp4",
- "portada_desde": 3,
+ "portada_stock": "bebe-portabebes-primer-plano_3036534.mp4",
+ "portada_desde": 2,
  "portada_modo": "marco",
  "portada_marco_y": 640
 }
