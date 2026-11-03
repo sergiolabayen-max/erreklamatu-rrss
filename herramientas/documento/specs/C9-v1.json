@@ -1,0 +1,93 @@
+{
+ "id": "C9-malas-practicas",
+ "categoria": "CUIDADO",
+ "portada_pie": "Guía rápida · ERREKLAMATU",
+ "titulo": [
+  "4 malas prácticas de las aerolíneas",
+  "y qué hacer si *te pasan*"
+ ],
+ "titulo_tam": 84,
+ "portada_dato": [
+  "4 malas prácticas",
+  "de las aerolíneas, y qué hacer"
+ ],
+ "tramos": [
+  {
+   "tipo": "gancho",
+   "subtitulos": [
+    "Cuatro malas prácticas de las aerolíneas,",
+    "y qué hacer si te pasan."
+   ],
+   "locucion": "Cuatro malas prácticas de las aerolíneas, y qué hacer si te pasan.",
+   "voz": "../../../recursos/voces/consejos-v1/C9-1.mp3",
+   "stock": "hombre-serio-portatil-cocina_5042236.mp4",
+   "modo": "marco",
+   "marco_y": 820
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Una: te cambian el vuelo semanas antes.",
+    "Si te avisan con catorce días o más, no hay compensación, pero puedes pedir que te devuelvan el dinero."
+   ],
+   "locucion": "Una: te cambian el vuelo semanas antes. Si te avisan con catorce días o más, no hay compensación, pero puedes pedir que te devuelvan el dinero.",
+   "num": "PRÁCTICA 1 DE 4",
+   "grande": "Te cambian el vuelo: *puedes pedir el dinero*",
+   "tam": 80,
+   "voz": "../../../recursos/voces/consejos-v1/C9-2.mp3",
+   "stock": "azafata-tierra-mostrador-pasaporte_2744579.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Dos: te dicen que el billete no es reembolsable y te ofrecen un bono.",
+    "Si cancelan ellos, no tienes que aceptarlo."
+   ],
+   "locucion": "Dos: te dicen que el billete no es reembolsable y te ofrecen un bono. Si cancelan ellos, no tienes que aceptarlo.",
+   "num": "PRÁCTICA 2 DE 4",
+   "grande": "¿Un bono? *No estás obligado*",
+   "voz": "../../../recursos/voces/consejos-v1/C9-3.mp3",
+   "stock": "ejecutivo-entregando-documentos_2552355.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Tres: «lo compraste en una agencia».",
+    "Da igual: tus derechos son los mismos."
+   ],
+   "locucion": "Tres: «lo compraste en una agencia». Da igual: tus derechos son los mismos.",
+   "num": "PRÁCTICA 3 DE 4",
+   "grande": "«Fue en una agencia»: *da igual*",
+   "voz": "../../../recursos/voces/consejos-v1/C9-4.mp3",
+   "stock": "agente-viajes-pasaporte_8425923.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Cuatro: no te informan de tus derechos.",
+    "Y tienen que dártelos por escrito."
+   ],
+   "locucion": "Cuatro: no te informan de tus derechos. Y tienen que dártelos por escrito.",
+   "num": "PRÁCTICA 4 DE 4",
+   "grande": "Te deben informar *por escrito*",
+   "voz": "../../../recursos/voces/consejos-v1/C9-5.mp3",
+   "stock": "agente-viajes-pasaporte_8425923.mp4",
+   "modo": "marco",
+   "desde": 8.5
+  }
+ ],
+ "cierre": {
+  "titulo": "¿Te ha pasado?",
+  "texto": "Te ayudamos a reclamar a la aerolínea.",
+  "subtitulos": [
+   "Llama al 944 027 596"
+  ],
+  "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
+  "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
+  "legal": "Reglamento (CE) 261/2004. Imágenes de archivo. Cada caso se estudia de forma individual."
+ },
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3"
+}

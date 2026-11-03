@@ -1,0 +1,75 @@
+{
+ "id": "C7c-trucos-reclamar-corto",
+ "categoria": "CONSEJOS",
+ "portada_pie": "Guía rápida · ERREKLAMATU",
+ "titulo": [
+  "3 trucos para reclamar tu vuelo",
+  "y *no dejar dinero* por el camino"
+ ],
+ "titulo_tam": 84,
+ "portada_dato": [
+  "3 trucos",
+  "para reclamar tu vuelo"
+ ],
+ "tramos": [
+  {
+   "tipo": "gancho",
+   "subtitulos": [
+    "Tres trucos para reclamar tu vuelo."
+   ],
+   "locucion": "Tres trucos para reclamar tu vuelo.",
+   "voz": "../../../recursos/voces/consejos-v1/C7c-1.mp3",
+   "stock": "mano-papel-mesa-madera_5761375.mp4",
+   "modo": "marco",
+   "marco_y": 820
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Uno: el reembolso, en siete días."
+   ],
+   "locucion": "Uno: el reembolso, en siete días.",
+   "num": "TRUCO 1 DE 3",
+   "grande": "Reembolso en *7 días*",
+   "voz": "../../../recursos/voces/consejos-v1/C7c-2.mp3",
+   "stock": "manos-tecleando-portatil_7457582.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Dos: no firmes renuncias."
+   ],
+   "locucion": "Dos: no firmes renuncias.",
+   "num": "TRUCO 2 DE 3",
+   "grande": "No firmes *renuncias*",
+   "voz": "../../../recursos/voces/consejos-v1/C7c-3.mp3",
+   "stock": "mano-papel-mesa-madera_5761375.mp4",
+   "modo": "marco",
+   "desde": 20
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Tres: habla con los demás pasajeros."
+   ],
+   "locucion": "Tres: habla con los demás pasajeros.",
+   "num": "TRUCO 3 DE 3",
+   "grande": "Habla con *los demás pasajeros*",
+   "voz": "../../../recursos/voces/consejos-v1/C7c-4.mp3",
+   "stock": "grupo-pasajeros-hablando-aeropuerto_7781173.mp4",
+   "modo": "marco"
+  }
+ ],
+ "cierre": {
+  "titulo": "¿Te ha pasado?",
+  "texto": "Te ayudamos a reclamar a la aerolínea.",
+  "subtitulos": [
+   "Llama al 944 027 596"
+  ],
+  "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
+  "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
+  "legal": "Reglamento (CE) 261/2004. Imágenes de archivo. Cada caso se estudia de forma individual."
+ },
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3"
+}

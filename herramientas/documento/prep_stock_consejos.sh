@@ -10,3 +10,10 @@ lento panel-llegadas_3055336.mp4 panel-llegadas-arrived-lenta_3055336.mp4 0.5 6 
 # C1 · gastos: solo las manos pagando (4-7,3 s; antes y después se ve la cara de la clienta) + ticket saliendo de la impresora
 corte mujer-pagando-tarjeta-cafe_2484186.mp4 4 3.3 _a.mp4; corte ticket-impresora_7668855.mp4 0 7.6 _b.mp4; mont C1-montaje-gastos.mp4 _a.mp4 _b.mp4
 rm -f _?.mp4; for f in C1-montaje*.mp4 *-lenta_{9692863,3055336}.mp4; do echo "$f $(ffprobe -v error -show_entries format=duration -of csv=p=0 $f)"; done
+# C3 · pasarela: solo 0-5,8 s (al final entra la cola de un avión con librea reconocible), a 0,55×; persona con maleta a 0,8×
+lento pasajeros-saliendo-pasarela_3548036.mp4 pasajeros-saliendo-pasarela-lenta_3548036.mp4 0.55 0 5.8
+lento persona-andando-maleta_6112878.mp4 persona-andando-maleta-lenta_6112878.mp4 0.8
+# C4 · zona de equipajes (6 s) a 0,7×; mano escribiendo (5 s) a 0,75×
+lento zona-equipajes-mostradores_7387456.mp4 zona-equipajes-mostradores-lenta_7387456.mp4 0.7
+lento mano-escribiendo-cuaderno_2425280.mp4 mano-escribiendo-cuaderno-lenta_2425280.mp4 0.75
+for f in *-lenta_{3548036,6112878,7387456,2425280}.mp4; do echo "$f $(ffprobe -v error -show_entries format=duration -of csv=p=0 $f)"; done
