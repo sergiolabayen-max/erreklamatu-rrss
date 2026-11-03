@@ -15,9 +15,10 @@
   {
    "tipo": "gancho",
    "subtitulos": [
-    "¿Tu vuelo se retrasa? Tres cosas que debes saber."
+    "¿Tu vuelo se retrasa?",
+    "Tres cosas que debes saber para no perder dinero."
    ],
-   "locucion": "¿Tu vuelo se retrasa? Tres cosas que debes saber.",
+   "locucion": "¿Tu vuelo se retrasa? Tres cosas que debes saber para no perder dinero.",
    "voz": "../../../recursos/voces/consejos-v1/C3c-1.mp3",
    "stock": "pasajeros-durmiendo-terminal_7640560.mp4",
    "modo": "marco",
@@ -26,9 +27,9 @@
   {
    "tipo": "consejo",
    "subtitulos": [
-    "Uno: con un retraso largo, te tienen que dar de comer."
+    "Uno: con un retraso largo, te tienen que dar de comer y de beber."
    ],
-   "locucion": "Uno: con un retraso largo, te tienen que dar de comer.",
+   "locucion": "Uno: con un retraso largo, te tienen que dar de comer y de beber.",
    "num": "CLAVE 1 DE 3",
    "grande": "Comida y bebida *desde 2 horas*",
    "voz": "../../../recursos/voces/consejos-v1/C3c-2.mp3",
@@ -38,9 +39,9 @@
   {
    "tipo": "consejo",
    "subtitulos": [
-    "Dos: cuenta cuando se abren las puertas, no cuando aterriza."
+    "Dos: el retraso cuenta cuando se abren las puertas, no cuando aterriza."
    ],
-   "locucion": "Dos: cuenta cuando se abren las puertas, no cuando aterriza.",
+   "locucion": "Dos: el retraso cuenta cuando se abren las puertas, no cuando aterriza.",
    "num": "CLAVE 2 DE 3",
    "grande": "Cuenta *cuando se abren las puertas*",
    "voz": "../../../recursos/voces/consejos-v1/C3c-3.mp3",
@@ -50,9 +51,9 @@
   {
    "tipo": "consejo",
    "subtitulos": [
-    "Tres: con tres horas o más en destino, puede haber compensación."
+    "Tres: con tres horas o más de retraso en destino, puede haber compensación."
    ],
-   "locucion": "Tres: con tres horas o más en destino, puede haber compensación.",
+   "locucion": "Tres: con tres horas o más de retraso en destino, puede haber compensación.",
    "num": "CLAVE 3 DE 3",
    "grande": "*3 horas* o más: compensación",
    "voz": "../../../recursos/voces/consejos-v1/C3c-4.mp3",

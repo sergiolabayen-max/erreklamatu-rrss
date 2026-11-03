@@ -16,9 +16,9 @@
    "tipo": "gancho",
    "subtitulos": [
     "Cuatro malas prácticas de las aerolíneas,",
-    "y qué hacer si te pasan."
+    "y qué hacer si te pasan a ti."
    ],
-   "locucion": "Cuatro malas prácticas de las aerolíneas, y qué hacer si te pasan.",
+   "locucion": "Cuatro malas prácticas de las aerolíneas, y qué hacer si te pasan a ti.",
    "voz": "../../../recursos/voces/consejos-v1/C9-1.mp3",
    "stock": "hombre-serio-portatil-cocina_5042236.mp4",
    "modo": "marco",
@@ -28,9 +28,11 @@
    "tipo": "consejo",
    "subtitulos": [
     "Una: te cambian el vuelo semanas antes.",
-    "Si te avisan con catorce días o más, no hay compensación, pero puedes pedir que te devuelvan el dinero."
+    "Si te avisan con catorce días o más, no hay compensación,",
+    "pero puedes pedir que te devuelvan el dinero.",
+    "No estás obligado a aceptar el cambio."
    ],
-   "locucion": "Una: te cambian el vuelo semanas antes. Si te avisan con catorce días o más, no hay compensación, pero puedes pedir que te devuelvan el dinero.",
+   "locucion": "Una: te cambian el vuelo semanas antes. Si te avisan con catorce días o más, no hay compensación, pero puedes pedir que te devuelvan el dinero. No estás obligado a aceptar el cambio.",
    "num": "PRÁCTICA 1 DE 4",
    "grande": "Te cambian el vuelo: *puedes pedir el dinero*",
    "tam": 80,
@@ -42,9 +44,10 @@
    "tipo": "consejo",
    "subtitulos": [
     "Dos: te dicen que el billete no es reembolsable y te ofrecen un bono.",
-    "Si cancelan ellos, no tienes que aceptarlo."
+    "Si cancelan ellos, no tienes que aceptarlo.",
+    "Tienes derecho a que te devuelvan el dinero."
    ],
-   "locucion": "Dos: te dicen que el billete no es reembolsable y te ofrecen un bono. Si cancelan ellos, no tienes que aceptarlo.",
+   "locucion": "Dos: te dicen que el billete no es reembolsable y te ofrecen un bono. Si cancelan ellos, no tienes que aceptarlo. Tienes derecho a que te devuelvan el dinero.",
    "num": "PRÁCTICA 2 DE 4",
    "grande": "¿Un bono? *No estás obligado*",
    "voz": "../../../recursos/voces/consejos-v1/C9-3.mp3",
@@ -55,9 +58,10 @@
    "tipo": "consejo",
    "subtitulos": [
     "Tres: «lo compraste en una agencia».",
-    "Da igual: tus derechos son los mismos."
+    "Da igual: tus derechos son los mismos.",
+    "Responde la aerolínea que opera el vuelo."
    ],
-   "locucion": "Tres: «lo compraste en una agencia». Da igual: tus derechos son los mismos.",
+   "locucion": "Tres: «lo compraste en una agencia». Da igual: tus derechos son los mismos. Responde la aerolínea que opera el vuelo.",
    "num": "PRÁCTICA 3 DE 4",
    "grande": "«Fue en una agencia»: *da igual*",
    "voz": "../../../recursos/voces/consejos-v1/C9-4.mp3",
@@ -68,9 +72,10 @@
    "tipo": "consejo",
    "subtitulos": [
     "Cuatro: no te informan de tus derechos.",
-    "Y tienen que dártelos por escrito."
+    "Y tienen que dártelos por escrito.",
+    "Si cancelan o te dejan en tierra, en un papel con lo que te corresponde."
    ],
-   "locucion": "Cuatro: no te informan de tus derechos. Y tienen que dártelos por escrito.",
+   "locucion": "Cuatro: no te informan de tus derechos. Y tienen que dártelos por escrito. Si cancelan o te dejan en tierra, en un papel con lo que te corresponde.",
    "num": "PRÁCTICA 4 DE 4",
    "grande": "Te deben informar *por escrito*",
    "voz": "../../../recursos/voces/consejos-v1/C9-5.mp3",

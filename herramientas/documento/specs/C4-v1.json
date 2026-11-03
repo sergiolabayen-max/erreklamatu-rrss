@@ -16,9 +16,9 @@
    "tipo": "gancho",
    "subtitulos": [
     "¿Tu maleta no ha salido por la cinta?",
-    "Cinco pasos para reclamar."
+    "Cinco pasos para reclamar sin perder tus derechos."
    ],
-   "locucion": "¿Tu maleta no ha salido por la cinta? Cinco pasos para reclamar.",
+   "locucion": "¿Tu maleta no ha salido por la cinta? Cinco pasos para reclamar sin perder tus derechos.",
    "voz": "../../../recursos/voces/consejos-v1/C4-1.mp3",
    "stock": "cinta-equipajes-vacia_7283089.mp4",
    "modo": "marco",
@@ -28,9 +28,10 @@
    "tipo": "consejo",
    "subtitulos": [
     "Uno: antes de salir del aeropuerto,",
-    "haz el parte de irregularidad de equipaje en el mostrador."
+    "haz el parte de irregularidad de equipaje en el mostrador.",
+    "Y guarda tu copia."
    ],
-   "locucion": "Uno: antes de salir del aeropuerto, haz el parte de irregularidad de equipaje en el mostrador.",
+   "locucion": "Uno: antes de salir del aeropuerto, haz el parte de irregularidad de equipaje en el mostrador. Y guarda tu copia.",
    "num": "PASO 1 DE 5",
    "grande": "El *parte (PIR)* antes de salir",
    "voz": "../../../recursos/voces/consejos-v1/C4-2.mp3",
@@ -41,9 +42,10 @@
    "tipo": "consejo",
    "subtitulos": [
     "Dos: si tienes que comprar ropa o cosas de aseo, guarda los tickets.",
-    "Solo lo razonable."
+    "Solo lo razonable.",
+    "Se reclaman aunque la maleta aparezca después."
    ],
-   "locucion": "Dos: si tienes que comprar ropa o cosas de aseo, guarda los tickets. Solo lo razonable.",
+   "locucion": "Dos: si tienes que comprar ropa o cosas de aseo, guarda los tickets. Solo lo razonable. Se reclaman aunque la maleta aparezca después.",
    "num": "PASO 2 DE 5",
    "grande": "Compras urgentes: *guarda los tickets*",
    "voz": "../../../recursos/voces/consejos-v1/C4-3.mp3",
@@ -54,9 +56,10 @@
    "tipo": "consejo",
    "subtitulos": [
     "Tres: aunque te digan que fue culpa del servicio de equipajes,",
-    "responde la aerolínea."
+    "responde la aerolínea.",
+    "No dejes que te manden a otro sitio."
    ],
-   "locucion": "Tres: aunque te digan que fue culpa del servicio de equipajes, responde la aerolínea.",
+   "locucion": "Tres: aunque te digan que fue culpa del servicio de equipajes, responde la aerolínea. No dejes que te manden a otro sitio.",
    "num": "PASO 3 DE 5",
    "grande": "Responde *la aerolínea*",
    "voz": "../../../recursos/voces/consejos-v1/C4-4.mp3",
@@ -67,9 +70,10 @@
    "tipo": "consejo",
    "subtitulos": [
     "Cuatro: los plazos son cortos.",
-    "Siete días si la maleta llega dañada, veintiuno si llega tarde."
+    "Siete días si la maleta llega dañada, veintiuno si llega tarde.",
+    "Siempre por escrito, y guarda una copia."
    ],
-   "locucion": "Cuatro: los plazos son cortos. Siete días si la maleta llega dañada, veintiuno si llega tarde.",
+   "locucion": "Cuatro: los plazos son cortos. Siete días si la maleta llega dañada, veintiuno si llega tarde. Siempre por escrito, y guarda una copia.",
    "num": "PASO 4 DE 5",
    "grande": "*7 días* si está dañada, *21* si llega tarde",
    "tam": 80,
@@ -82,9 +86,10 @@
    "tipo": "consejo",
    "subtitulos": [
     "Cinco: si en veintiún días no aparece, se da por perdida.",
-    "Haz una lista de lo que llevabas."
+    "Haz una lista de lo que llevabas,",
+    "con facturas o fotos si las tienes."
    ],
-   "locucion": "Cinco: si en veintiún días no aparece, se da por perdida. Haz una lista de lo que llevabas.",
+   "locucion": "Cinco: si en veintiún días no aparece, se da por perdida. Haz una lista de lo que llevabas, con facturas o fotos si las tienes.",
    "num": "PASO 5 DE 5",
    "grande": "21 días sin maleta: *perdida*",
    "voz": "../../../recursos/voces/consejos-v1/C4-6.mp3",

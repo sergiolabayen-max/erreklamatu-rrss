@@ -15,9 +15,9 @@
   {
    "tipo": "gancho",
    "subtitulos": [
-    "Tres malas prácticas de las aerolíneas."
+    "Tres malas prácticas de las aerolíneas, y qué hacer si te pasan."
    ],
-   "locucion": "Tres malas prácticas de las aerolíneas.",
+   "locucion": "Tres malas prácticas de las aerolíneas, y qué hacer si te pasan.",
    "voz": "../../../recursos/voces/consejos-v1/C9c-1.mp3",
    "stock": "hombre-serio-portatil-cocina_5042236.mp4",
    "modo": "marco",
@@ -26,9 +26,10 @@
   {
    "tipo": "consejo",
    "subtitulos": [
-    "Una: te ofrecen un bono. No tienes que aceptarlo."
+    "Una: te ofrecen un bono.",
+    "Si cancelan ellos, no tienes que aceptarlo."
    ],
-   "locucion": "Una: te ofrecen un bono. No tienes que aceptarlo.",
+   "locucion": "Una: te ofrecen un bono. Si cancelan ellos, no tienes que aceptarlo.",
    "num": "PRÁCTICA 1 DE 3",
    "grande": "¿Un bono? *No estás obligado*",
    "voz": "../../../recursos/voces/consejos-v1/C9c-2.mp3",
@@ -38,9 +39,10 @@
   {
    "tipo": "consejo",
    "subtitulos": [
-    "Dos: «fue en una agencia». Da igual."
+    "Dos: «fue en una agencia».",
+    "Da igual, tus derechos son los mismos."
    ],
-   "locucion": "Dos: «fue en una agencia». Da igual.",
+   "locucion": "Dos: «fue en una agencia». Da igual, tus derechos son los mismos.",
    "num": "PRÁCTICA 2 DE 3",
    "grande": "«Fue en una agencia»: *da igual*",
    "voz": "../../../recursos/voces/consejos-v1/C9c-3.mp3",
@@ -50,9 +52,10 @@
   {
    "tipo": "consejo",
    "subtitulos": [
-    "Tres: no te informan. Deben hacerlo por escrito."
+    "Tres: no te informan.",
+    "Y deben hacerlo por escrito."
    ],
-   "locucion": "Tres: no te informan. Deben hacerlo por escrito.",
+   "locucion": "Tres: no te informan. Y deben hacerlo por escrito.",
    "num": "PRÁCTICA 3 DE 3",
    "grande": "Te deben informar *por escrito*",
    "voz": "../../../recursos/voces/consejos-v1/C9c-4.mp3",

@@ -27,9 +27,11 @@
   {
    "tipo": "consejo",
    "subtitulos": [
-    "Uno: si pides el reembolso, tienen siete días para devolverte el dinero."
+    "Uno: si pides el reembolso, tienen siete días para devolverte el dinero.",
+    "En dinero, no en bonos,",
+    "salvo que tú lo aceptes firmando."
    ],
-   "locucion": "Uno: si pides el reembolso, tienen siete días para devolverte el dinero.",
+   "locucion": "Uno: si pides el reembolso, tienen siete días para devolverte el dinero. En dinero, no en bonos, salvo que tú lo aceptes firmando.",
    "num": "TRUCO 1 DE 5",
    "grande": "Reembolso en *7 días*",
    "voz": "../../../recursos/voces/consejos-v1/C7-2.mp3",
@@ -39,9 +41,11 @@
   {
    "tipo": "consejo",
    "subtitulos": [
-    "Dos: no firmes nada en lo que renuncies a la compensación."
+    "Dos: no firmes nada en lo que renuncies a la compensación.",
+    "Y si ya has firmado algo, consúltalo igualmente:",
+    "esas renuncias no siempre valen."
    ],
-   "locucion": "Dos: no firmes nada en lo que renuncies a la compensación.",
+   "locucion": "Dos: no firmes nada en lo que renuncies a la compensación. Y si ya has firmado algo, consúltalo igualmente: esas renuncias no siempre valen.",
    "num": "TRUCO 2 DE 5",
    "grande": "No firmes *renuncias*",
    "voz": "../../../recursos/voces/consejos-v1/C7-3.mp3",
@@ -53,9 +57,10 @@
    "tipo": "consejo",
    "subtitulos": [
     "Tres: habla con el resto de pasajeros.",
-    "Cuantos más reclaméis, más fuerza."
+    "Cuantos más reclaméis, más fuerza.",
+    "Apunta sus nombres y teléfonos."
    ],
-   "locucion": "Tres: habla con el resto de pasajeros. Cuantos más reclaméis, más fuerza.",
+   "locucion": "Tres: habla con el resto de pasajeros. Cuantos más reclaméis, más fuerza. Apunta sus nombres y teléfonos.",
    "num": "TRUCO 3 DE 5",
    "grande": "Habla con *los demás pasajeros*",
    "voz": "../../../recursos/voces/consejos-v1/C7-4.mp3",
@@ -66,9 +71,10 @@
    "tipo": "consejo",
    "subtitulos": [
     "Cuatro: no entregues el talón de la maleta.",
-    "Y si te lo piden, hazle una foto."
+    "Y si te lo piden, hazle una foto.",
+    "Te servirá para reclamar."
    ],
-   "locucion": "Cuatro: no entregues el talón de la maleta. Y si te lo piden, hazle una foto.",
+   "locucion": "Cuatro: no entregues el talón de la maleta. Y si te lo piden, hazle una foto. Te servirá para reclamar.",
    "num": "TRUCO 4 DE 5",
    "grande": "El talón de la maleta: *hazle una foto*",
    "tam": 80,
@@ -80,9 +86,10 @@
    "tipo": "consejo",
    "subtitulos": [
     "Cinco: ponte en manos de especialistas.",
-    "La consulta es gratis y solo cobramos si ganamos."
+    "Revisamos tu caso gratis,",
+    "y solo cobramos si ganamos."
    ],
-   "locucion": "Cinco: ponte en manos de especialistas. La consulta es gratis y solo cobramos si ganamos.",
+   "locucion": "Cinco: ponte en manos de especialistas. Revisamos tu caso gratis, y solo cobramos si ganamos.",
    "num": "TRUCO 5 DE 5",
    "grande": "Consulta *gratis*",
    "voz": "../../../recursos/voces/consejos-v1/C7-6.mp3",

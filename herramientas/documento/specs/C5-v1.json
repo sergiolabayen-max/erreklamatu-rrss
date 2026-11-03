@@ -16,9 +16,9 @@
    "tipo": "gancho",
    "subtitulos": [
     "¿Vas a volar con niños?",
-    "Cinco cosas que te pueden ahorrar un disgusto."
+    "Cinco cosas que te pueden ahorrar un disgusto en el aeropuerto."
    ],
-   "locucion": "¿Vas a volar con niños? Cinco cosas que te pueden ahorrar un disgusto.",
+   "locucion": "¿Vas a volar con niños? Cinco cosas que te pueden ahorrar un disgusto en el aeropuerto.",
    "voz": "../../../recursos/voces/consejos-v1/C5-1.mp3",
    "stock": "familia-bebe-aeropuerto-avion_4391364.mp4",
    "modo": "marco",
@@ -28,9 +28,10 @@
    "tipo": "consejo",
    "subtitulos": [
     "Uno: la leche, el agua y la comida del bebé pueden pasar el control,",
-    "aunque superen el límite de líquidos. Avisa al pasar."
+    "aunque superen el límite de líquidos.",
+    "Avisa al pasar, y lleva solo lo del viaje."
    ],
-   "locucion": "Uno: la leche, el agua y la comida del bebé pueden pasar el control, aunque superen el límite de líquidos. Avisa al pasar.",
+   "locucion": "Uno: la leche, el agua y la comida del bebé pueden pasar el control, aunque superen el límite de líquidos. Avisa al pasar, y lleva solo lo del viaje.",
    "num": "CONSEJO 1 DE 5",
    "grande": "La comida del bebé *sí pasa el control*",
    "tam": 80,
@@ -42,9 +43,10 @@
    "tipo": "consejo",
    "subtitulos": [
     "Dos: pregunta si el carrito llega hasta la puerta del avión.",
-    "Y si sale roto, haz el parte antes de salir."
+    "Y si sale roto, haz el parte antes de salir,",
+    "como con una maleta."
    ],
-   "locucion": "Dos: pregunta si el carrito llega hasta la puerta del avión. Y si sale roto, haz el parte antes de salir.",
+   "locucion": "Dos: pregunta si el carrito llega hasta la puerta del avión. Y si sale roto, haz el parte antes de salir, como con una maleta.",
    "num": "CONSEJO 2 DE 5",
    "grande": "El carrito: *¿hasta la puerta del avión?*",
    "tam": 80,
@@ -56,9 +58,10 @@
    "tipo": "consejo",
    "subtitulos": [
     "Tres: revisa los asientos al hacer el check-in,",
-    "para no acabar separados de tus hijos."
+    "para no acabar separados de tus hijos.",
+    "Cuanto antes, mejor."
    ],
-   "locucion": "Tres: revisa los asientos al hacer el check-in, para no acabar separados de tus hijos.",
+   "locucion": "Tres: revisa los asientos al hacer el check-in, para no acabar separados de tus hijos. Cuanto antes, mejor.",
    "num": "CONSEJO 3 DE 5",
    "grande": "Revisa los asientos *en el check-in*",
    "voz": "../../../recursos/voces/consejos-v1/C5-4.mp3",
@@ -69,9 +72,10 @@
    "tipo": "consejo",
    "subtitulos": [
     "Cuatro: lo imprescindible del bebé, en el equipaje de mano.",
-    "Pañales, leche, medicación."
+    "Pañales, leche, medicación.",
+    "Por si la maleta no llega."
    ],
-   "locucion": "Cuatro: lo imprescindible del bebé, en el equipaje de mano. Pañales, leche, medicación.",
+   "locucion": "Cuatro: lo imprescindible del bebé, en el equipaje de mano. Pañales, leche, medicación. Por si la maleta no llega.",
    "num": "CONSEJO 4 DE 5",
    "grande": "Lo del bebé, *en el equipaje de mano*",
    "voz": "../../../recursos/voces/consejos-v1/C5-5.mp3",
@@ -82,9 +86,10 @@
    "tipo": "consejo",
    "subtitulos": [
     "Cinco: si os toca pasar la noche por un retraso o una cancelación,",
-    "la aerolínea tiene que daros hotel y traslado."
+    "la aerolínea tiene que daros hotel y traslado.",
+    "Y comida mientras esperáis."
    ],
-   "locucion": "Cinco: si os toca pasar la noche por un retraso o una cancelación, la aerolínea tiene que daros hotel y traslado.",
+   "locucion": "Cinco: si os toca pasar la noche por un retraso o una cancelación, la aerolínea tiene que daros hotel y traslado. Y comida mientras esperáis.",
    "num": "CONSEJO 5 DE 5",
    "grande": "¿Noche fuera? *Hotel y traslado*",
    "voz": "../../../recursos/voces/consejos-v1/C5-6.mp3",

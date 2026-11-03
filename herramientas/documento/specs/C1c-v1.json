@@ -26,9 +26,10 @@
   {
    "tipo": "consejo",
    "subtitulos": [
-    "Uno: tirar la tarjeta de embarque. Es tu prueba."
+    "Uno: tirar la tarjeta de embarque.",
+    "Es tu prueba de que ibas en ese vuelo."
    ],
-   "locucion": "Uno: tirar la tarjeta de embarque. Es tu prueba.",
+   "locucion": "Uno: tirar la tarjeta de embarque. Es tu prueba de que ibas en ese vuelo.",
    "num": "ERROR 1 DE 3",
    "grande": "Tirar la *tarjeta de embarque*",
    "voz": "../../../recursos/voces/consejos-v1/C1c-2.mp3",
@@ -38,9 +39,10 @@
   {
    "tipo": "consejo",
    "subtitulos": [
-    "Dos: mirar la hora de salida. Cuenta la de llegada."
+    "Dos: mirar la hora de salida.",
+    "Lo que cuenta es la hora de llegada."
    ],
-   "locucion": "Dos: mirar la hora de salida. Cuenta la de llegada.",
+   "locucion": "Dos: mirar la hora de salida. Lo que cuenta es la hora de llegada.",
    "num": "ERROR 2 DE 3",
    "grande": "Mirar la hora *de salida*",
    "voz": "../../../recursos/voces/consejos-v1/C1c-3.mp3",
@@ -50,9 +52,10 @@
   {
    "tipo": "consejo",
    "subtitulos": [
-    "Tres: aceptar un vale. Puedes estar renunciando al dinero."
+    "Tres: aceptar un vale sin leer la letra pequeña.",
+    "Puedes estar renunciando al dinero."
    ],
-   "locucion": "Tres: aceptar un vale. Puedes estar renunciando al dinero.",
+   "locucion": "Tres: aceptar un vale sin leer la letra pequeña. Puedes estar renunciando al dinero.",
    "num": "ERROR 3 DE 3",
    "grande": "Aceptar un *vale* sin leer la letra pequeña",
    "tam": 84,

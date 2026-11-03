@@ -15,9 +15,9 @@
   {
    "tipo": "gancho",
    "subtitulos": [
-    "Tres trucos para reclamar tu vuelo."
+    "Tres trucos para reclamar tu vuelo sin dejar dinero por el camino."
    ],
-   "locucion": "Tres trucos para reclamar tu vuelo.",
+   "locucion": "Tres trucos para reclamar tu vuelo sin dejar dinero por el camino.",
    "voz": "../../../recursos/voces/consejos-v1/C7c-1.mp3",
    "stock": "mano-papel-mesa-madera_5761375.mp4",
    "modo": "marco",
@@ -26,9 +26,9 @@
   {
    "tipo": "consejo",
    "subtitulos": [
-    "Uno: el reembolso, en siete días."
+    "Uno: si pides el reembolso, tienen siete días para devolvértelo."
    ],
-   "locucion": "Uno: el reembolso, en siete días.",
+   "locucion": "Uno: si pides el reembolso, tienen siete días para devolvértelo.",
    "num": "TRUCO 1 DE 3",
    "grande": "Reembolso en *7 días*",
    "voz": "../../../recursos/voces/consejos-v1/C7c-2.mp3",
@@ -38,9 +38,9 @@
   {
    "tipo": "consejo",
    "subtitulos": [
-    "Dos: no firmes renuncias."
+    "Dos: no firmes nada en lo que renuncies a la compensación."
    ],
-   "locucion": "Dos: no firmes renuncias.",
+   "locucion": "Dos: no firmes nada en lo que renuncies a la compensación.",
    "num": "TRUCO 2 DE 3",
    "grande": "No firmes *renuncias*",
    "voz": "../../../recursos/voces/consejos-v1/C7c-3.mp3",
@@ -51,9 +51,10 @@
   {
    "tipo": "consejo",
    "subtitulos": [
-    "Tres: habla con los demás pasajeros."
+    "Tres: habla con los demás pasajeros.",
+    "Juntos, más fuerza."
    ],
-   "locucion": "Tres: habla con los demás pasajeros.",
+   "locucion": "Tres: habla con los demás pasajeros. Juntos, más fuerza.",
    "num": "TRUCO 3 DE 3",
    "grande": "Habla con *los demás pasajeros*",
    "voz": "../../../recursos/voces/consejos-v1/C7c-4.mp3",

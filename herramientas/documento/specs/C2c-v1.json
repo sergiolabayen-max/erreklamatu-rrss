@@ -15,9 +15,10 @@
   {
    "tipo": "gancho",
    "subtitulos": [
-    "¿Te cancelan el vuelo? Tres cosas que te deben."
+    "¿Te cancelan el vuelo?",
+    "Tres cosas que la aerolínea te debe."
    ],
-   "locucion": "¿Te cancelan el vuelo? Tres cosas que te deben.",
+   "locucion": "¿Te cancelan el vuelo? Tres cosas que la aerolínea te debe.",
    "voz": "../../../recursos/voces/consejos-v1/C2c-1.mp3",
    "stock": "hombre-llamada-maleta-hotel_9724030.mp4",
    "modo": "marco",
@@ -27,9 +28,10 @@
   {
    "tipo": "consejo",
    "subtitulos": [
-    "Uno: reembolso u otro vuelo. Tú eliges."
+    "Uno: reembolso u otro vuelo.",
+    "Tú eliges, no la aerolínea."
    ],
-   "locucion": "Uno: reembolso u otro vuelo. Tú eliges.",
+   "locucion": "Uno: reembolso u otro vuelo. Tú eliges, no la aerolínea.",
    "num": "DERECHO 1 DE 3",
    "grande": "Tú eliges: *reembolso u otro vuelo*",
    "voz": "../../../recursos/voces/consejos-v1/C2c-2.mp3",
@@ -39,9 +41,9 @@
   {
    "tipo": "consejo",
    "subtitulos": [
-    "Dos: comida, bebida y hotel si hace falta."
+    "Dos: comida, bebida y hotel si hace falta, mientras esperas."
    ],
-   "locucion": "Dos: comida, bebida y hotel si hace falta.",
+   "locucion": "Dos: comida, bebida y hotel si hace falta, mientras esperas.",
    "num": "DERECHO 2 DE 3",
    "grande": "Comida, bebida y *hotel* si hace falta",
    "voz": "../../../recursos/voces/consejos-v1/C2c-3.mp3",
@@ -51,9 +53,9 @@
   {
    "tipo": "consejo",
    "subtitulos": [
-    "Tres: de 250 a 600 euros, si la culpa es suya."
+    "Tres: de 250 a 600 euros si la culpa es suya, según la distancia."
    ],
-   "locucion": "Tres: de doscientos cincuenta a seiscientos euros, si la culpa es suya.",
+   "locucion": "Tres: de doscientos cincuenta a seiscientos euros si la culpa es suya, según la distancia.",
    "num": "DERECHO 3 DE 3",
    "grande": "De *250 a 600 €* según la distancia",
    "voz": "../../../recursos/voces/consejos-v1/C2c-4.mp3",

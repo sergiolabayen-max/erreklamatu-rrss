@@ -15,9 +15,10 @@
   {
    "tipo": "gancho",
    "subtitulos": [
-    "Cinco derechos como pasajero de avión que casi nadie conoce."
+    "Cinco derechos como pasajero de avión que casi nadie conoce.",
+    "Y que te pueden valer dinero."
    ],
-   "locucion": "Cinco derechos como pasajero de avión que casi nadie conoce.",
+   "locucion": "Cinco derechos como pasajero de avión que casi nadie conoce. Y que te pueden valer dinero.",
    "voz": "../../../recursos/voces/consejos-v1/C6-1.mp3",
    "stock": "pasajeros-varados-malas-noticias_7578287.mp4",
    "modo": "marco",
@@ -27,9 +28,10 @@
    "tipo": "consejo",
    "subtitulos": [
     "Uno: si te dejan en tierra por overbooking,",
-    "además de otro vuelo, tienes derecho a una compensación."
+    "además de otro vuelo, tienes derecho a una compensación.",
+    "De 250 a 600 euros, según la distancia."
    ],
-   "locucion": "Uno: si te dejan en tierra por overbooking, además de otro vuelo, tienes derecho a una compensación.",
+   "locucion": "Uno: si te dejan en tierra por overbooking, además de otro vuelo, tienes derecho a una compensación. De doscientos cincuenta a seiscientos euros, según la distancia.",
    "num": "DERECHO 1 DE 5",
    "grande": "Overbooking: *también hay compensación*",
    "voz": "../../../recursos/voces/consejos-v1/C6-2.mp3",
@@ -41,9 +43,10 @@
    "tipo": "consejo",
    "subtitulos": [
     "Dos: la compensación depende de la distancia, no de lo que pagaste.",
-    "Aunque el billete fuera barato."
+    "Aunque el billete fuera barato,",
+    "o lo compraras en oferta."
    ],
-   "locucion": "Dos: la compensación depende de la distancia, no de lo que pagaste. Aunque el billete fuera barato.",
+   "locucion": "Dos: la compensación depende de la distancia, no de lo que pagaste. Aunque el billete fuera barato, o lo compraras en oferta.",
    "num": "DERECHO 2 DE 5",
    "grande": "Depende de *la distancia*, no del precio",
    "voz": "../../../recursos/voces/consejos-v1/C6-3.mp3",
@@ -55,9 +58,10 @@
    "tipo": "consejo",
    "subtitulos": [
     "Tres: si no te ofrecen otro vuelo, cómpralo tú,",
-    "guarda la factura y reclámalo."
+    "guarda la factura y reclámalo.",
+    "Lo mismo con el hotel o los taxis."
    ],
-   "locucion": "Tres: si no te ofrecen otro vuelo, cómpralo tú, guarda la factura y reclámalo.",
+   "locucion": "Tres: si no te ofrecen otro vuelo, cómpralo tú, guarda la factura y reclámalo. Lo mismo con el hotel o los taxis.",
    "num": "DERECHO 3 DE 5",
    "grande": "¿Sin otro vuelo? *Cómpralo y reclámalo*",
    "tam": 80,
@@ -68,9 +72,10 @@
   {
    "tipo": "consejo",
    "subtitulos": [
-    "Cuatro: durante la espera, te tienen que dejar llamar o enviar un correo."
+    "Cuatro: durante la espera, te tienen que dejar llamar o enviar un correo.",
+    "Dos llamadas o dos correos, gratis."
    ],
-   "locucion": "Cuatro: durante la espera, te tienen que dejar llamar o enviar un correo.",
+   "locucion": "Cuatro: durante la espera, te tienen que dejar llamar o enviar un correo. Dos llamadas o dos correos, gratis.",
    "num": "DERECHO 4 DE 5",
    "grande": "Tienes derecho a *comunicarte*",
    "voz": "../../../recursos/voces/consejos-v1/C6-5.mp3",
@@ -81,9 +86,10 @@
    "tipo": "consejo",
    "subtitulos": [
     "Cinco: en el Estado español, tienes cinco años para reclamar.",
-    "Pero mejor no esperes."
+    "Pero mejor no esperes:",
+    "es más fácil con los papeles a mano."
    ],
-   "locucion": "Cinco: en el Estado español, tienes cinco años para reclamar. Pero mejor no esperes.",
+   "locucion": "Cinco: en el Estado español, tienes cinco años para reclamar. Pero mejor no esperes: es más fácil con los papeles a mano.",
    "num": "DERECHO 5 DE 5",
    "grande": "*5 años* para reclamar",
    "voz": "../../../recursos/voces/consejos-v1/C6-6.mp3",

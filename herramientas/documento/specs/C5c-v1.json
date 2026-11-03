@@ -15,9 +15,10 @@
   {
    "tipo": "gancho",
    "subtitulos": [
-    "¿Vas a volar con niños? Tres cosas que debes saber."
+    "¿Vas a volar con niños?",
+    "Tres cosas que debes saber antes de ir al aeropuerto."
    ],
-   "locucion": "¿Vas a volar con niños? Tres cosas que debes saber.",
+   "locucion": "¿Vas a volar con niños? Tres cosas que debes saber antes de ir al aeropuerto.",
    "voz": "../../../recursos/voces/consejos-v1/C5c-1.mp3",
    "stock": "familia-bebe-aeropuerto-avion_4391364.mp4",
    "modo": "marco",
@@ -26,9 +27,10 @@
   {
    "tipo": "consejo",
    "subtitulos": [
-    "Uno: la leche del bebé sí pasa el control."
+    "Uno: la leche y la comida del bebé sí pasan el control.",
+    "Avisa al pasar."
    ],
-   "locucion": "Uno: la leche del bebé sí pasa el control.",
+   "locucion": "Uno: la leche y la comida del bebé sí pasan el control. Avisa al pasar.",
    "num": "CONSEJO 1 DE 3",
    "grande": "La comida del bebé *sí pasa el control*",
    "tam": 80,
@@ -39,9 +41,9 @@
   {
    "tipo": "consejo",
    "subtitulos": [
-    "Dos: revisa los asientos en el check-in."
+    "Dos: revisa los asientos en el check-in, para ir juntos."
    ],
-   "locucion": "Dos: revisa los asientos en el check-in.",
+   "locucion": "Dos: revisa los asientos en el check-in, para ir juntos.",
    "num": "CONSEJO 2 DE 3",
    "grande": "Revisa los asientos *en el check-in*",
    "voz": "../../../recursos/voces/consejos-v1/C5c-3.mp3",
@@ -51,9 +53,9 @@
   {
    "tipo": "consejo",
    "subtitulos": [
-    "Tres: lo del bebé, en el equipaje de mano."
+    "Tres: lo imprescindible del bebé, en el equipaje de mano."
    ],
-   "locucion": "Tres: lo del bebé, en el equipaje de mano.",
+   "locucion": "Tres: lo imprescindible del bebé, en el equipaje de mano.",
    "num": "CONSEJO 3 DE 3",
    "grande": "Lo del bebé, *en el equipaje de mano*",
    "voz": "../../../recursos/voces/consejos-v1/C5c-4.mp3",

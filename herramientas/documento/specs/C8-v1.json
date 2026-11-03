@@ -15,9 +15,10 @@
   {
    "tipo": "gancho",
    "subtitulos": [
-    "Cinco consejos para que tu vuelo no te dé problemas."
+    "Cinco consejos para que tu vuelo no te dé problemas.",
+    "Apúntalos antes de salir de casa."
    ],
-   "locucion": "Cinco consejos para que tu vuelo no te dé problemas.",
+   "locucion": "Cinco consejos para que tu vuelo no te dé problemas. Apúntalos antes de salir de casa.",
    "voz": "../../../recursos/voces/consejos-v1/C8-1.mp3",
    "stock": "manos-haciendo-maleta_8358758.mp4",
    "modo": "marco",
@@ -27,9 +28,10 @@
    "tipo": "consejo",
    "subtitulos": [
     "Uno: si hay escalas, que vayan en la misma reserva",
-    "y con margen entre vuelos."
+    "y con margen entre vuelos.",
+    "Si van por separado y pierdes el segundo, la aerolínea no tiene por qué recolocarte."
    ],
-   "locucion": "Uno: si hay escalas, que vayan en la misma reserva y con margen entre vuelos.",
+   "locucion": "Uno: si hay escalas, que vayan en la misma reserva y con margen entre vuelos. Si van por separado y pierdes el segundo, la aerolínea no tiene por qué recolocarte.",
    "num": "CONSEJO 1 DE 5",
    "grande": "Escalas: *misma reserva y con margen*",
    "tam": 80,
@@ -42,9 +44,10 @@
    "tipo": "consejo",
    "subtitulos": [
     "Dos: activa las alertas de tu vuelo y mira el correo.",
-    "Los cambios llegan por ahí."
+    "Los cambios de horario llegan por ahí.",
+    "Y revísalo el día antes."
    ],
-   "locucion": "Dos: activa las alertas de tu vuelo y mira el correo. Los cambios llegan por ahí.",
+   "locucion": "Dos: activa las alertas de tu vuelo y mira el correo. Los cambios de horario llegan por ahí. Y revísalo el día antes.",
    "num": "CONSEJO 2 DE 5",
    "grande": "Activa *las alertas*",
    "voz": "../../../recursos/voces/consejos-v1/C8-3.mp3",
@@ -55,9 +58,10 @@
    "tipo": "consejo",
    "subtitulos": [
     "Tres: comprueba que tu pasaporte está vigente.",
-    "Algunos países piden seis meses de validez."
+    "Algunos países piden seis meses de validez,",
+    "y otros, visado o autorización previa."
    ],
-   "locucion": "Tres: comprueba que tu pasaporte está vigente. Algunos países piden seis meses de validez.",
+   "locucion": "Tres: comprueba que tu pasaporte está vigente. Algunos países piden seis meses de validez, y otros, visado o autorización previa.",
    "num": "CONSEJO 3 DE 5",
    "grande": "Pasaporte: *¿te quedan 6 meses?*",
    "voz": "../../../recursos/voces/consejos-v1/C8-4.mp3",
@@ -67,9 +71,10 @@
   {
    "tipo": "consejo",
    "subtitulos": [
-    "Cuatro: etiqueta la maleta por fuera y por dentro, con tu teléfono."
+    "Cuatro: etiqueta la maleta por fuera y por dentro, con tu teléfono.",
+    "Y hazle una foto antes de facturar."
    ],
-   "locucion": "Cuatro: etiqueta la maleta por fuera y por dentro, con tu teléfono.",
+   "locucion": "Cuatro: etiqueta la maleta por fuera y por dentro, con tu teléfono. Y hazle una foto antes de facturar.",
    "num": "CONSEJO 4 DE 5",
    "grande": "Etiqueta *por fuera y por dentro*",
    "voz": "../../../recursos/voces/consejos-v1/C8-5.mp3",
@@ -79,9 +84,11 @@
   {
    "tipo": "consejo",
    "subtitulos": [
-    "Cinco: en el equipaje de mano, una batería y lo básico para unas horas."
+    "Cinco: en el equipaje de mano, una batería y lo básico para unas horas.",
+    "Medicinas incluidas.",
+    "Por si hay retraso o la maleta no llega."
    ],
-   "locucion": "Cinco: en el equipaje de mano, una batería y lo básico para unas horas.",
+   "locucion": "Cinco: en el equipaje de mano, una batería y lo básico para unas horas. Medicinas incluidas. Por si hay retraso o la maleta no llega.",
    "num": "CONSEJO 5 DE 5",
    "grande": "Batería y lo básico *en la mano*",
    "voz": "../../../recursos/voces/consejos-v1/C8-6.mp3",

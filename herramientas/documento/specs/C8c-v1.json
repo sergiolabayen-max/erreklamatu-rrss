@@ -15,9 +15,10 @@
   {
    "tipo": "gancho",
    "subtitulos": [
-    "Tres consejos para que tu vuelo no te dé problemas."
+    "Tres consejos para que tu vuelo no te dé problemas.",
+    "Apúntalos."
    ],
-   "locucion": "Tres consejos para que tu vuelo no te dé problemas.",
+   "locucion": "Tres consejos para que tu vuelo no te dé problemas. Apúntalos.",
    "voz": "../../../recursos/voces/consejos-v1/C8c-1.mp3",
    "stock": "manos-haciendo-maleta_8358758.mp4",
    "modo": "marco",
@@ -26,9 +27,9 @@
   {
    "tipo": "consejo",
    "subtitulos": [
-    "Uno: escalas en la misma reserva."
+    "Uno: si hay escalas, que vayan en la misma reserva."
    ],
-   "locucion": "Uno: escalas en la misma reserva.",
+   "locucion": "Uno: si hay escalas, que vayan en la misma reserva.",
    "num": "CONSEJO 1 DE 3",
    "grande": "Escalas: *misma reserva y con margen*",
    "tam": 80,
@@ -40,9 +41,9 @@
   {
    "tipo": "consejo",
    "subtitulos": [
-    "Dos: activa las alertas del vuelo."
+    "Dos: activa las alertas del vuelo y mira el correo."
    ],
-   "locucion": "Dos: activa las alertas del vuelo.",
+   "locucion": "Dos: activa las alertas del vuelo y mira el correo.",
    "num": "CONSEJO 2 DE 3",
    "grande": "Activa *las alertas*",
    "voz": "../../../recursos/voces/consejos-v1/C8c-3.mp3",
@@ -52,9 +53,9 @@
   {
    "tipo": "consejo",
    "subtitulos": [
-    "Tres: etiqueta la maleta por fuera y por dentro."
+    "Tres: etiqueta la maleta por fuera y por dentro, con tu teléfono."
    ],
-   "locucion": "Tres: etiqueta la maleta por fuera y por dentro.",
+   "locucion": "Tres: etiqueta la maleta por fuera y por dentro, con tu teléfono.",
    "num": "CONSEJO 3 DE 3",
    "grande": "Etiqueta *por fuera y por dentro*",
    "voz": "../../../recursos/voces/consejos-v1/C8c-4.mp3",

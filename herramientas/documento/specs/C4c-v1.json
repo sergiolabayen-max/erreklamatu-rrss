@@ -15,9 +15,10 @@
   {
    "tipo": "gancho",
    "subtitulos": [
-    "¿Tu maleta no aparece? Tres pasos para reclamar."
+    "¿Tu maleta no aparece?",
+    "Tres pasos para reclamar sin perder tus derechos."
    ],
-   "locucion": "¿Tu maleta no aparece? Tres pasos para reclamar.",
+   "locucion": "¿Tu maleta no aparece? Tres pasos para reclamar sin perder tus derechos.",
    "voz": "../../../recursos/voces/consejos-v1/C4c-1.mp3",
    "stock": "cinta-equipajes-vacia_7283089.mp4",
    "modo": "marco",
@@ -26,9 +27,9 @@
   {
    "tipo": "consejo",
    "subtitulos": [
-    "Uno: el parte, antes de salir del aeropuerto."
+    "Uno: haz el parte en el mostrador, antes de salir del aeropuerto."
    ],
-   "locucion": "Uno: el parte, antes de salir del aeropuerto.",
+   "locucion": "Uno: haz el parte en el mostrador, antes de salir del aeropuerto.",
    "num": "PASO 1 DE 3",
    "grande": "El *parte (PIR)* antes de salir",
    "voz": "../../../recursos/voces/consejos-v1/C4c-2.mp3",
@@ -38,9 +39,9 @@
   {
    "tipo": "consejo",
    "subtitulos": [
-    "Dos: compras urgentes, con ticket."
+    "Dos: si haces compras urgentes, guarda los tickets."
    ],
-   "locucion": "Dos: compras urgentes, con ticket.",
+   "locucion": "Dos: si haces compras urgentes, guarda los tickets.",
    "num": "PASO 2 DE 3",
    "grande": "Compras urgentes: *guarda los tickets*",
    "voz": "../../../recursos/voces/consejos-v1/C4c-3.mp3",
@@ -50,9 +51,10 @@
   {
    "tipo": "consejo",
    "subtitulos": [
-    "Tres: plazos cortos. Siete días si está dañada, veintiuno si llega tarde."
+    "Tres: los plazos son cortos.",
+    "Siete días si está dañada, veintiuno si llega tarde."
    ],
-   "locucion": "Tres: plazos cortos. Siete días si está dañada, veintiuno si llega tarde.",
+   "locucion": "Tres: los plazos son cortos. Siete días si está dañada, veintiuno si llega tarde.",
    "num": "PASO 3 DE 3",
    "grande": "*7 días* si está dañada, *21* si llega tarde",
    "tam": 80,
