@@ -1,6 +1,7 @@
 {
  "id": "C1-errores-indemnizacion",
- "categoria": "EVITA ESTOS ERRORES",
+ "categoria": "CONSEJOS",
+ "portada_pie": "Guía rápida · ERREKLAMATU",
  "titulo": [
   "5 errores que te pueden dejar sin indemnización",
   "si te retrasan o cancelan *un vuelo*"
@@ -8,7 +9,7 @@
  "titulo_tam": 84,
  "portada_dato": [
   "5 errores",
-  "que te pueden dejar sin indemnización"
+  "y el peor de todos: no reclamar"
  ],
  "tramos": [
   {
@@ -31,7 +32,6 @@
    ],
    "num": "ERROR 1 DE 5",
    "grande": "Tirar la *tarjeta de embarque*",
-   "pequeno": "Es la prueba de que ibas en ese vuelo. Guárdala, aunque sea en el móvil.",
    "locucion": "Uno: tirar la tarjeta de embarque. Es la prueba de que ibas en ese vuelo. Guárdala.",
    "voz": "../../../recursos/voces/consejos-v1/C1-2.mp3",
    "stock": "tarjeta-embarque-pasaporte-lenta_9692863.mp4",
@@ -45,8 +45,6 @@
    ],
    "num": "ERROR 2 DE 5",
    "grande": "Mirar la hora *de salida*",
-   "pequeno": "Cuenta la llegada: con 3 horas o más de retraso en destino, puede haber compensación.",
-   "norma": "Reglamento (CE) 261/2004",
    "locucion": "Dos: mirar la hora de salida. Lo que cuenta es la hora de llegada: con tres horas o más de retraso, puedes tener derecho a compensación.",
    "voz": "../../../recursos/voces/consejos-v1/C1-3.mp3",
    "stock": "panel-llegadas-arrived-lenta_3055336.mp4",
@@ -61,7 +59,6 @@
    "num": "ERROR 3 DE 5",
    "grande": "Aceptar un *vale* sin leer la letra pequeña",
    "tam": 84,
-   "pequeno": "Si lo aceptas como compensación, puedes estar renunciando al dinero.",
    "locucion": "Tres: aceptar un vale sin leer la letra pequeña. Si lo aceptas como compensación, puedes estar renunciando al dinero.",
    "voz": "../../../recursos/voces/consejos-v1/C1-4.mp3",
    "stock": "mostrador-pasajera-documento_2289936.mp4",
@@ -77,7 +74,6 @@
    "num": "ERROR 4 DE 5",
    "grande": "Creerte lo de las *circunstancias extraordinarias*",
    "tam": 80,
-   "pequeno": "Es la aerolínea la que tiene que demostrarlas. Y no siempre puede.",
    "locucion": "Cuatro: creerte lo de las circunstancias extraordinarias. La aerolínea tiene que demostrarlas. Y no siempre puede.",
    "voz": "../../../recursos/voces/consejos-v1/C1-5.mp3",
    "stock": "ventanilla-lluvia_551110.mp4",
@@ -91,7 +87,6 @@
    ],
    "num": "ERROR 5 DE 5",
    "grande": "Pagar los gastos *de tu bolsillo*",
-   "pequeno": "Comida, hotel o traslados por la incidencia también se reclaman. Guarda los tickets.",
    "locucion": "Cinco: pagar los gastos de tu bolsillo. Comida, hotel o traslados por la incidencia también se reclaman. Guarda los tickets.",
    "voz": "../../../recursos/voces/consejos-v1/C1-6.mp3",
    "stock": "C1-montaje-gastos.mp4",
@@ -104,7 +99,6 @@
     "Que la aerolínea diga que no al principio no significa que no tengas razón."
    ],
    "grande": "Y el peor: *no reclamar*",
-   "pequeno": "Un «no» de la aerolínea al principio no significa que no tengas razón.",
    "locucion": "Y el peor de todos: no reclamar. Que la aerolínea diga que no al principio no significa que no tengas razón.",
    "voz": "../../../recursos/voces/consejos-v1/C1-7.mp3",
    "stock": "mujer-portatil-casa_7159871.mp4",
