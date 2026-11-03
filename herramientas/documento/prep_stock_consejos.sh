@@ -17,3 +17,8 @@ lento persona-andando-maleta_6112878.mp4 persona-andando-maleta-lenta_6112878.mp
 lento zona-equipajes-mostradores_7387456.mp4 zona-equipajes-mostradores-lenta_7387456.mp4 0.7
 lento mano-escribiendo-cuaderno_2425280.mp4 mano-escribiendo-cuaderno-lenta_2425280.mp4 0.75
 for f in *-lenta_{3548036,6112878,7387456,2425280}.mp4; do echo "$f $(ffprobe -v error -show_entries format=duration -of csv=p=0 $f)"; done
+# Segunda pasada (voces más largas): café a 0,9×; persona con maleta a 0,65×; mano escribiendo a 0,6×; agente de viajes a 0,8× (C9 usa dos segmentos)
+lento cafe-bolleria-mesa_5993996.mp4 cafe-bolleria-mesa-lenta_5993996.mp4 0.9
+lento persona-andando-maleta_6112878.mp4 persona-andando-maleta-lenta_6112878.mp4 0.65
+lento mano-escribiendo-cuaderno_2425280.mp4 mano-escribiendo-cuaderno-lenta_2425280.mp4 0.6
+lento agente-viajes-pasaporte_8425923.mp4 agente-viajes-pasaporte-lenta_8425923.mp4 0.8

@@ -46,7 +46,7 @@
    "num": "PRÁCTICA 2 DE 3",
    "grande": "«Fue en una agencia»: *da igual*",
    "voz": "../../../recursos/voces/consejos-v1/C9c-3.mp3",
-   "stock": "agente-viajes-pasaporte_8425923.mp4",
+   "stock": "agente-viajes-pasaporte-lenta_8425923.mp4",
    "modo": "marco"
   },
   {
@@ -59,9 +59,9 @@
    "num": "PRÁCTICA 3 DE 3",
    "grande": "Te deben informar *por escrito*",
    "voz": "../../../recursos/voces/consejos-v1/C9c-4.mp3",
-   "stock": "agente-viajes-pasaporte_8425923.mp4",
+   "stock": "agente-viajes-pasaporte-lenta_8425923.mp4",
    "modo": "marco",
-   "desde": 8.5
+   "desde": 8.3
   }
  ],
  "cierre": {

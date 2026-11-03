@@ -204,7 +204,7 @@ STOCK.update({
  "C2": {"1": _m("hombre-llamada-maleta-hotel_9724030.mp4", desde=2, marco_y=820), "2": _m("mujer-mirando-panel-vuelos_5916077.mp4"),
         "3": _m("abrir-habitacion-hotel-tarjeta_6737621.mp4"), "4": _m("mujer-banca-movil_3089726.mp4"),
         "5": _m("manos-movil-navegando_2872495.mp4"), "6": _m("multitud-terminal-atardecer_10089789.mp4", desde=4)},
- "C3": {"1": _m("pasajeros-durmiendo-terminal_7640560.mp4", marco_y=820), "2": _m("cafe-bolleria-mesa_5993996.mp4"),
+ "C3": {"1": _m("pasajeros-durmiendo-terminal_7640560.mp4", marco_y=820), "2": _m("cafe-bolleria-mesa-lenta_5993996.mp4"),
         "3": _m("pasajeros-saliendo-pasarela-lenta_3548036.mp4"), "4": _m("mano-reloj-macro_2362760.mp4"),
         "5": _m("persona-andando-maleta-lenta_6112878.mp4"), "6": _m("avion-despegando-torre-control_3425543.mp4")},
  "C4": {"1": _m("cinta-equipajes-vacia_7283089.mp4", marco_y=820), "2": _m("zona-equipajes-mostradores-lenta_7387456.mp4"),
@@ -223,8 +223,8 @@ STOCK.update({
         "3": _m("persona-usando-movil_3800092.mp4"), "4": _m("manos-pasaporte-puerta-embarque_3297994.mp4"),
         "5": _m("manos-etiqueta-maleta_7897725.mp4"), "6": _m("movil-cargando-bateria-externa_3667989.mp4")},
  "C9": {"1": _m("hombre-serio-portatil-cocina_5042236.mp4", marco_y=820), "2": _m("azafata-tierra-mostrador-pasaporte_2744579.mp4"),
-        "3": _m("ejecutivo-entregando-documentos_2552355.mp4"), "4": _m("agente-viajes-pasaporte_8425923.mp4"),
-        "5": _m("agente-viajes-pasaporte_8425923.mp4", desde=8.5)},
+        "3": _m("ejecutivo-entregando-documentos_2552355.mp4"), "4": _m("agente-viajes-pasaporte-lenta_8425923.mp4"),
+        "5": _m("agente-viajes-pasaporte-lenta_8425923.mp4", desde=8.3)},
 })
 # Versiones de 25 s: reutilizan los planos de su versión larga (gancho + tres puntos).
 for _k, _idx in {"C1": [2, 3, 4], "C2": [2, 3, 4], "C3": [2, 3, 4], "C4": [2, 3, 5], "C5": [2, 4, 5], "C6": [2, 3, 6],
