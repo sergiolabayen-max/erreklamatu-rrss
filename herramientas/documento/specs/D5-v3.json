@@ -23,7 +23,7 @@
    ],
    "locucion": "Veintitrés miembros de un grupo de danzas de Donostia iban a actuar en Estados Unidos. Hop les falló a la ida y a la vuelta. Y el juez la condenó a pagarles casi veintiocho mil euros.",
    "voz": "../../../recursos/voces/documento-v3/D5-1.mp3",
-   "stock": "aeropuerto-espera-retraso_7781157.mp4",
+   "stock": "grupo-jovenes-puerta-embarque-lenta-IA_3815513942.mp4",
    "modo": "marco",
    "marco_y": 820,
    "desde": 1
@@ -53,7 +53,7 @@
    "voz": "../../../recursos/voces/documento-v3/D5-2.mp3",
    "doc_entra": 6.3,
    "extra": 0.6,
-   "stock": "aeropuerto-espera-retraso_7781157.mp4",
+   "stock": "grupo-jovenes-puerta-embarque-lenta-IA_3815513942.mp4",
    "modo": "marco",
    "desde": 8
   },
@@ -149,7 +149,7 @@
   "legal": "Reglamento (CE) 261/2004, arts. 4, 5 y 7. Imágenes de archivo. Cada caso se estudia de forma individual."
  },
  "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3",
- "portada_stock": "aeropuerto-espera-retraso_7781157.mp4",
+ "portada_stock": "grupo-jovenes-puerta-embarque-lenta-IA_3815513942.mp4",
  "portada_desde": 4,
  "portada_modo": "marco",
  "portada_marco_y": 640
