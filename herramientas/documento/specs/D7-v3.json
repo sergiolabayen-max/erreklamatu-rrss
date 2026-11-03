@@ -23,7 +23,8 @@
    "locucion": "Tres días atrapada en Barajas, sin hotel y sin maleta. El juez obliga a Iberia a pagarle casi mil novecientos euros.",
    "voz": "../../../recursos/voces/documento-v3/D7-1.mp3",
    "stock": "sillas-vacias-aeropuerto-noche_3637085.mp4",
-   "modo": "marco"
+   "modo": "marco",
+   "marco_y": 820
   },
   {
    "tipo": "doc",

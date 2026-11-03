@@ -1,0 +1,141 @@
+{
+ "id": "D14-air-canada",
+ "categoria": "UN CASO REAL",
+ "juzgado": "Juzgado de lo Mercantil n.º 2 de Bilbao",
+ "fecha": "17 de septiembre de 2020",
+ "pdf": "sentencia-D14.pdf",
+ "titulo": [
+  "Montreal–Bilbao: Air Canada no le dejó embarcar, a miles de kilómetros de casa",
+  "El juez le reconoce *daño moral, los billetes y las llamadas*"
+ ],
+ "titulo_tam": 74,
+ "portada_dato": [
+  "1.385,46 €",
+  "daño moral, billetes nuevos y llamadas"
+ ],
+ "tramos": [
+  {
+   "tipo": "gancho",
+   "subtitulos": [
+    "Air Canada no le dejó subir al avión en Montreal, a miles de kilómetros de casa.",
+    "El juez le da la razón: más de 1.300 euros."
+   ],
+   "locucion": "Air Canada no le dejó subir al avión en Montreal, a miles de kilómetros de casa. El juez le da la razón: más de mil trescientos euros.",
+   "voz": "../../../recursos/voces/documento-v3/D14-1.mp3",
+   "stock": "montreal-dron_5770753.mp4",
+   "modo": "marco",
+   "marco_y": 820
+  },
+  {
+   "tipo": "doc",
+   "subtitulos": [
+    "Le habían cambiado el itinerario y él lo había aceptado.",
+    "Air Canada decía que solo para una parte del viaje.",
+    "Para el juez, eso no tenía sentido: la denegación de embarque fue injustificada."
+   ],
+   "pagina_num": 2,
+   "subrayar": [
+    "no tiene sentido que el demandante aceptara la modificación sólo para parte del trayecto",
+    "embarque debe considerarse injustificada"
+   ],
+   "margen": [
+    150,
+    60
+   ],
+   "doc_entra": 2.0,
+   "cita": "«… *no tiene sentido que el demandante aceptara la modificación sólo para parte del trayecto*. En consecuencia, la denegación del *embarque debe considerarse injustificada*.»",
+   "locucion": "Le habían cambiado el itinerario y él lo había aceptado. Air Canada decía que solo para una parte del viaje. Para el juez, eso no tenía sentido: la denegación de embarque fue injustificada.",
+   "voz": "../../../recursos/voces/documento-v3/D14-2.mp3",
+   "stock": "mostrador-facturacion-pasaporte-lenta_2744563.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "doc",
+   "subtitulos": [
+    "Aquí no se aplica el reglamento europeo.",
+    "Aun así, el juez le reconoció 350 euros de daño moral por verse tirado tan lejos de casa."
+   ],
+   "pagina_num": 3,
+   "subrayar": [
+    "justifican una afectación psíquica"
+   ],
+   "margen": [
+    150,
+    60
+   ],
+   "doc_entra": 0.2,
+   "cita": "«Las circunstancias que el actor describe *justifican una afectación psíquica*…»",
+   "locucion": "Aquí no se aplica el reglamento europeo. Aun así, el juez le reconoció 350 euros de daño moral por verse tirado tan lejos de casa.",
+   "voz": "../../../recursos/voces/documento-v3/D14-3.mp3",
+   "stock": "hombre-gafas-movil-sala-espera_4874054.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "lista",
+   "subtitulos": [],
+   "locucion": "Esto es lo que Air Canada tendrá que pagarle: trescientos cincuenta euros de daño moral, los billetes que tuvo que comprar para volver, las llamadas y los intereses.",
+   "cabecera": "Lo que Air Canada tendrá que pagarle",
+   "total": [
+    "En total:",
+    "1.385,46 € + intereses"
+   ],
+   "extra": 1.4,
+   "items": [
+    {
+     "t": "350 €",
+     "d": "de daño moral",
+     "palabra": "trescientos"
+    },
+    {
+     "t": "938,80 €",
+     "d": "los billetes que compró para volver a casa",
+     "palabra": "los billetes"
+    },
+    {
+     "t": "96,66 €",
+     "d": "las llamadas que tuvo que hacer",
+     "palabra": "las llamadas"
+    },
+    {
+     "t": "Intereses",
+     "d": "desde la demanda",
+     "palabra": "los intereses"
+    }
+   ],
+   "voz": "../../../recursos/voces/documento-v3/D14-4.mp3",
+   "stock": "montreal-dron_5770753.mp4",
+   "modo": "lleno",
+   "desde": 15
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "¿Te dejan en tierra con una aerolínea de fuera de Europa?",
+    "Aunque no se aplique el reglamento europeo, puedes reclamar los gastos y el daño moral.",
+    "No esperes: el plazo puede ser de solo dos años."
+   ],
+   "grande": "¿Te dejan en tierra *fuera de Europa*?",
+   "pequeno": "Puedes reclamar gastos y daño moral. No esperes: el plazo puede ser de 2 años.",
+   "norma": "Convenio de Montreal, art. 35",
+   "locucion": "¿Te dejan en tierra con una aerolínea de fuera de Europa? Aunque no se aplique el reglamento europeo, puedes reclamar los gastos y el daño moral. No esperes: el plazo puede ser de solo dos años.",
+   "voz": "../../../recursos/voces/documento-v3/D14-5.mp3",
+   "stock": "D14-montaje-consejo.mp4",
+   "modo": "marco"
+  }
+ ],
+ "cierre": {
+  "titulo": "¿Te ha pasado?",
+  "texto": "Te ayudamos a reclamar a la aerolínea.",
+  "subtitulos": [
+   "Llama al 944 027 596"
+  ],
+  "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
+  "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
+  "legal": "Convenio de Montreal; Código Civil, arts. 1101 y 1108. Imágenes de archivo. Cada caso se estudia de forma individual."
+ },
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3",
+ "portada_stock": "montreal-dron_5770753.mp4",
+ "portada_desde": 3,
+ "portada_modo": "marco",
+ "portada_marco_y": 640
+}

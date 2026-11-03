@@ -1,0 +1,137 @@
+{
+ "id": "D15-maletas-bangkok",
+ "categoria": "UN CASO REAL",
+ "juzgado": "Juzgado de lo Mercantil n.º 1 de Donostia",
+ "fecha": "19 de agosto de 2020",
+ "pdf": "sentencia-D15.pdf",
+ "titulo": [
+  "Biarritz–Bangkok: llegaron y sus maletas tardaron siete días en aparecer",
+  "El juez obliga a la aerolínea a pagarles *790 € por el mal rato*"
+ ],
+ "titulo_tam": 74,
+ "portada_dato": [
+  "790 €",
+  "de daño moral, además de los gastos"
+ ],
+ "tramos": [
+  {
+   "tipo": "gancho",
+   "subtitulos": [
+    "Llegaron a Bangkok y sus maletas tardaron siete días en aparecer.",
+    "El juez obliga a la aerolínea a pagarles 790 euros por el mal rato."
+   ],
+   "locucion": "Llegaron a Bangkok y sus maletas tardaron siete días en aparecer. El juez obliga a la aerolínea a pagarles setecientos noventa euros por el mal rato.",
+   "voz": "../../../recursos/voces/documento-v3/D15-1.mp3",
+   "stock": "D15-montaje-gancho.mp4",
+   "modo": "marco",
+   "marco_y": 820
+  },
+  {
+   "tipo": "doc",
+   "subtitulos": [
+    "La aerolínea ya les había pagado lo que gastaron en ropa y en lo básico.",
+    "Y decía que con eso ya estaban indemnizados."
+   ],
+   "pagina_num": 2,
+   "subrayar": [
+    "considera que han sido ya indemnizados los pasajeros"
+   ],
+   "margen": [
+    150,
+    60
+   ],
+   "doc_entra": 1.2,
+   "cita": "«… *considera que han sido ya indemnizados los pasajeros*…»",
+   "locucion": "La aerolínea ya les había pagado lo que gastaron en ropa y en lo básico. Y decía que con eso ya estaban indemnizados.",
+   "voz": "../../../recursos/voces/documento-v3/D15-2.mp3",
+   "stock": "mujer-cinta-equipajes_5951.mp4",
+   "modo": "marco",
+   "desde": 6
+  },
+  {
+   "tipo": "doc",
+   "subtitulos": [
+    "Pero el juez dijo que llegar a otro país y que no aparezca la maleta ya es un trastorno importante.",
+    "Y fijó cincuenta euros por persona y día de retraso."
+   ],
+   "pagina_num": 4,
+   "subrayar": [
+    "no aparecer la maleta ya es un trastorno importante",
+    "lo fijamos en 50 euros por día"
+   ],
+   "margen": [
+    110,
+    60
+   ],
+   "doc_entra": 0.2,
+   "cita": "«… *no aparecer la maleta ya es un trastorno importante* (…) *lo fijamos en 50 euros por día*…»",
+   "locucion": "Pero el juez dijo que llegar a otro país y que no aparezca la maleta ya es un trastorno importante. Y fijó cincuenta euros por persona y día de retraso.",
+   "voz": "../../../recursos/voces/documento-v3/D15-3.mp3",
+   "stock": "bangkok-dron_29199.mp4",
+   "modo": "marco",
+   "desde": 8
+  },
+  {
+   "tipo": "lista",
+   "subtitulos": [],
+   "locucion": "Esto es lo que la aerolínea tendrá que pagarles, además de los gastos: setecientos euros por los siete días sin maletas a la ida, noventa por la maleta que tardó tres días a la vuelta, y los intereses.",
+   "cabecera": "Lo que la aerolínea tendrá que pagarles",
+   "total": [
+    "Además de los gastos que ya cobraron:",
+    "790 € + intereses"
+   ],
+   "extra": 1.4,
+   "items": [
+    {
+     "t": "700 €",
+     "d": "por siete días sin maletas a la ida",
+     "palabra": "setecientos"
+    },
+    {
+     "t": "90 €",
+     "d": "por la maleta que tardó tres días a la vuelta",
+     "palabra": "noventa"
+    },
+    {
+     "t": "Intereses",
+     "d": "desde la demanda",
+     "palabra": "los intereses"
+    }
+   ],
+   "voz": "../../../recursos/voces/documento-v3/D15-4.mp3",
+   "stock": "maletas-cinta-vertical_3626062.mp4",
+   "modo": "lleno"
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "¿Tu maleta no llega?",
+    "Haz el parte en el aeropuerto y reclama por escrito antes de 21 días.",
+    "Además de los gastos, puedes pedir el daño moral."
+   ],
+   "grande": "¿Tu maleta *no llega*?",
+   "pequeno": "Parte en el aeropuerto y reclamación por escrito antes de 21 días.",
+   "norma": "Convenio de Montreal, arts. 19, 22 y 31",
+   "locucion": "¿Tu maleta no llega? Haz el parte en el aeropuerto y reclama por escrito antes de 21 días. Además de los gastos, puedes pedir el daño moral.",
+   "voz": "../../../recursos/voces/documento-v3/D15-5.mp3",
+   "stock": "mujer-cinta-equipajes_5951.mp4",
+   "modo": "marco",
+   "desde": 18
+  }
+ ],
+ "cierre": {
+  "titulo": "¿Te ha pasado?",
+  "texto": "Te ayudamos a reclamar a la aerolínea.",
+  "subtitulos": [
+   "Llama al 944 027 596"
+  ],
+  "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
+  "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
+  "legal": "Convenio de Montreal, arts. 19, 22 y 31. Imágenes de archivo. Cada caso se estudia de forma individual."
+ },
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3",
+ "portada_stock": "mujer-cinta-equipajes_5951.mp4",
+ "portada_desde": 4,
+ "portada_modo": "marco",
+ "portada_marco_y": 640
+}

@@ -24,7 +24,8 @@
    "locucion": "TAP le canceló el vuelo de Lisboa a Bilbao. El de repuesto también llegó tarde. Y el juez le dio dos compensaciones.",
    "voz": "../../../recursos/voces/documento-v3/D8-1.mp3",
    "stock": "D8-montaje-gancho.mp4",
-   "modo": "marco"
+   "modo": "marco",
+   "marco_y": 820
   },
   {
    "tipo": "doc",

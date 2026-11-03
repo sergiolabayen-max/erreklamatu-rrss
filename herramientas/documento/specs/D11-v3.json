@@ -1,0 +1,136 @@
+{
+ "id": "D11-tap-bebe",
+ "categoria": "UN CASO REAL",
+ "juzgado": "Juzgado de Primera Instancia n.º 12 de Bilbao",
+ "fecha": "15 de mayo de 2023",
+ "pdf": "sentencia-D11.pdf",
+ "titulo": [
+  "Lisboa–Bilbao: TAP no quería compensar al bebé que viajaba en brazos",
+  "El juez dice que *el bebé también tiene derecho*"
+ ],
+ "titulo_tam": 76,
+ "portada_dato": [
+  "250 €",
+  "también para el bebé: 1.026,56 € para la familia"
+ ],
+ "tramos": [
+  {
+   "tipo": "gancho",
+   "subtitulos": [
+    "TAP no quería compensar a un bebé que viajaba en brazos.",
+    "El juez dijo que también tenía derecho."
+   ],
+   "locucion": "TAP no quería compensar a un bebé que viajaba en brazos. El juez dijo que también tenía derecho.",
+   "voz": "../../../recursos/voces/documento-v3/D11-1.mp3",
+   "stock": "D11-montaje-gancho.mp4",
+   "modo": "marco",
+   "marco_y": 820
+  },
+  {
+   "tipo": "doc",
+   "subtitulos": [
+    "El vuelo de Lisboa a Bilbao llegó cinco horas tarde.",
+    "TAP aceptó pagar a los otros tres pasajeros, pero no al bebé:",
+    "decía que, con menos de dos años, no pagó billete ni ocupaba asiento."
+   ],
+   "pagina_num": 2,
+   "subrayar": [
+    "por tener una edad inferior a dos años no pagó billete ni ocupaba un asiento"
+   ],
+   "margen": [
+    150,
+    60
+   ],
+   "doc_entra": 2.5,
+   "cita": "«… *por tener una edad inferior a dos años no pagó billete ni ocupaba un asiento* en el vuelo…»",
+   "locucion": "El vuelo de Lisboa a Bilbao llegó cinco horas tarde. TAP aceptó pagar a los otros tres pasajeros, pero no al bebé: decía que, con menos de dos años, no pagó billete ni ocupaba asiento.",
+   "voz": "../../../recursos/voces/documento-v3/D11-2.mp3",
+   "stock": "D11-montaje-sentencia.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "doc",
+   "subtitulos": [
+    "Pero el bebé figuraba con su nombre en la reserva y tenía tarjeta de embarque.",
+    "Para el juez, eso basta: el Reglamento también se aplica al bebé."
+   ],
+   "pagina_num": 5,
+   "subrayar": [
+    "consta el nombre del menor",
+    "se ha de aplicar el Reglamento al bebé"
+   ],
+   "margen": [
+    110,
+    60
+   ],
+   "doc_entra": 0.2,
+   "cita": "«… en la reserva emitida al adquirir los billetes *consta el nombre del menor* (…) *se ha de aplicar el Reglamento al bebé*.»",
+   "locucion": "Pero el bebé figuraba con su nombre en la reserva y tenía tarjeta de embarque. Para el juez, eso basta: el Reglamento también se aplica al bebé.",
+   "voz": "../../../recursos/voces/documento-v3/D11-3.mp3",
+   "stock": "D11-montaje-sentencia2.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "lista",
+   "subtitulos": [],
+   "locucion": "Esto es lo que TAP tendrá que pagarles: doscientos cincuenta euros a cada uno de los cuatro, también al bebé, el parking que pagaron de más, los intereses y las costas.",
+   "cabecera": "Lo que TAP tendrá que pagarles",
+   "total": [
+    "En total, para la familia:",
+    "1.026,56 € + intereses"
+   ],
+   "extra": 1.2,
+   "items": [
+    {
+     "t": "250 € a cada uno",
+     "d": "los cuatro, también el bebé",
+     "palabra": "doscientos"
+    },
+    {
+     "t": "El parking",
+     "d": "lo que pagaron de más por el retraso",
+     "palabra": "el parking"
+    },
+    {
+     "t": "Intereses y costas",
+     "d": "TAP paga también el juicio",
+     "palabra": "los intereses"
+    }
+   ],
+   "voz": "../../../recursos/voces/documento-v3/D11-4.mp3",
+   "stock": "maleta-maletero-aeropuerto-lenta_2971254.mp4",
+   "modo": "lleno"
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "¿Viajas con un bebé en brazos?",
+    "Si figura con su nombre en la reserva y tiene tarjeta de embarque,",
+    "también puede tener derecho a compensación."
+   ],
+   "grande": "¿Tu bebé *viaja en brazos*?",
+   "pequeno": "Si figura en la reserva con su nombre, también puede reclamar. Tienes 5 años.",
+   "norma": "Reglamento (CE) 261/2004, arts. 3 y 7",
+   "locucion": "¿Viajas con un bebé en brazos? Si figura con su nombre en la reserva y tiene tarjeta de embarque, también puede tener derecho a compensación.",
+   "voz": "../../../recursos/voces/documento-v3/D11-5.mp3",
+   "stock": "bebe-mochila-aeropuerto_3036639.mp4",
+   "modo": "marco",
+   "desde": 1
+  }
+ ],
+ "cierre": {
+  "titulo": "¿Te ha pasado?",
+  "texto": "Te ayudamos a reclamar a la aerolínea.",
+  "subtitulos": [
+   "Llama al 944 027 596"
+  ],
+  "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
+  "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
+  "legal": "Reglamento (CE) 261/2004, arts. 3, 7 y 12. Imágenes de archivo. Cada caso se estudia de forma individual."
+ },
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3",
+ "portada_stock": "bebe-mochila-aeropuerto_3036639.mp4",
+ "portada_desde": 3,
+ "portada_modo": "marco",
+ "portada_marco_y": 640
+}

@@ -24,7 +24,8 @@
    "locucion": "Iberia les canceló el vuelo de Donostia a Madrid y les ofreció otro al día siguiente. Para no perder su vuelo a Estambul, fueron en taxi. Y el juez obliga a Iberia a pagarlo.",
    "voz": "../../../recursos/voces/documento-v3/D10-1.mp3",
    "stock": "D10-montaje-gancho.mp4",
-   "modo": "marco"
+   "modo": "marco",
+   "marco_y": 820
   },
   {
    "tipo": "doc",

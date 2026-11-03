@@ -104,19 +104,19 @@ S["D10"] = dict(id="D10-iberia-taxi", categoria="UN CASO REAL", juzgado="Juzgado
 
 # Imágenes de archivo por tramo (1-based) y portada; se rellena al elegir los clips.
 STOCK = {
- "D7": {"1": dict(stock="sillas-vacias-aeropuerto-noche_3637085.mp4", modo="marco"), "2": dict(stock="panel-cancelado-IA_7462012.mp4", modo="marco"),
+ "D7": {"1": dict(stock="sillas-vacias-aeropuerto-noche_3637085.mp4", modo="marco", marco_y=820), "2": dict(stock="panel-cancelado-IA_7462012.mp4", modo="marco"),
         "3": dict(stock="sillas-vacias-aeropuerto-noche_3637085.mp4", modo="marco", desde=5), "4": dict(stock="cinta-equipajes-vacia-vertical_8426064.mp4", modo="lleno"),
         "5": dict(stock="panel-cancelado-IA_7462012.mp4", modo="marco", desde=1),
         "portada": dict(portada_stock="sillas-vacias-aeropuerto-noche_3637085.mp4", portada_desde=2, portada_modo="marco", portada_marco_y=640)},
- "D8": {"1": dict(stock="D8-montaje-gancho.mp4", modo="marco"), "2": dict(stock="avion-aterrizando-ciudad_4215534.mp4", modo="marco", desde=6),
+ "D8": {"1": dict(stock="D8-montaje-gancho.mp4", modo="marco", marco_y=820), "2": dict(stock="avion-aterrizando-ciudad_4215534.mp4", modo="marco", desde=6),
         "3": dict(stock="tranvia-lisboa-lenta_7396767.mp4", modo="marco", desde=3), "4": dict(stock="coche-ciudad-noche_6826313.mp4", modo="marco"),
         "5": dict(stock="coche-ciudad-noche_6826313.mp4", modo="lleno", desde=10), "6": dict(stock="avion-aterrizando-ciudad_4215534.mp4", modo="marco", desde=1),
         "portada": dict(portada_stock="tranvia-lisboa-lenta_7396767.mp4", portada_desde=2, portada_modo="marco", portada_marco_y=640)},
- "D9": {"1": dict(stock="D9-montaje-gancho.mp4", modo="marco"), "2": dict(stock="manga-viento-rachas-lenta_8889993.mp4", modo="marco"),
+ "D9": {"1": dict(stock="D9-montaje-gancho.mp4", modo="marco", marco_y=820), "2": dict(stock="manga-viento-rachas-lenta_8889993.mp4", modo="marco"),
         "3": dict(stock="aviones-rodando-pista_831579.mp4", modo="marco", desde=16), "4": dict(stock="aviones-rodando-pista_831579.mp4", modo="lleno", desde=20),
         "5": dict(stock="manga-viento-rachas-lenta_8889993.mp4", modo="marco", desde=2),
         "portada": dict(portada_stock="manga-viento-rachas-lenta_8889993.mp4", portada_desde=1, portada_modo="marco", portada_marco_y=640)},
- "D10": {"1": dict(stock="D10-montaje-gancho.mp4", modo="marco"), "2": dict(stock="coche-asiento-trasero-autopista-lenta-volteado_9222585.mp4", modo="marco", desde=2),
+ "D10": {"1": dict(stock="D10-montaje-gancho.mp4", modo="marco", marco_y=820), "2": dict(stock="coche-asiento-trasero-autopista-lenta-volteado_9222585.mp4", modo="marco", desde=2),
          "3": dict(stock="avion-silueta-cielo-dorado_3035784.mp4", modo="marco"), "4": dict(stock="donostia-concha-dron_9592862.mp4", modo="lleno", desde=10),
          "5": dict(stock="avion-silueta-cielo-dorado_3035784.mp4", modo="marco", desde=5),
          "portada": dict(portada_stock="donostia-concha-dron_9592862.mp4", portada_desde=4, portada_modo="marco", portada_marco_y=640)},

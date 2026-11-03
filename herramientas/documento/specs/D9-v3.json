@@ -23,7 +23,8 @@
    "locucion": "TAP canceló su vuelo de Bilbao a Lisboa y le echó la culpa al viento. Pero el juez le pidió pruebas.",
    "voz": "../../../recursos/voces/documento-v3/D9-1.mp3",
    "stock": "D9-montaje-gancho.mp4",
-   "modo": "marco"
+   "modo": "marco",
+   "marco_y": 820
   },
   {
    "tipo": "doc",
