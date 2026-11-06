@@ -237,6 +237,17 @@ MARCO_Y, MARCO_H = 300, 608
 def fondo(t, D, sal):
     """Fondo de vídeo de archivo de D segundos. modo «lleno»: a pantalla completa; «marco»: el vídeo apaisado en un recuadro
     sobre una copia desenfocada y oscurecida (así no se pierde nitidez al pasarlo a vertical)."""
+    if t.get("planos"):
+        # Varios planos en un tramo (06/11/2026, corrección de Sergio a PUB-0543/0552: un plano no debe alargarse tanto que
+        # el vídeo se haga estático o inquietante). Cada plano: {"stock", "desde", "dur"}; el último se queda con lo que falte.
+        partes = []; resto = D
+        for i, p in enumerate(t["planos"]):
+            d = round(resto if i == len(t["planos"]) - 1 else min(float(p["dur"]), resto), 3); resto -= d
+            if d <= 0: break
+            sub = Path(str(sal)).with_name(Path(str(sal)).stem + f"-p{i}.mp4")
+            fondo({**t, **p, "planos": None}, d, sub); partes.append(sub)
+        lista = Path(str(sal)).with_suffix(".txt"); lista.write_text("".join(f"file '{Path(x).resolve()}'\n" for x in partes))
+        run("ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", 0, "-i", lista, "-c", "copy", sal); return
     src = t["stock"] if os.path.isabs(t["stock"]) else os.path.join(STOCK, t["stock"])
     ss = t.get("desde", 0); z = t.get("zoom", 0.06)
     cover = f"scale={VW}:{VH}:force_original_aspect_ratio=increase,crop={VW}:{VH}"
