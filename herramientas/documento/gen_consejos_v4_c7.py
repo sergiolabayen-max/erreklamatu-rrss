@@ -1,1 +1,0 @@
-"""PUB-0543/0552, 4/11/2026 13:33: Sergio: el truco 1 (reembolso en 7 días) es un derecho, no un truco. Sustituido por el consejo 6 del artículo (guardar la reserva y las tarjetas de embarque), opción elegida por Sergio. specs Cn-v4 = v3 con el tramo 2 cambiado; voz en recursos/voces/consejos-v5."""
