@@ -1,0 +1,78 @@
+{
+ "id": "C9c-malas-practicas-corto",
+ "categoria": "CUIDADO",
+ "portada_pie": "Guía rápida · ERREKLAMATU",
+ "titulo": [
+  "3 malas prácticas de las aerolíneas",
+  "y qué hacer si *te pasan*"
+ ],
+ "titulo_tam": 84,
+ "portada_dato": [
+  "3 malas prácticas",
+  "de las aerolíneas, y qué hacer"
+ ],
+ "tramos": [
+  {
+   "tipo": "gancho",
+   "subtitulos": [
+    "Tres malas prácticas de las aerolíneas, y qué hacer si te pasan."
+   ],
+   "locucion": "Tres malas prácticas de las aerolíneas, y qué hacer si te pasan.",
+   "voz": "../../../recursos/voces/consejos-v1/C9c-1.mp3",
+   "stock": "hombre-serio-portatil-cocina_5042236.mp4",
+   "modo": "marco",
+   "marco_y": 820
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Una: te ofrecen un bono.",
+    "Si cancelan ellos, no tienes que aceptarlo."
+   ],
+   "locucion": "Una: te ofrecen un bono. Si cancelan ellos, no tienes que aceptarlo.",
+   "num": "PRÁCTICA 1 DE 3",
+   "grande": "¿Un bono? *No estás obligado*",
+   "voz": "../../../recursos/voces/consejos-v1/C9c-2.mp3",
+   "stock": "ejecutivo-entregando-documentos_2552355.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Dos: «fue en una agencia».",
+    "Da igual, tus derechos son los mismos."
+   ],
+   "locucion": "Dos: «fue en una agencia». Da igual, tus derechos son los mismos.",
+   "num": "PRÁCTICA 2 DE 3",
+   "grande": "«Fue en una agencia»: *da igual*",
+   "voz": "../../../recursos/voces/consejos-v1/C9c-3.mp3",
+   "stock": "agente-viajes-pasaporte-lenta_8425923.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Tres: no te informan.",
+    "Y deben hacerlo por escrito."
+   ],
+   "locucion": "Tres: no te informan. Y deben hacerlo por escrito.",
+   "num": "PRÁCTICA 3 DE 3",
+   "grande": "Te deben informar *por escrito*",
+   "voz": "../../../recursos/voces/consejos-v1/C9c-4.mp3",
+   "stock": "agente-viajes-pasaporte-lenta_8425923.mp4",
+   "modo": "marco",
+   "desde": 8.3
+  }
+ ],
+ "cierre": {
+  "titulo": "¿Te ha pasado?",
+  "texto": "Te ayudamos a reclamar a la aerolínea.",
+  "subtitulos": [
+   "Llama al 944 027 596"
+  ],
+  "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
+  "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
+  "legal": "Reglamento (CE) 261/2004. Imágenes de archivo. Cada caso se estudia de forma individual."
+ },
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3"
+}

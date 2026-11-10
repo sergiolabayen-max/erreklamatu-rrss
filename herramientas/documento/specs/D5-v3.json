@@ -1,0 +1,156 @@
+{
+ "id": "D5-hop-danzas",
+ "categoria": "UN CASO REAL",
+ "juzgado": "Juzgado de lo Mercantil n.º 1 de Bilbao",
+ "fecha": "4 de noviembre de 2019",
+ "pdf": "sentencia-D5-hop.pdf",
+ "titulo": [
+  "Iban a actuar en Estados Unidos y Hop les falló a la ida y a la vuelta",
+  "*Casi 28.000 €* para 23 miembros de un grupo de danzas de Donostia"
+ ],
+ "titulo_tam": 74,
+ "portada_dato": [
+  "27.935 €",
+  "para los 23, por la ida y por la vuelta"
+ ],
+ "tramos": [
+  {
+   "tipo": "gancho",
+   "subtitulos": [
+    "23 miembros de un grupo de danzas de Donostia iban a actuar en Estados Unidos.",
+    "Hop les falló a la ida y a la vuelta.",
+    "Y el juez la condenó a pagarles casi 28.000 euros."
+   ],
+   "locucion": "Veintitrés miembros de un grupo de danzas de Donostia iban a actuar en Estados Unidos. Hop les falló a la ida y a la vuelta. Y el juez la condenó a pagarles casi veintiocho mil euros.",
+   "voz": "../../../recursos/voces/documento-v3/D5-1.mp3",
+   "stock": "D5-montaje-gancho.mp4",
+   "modo": "marco",
+   "marco_y": 820,
+   "desde": 0
+  },
+  {
+   "tipo": "doc",
+   "pagina_num": 2,
+   "columna": [
+    215,
+    1440
+   ],
+   "subrayar": [
+    "no contesta en tiempo y forma a la demanda",
+    "manteniéndose en una situación de rebeldía procesal"
+   ],
+   "margen": [
+    95,
+    90
+   ],
+   "cita": "«La aerolínea, debidamente emplazada, *no contesta en tiempo y forma a la demanda, manteniéndose en una situación de rebeldía procesal*.»",
+   "subtitulos": [
+    "A la ida les cancelaron el vuelo a París.",
+    "A la vuelta les negaron el embarque y tuvieron que volver en autobús desde Biarritz.",
+    "Y Hop ni siquiera contestó a la demanda."
+   ],
+   "locucion": "A la ida les cancelaron el vuelo a París. A la vuelta les negaron el embarque, los mandaron a Biarritz y tuvieron que volver en autobús. Y Hop ni siquiera contestó a la demanda.",
+   "voz": "../../../recursos/voces/documento-v3/D5-2.mp3",
+   "doc_entra": 6.3,
+   "extra": 0.6,
+   "stock": "D5-montaje-sentencia.mp4",
+   "modo": "marco",
+   "desde": 0
+  },
+  {
+   "tipo": "doc",
+   "pagina_num": 2,
+   "columna": [
+    215,
+    1440
+   ],
+   "subrayar": [
+    "condenando a la aerolínea demandada a abonar a cada uno de los pasajeros demandantes la suma de 1214,56",
+    "no cabe recurso"
+   ],
+   "margen": [
+    130,
+    90
+   ],
+   "cita": "«… *condenando a la aerolínea demandada a abonar a cada uno de los pasajeros demandantes la suma de 1214,56 euros* (…) contra ella *no cabe recurso*.»",
+   "subtitulos": [
+    "Así que el juez la condenó a pagar 1.214 euros a cada uno, con intereses y costas.",
+    "Y contra esa sentencia no cabía recurso."
+   ],
+   "locucion": "Así que el juez la condenó a pagar mil doscientos catorce euros a cada uno, con intereses y costas. Y contra esa sentencia no cabía recurso.",
+   "voz": "../../../recursos/voces/documento-v3/D5-3.mp3",
+   "doc_entra": 0.2,
+   "extra": 1.0,
+   "stock": "avion-pista-atardecer_3119300.mp4",
+   "modo": "marco",
+   "desde": 2
+  },
+  {
+   "tipo": "lista",
+   "subtitulos": [],
+   "locucion": "Esto es lo que Hop tuvo que pagarles: seiscientos euros a cada uno por el vuelo de ida, otros seiscientos por el de vuelta, el autobús desde Biarritz, los intereses y las costas.",
+   "voz": "../../../recursos/voces/documento-v3/D5-4.mp3",
+   "cabecera": "Lo que Hop tuvo que pagarles",
+   "total": [
+    "En total, para los 23:",
+    "27.934,88 €"
+   ],
+   "extra": 1.2,
+   "items": [
+    {
+     "t": "600 € a cada uno por la ida",
+     "d": "vuelo cancelado",
+     "palabra": "seiscientos euros"
+    },
+    {
+     "t": "600 € a cada uno por la vuelta",
+     "d": "embarque denegado",
+     "palabra": "otros seiscientos"
+    },
+    {
+     "t": "El autobús desde Biarritz",
+     "d": "335 € para el grupo",
+     "palabra": "el autobús"
+    },
+    {
+     "t": "Intereses y costas",
+     "d": "Hop cargó con los gastos del juicio",
+     "palabra": "los intereses"
+    }
+   ],
+   "stock": "estacion-autobuses-autocar_7978146.mp4",
+   "modo": "lleno",
+   "desde": 1
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "¿Te negaron el embarque sin que tú quisieras?",
+    "Puedes tener derecho a compensación. Y tienes cinco años para reclamar."
+   ],
+   "locucion": "¿Te negaron el embarque sin que tú quisieras? Puedes tener derecho a compensación. Y tienes cinco años para reclamar.",
+   "voz": "../../../recursos/voces/documento-v3/D5-5.mp3",
+   "grande": "¿Te negaron *el embarque*?",
+   "pequeno": "Puedes tener derecho a compensación. Tienes 5 años para reclamar.",
+   "norma": "Reglamento (CE) 261/2004, art. 4",
+   "stock": "avion-pista-atardecer_3119300.mp4",
+   "modo": "marco",
+   "desde": 6
+  }
+ ],
+ "cierre": {
+  "titulo": "¿Te ha pasado?",
+  "texto": "Te ayudamos a reclamar a la aerolínea.",
+  "subtitulos": [
+   "Llama al 944 027 596"
+  ],
+  "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
+  "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
+  "legal": "Reglamento (CE) 261/2004, arts. 4, 5 y 7. Imágenes de archivo. Cada caso se estudia de forma individual."
+ },
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3",
+ "portada_stock": "grupo-jovenes-puerta-embarque-lenta-IA_3815513942.mp4",
+ "portada_desde": 4,
+ "portada_modo": "marco",
+ "portada_marco_y": 640
+}

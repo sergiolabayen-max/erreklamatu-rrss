@@ -1,0 +1,142 @@
+{
+ "id": "D7-iberia-barajas",
+ "categoria": "UN CASO REAL",
+ "juzgado": "Juzgado de lo Mercantil n.º 3 de Bilbao",
+ "fecha": "25 de octubre de 2021",
+ "pdf": "sentencia-D7.pdf",
+ "titulo": [
+  "Bilbao–Dublín: tres días en Barajas sin hotel y sin maleta",
+  "El juez obliga a Iberia a pagarle *1.890 €*"
+ ],
+ "titulo_tam": 78,
+ "portada_dato": [
+  "1.890,82 €",
+  "por tres días en Barajas sin atención, el billete y la maleta"
+ ],
+ "tramos": [
+  {
+   "tipo": "gancho",
+   "subtitulos": [
+    "Tres días atrapada en Barajas, sin hotel y sin maleta.",
+    "El juez obliga a Iberia a pagarle casi 1.900 euros."
+   ],
+   "locucion": "Tres días atrapada en Barajas, sin hotel y sin maleta. El juez obliga a Iberia a pagarle casi mil novecientos euros.",
+   "voz": "../../../recursos/voces/documento-v3/D7-1.mp3",
+   "stock": "sillas-vacias-aeropuerto-noche_3637085.mp4",
+   "modo": "marco",
+   "marco_y": 820
+  },
+  {
+   "tipo": "doc",
+   "subtitulos": [
+    "Volaba de Bilbao a Dublín, con escala en Madrid.",
+    "Iberia tardó dos días en confirmarle que el vuelo estaba cancelado.",
+    "Y en todo ese tiempo, no le ofreció ni un sitio donde dormir."
+   ],
+   "pagina_num": 2,
+   "subrayar": [
+    "la demandada no le ofreció la posibilidad de pernoctar en algún alojamiento"
+   ],
+   "margen": [
+    150,
+    60
+   ],
+   "doc_entra": 2.5,
+   "cita": "«… *la demandada no le ofreció la posibilidad de pernoctar en algún alojamiento*.»",
+   "locucion": "Volaba de Bilbao a Dublín, con escala en Madrid. Iberia tardó dos días en confirmarle que el vuelo estaba cancelado. Y en todo ese tiempo, no le ofreció ni un sitio donde dormir.",
+   "voz": "../../../recursos/voces/documento-v3/D7-2.mp3",
+   "stock": "panel-cancelado-IA_7462012.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "doc",
+   "subtitulos": [
+    "Iberia ni siquiera se presentó al juicio.",
+    "Y el juez dio por probado todo lo que contó la pasajera."
+   ],
+   "pagina_num": 2,
+   "subrayar": [
+    "se declaró en rebeldía a la demandada"
+   ],
+   "margen": [
+    150,
+    60
+   ],
+   "doc_entra": 0.2,
+   "extra": 0.8,
+   "cita": "«… *se declaró en rebeldía a la demandada*…»",
+   "locucion": "Iberia ni siquiera se presentó al juicio. Y el juez dio por probado todo lo que contó la pasajera.",
+   "voz": "../../../recursos/voces/documento-v3/D7-3.mp3",
+   "stock": "sillas-vacias-aeropuerto-noche_3637085.mp4",
+   "modo": "marco",
+   "desde": 5
+  },
+  {
+   "tipo": "lista",
+   "subtitulos": [],
+   "locucion": "Esto es lo que Iberia tendrá que pagarle: mil cuatrocientos ochenta euros por los días en Barajas sin atención, la cancelación, la maleta, los intereses y las costas.",
+   "cabecera": "Lo que Iberia tendrá que pagarle",
+   "total": [
+    "En total:",
+    "1.890,82 € + intereses"
+   ],
+   "extra": 1.2,
+   "items": [
+    {
+     "t": "1.480 €",
+     "d": "por tres días en Barajas sin ninguna atención",
+     "palabra": "mil"
+    },
+    {
+     "t": "224,59 €",
+     "d": "por la cancelación: el billete que pagó ella y los daños",
+     "palabra": "la cancelación"
+    },
+    {
+     "t": "186,23 €",
+     "d": "por la maleta perdida",
+     "palabra": "la maleta"
+    },
+    {
+     "t": "Intereses y costas",
+     "d": "Iberia paga también el juicio",
+     "palabra": "los intereses"
+    }
+   ],
+   "voz": "../../../recursos/voces/documento-v3/D7-4.mp3",
+   "stock": "cinta-equipajes-vacia-vertical_8426064.mp4",
+   "modo": "lleno"
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "¿Te cancelan el vuelo y te dejan tirado en el aeropuerto?",
+    "La aerolínea tiene que darte comida y, si hace falta, hotel.",
+    "Guarda los tickets: tienes cinco años para reclamar."
+   ],
+   "grande": "¿Te dejaron *tirado en el aeropuerto*?",
+   "pequeno": "Comida y, si hace falta, hotel: corren a cargo de la aerolínea. Tienes 5 años para reclamar.",
+   "norma": "Reglamento (CE) 261/2004, arts. 5 y 9",
+   "locucion": "¿Te cancelan el vuelo y te dejan tirado en el aeropuerto? La aerolínea tiene que darte comida y, si hace falta, hotel. Guarda los tickets: tienes cinco años para reclamar.",
+   "voz": "../../../recursos/voces/documento-v3/D7-5.mp3",
+   "stock": "panel-cancelado-IA_7462012.mp4",
+   "modo": "marco",
+   "desde": 1
+  }
+ ],
+ "cierre": {
+  "titulo": "¿Te ha pasado?",
+  "texto": "Te ayudamos a reclamar a la aerolínea.",
+  "subtitulos": [
+   "Llama al 944 027 596"
+  ],
+  "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
+  "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
+  "legal": "Reglamento (CE) 261/2004, arts. 5, 8 y 9. Imágenes de archivo. Cada caso se estudia de forma individual."
+ },
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3",
+ "portada_stock": "sillas-vacias-aeropuerto-noche_3637085.mp4",
+ "portada_desde": 2,
+ "portada_modo": "marco",
+ "portada_marco_y": 640
+}

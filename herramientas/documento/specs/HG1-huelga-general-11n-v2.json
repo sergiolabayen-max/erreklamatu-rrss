@@ -1,0 +1,112 @@
+{
+ "id": "HG1-huelga-general-11n-v2",
+ "categoria": "ACTUALIDAD",
+ "portada_pie": "Qué puedes pedir · ERREKLAMATU",
+ "titulo": [
+  "Huelga general el miércoles 11",
+  "Si te cancelan el vuelo, *esto es lo que puedes pedir*"
+ ],
+ "titulo_tam": 84,
+ "portada_dato": [
+  "Miércoles 11",
+  "huelga general"
+ ],
+ "tramos": [
+  {
+   "tipo": "gancho",
+   "subtitulos": [
+    "¿Vuelas el miércoles 11?",
+    "Ese día hay huelga general",
+    "por el derecho a la vivienda",
+    "y la recuperación del poder adquisitivo."
+   ],
+   "locucion": "¿Vuelas el miércoles once? Ese día hay huelga general por el derecho a la vivienda y la recuperación del poder adquisitivo.",
+   "voz": "../../../recursos/voces/huelga-general/HG1-1-v2.mp3",
+   "stock": "silueta-terminal-atardecer_10349609.mp4",
+   "modo": "marco",
+   "marco_y": 820
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Habrá servicios mínimos en los aeropuertos,",
+    "pero puede haber cancelaciones.",
+    "Y ojo: en las empresas con turnos,",
+    "la huelga empieza con el primer turno,",
+    "aunque sea la noche del martes."
+   ],
+   "locucion": "Habrá servicios mínimos en los aeropuertos, pero puede haber cancelaciones. Y ojo: en las empresas con turnos, la huelga empieza con el primer turno, aunque sea la noche del martes.",
+   "num": "LO QUE SE SABE",
+   "grande": "Servicios mínimos, *pero puede haber cancelaciones*",
+   "tam": 80,
+   "voz": "../../../recursos/voces/huelga-general/HG1-2.mp3",
+   "stock": "gente-terminal-desenfocada-chalecos_10089858.mp4",
+   "modo": "marco",
+   "planos": [
+    {
+     "stock": "gente-terminal-desenfocada-chalecos_10089858.mp4",
+     "desde": 0,
+     "dur": 5.5
+    },
+    {
+     "stock": "pasajeros-esperando-noche-terminal_2547554.mp4",
+     "desde": 1
+    }
+   ]
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Si te cancelan el vuelo, tú eliges:",
+    "el reembolso del billete en siete días,",
+    "u otro vuelo hasta tu destino."
+   ],
+   "locucion": "Si te cancelan el vuelo, tú eliges: el reembolso del billete en siete días, u otro vuelo hasta tu destino.",
+   "num": "SI TE CANCELAN",
+   "grande": "Reembolso *u otro vuelo*: tú eliges",
+   "voz": "../../../recursos/voces/huelga-general/HG1-3.mp3",
+   "stock": "avion-despegando-frontal_3007629.mp4",
+   "modo": "marco",
+   "desde": 9
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Y mientras esperas, la aerolínea te tiene que dar",
+    "comida y, si hace falta, hotel.",
+    "Guarda la tarjeta de embarque y los tiques."
+   ],
+   "locucion": "Y mientras esperas, la aerolínea te tiene que dar comida y, si hace falta, hotel. Guarda la tarjeta de embarque y los tiques.",
+   "num": "MIENTRAS ESPERAS",
+   "grande": "Comida y, *si hace falta, hotel*",
+   "voz": "../../../recursos/voces/huelga-general/HG1-4.mp3",
+   "stock": "pareja-recepcion-hotel-llegada_3796507.mp4",
+   "modo": "marco",
+   "planos": [
+    {
+     "stock": "pareja-recepcion-hotel-llegada_3796507.mp4",
+     "desde": 0,
+     "dur": 5
+    },
+    {
+     "stock": "pasajeros-esperando-noche-terminal_2547554.mp4",
+     "desde": 9
+    }
+   ]
+  }
+ ],
+ "cierre": {
+  "titulo": "¿Te han cancelado el vuelo?",
+  "texto": "Te decimos qué puedes reclamar.",
+  "subtitulos": [
+   "Llama al 944 027 596"
+  ],
+  "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
+  "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
+  "legal": "Reglamento (CE) 261/2004. Imágenes de archivo. Cada caso se estudia de forma individual."
+ },
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3",
+ "portada_stock": "gente-terminal-desenfocada-chalecos_10089858.mp4",
+ "portada_desde": 9,
+ "portada_modo": "marco"
+}

@@ -1,0 +1,78 @@
+{
+ "id": "C4c-maleta-pasos-corto-v2",
+ "categoria": "CONSEJOS",
+ "portada_pie": "Guía rápida · ERREKLAMATU",
+ "titulo": [
+  "Tu maleta no aparece: 3 pasos para reclamar",
+  "el primero, *antes de salir* del aeropuerto"
+ ],
+ "titulo_tam": 84,
+ "portada_dato": [
+  "3 pasos",
+  "para reclamar si tu maleta no aparece"
+ ],
+ "tramos": [
+  {
+   "tipo": "gancho",
+   "subtitulos": [
+    "¿Tu maleta no aparece?",
+    "Tres pasos para reclamar sin perder tus derechos."
+   ],
+   "locucion": "¿Tu maleta no aparece? Tres pasos para reclamar sin perder tus derechos.",
+   "voz": "../../../recursos/voces/consejos-v1/C4c-1.mp3",
+   "stock": "cinta-equipajes-vacia_7283089.mp4",
+   "modo": "marco",
+   "marco_y": 820
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Uno: haz el parte en el mostrador, antes de salir del aeropuerto."
+   ],
+   "locucion": "Uno: haz el parte en el mostrador, antes de salir del aeropuerto.",
+   "num": "PASO 1 DE 3",
+   "grande": "El *parte (PIR)* antes de salir",
+   "voz": "../../../recursos/voces/consejos-v1/C4c-2.mp3",
+   "stock": "zona-equipajes-mostradores-lenta_7387456.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Dos: si haces compras urgentes, guarda los tickets."
+   ],
+   "locucion": "Dos: si haces compras urgentes, guarda los tickets.",
+   "num": "PASO 2 DE 3",
+   "grande": "Compras urgentes: *guarda los tickets*",
+   "voz": "../../../recursos/voces/consejos-v1/C4c-3.mp3",
+   "stock": "manos-contando-billetes-euro_7244231.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Tres: reclama por escrito, y a tiempo.",
+    "Siete días si llega dañada, veintiuno si llega con retraso."
+   ],
+   "locucion": "Tres: reclama por escrito, y a tiempo. Siete días si llega dañada, veintiuno si llega con retraso.",
+   "num": "PASO 3 DE 3",
+   "grande": "Reclama *por escrito y a tiempo*",
+   "tam": 80,
+   "voz": "../../../recursos/voces/consejos-v3/C4c-4.mp3",
+   "stock": "pasajeros-recogiendo-maletas-cinta_5321253.mp4",
+   "modo": "marco",
+   "desde": 3
+  }
+ ],
+ "cierre": {
+  "titulo": "¿Te ha pasado?",
+  "texto": "Te ayudamos a reclamar a la aerolínea.",
+  "subtitulos": [
+   "Llama al 944 027 596"
+  ],
+  "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
+  "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
+  "legal": "Convenio de Montreal, arts. 17, 19 y 31. Imágenes de archivo. Cada caso se estudia de forma individual."
+ },
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3"
+}

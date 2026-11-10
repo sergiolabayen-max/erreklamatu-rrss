@@ -1,0 +1,228 @@
+{
+ "fecha": "2026-10-29",
+ "herramienta": "Magnific Image Generator · Google Nano Banana 2.1 · 4:5 · 2K · 2 variantes",
+ "referencias": {
+  "C1_C2": {
+   "img1": "ficha Jon Ortiz",
+   "img2": "ficha Koldo"
+  },
+  "C3_C4": {
+   "img1": "ficha Laura",
+   "img2": "ficha Óscar Sánchez"
+  }
+ },
+ "elegidas": {
+  "C1": [
+   "1b",
+   "2a",
+   "3a",
+   "4b",
+   "5b"
+  ],
+  "C2": [
+   "1b",
+   "2b",
+   "3a",
+   "4b",
+   "5b"
+  ],
+  "C3": [
+   "1b",
+   "2a",
+   "3b",
+   "4a",
+   "5b"
+  ],
+  "C4": [
+   "1b",
+   "2a",
+   "3a",
+   "4a"
+  ]
+ },
+ "magnific_file_ids": {
+  "C2-4": [
+   4138004895,
+   4138004888
+  ],
+  "C2-2": [
+   4138004335,
+   4138004316
+  ],
+  "C1-4": [
+   4138003806,
+   4138003795
+  ],
+  "C4-3": [
+   4137998131,
+   4137998111
+  ],
+  "C4-1": [
+   4137997598,
+   4137997587
+  ],
+  "C3-4": [
+   4137997059,
+   4137997036
+  ],
+  "C3-2": [
+   4137996596,
+   4137996587
+  ],
+  "C4-4": [
+   4137981983,
+   4137981964
+  ],
+  "C4-2": [
+   4137981768,
+   4137981751
+  ],
+  "C3-5": [
+   4137981498,
+   4137981492
+  ],
+  "C3-3": [
+   4137981247,
+   4137981237
+  ],
+  "C3-1": [
+   4137980979,
+   4137980966
+  ],
+  "C2-5": [
+   4137966958,
+   4137966939
+  ],
+  "C2-3": [
+   4137966741,
+   4137966735
+  ],
+  "C2-1": [
+   4137966452,
+   4137966437
+  ],
+  "C1-5": [
+   4137958029,
+   4137958028
+  ],
+  "C1-3": [
+   4137957841,
+   4137957833
+  ],
+  "C1-2": [
+   4137956937,
+   4137956922
+  ],
+  "C1-1": [
+   4137956528,
+   4137956517
+  ]
+ },
+ "prompts": {
+  "C2-4": "European clear-line comic illustration (ligne claire), full color, clean ink outlines, flat colors, brand palette of navy blue with small green accents. Close-up of the hands of the elderly man from @img2 (light blue checked shirt cuffs, beige quilted vest visible) holding two paper boarding passes fanned out, one in each hand, in an airport waiting area slightly out of focus behind. The boarding passes have only abstract lines and a barcode, no readable text. Composition: close-up, the upper part of the image is plain soft background to place a caption. Do not include the man from @img1. No text, no letters, no numbers, no logos.",
+  "C2-2": "European clear-line comic illustration (ligne claire), full color, clean ink outlines, flat colors, brand palette of navy blue with small green accents. A closed boarding gate at a big airport: the jet bridge door is shut and the gate area is empty. The elderly man from @img2 (same face, white hair, white mustache, beige quilted vest, light blue checked shirt, brown trousers, small suitcase) stands at the gate desk holding his boarding pass, shocked and frustrated, while a gate agent in a plain navy uniform without logos shakes her head. Composition: medium shot, the upper part of the image has plain wall space to place speech bubbles. Do not include the man from @img1. No text, no letters, no numbers, no logos, no airline branding.",
+  "C1-4": "European clear-line comic illustration (ligne claire), full color, clean ink outlines, flat colors, brand palette of navy blue with small green accents. Late evening at a small airport hotel reception. The elderly man from @img2 (same face, white hair, white mustache, beige quilted vest, light blue checked shirt, brown trousers, suitcase beside him) pays at the counter and carefully puts the paper receipt into a folder together with a restaurant receipt, looking calm and organised. Composition: medium shot, the upper part of the image has plain wall space to place a caption. Do not include the man from @img1. No text, no letters, no logos, no brand names.",
+  "C4-3": "European clear-line comic illustration (ligne claire), full color, clean ink outlines, flat colors, brand palette of navy blue with small green accents. Bright lawyer's office with navy bookshelves, folders and plants. the lawyer from @img2 (same face, short light brown hair, navy blazer, light blue shirt, grey trousers) sits behind his desk and raises one open hand in a calm 'wait, don't do that' gesture while explaining kindly. the woman from @img1 (same face, long wavy auburn hair, mustard yellow jacket, white top, jeans) sits across the desk, seen from three-quarter back, holding her phone. Composition: medium shot, the upper quarter of the image has plain wall space to place a speech bubble. No text, no letters, no logos.",
+  "C4-1": "European clear-line comic illustration (ligne claire), full color, clean ink outlines, flat colors, brand palette of navy blue with small green accents. Evening at home. the woman from @img1 (same face, long wavy auburn hair, mustard yellow jacket, white top, jeans) sits on the edge of the sofa holding a plain credit card without logos in one hand and her phone in the other, hesitating, worried and unsure. Composition: the top third of the image is calm empty space (plain wall) reserved for a title; the woman in the lower two thirds. Do not include the man from @img2. No text, no letters, no numbers, no logos, no bank branding.",
+  "C3-4": "European clear-line comic illustration (ligne claire), full color, clean ink outlines, flat colors, brand palette of navy blue with small green accents. Home desk by a window, daytime. the woman from @img1 (same face, long wavy auburn hair, mustard yellow jacket, white top, jeans), now determined, gathers several bank statements and puts them into a blue folder, a laptop open beside her (screen with abstract shapes only). Composition: medium shot, the upper part of the image has plain wall space to place a caption. Do not include the man from @img2. No text, no letters, no numbers, no logos.",
+  "C3-2": "European clear-line comic illustration (ligne claire), full color, clean ink outlines, flat colors, brand palette of navy blue with small green accents. Home living room. the woman from @img1 (same face, long wavy auburn hair, mustard yellow jacket, white top, jeans) looks at her phone banking app (screen shows only abstract bars, no text) with a frustrated expression, a pile of opened bank letters beside her on the sofa. Composition: medium shot, the upper part of the image has plain wall space to place speech bubbles. Do not include the man from @img2. No text, no letters, no numbers, no logos, no bank branding.",
+  "C4-4": "European clear-line comic illustration (ligne claire), full color, clean ink outlines, flat colors, brand palette of navy blue with small green accents. Bright lawyer's office. the lawyer from @img2 (same face, short light brown hair, navy blazer, light blue shirt, grey trousers) and the woman from @img1 (same face, long wavy auburn hair, mustard yellow jacket, white top, jeans) shake hands over the desk, both smiling, a signed folder of documents on the desk between them. Composition: medium shot, the upper third of the image has plain wall space to place a caption. No text, no letters, no logos.",
+  "C4-2": "European clear-line comic illustration (ligne claire), full color, clean ink outlines, flat colors, brand palette of navy blue with small green accents. Close-up of the hand of the woman from @img1 (mustard yellow jacket sleeve, long wavy auburn hair) with her thumb hovering over a big red button on her phone screen (abstract banking app, no text), her worried face slightly out of focus behind. Composition: close-up, the upper part of the image is plain soft background to place a caption. Do not include the man from @img2. No text, no letters, no numbers, no logos.",
+  "C3-5": "European clear-line comic illustration (ligne claire), full color, clean ink outlines, flat colors, brand palette of navy blue with small green accents. Bright lawyer's office with navy bookshelves, folders and plants. the lawyer from @img2 (same face, short light brown hair, navy blazer, light blue shirt, grey trousers) stands alone next to his desk facing the viewer, friendly confident smile, one hand open in a reassuring gesture, a folder under his other arm. Composition: medium shot, the upper third of the image has plain wall space to place a speech bubble. Do not include the woman from @img1. No text, no letters, no logos.",
+  "C3-3": "European clear-line comic illustration (ligne claire), full color, clean ink outlines, flat colors, brand palette of navy blue with small green accents. Bright lawyer's office with navy bookshelves, folders and plants. the lawyer from @img2 (same face, short light brown hair, navy blazer, light blue shirt, grey trousers) sits behind his desk and points with a pen at a printed card statement, explaining calmly and confidently. the woman from @img1 (same face, long wavy auburn hair, mustard yellow jacket, white top, jeans) sits across the desk, seen from three-quarter back, listening with growing relief. Composition: medium shot, the upper quarter of the image has plain wall space to place a speech bubble. No text, no letters, no logos.",
+  "C3-1": "European clear-line comic illustration (ligne claire), full color, clean ink outlines, flat colors, brand palette of navy blue with small green accents. Night, a home kitchen table under a warm lamp. the woman from @img1 (same face, long wavy auburn hair, mustard yellow jacket, white top, jeans) sits staring in disbelief at a long credit card statement where many lines are highlighted in red (only abstract lines and red marks, no readable text or numbers), a plain credit card without logos and a calculator on the table. Composition: the top third of the image is calm empty space (dark wall) reserved for a title; the woman in the lower two thirds. Do not include the man from @img2. No text, no letters, no numbers, no logos, no bank branding.",
+  "C2-5": "European clear-line comic illustration (ligne claire), full color, clean ink outlines, flat colors, brand palette of navy blue with small green accents. Bright lawyer's office with navy bookshelves, folders and plants. The lawyer from @img1 (same face, short dark hair, light stubble, burgundy polo shirt) stands next to his desk facing the viewer, smiling, raising his index finger as he makes a clear point, a folder of documents under his other arm. Composition: medium shot, the upper third of the image has plain wall space to place a speech bubble. Do not include the man from @img2. No text, no letters, no logos.",
+  "C2-3": "European clear-line comic illustration (ligne claire), full color, clean ink outlines, flat colors, brand palette of navy blue with small green accents. Bright lawyer's office with navy bookshelves, folders and plants. The lawyer from @img1 (same face, short dark hair, light stubble, burgundy polo shirt) sits behind his desk and points with a pen at two boarding passes laid side by side on the desk, explaining calmly. The elderly man from @img2 (same face, white hair, white mustache, beige quilted vest, light blue checked shirt) sits across the desk, seen from three-quarter back, attentive and hopeful. Composition: medium shot, the upper quarter of the image has plain wall space to place a speech bubble. No text, no letters, no logos.",
+  "C2-1": "European clear-line comic illustration (ligne claire), full color, clean ink outlines, flat colors, brand palette of navy blue with small green accents. Daytime, long corridor of a big airport hub. The elderly man from @img2 (same face, white hair, white mustache, beige quilted vest, light blue checked shirt, brown trousers, green travel bag) runs desperately pulling his small suitcase, out of breath. Through the huge window behind him, a plain white airliner with no logos is taking off. Dynamic motion lines. Composition: the top third of the image is calm empty space (ceiling) reserved for a title; the man in the lower two thirds. Do not include the man from @img1. No text, no letters, no logos, no airline branding.",
+  "C1-5": "European clear-line comic illustration (ligne claire), full color, clean ink outlines, flat colors, brand palette of navy blue with small green accents. Bright lawyer's office with navy bookshelves, folders and plants. The lawyer from @img1 (same face, short dark hair, light stubble, burgundy polo shirt) sits alone at his desk facing the viewer, warm smile, giving a confident thumbs-up, a tidy folder of documents on the desk. Composition: medium close-up, the upper third of the image has plain wall space to place a speech bubble. Do not include the man from @img2. No text, no letters, no logos.",
+  "C1-3": "European clear-line comic illustration (ligne claire), full color, clean ink outlines, flat colors, brand palette of navy blue with small green accents. Bright lawyer's office with navy bookshelves, folders and plants by a window. The lawyer from @img1 (same face, short dark hair, light stubble, burgundy polo shirt, dark jeans) sits behind his desk, friendly and confident, explaining with an open hand. Across the desk sits the elderly man from @img2 (same face, white hair, white mustache, beige quilted vest, light blue checked shirt), seen from three-quarter back, holding a cancelled boarding pass and some receipts, listening with relief. Composition: medium shot, the upper quarter of the image has plain wall space to place a speech bubble. No text, no letters, no logos.",
+  "C1-2": "European clear-line comic illustration (ligne claire), full color, clean ink outlines, flat colors, brand palette of navy blue with small green accents. Night, airline service desk at an airport. The elderly man from @img2 (same face, white hair, white mustache, beige quilted vest, light blue checked shirt, brown trousers) holds his phone to his ear with one hand and leans on the counter, upset, asking where he will sleep. Behind the counter a tired airline agent in a plain navy uniform without any logo raises both palms and shrugs. A queue of passengers with suitcases behind him. Composition: medium shot, the upper part of the image has plain wall space to place speech bubbles. Do not include the man from @img1. No text, no letters, no logos, no airline branding.",
+  "C1-1": "European clear-line comic illustration (ligne claire), full color, clean ink outlines, flat colors, brand palette of navy blue with small green accents. Night at an airport terminal. The elderly man from @img2 (same face, white hair, white mustache, beige quilted vest, light blue checked shirt, brown trousers, green travel bag) stands next to his suitcase, tired and worried, looking up at a large departures board where every row is lit in red (no readable text, no letters, no numbers). Heavy rain against the tall windows, the terminal almost empty, a few passengers sitting on the floor. Composition: the top third of the image is calm empty space (dark ceiling) reserved for a title; the man is in the lower two thirds. Do not include the man from @img1. No text, no letters, no logos, no airline branding."
+ },
+ "locuciones_ids": [
+  [
+   "voz-C1-01.mp3",
+   4138043006
+  ],
+  [
+   "voz-C1-02.mp3",
+   4138045356
+  ],
+  [
+   "voz-C1-03.mp3",
+   4138046073
+  ],
+  [
+   "voz-C1-04.mp3",
+   4138046462
+  ],
+  [
+   "voz-C1-05.mp3",
+   4138046929
+  ],
+  [
+   "voz-cierre.mp3",
+   4138047406
+  ],
+  [
+   "voz-C2-01.mp3",
+   4138047904
+  ],
+  [
+   "voz-C2-02.mp3",
+   4138048352
+  ],
+  [
+   "voz-C2-03.mp3",
+   4138050318
+  ],
+  [
+   "voz-C2-04.mp3",
+   4138050805
+  ],
+  [
+   "voz-C2-05.mp3",
+   4138051245
+  ],
+  [
+   "voz-C3-01.mp3",
+   4138051725
+  ],
+  [
+   "voz-C3-02.mp3",
+   4138052187
+  ],
+  [
+   "voz-C3-03.mp3",
+   4138052676
+  ],
+  [
+   "voz-C3-04.mp3",
+   4138053193
+  ],
+  [
+   "voz-C3-05.mp3",
+   4138055036
+  ],
+  [
+   "voz-C4-01.mp3",
+   4138055636
+  ],
+  [
+   "voz-C4-02.mp3",
+   4138056222
+  ],
+  [
+   "voz-C4-03.mp3",
+   4138056737
+  ],
+  [
+   "voz-C4-04.mp3",
+   4138057357
+  ]
+ ],
+ "musica": {
+  "nombre": "musica-lofi-100bpm.mp3",
+  "prompt": "Upbeat lo-fi pop background track, 100 BPM, light funky bass, muted electric guitar chops, soft drums and finger snaps. Confident, curious, slightly cheeky mood for a short explainer about consumer rights. Sparse and unobtrusive, made to sit under a voice-over, steady energy from start to end, no big drops. Instrumental, no vocals."
+ }
+}

@@ -1,0 +1,10 @@
+{"id":"PRUEBA","categoria":"TEMPORAL","abogado":"Jon Ortiz",
+ "gancho":["Te cancelan por el temporal:","el hotel lo paga la aerolínea"],
+ "laminas":[
+  {"img":"p1.png","bocadillos":[{"texto":"¿Y ahora dónde *duermo*?","x":560,"y":60,"w":440,"cola":[700,420]}],
+   "rotulo":{"texto":"Aeropuerto de Bilbao, 23:40","x":40,"y":40,"w":360},"voz":"v1.wav","subtitulos":["Te cancelan el vuelo por el temporal.","Y nadie te dice dónde dormir."]},
+  {"img":"p2.png","bocadillos":[{"texto":"Con un temporal puede no haber compensación. Pero te deben *otro vuelo o tu dinero*, la comida y el *hotel*.","x":60,"y":50,"w":960,"cola":[300,520]}],
+   "rotulo":{"texto":"Consulta gratuita · Jon Ortiz, abogado de ERREKLAMATU","x":640,"y":330,"w":400},"voz":"v2.wav","subtitulos":["En la consulta gratuita de ERREKLAMATU,","Jon te lo explica."]}
+ ],
+ "cierre":{"titulo":"¿TE HA PASADO?","texto":"Te ayudamos a reclamar a la aerolínea.","voz":"vc.wav","subtitulos":["Llama al 944 027 596"],"legal":"Reglamento (CE) 261/2004, arts. 5, 8 y 9. Cada caso se estudia de forma individual."},
+ "musica":"tranquila"}

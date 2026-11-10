@@ -1,0 +1,110 @@
+{
+ "id": "C8-evitar-problemas",
+ "categoria": "CONSEJOS",
+ "portada_pie": "Guía rápida · ERREKLAMATU",
+ "titulo": [
+  "5 consejos para que tu vuelo no te dé problemas",
+  "*antes* de salir de casa"
+ ],
+ "titulo_tam": 84,
+ "portada_dato": [
+  "5 consejos",
+  "antes de volar"
+ ],
+ "tramos": [
+  {
+   "tipo": "gancho",
+   "subtitulos": [
+    "Cinco consejos para que tu vuelo no te dé problemas.",
+    "Apúntalos antes de salir de casa."
+   ],
+   "locucion": "Cinco consejos para que tu vuelo no te dé problemas. Apúntalos antes de salir de casa.",
+   "voz": "../../../recursos/voces/consejos-v1/C8-1.mp3",
+   "stock": "manos-haciendo-maleta_8358758.mp4",
+   "modo": "marco",
+   "marco_y": 820
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Uno: si hay escalas, que vayan en la misma reserva",
+    "y con margen entre vuelos.",
+    "Si van por separado y pierdes el segundo, la aerolínea no tiene por qué recolocarte."
+   ],
+   "locucion": "Uno: si hay escalas, que vayan en la misma reserva y con margen entre vuelos. Si van por separado y pierdes el segundo, la aerolínea no tiene por qué recolocarte.",
+   "num": "CONSEJO 1 DE 5",
+   "grande": "Escalas: *misma reserva y con margen*",
+   "tam": 80,
+   "voz": "../../../recursos/voces/consejos-v1/C8-2.mp3",
+   "stock": "pasillo-rodante-aeropuerto_400600.mp4",
+   "modo": "marco",
+   "desde": 2
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Dos: activa las alertas de tu vuelo y mira el correo.",
+    "Los cambios de horario llegan por ahí.",
+    "Y revísalo el día antes."
+   ],
+   "locucion": "Dos: activa las alertas de tu vuelo y mira el correo. Los cambios de horario llegan por ahí. Y revísalo el día antes.",
+   "num": "CONSEJO 2 DE 5",
+   "grande": "Activa *las alertas*",
+   "voz": "../../../recursos/voces/consejos-v1/C8-3.mp3",
+   "stock": "persona-usando-movil_3800092.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Tres: comprueba que tu pasaporte está vigente.",
+    "Algunos países piden seis meses de validez,",
+    "y otros, visado o autorización previa."
+   ],
+   "locucion": "Tres: comprueba que tu pasaporte está vigente. Algunos países piden seis meses de validez, y otros, visado o autorización previa.",
+   "num": "CONSEJO 3 DE 5",
+   "grande": "Pasaporte: *¿te quedan 6 meses?*",
+   "voz": "../../../recursos/voces/consejos-v1/C8-4.mp3",
+   "stock": "manos-pasaporte-puerta-embarque_3297994.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Cuatro: etiqueta la maleta por fuera y por dentro, con tu teléfono.",
+    "Y hazle una foto antes de facturar."
+   ],
+   "locucion": "Cuatro: etiqueta la maleta por fuera y por dentro, con tu teléfono. Y hazle una foto antes de facturar.",
+   "num": "CONSEJO 4 DE 5",
+   "grande": "Etiqueta *por fuera y por dentro*",
+   "voz": "../../../recursos/voces/consejos-v1/C8-5.mp3",
+   "stock": "manos-etiqueta-maleta_7897725.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Cinco: en el equipaje de mano, una batería y lo básico para unas horas.",
+    "Medicinas incluidas.",
+    "Por si hay retraso o la maleta no llega."
+   ],
+   "locucion": "Cinco: en el equipaje de mano, una batería y lo básico para unas horas. Medicinas incluidas. Por si hay retraso o la maleta no llega.",
+   "num": "CONSEJO 5 DE 5",
+   "grande": "Batería y lo básico *en la mano*",
+   "voz": "../../../recursos/voces/consejos-v1/C8-6.mp3",
+   "stock": "movil-cargando-bateria-externa_3667989.mp4",
+   "modo": "marco"
+  }
+ ],
+ "cierre": {
+  "titulo": "¿Te ha pasado?",
+  "texto": "Te ayudamos a reclamar a la aerolínea.",
+  "subtitulos": [
+   "Llama al 944 027 596"
+  ],
+  "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
+  "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
+  "legal": "Reglamento (CE) 261/2004. Imágenes de archivo. Cada caso se estudia de forma individual."
+ },
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3"
+}

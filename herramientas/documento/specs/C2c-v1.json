@@ -1,0 +1,77 @@
+{
+ "id": "C2c-cancelacion-derechos-corto",
+ "categoria": "TUS DERECHOS",
+ "portada_pie": "Guía rápida · ERREKLAMATU",
+ "titulo": [
+  "Te cancelan el vuelo: 3 cosas que la aerolínea te debe",
+  "*conócelas* antes de aceptar nada"
+ ],
+ "titulo_tam": 84,
+ "portada_dato": [
+  "250-600 €",
+  "de compensación si la culpa es de la aerolínea"
+ ],
+ "tramos": [
+  {
+   "tipo": "gancho",
+   "subtitulos": [
+    "¿Te cancelan el vuelo?",
+    "Tres cosas que la aerolínea te debe."
+   ],
+   "locucion": "¿Te cancelan el vuelo? Tres cosas que la aerolínea te debe.",
+   "voz": "../../../recursos/voces/consejos-v1/C2c-1.mp3",
+   "stock": "hombre-llamada-maleta-hotel_9724030.mp4",
+   "modo": "marco",
+   "desde": 2,
+   "marco_y": 820
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Uno: reembolso u otro vuelo.",
+    "Tú eliges, no la aerolínea."
+   ],
+   "locucion": "Uno: reembolso u otro vuelo. Tú eliges, no la aerolínea.",
+   "num": "DERECHO 1 DE 3",
+   "grande": "Tú eliges: *reembolso u otro vuelo*",
+   "voz": "../../../recursos/voces/consejos-v1/C2c-2.mp3",
+   "stock": "mujer-mirando-panel-vuelos_5916077.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Dos: comida, bebida y hotel si hace falta, mientras esperas."
+   ],
+   "locucion": "Dos: comida, bebida y hotel si hace falta, mientras esperas.",
+   "num": "DERECHO 2 DE 3",
+   "grande": "Comida, bebida y *hotel* si hace falta",
+   "voz": "../../../recursos/voces/consejos-v1/C2c-3.mp3",
+   "stock": "abrir-habitacion-hotel-tarjeta_6737621.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Tres: de 250 a 600 euros si la culpa es suya, según la distancia."
+   ],
+   "locucion": "Tres: de doscientos cincuenta a seiscientos euros si la culpa es suya, según la distancia.",
+   "num": "DERECHO 3 DE 3",
+   "grande": "De *250 a 600 €* según la distancia",
+   "voz": "../../../recursos/voces/consejos-v1/C2c-4.mp3",
+   "stock": "mujer-banca-movil_3089726.mp4",
+   "modo": "marco"
+  }
+ ],
+ "cierre": {
+  "titulo": "¿Te ha pasado?",
+  "texto": "Te ayudamos a reclamar a la aerolínea.",
+  "subtitulos": [
+   "Llama al 944 027 596"
+  ],
+  "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
+  "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
+  "legal": "Reglamento (CE) 261/2004. Imágenes de archivo. Cada caso se estudia de forma individual."
+ },
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3"
+}

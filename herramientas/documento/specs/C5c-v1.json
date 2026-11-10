@@ -1,0 +1,77 @@
+{
+ "id": "C5c-volar-con-ninos-corto",
+ "categoria": "CONSEJOS",
+ "portada_pie": "Guía rápida · ERREKLAMATU",
+ "titulo": [
+  "Volar con niños: 3 cosas que debes saber",
+  "antes de llegar al *aeropuerto*"
+ ],
+ "titulo_tam": 84,
+ "portada_dato": [
+  "3 consejos",
+  "para volar con niños sin sustos"
+ ],
+ "tramos": [
+  {
+   "tipo": "gancho",
+   "subtitulos": [
+    "¿Vas a volar con niños?",
+    "Tres cosas que debes saber antes de ir al aeropuerto."
+   ],
+   "locucion": "¿Vas a volar con niños? Tres cosas que debes saber antes de ir al aeropuerto.",
+   "voz": "../../../recursos/voces/consejos-v1/C5c-1.mp3",
+   "stock": "familia-bebe-aeropuerto-avion_4391364.mp4",
+   "modo": "marco",
+   "marco_y": 820
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Uno: la leche y la comida del bebé sí pasan el control.",
+    "Avisa al pasar."
+   ],
+   "locucion": "Uno: la leche y la comida del bebé sí pasan el control. Avisa al pasar.",
+   "num": "CONSEJO 1 DE 3",
+   "grande": "La comida del bebé *sí pasa el control*",
+   "tam": 80,
+   "voz": "../../../recursos/voces/consejos-v1/C5c-2.mp3",
+   "stock": "bebe-biberon-manos_6077255.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Dos: revisa los asientos en el check-in, para ir juntos."
+   ],
+   "locucion": "Dos: revisa los asientos en el check-in, para ir juntos.",
+   "num": "CONSEJO 2 DE 3",
+   "grande": "Revisa los asientos *en el check-in*",
+   "voz": "../../../recursos/voces/consejos-v1/C5c-3.mp3",
+   "stock": "familia-bebe-hijo-volando_3031751.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Tres: lo imprescindible del bebé, en el equipaje de mano."
+   ],
+   "locucion": "Tres: lo imprescindible del bebé, en el equipaje de mano.",
+   "num": "CONSEJO 3 DE 3",
+   "grande": "Lo del bebé, *en el equipaje de mano*",
+   "voz": "../../../recursos/voces/consejos-v1/C5c-4.mp3",
+   "stock": "panales-juguetes-bebe_3729437.mp4",
+   "modo": "marco"
+  }
+ ],
+ "cierre": {
+  "titulo": "¿Te ha pasado?",
+  "texto": "Te ayudamos a reclamar a la aerolínea.",
+  "subtitulos": [
+   "Llama al 944 027 596"
+  ],
+  "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
+  "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
+  "legal": "Reglamento (CE) 261/2004. Imágenes de archivo. Cada caso se estudia de forma individual."
+ },
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3"
+}

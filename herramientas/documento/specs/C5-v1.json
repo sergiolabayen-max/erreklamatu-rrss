@@ -1,0 +1,112 @@
+{
+ "id": "C5-volar-con-ninos",
+ "categoria": "CONSEJOS",
+ "portada_pie": "Guía rápida · ERREKLAMATU",
+ "titulo": [
+  "Volar con niños: 5 cosas que debes saber",
+  "antes de llegar al *aeropuerto*"
+ ],
+ "titulo_tam": 84,
+ "portada_dato": [
+  "5 consejos",
+  "para volar con niños sin sustos"
+ ],
+ "tramos": [
+  {
+   "tipo": "gancho",
+   "subtitulos": [
+    "¿Vas a volar con niños?",
+    "Cinco cosas que te pueden ahorrar un disgusto en el aeropuerto."
+   ],
+   "locucion": "¿Vas a volar con niños? Cinco cosas que te pueden ahorrar un disgusto en el aeropuerto.",
+   "voz": "../../../recursos/voces/consejos-v1/C5-1.mp3",
+   "stock": "familia-bebe-aeropuerto-avion_4391364.mp4",
+   "modo": "marco",
+   "marco_y": 820
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Uno: la leche, el agua y la comida del bebé pueden pasar el control,",
+    "aunque superen el límite de líquidos.",
+    "Avisa al pasar, y lleva solo lo del viaje."
+   ],
+   "locucion": "Uno: la leche, el agua y la comida del bebé pueden pasar el control, aunque superen el límite de líquidos. Avisa al pasar, y lleva solo lo del viaje.",
+   "num": "CONSEJO 1 DE 5",
+   "grande": "La comida del bebé *sí pasa el control*",
+   "tam": 80,
+   "voz": "../../../recursos/voces/consejos-v1/C5-2.mp3",
+   "stock": "bebe-biberon-manos_6077255.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Dos: pregunta si el carrito llega hasta la puerta del avión.",
+    "Y si sale roto, haz el parte antes de salir,",
+    "como con una maleta."
+   ],
+   "locucion": "Dos: pregunta si el carrito llega hasta la puerta del avión. Y si sale roto, haz el parte antes de salir, como con una maleta.",
+   "num": "CONSEJO 2 DE 5",
+   "grande": "El carrito: *¿hasta la puerta del avión?*",
+   "tam": 80,
+   "voz": "../../../recursos/voces/consejos-v1/C5-3.mp3",
+   "stock": "padre-carrito-bebe-aeropuerto_3013810.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Tres: revisa los asientos al hacer el check-in,",
+    "para no acabar separados de tus hijos.",
+    "Cuanto antes, mejor."
+   ],
+   "locucion": "Tres: revisa los asientos al hacer el check-in, para no acabar separados de tus hijos. Cuanto antes, mejor.",
+   "num": "CONSEJO 3 DE 5",
+   "grande": "Revisa los asientos *en el check-in*",
+   "voz": "../../../recursos/voces/consejos-v1/C5-4.mp3",
+   "stock": "familia-bebe-hijo-volando_3031751.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Cuatro: lo imprescindible del bebé, en el equipaje de mano.",
+    "Pañales, leche, medicación.",
+    "Por si la maleta no llega."
+   ],
+   "locucion": "Cuatro: lo imprescindible del bebé, en el equipaje de mano. Pañales, leche, medicación. Por si la maleta no llega.",
+   "num": "CONSEJO 4 DE 5",
+   "grande": "Lo del bebé, *en el equipaje de mano*",
+   "voz": "../../../recursos/voces/consejos-v1/C5-5.mp3",
+   "stock": "panales-juguetes-bebe_3729437.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Cinco: si os toca pasar la noche por un retraso o una cancelación,",
+    "la aerolínea tiene que daros hotel y traslado.",
+    "Y comida mientras esperáis."
+   ],
+   "locucion": "Cinco: si os toca pasar la noche por un retraso o una cancelación, la aerolínea tiene que daros hotel y traslado. Y comida mientras esperáis.",
+   "num": "CONSEJO 5 DE 5",
+   "grande": "¿Noche fuera? *Hotel y traslado*",
+   "voz": "../../../recursos/voces/consejos-v1/C5-6.mp3",
+   "stock": "pareja-piernas-pasillo-hotel_1455768.mp4",
+   "modo": "marco",
+   "desde": 8
+  }
+ ],
+ "cierre": {
+  "titulo": "¿Te ha pasado?",
+  "texto": "Te ayudamos a reclamar a la aerolínea.",
+  "subtitulos": [
+   "Llama al 944 027 596"
+  ],
+  "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
+  "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
+  "legal": "Reglamento (CE) 261/2004. Imágenes de archivo. Cada caso se estudia de forma individual."
+ },
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3"
+}

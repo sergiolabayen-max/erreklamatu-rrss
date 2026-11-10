@@ -1,0 +1,139 @@
+{
+ "id": "D12-tap-miami",
+ "categoria": "UN CASO REAL",
+ "juzgado": "Juzgado de Primera Instancia n.º 12 de Bilbao",
+ "fecha": "18 de julio de 2023",
+ "pdf": "sentencia-D12.pdf",
+ "titulo": [
+  "Miami–Bilbao: les cancelaron el último vuelo y llegaron trece horas tarde",
+  "El juez obliga a TAP a pagarles *6.000 €*"
+ ],
+ "titulo_tam": 74,
+ "portada_dato": [
+  "6.000 €",
+  "compensación y daño moral para seis pasajeros"
+ ],
+ "tramos": [
+  {
+   "tipo": "gancho",
+   "subtitulos": [
+    "Volvían de Miami a Bilbao con niños pequeños y TAP les canceló el último vuelo.",
+    "Llegaron trece horas tarde.",
+    "El juez obliga a TAP a pagarles 6.000 euros."
+   ],
+   "locucion": "Volvían de Miami a Bilbao con niños pequeños y TAP les canceló el último vuelo. Llegaron trece horas tarde. El juez obliga a TAP a pagarles seis mil euros.",
+   "voz": "../../../recursos/voces/documento-v3/D12-1.mp3",
+   "stock": "D12-montaje-gancho.mp4",
+   "modo": "marco",
+   "marco_y": 820
+  },
+  {
+   "tipo": "doc",
+   "subtitulos": [
+    "Les mandaron por Múnich, con dos vuelos más largos que el que tenían.",
+    "Y con niños pequeños, el juez vio una angustia mayor que la de una cancelación normal."
+   ],
+   "pagina_num": 7,
+   "subrayar": [
+    "zozobra y angustia superior a la que genera una cancelación",
+    "menores de corta"
+   ],
+   "margen": [
+    150,
+    60
+   ],
+   "doc_entra": 1.5,
+   "cita": "«… la existencia de una *zozobra y angustia superior a la que genera una cancelación* se revelan como evidentes teniendo en cuenta que entre los pasajeros se encontraban *menores de corta* edad.»",
+   "locucion": "Les mandaron por Múnich, con dos vuelos más largos que el que tenían. Y con niños pequeños, el juez vio una angustia mayor que la de una cancelación normal.",
+   "voz": "../../../recursos/voces/documento-v3/D12-2.mp3",
+   "stock": "ciudad-noche-ventanilla_7285533.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "doc",
+   "subtitulos": [
+    "Además, TAP no pudo demostrar que les diera comida ni información."
+   ],
+   "pagina_num": 8,
+   "subrayar": [
+    "TAP no ha aportado ninguna prueba sobre la asistencia",
+    "considero probada la falta de asistencia e información"
+   ],
+   "margen": [
+    110,
+    60
+   ],
+   "doc_entra": 0.2,
+   "extra": 1.0,
+   "cita": "«… *TAP no ha aportado ninguna prueba sobre la asistencia* que prestó (…) *considero probada la falta de asistencia e información*.»",
+   "locucion": "Además, TAP no pudo demostrar que les diera comida ni información.",
+   "voz": "../../../recursos/voces/documento-v3/D12-3.mp3",
+   "stock": "familia-contraluz-ventanal-aviones_3076840.mp4",
+   "modo": "marco",
+   "desde": 8
+  },
+  {
+   "tipo": "lista",
+   "subtitulos": [],
+   "locucion": "Esto es lo que TAP tendrá que pagarles: seiscientos euros de compensación a cada uno, cuatrocientos más a cada uno por daño moral, y los intereses.",
+   "cabecera": "Lo que TAP tendrá que pagarles",
+   "total": [
+    "En total, para seis pasajeros:",
+    "6.000 € + intereses"
+   ],
+   "extra": 1.4,
+   "items": [
+    {
+     "t": "600 € a cada uno",
+     "d": "de compensación por la cancelación",
+     "palabra": "seiscientos"
+    },
+    {
+     "t": "400 € más a cada uno",
+     "d": "por daño moral",
+     "palabra": "cuatrocientos"
+    },
+    {
+     "t": "Intereses",
+     "d": "desde que se presentó la demanda",
+     "palabra": "los intereses"
+    }
+   ],
+   "voz": "../../../recursos/voces/documento-v3/D12-4.mp3",
+   "stock": "miami-dron_5026772.mp4",
+   "modo": "lleno",
+   "desde": 14
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "¿Te cancelan el vuelo y nadie te explica nada ni te da de comer?",
+    "Además de la compensación, puedes reclamar el daño moral.",
+    "Tienes cinco años."
+   ],
+   "grande": "¿Te dejaron *sin información ni comida*?",
+   "pequeno": "Además de la compensación, puedes reclamar el daño moral. Tienes 5 años.",
+   "norma": "Reglamento (CE) 261/2004, arts. 7, 9 y 12",
+   "locucion": "¿Te cancelan el vuelo y nadie te explica nada ni te da de comer? Además de la compensación, puedes reclamar el daño moral. Tienes cinco años.",
+   "voz": "../../../recursos/voces/documento-v3/D12-5.mp3",
+   "stock": "ciudad-noche-ventanilla_7285533.mp4",
+   "modo": "marco",
+   "desde": 11
+  }
+ ],
+ "cierre": {
+  "titulo": "¿Te ha pasado?",
+  "texto": "Te ayudamos a reclamar a la aerolínea.",
+  "subtitulos": [
+   "Llama al 944 027 596"
+  ],
+  "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
+  "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
+  "legal": "Reglamento (CE) 261/2004, arts. 5, 7, 9 y 12. Imágenes de archivo. Cada caso se estudia de forma individual."
+ },
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3",
+ "portada_stock": "miami-dron_5026772.mp4",
+ "portada_desde": 8,
+ "portada_modo": "marco",
+ "portada_marco_y": 640
+}

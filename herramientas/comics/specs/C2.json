@@ -1,0 +1,142 @@
+{
+ "id": "C2-conexion-perdida",
+ "categoria": "CONEXIÓN PERDIDA",
+ "abogado": "Jon Ortiz",
+ "gancho": [
+  "Pierdes la conexión:",
+  "hasta 600 € de compensación"
+ ],
+ "mensajes": [
+  "MSG-001",
+  "MSG-002"
+ ],
+ "laminas": [
+  {
+   "img": "../../../recursos/viñetas/C2/01.png",
+   "bocadillos": [
+    {
+     "texto": "¡Espere, que es mi avión!",
+     "x": 40,
+     "y": 470,
+     "w": 420,
+     "cola": [
+      560,
+      900
+     ]
+    }
+   ],
+   "rotulo": null,
+   "voz": "../../../recursos/voces/comics-v2/voz-C2-01.mp3",
+   "subtitulos": [
+    "Tu primer vuelo sale con retraso.",
+    "Y pierdes la conexión."
+   ],
+   "locucion": "Tu primer vuelo sale con retraso. Y pierdes la conexión."
+  },
+  {
+   "img": "../../../recursos/viñetas/C2/02.png",
+   "bocadillos": [
+    {
+     "texto": "¡Mi primer vuelo llegó *tarde*!",
+     "x": 560,
+     "y": 60,
+     "w": 480,
+     "cola": [
+      740,
+      560
+     ]
+    },
+    {
+     "texto": "Lo siento, la puerta ya está cerrada.",
+     "x": 40,
+     "y": 230,
+     "w": 440,
+     "cola": [
+      320,
+      580
+     ]
+    }
+   ],
+   "rotulo": null,
+   "voz": "../../../recursos/voces/comics-v2/voz-C2-02.mp3",
+   "subtitulos": [
+    "La puerta ya está cerrada."
+   ],
+   "locucion": "La puerta ya está cerrada."
+  },
+  {
+   "img": "../../../recursos/viñetas/C2/03.png",
+   "bocadillos": [
+    {
+     "texto": "Lo que cuenta es la hora a la que llegas a tu *destino final*. Con 3 horas o más de retraso, puedes tener derecho a *250, 400 o 600 €*, según la distancia.",
+     "x": 40,
+     "y": 30,
+     "w": 1000,
+     "cola": [
+      330,
+      460
+     ]
+    }
+   ],
+   "rotulo": {
+    "texto": "Consulta gratuita · Jon Ortiz, abogado de ERREKLAMATU",
+    "x": 640,
+    "y": 300,
+    "w": 400
+   },
+   "voz": "../../../recursos/voces/comics-v2/voz-C2-03.mp3",
+   "subtitulos": [
+    "En la consulta gratuita, Jon Ortiz te explica que cuenta la llegada a tu destino final.",
+    "Con tres horas o más de retraso, puedes cobrar hasta 600 euros."
+   ],
+   "locucion": "En la consulta gratuita, Jon Ortiz te explica que cuenta la llegada a tu destino final. Con tres horas o más de retraso, puedes cobrar hasta 600 euros."
+  },
+  {
+   "img": "../../../recursos/viñetas/C2/04.png",
+   "bocadillos": [],
+   "rotulo": {
+    "texto": "Guarda las *dos tarjetas de embarque*.",
+    "x": 40,
+    "y": 40,
+    "w": 720
+   },
+   "voz": "../../../recursos/voces/comics-v2/voz-C2-04.mp3",
+   "subtitulos": [
+    "Guarda las tarjetas de embarque de los dos vuelos,"
+   ],
+   "locucion": "Guarda las tarjetas de embarque de los dos vuelos,"
+  },
+  {
+   "img": "../../../recursos/viñetas/C2/05.png",
+   "bocadillos": [
+    {
+     "texto": "Y déjanos el resto a nosotros. *Solo cobramos si ganamos.*",
+     "x": 40,
+     "y": 30,
+     "w": 1000,
+     "cola": [
+      600,
+      380
+     ]
+    }
+   ],
+   "rotulo": null,
+   "voz": "../../../recursos/voces/comics-v2/voz-C2-05.mp3",
+   "subtitulos": [
+    "y nuestros abogados se encargan del resto."
+   ],
+   "locucion": "y nuestros abogados se encargan del resto."
+  }
+ ],
+ "cierre": {
+  "titulo": "¿TE HA PASADO?",
+  "texto": "Te ayudamos a reclamar a la aerolínea.",
+  "subtitulos": [
+   "Llama al 944 027 596"
+  ],
+  "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
+  "legal": "Reglamento (CE) 261/2004, art. 7. Cada caso se estudia de forma individual.",
+  "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3"
+ },
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3"
+}

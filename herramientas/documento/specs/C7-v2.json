@@ -1,0 +1,114 @@
+{
+ "id": "C7-trucos-reclamar-v2",
+ "categoria": "CONSEJOS",
+ "portada_pie": "Guía rápida · ERREKLAMATU",
+ "titulo": [
+  "5 trucos para reclamar tu vuelo",
+  "y *no dejar dinero* por el camino"
+ ],
+ "titulo_tam": 84,
+ "portada_dato": [
+  "5 trucos",
+  "para reclamar tu vuelo"
+ ],
+ "tramos": [
+  {
+   "tipo": "gancho",
+   "subtitulos": [
+    "¿Vas a reclamar un vuelo?",
+    "Cinco trucos para no dejar dinero por el camino."
+   ],
+   "locucion": "¿Vas a reclamar un vuelo? Cinco trucos para no dejar dinero por el camino.",
+   "voz": "../../../recursos/voces/consejos-v1/C7-1.mp3",
+   "stock": "mujer-aeropuerto-movil-panel_4390693.mp4",
+   "modo": "marco",
+   "marco_y": 820
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Uno: si pides el reembolso, tienen siete días para devolverte el dinero.",
+    "En dinero, no en bonos,",
+    "salvo que tú lo aceptes firmando."
+   ],
+   "locucion": "Uno: si pides el reembolso, tienen siete días para devolverte el dinero. En dinero, no en bonos, salvo que tú lo aceptes firmando.",
+   "num": "TRUCO 1 DE 5",
+   "grande": "Reembolso en *7 días*",
+   "voz": "../../../recursos/voces/consejos-v1/C7-2.mp3",
+   "stock": "mujer-sonriendo-movil-tarjeta_2402223.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Dos: no firmes nada en lo que renuncies a la compensación.",
+    "Y si ya has firmado algo, consúltalo igualmente:",
+    "esas renuncias no siempre valen."
+   ],
+   "locucion": "Dos: no firmes nada en lo que renuncies a la compensación. Y si ya has firmado algo, consúltalo igualmente: esas renuncias no siempre valen.",
+   "num": "TRUCO 2 DE 5",
+   "grande": "No firmes *renuncias*",
+   "voz": "../../../recursos/voces/consejos-v1/C7-3.mp3",
+   "stock": "mano-papel-mesa-madera_5761375.mp4",
+   "modo": "marco",
+   "desde": 20
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Tres: habla con el resto de pasajeros.",
+    "Cuantos más reclaméis, más fuerza.",
+    "Apunta sus nombres y teléfonos."
+   ],
+   "locucion": "Tres: habla con el resto de pasajeros. Cuantos más reclaméis, más fuerza. Apunta sus nombres y teléfonos.",
+   "num": "TRUCO 3 DE 5",
+   "grande": "Habla con *los demás pasajeros*",
+   "voz": "../../../recursos/voces/consejos-v1/C7-4.mp3",
+   "stock": "pareja-charlando-terminal_8869300.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Cuatro: no entregues el talón de la maleta.",
+    "Y si te lo piden, hazle una foto.",
+    "Te servirá para reclamar."
+   ],
+   "locucion": "Cuatro: no entregues el talón de la maleta. Y si te lo piden, hazle una foto. Te servirá para reclamar.",
+   "num": "TRUCO 4 DE 5",
+   "grande": "El talón de la maleta: *hazle una foto*",
+   "tam": 80,
+   "voz": "../../../recursos/voces/consejos-v1/C7-5.mp3",
+   "stock": "maleta-roja-etiqueta-vacia_8805988.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Cinco: ponte en manos de especialistas.",
+    "Revisamos tu caso gratis,",
+    "y solo cobramos si ganamos."
+   ],
+   "locucion": "Cinco: ponte en manos de especialistas. Revisamos tu caso gratis, y solo cobramos si ganamos.",
+   "num": "TRUCO 5 DE 5",
+   "grande": "Consulta *gratis*",
+   "voz": "../../../recursos/voces/consejos-v1/C7-6.mp3",
+   "stock": "boli-apreton-manos-mesa_4362732.mp4",
+   "modo": "marco"
+  }
+ ],
+ "cierre": {
+  "titulo": "¿Te ha pasado?",
+  "texto": "Te ayudamos a reclamar a la aerolínea.",
+  "subtitulos": [
+   "Llama al 944 027 596"
+  ],
+  "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
+  "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
+  "legal": "Reglamento (CE) 261/2004. Imágenes de archivo. Cada caso se estudia de forma individual."
+ },
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3",
+ "portada_stock": "mujer-aeropuerto-movil-panel_4390693.mp4",
+ "portada_desde": 4,
+ "portada_modo": "marco"
+}

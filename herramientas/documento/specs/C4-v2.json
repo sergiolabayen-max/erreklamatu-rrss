@@ -1,0 +1,111 @@
+{
+ "id": "C4-maleta-pasos-v2",
+ "categoria": "CONSEJOS",
+ "portada_pie": "Guía rápida · ERREKLAMATU",
+ "titulo": [
+  "Tu maleta no aparece: 5 pasos para reclamar",
+  "el primero, *antes de salir* del aeropuerto"
+ ],
+ "titulo_tam": 84,
+ "portada_dato": [
+  "5 pasos",
+  "para reclamar si tu maleta no aparece"
+ ],
+ "tramos": [
+  {
+   "tipo": "gancho",
+   "subtitulos": [
+    "¿Tu maleta no ha salido por la cinta?",
+    "Cinco pasos para reclamar sin perder tus derechos."
+   ],
+   "locucion": "¿Tu maleta no ha salido por la cinta? Cinco pasos para reclamar sin perder tus derechos.",
+   "voz": "../../../recursos/voces/consejos-v1/C4-1.mp3",
+   "stock": "cinta-equipajes-vacia_7283089.mp4",
+   "modo": "marco",
+   "marco_y": 820
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Uno: antes de salir del aeropuerto,",
+    "haz el parte de irregularidad de equipaje en el mostrador.",
+    "Y guarda tu copia."
+   ],
+   "locucion": "Uno: antes de salir del aeropuerto, haz el parte de irregularidad de equipaje en el mostrador. Y guarda tu copia.",
+   "num": "PASO 1 DE 5",
+   "grande": "El *parte (PIR)* antes de salir",
+   "voz": "../../../recursos/voces/consejos-v1/C4-2.mp3",
+   "stock": "zona-equipajes-mostradores-lenta_7387456.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Dos: si tienes que comprar ropa o cosas de aseo, guarda los tickets.",
+    "Solo lo razonable.",
+    "Se reclaman aunque la maleta aparezca después."
+   ],
+   "locucion": "Dos: si tienes que comprar ropa o cosas de aseo, guarda los tickets. Solo lo razonable. Se reclaman aunque la maleta aparezca después.",
+   "num": "PASO 2 DE 5",
+   "grande": "Compras urgentes: *guarda los tickets*",
+   "voz": "../../../recursos/voces/consejos-v1/C4-3.mp3",
+   "stock": "manos-contando-billetes-euro_7244231.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Tres: aunque te digan que fue culpa del servicio de equipajes,",
+    "responde la aerolínea.",
+    "No dejes que te manden a otro sitio."
+   ],
+   "locucion": "Tres: aunque te digan que fue culpa del servicio de equipajes, responde la aerolínea. No dejes que te manden a otro sitio.",
+   "num": "PASO 3 DE 5",
+   "grande": "Responde *la aerolínea*",
+   "voz": "../../../recursos/voces/consejos-v1/C4-4.mp3",
+   "stock": "equipaje-cargando-bodega_3547467.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Cuatro: reclama siempre por escrito, y a tiempo.",
+    "Tienes siete días si la maleta llega dañada,",
+    "y veintiuno si llega con retraso. Guarda una copia."
+   ],
+   "locucion": "Cuatro: reclama siempre por escrito, y a tiempo. Tienes siete días si la maleta llega dañada, y veintiuno si llega con retraso. Guarda una copia.",
+   "num": "PASO 4 DE 5",
+   "grande": "Reclama *por escrito y a tiempo*",
+   "tam": 80,
+   "voz": "../../../recursos/voces/consejos-v3/C4-5.mp3",
+   "stock": "pasajeros-recogiendo-maletas-cinta_5321253.mp4",
+   "modo": "marco",
+   "desde": 3
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Cinco: si en veintiún días no aparece, se da por perdida.",
+    "Haz una lista de lo que llevabas,",
+    "con facturas o fotos si las tienes."
+   ],
+   "locucion": "Cinco: si en veintiún días no aparece, se da por perdida. Haz una lista de lo que llevabas, con facturas o fotos si las tienes.",
+   "num": "PASO 5 DE 5",
+   "grande": "21 días sin maleta: *perdida*",
+   "voz": "../../../recursos/voces/consejos-v1/C4-6.mp3",
+   "stock": "mano-escribiendo-cuaderno-lenta_2425280.mp4",
+   "modo": "marco"
+  }
+ ],
+ "cierre": {
+  "titulo": "¿Te ha pasado?",
+  "texto": "Te ayudamos a reclamar a la aerolínea.",
+  "subtitulos": [
+   "Llama al 944 027 596"
+  ],
+  "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
+  "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
+  "legal": "Convenio de Montreal, arts. 17, 19 y 31. Imágenes de archivo. Cada caso se estudia de forma individual."
+ },
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3"
+}

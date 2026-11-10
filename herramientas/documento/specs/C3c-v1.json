@@ -1,0 +1,75 @@
+{
+ "id": "C3c-retraso-claves-corto",
+ "categoria": "TUS DERECHOS",
+ "portada_pie": "Guía rápida · ERREKLAMATU",
+ "titulo": [
+  "Tu vuelo se retrasa: 3 cosas que debes saber",
+  "para *no perder* lo que te corresponde"
+ ],
+ "titulo_tam": 84,
+ "portada_dato": [
+  "3 horas",
+  "de retraso en destino: puede haber compensación"
+ ],
+ "tramos": [
+  {
+   "tipo": "gancho",
+   "subtitulos": [
+    "¿Tu vuelo se retrasa?",
+    "Tres cosas que debes saber para no perder dinero."
+   ],
+   "locucion": "¿Tu vuelo se retrasa? Tres cosas que debes saber para no perder dinero.",
+   "voz": "../../../recursos/voces/consejos-v1/C3c-1.mp3",
+   "stock": "pasajeros-durmiendo-terminal_7640560.mp4",
+   "modo": "marco",
+   "marco_y": 820
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Uno: con un retraso largo, te tienen que dar de comer y de beber."
+   ],
+   "locucion": "Uno: con un retraso largo, te tienen que dar de comer y de beber.",
+   "num": "CLAVE 1 DE 3",
+   "grande": "Comida y bebida *desde 2 horas*",
+   "voz": "../../../recursos/voces/consejos-v1/C3c-2.mp3",
+   "stock": "cafe-bolleria-mesa-lenta_5993996.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Dos: el retraso cuenta cuando se abren las puertas, no cuando aterriza."
+   ],
+   "locucion": "Dos: el retraso cuenta cuando se abren las puertas, no cuando aterriza.",
+   "num": "CLAVE 2 DE 3",
+   "grande": "Cuenta *cuando se abren las puertas*",
+   "voz": "../../../recursos/voces/consejos-v1/C3c-3.mp3",
+   "stock": "pasajeros-saliendo-pasarela-lenta_3548036.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Tres: con tres horas o más de retraso en destino, puede haber compensación."
+   ],
+   "locucion": "Tres: con tres horas o más de retraso en destino, puede haber compensación.",
+   "num": "CLAVE 3 DE 3",
+   "grande": "*3 horas* o más: compensación",
+   "voz": "../../../recursos/voces/consejos-v1/C3c-4.mp3",
+   "stock": "mano-reloj-macro_2362760.mp4",
+   "modo": "marco"
+  }
+ ],
+ "cierre": {
+  "titulo": "¿Te ha pasado?",
+  "texto": "Te ayudamos a reclamar a la aerolínea.",
+  "subtitulos": [
+   "Llama al 944 027 596"
+  ],
+  "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
+  "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
+  "legal": "Reglamento (CE) 261/2004. Imágenes de archivo. Cada caso se estudia de forma individual."
+ },
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3"
+}

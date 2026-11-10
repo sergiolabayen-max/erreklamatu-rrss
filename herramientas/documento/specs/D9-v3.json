@@ -1,0 +1,138 @@
+{
+ "id": "D9-tap-viento",
+ "categoria": "UN CASO REAL",
+ "juzgado": "Juzgado de Primera Instancia n.º 1 de Bilbao",
+ "fecha": "19 de mayo de 2023",
+ "pdf": "sentencia-D9.pdf",
+ "titulo": [
+  "Bilbao–Lisboa: TAP canceló el vuelo y le echó la culpa al viento",
+  "El juez le pidió pruebas: *250 € a cada pasajero*"
+ ],
+ "titulo_tam": 76,
+ "portada_dato": [
+  "750 €",
+  "para tres pasajeros: 250 € cada uno"
+ ],
+ "tramos": [
+  {
+   "tipo": "gancho",
+   "subtitulos": [
+    "TAP canceló su vuelo de Bilbao a Lisboa y le echó la culpa al viento.",
+    "Pero el juez le pidió pruebas."
+   ],
+   "locucion": "TAP canceló su vuelo de Bilbao a Lisboa y le echó la culpa al viento. Pero el juez le pidió pruebas.",
+   "voz": "../../../recursos/voces/documento-v3/D9-1.mp3",
+   "stock": "D9-montaje-gancho.mp4",
+   "modo": "marco",
+   "marco_y": 820
+  },
+  {
+   "tipo": "doc",
+   "subtitulos": [
+    "TAP alegó fuertes rachas de viento en el aeropuerto de Bilbao.",
+    "Y que por eso no tenía que pagar nada."
+   ],
+   "pagina_num": 2,
+   "subrayar": [
+    "debido a las fuertes rachas de viento"
+   ],
+   "margen": [
+    150,
+    60
+   ],
+   "doc_entra": 0.2,
+   "extra": 0.6,
+   "cita": "«… *debido a las fuertes rachas de viento*, circunstancia extraordinaria que provocó la cancelación del vuelo…»",
+   "locucion": "TAP alegó fuertes rachas de viento en el aeropuerto de Bilbao. Y que por eso no tenía que pagar nada.",
+   "voz": "../../../recursos/voces/documento-v3/D9-2.mp3",
+   "stock": "manga-viento-rachas-lenta_8889993.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "doc",
+   "subtitulos": [
+    "Pero solo presentó un certificado hecho por ella misma.",
+    "Ningún documento oficial, como uno de ENAIRE, probaba que ese vuelo se viera afectado."
+   ],
+   "pagina_num": 6,
+   "subrayar": [
+    "no se estima como prueba suficiente el certificado que se aporta",
+    "unilateralmente confeccionado por la compañía"
+   ],
+   "margen": [
+    110,
+    60
+   ],
+   "doc_entra": 0.2,
+   "cita": "«… *no se estima como prueba suficiente el certificado que se aporta, unilateralmente confeccionado por la compañía*…»",
+   "locucion": "Pero solo presentó un certificado hecho por ella misma. Ningún documento oficial, como uno de ENAIRE, probaba que ese vuelo se viera afectado.",
+   "voz": "../../../recursos/voces/documento-v3/D9-3.mp3",
+   "stock": "aviones-rodando-pista_831579.mp4",
+   "modo": "marco",
+   "desde": 16
+  },
+  {
+   "tipo": "lista",
+   "subtitulos": [],
+   "locucion": "Esto es lo que TAP tendrá que pagarles: doscientos cincuenta euros a cada uno de los tres pasajeros, los intereses y las costas.",
+   "cabecera": "Lo que TAP tendrá que pagarles",
+   "total": [
+    "En total, para los tres:",
+    "750 € + intereses"
+   ],
+   "extra": 1.4,
+   "items": [
+    {
+     "t": "250 € a cada uno",
+     "d": "de compensación por la cancelación",
+     "palabra": "doscientos"
+    },
+    {
+     "t": "Intereses",
+     "d": "desde que se presentó la demanda",
+     "palabra": "los intereses"
+    },
+    {
+     "t": "Las costas",
+     "d": "TAP paga también el juicio",
+     "palabra": "las costas"
+    }
+   ],
+   "voz": "../../../recursos/voces/documento-v3/D9-4.mp3",
+   "stock": "aviones-rodando-pista_831579.mp4",
+   "modo": "lleno",
+   "desde": 20
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "¿Te cancelan el vuelo y te dicen que es por el tiempo?",
+    "No te conformes: la aerolínea tiene que probarlo.",
+    "Tienes cinco años para reclamar."
+   ],
+   "grande": "¿Te dijeron que *fue por el tiempo*?",
+   "pequeno": "La aerolínea tiene que probarlo. Tienes 5 años para reclamar.",
+   "norma": "Reglamento (CE) 261/2004, art. 5.3",
+   "locucion": "¿Te cancelan el vuelo y te dicen que es por el tiempo? No te conformes: la aerolínea tiene que probarlo. Tienes cinco años para reclamar.",
+   "voz": "../../../recursos/voces/documento-v3/D9-5.mp3",
+   "stock": "manga-viento-rachas-lenta_8889993.mp4",
+   "modo": "marco",
+   "desde": 2
+  }
+ ],
+ "cierre": {
+  "titulo": "¿Te ha pasado?",
+  "texto": "Te ayudamos a reclamar a la aerolínea.",
+  "subtitulos": [
+   "Llama al 944 027 596"
+  ],
+  "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
+  "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
+  "legal": "Reglamento (CE) 261/2004, arts. 5 y 7. Imágenes de archivo. Cada caso se estudia de forma individual."
+ },
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3",
+ "portada_stock": "manga-viento-rachas-lenta_8889993.mp4",
+ "portada_desde": 1,
+ "portada_modo": "marco",
+ "portada_marco_y": 640
+}

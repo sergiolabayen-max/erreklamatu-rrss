@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grabador de pestaña</title>
+<style>
+  :root { --fondo:#f4f6fa; --tinta:#0f2242; --suave:#5b6880; --azul:#003378; --verde:#12a56b; --rojo:#c62828; --caja:#ffffff; --raya:#d9dfea; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--fondo); color:var(--tinta); font:17px/1.5 -apple-system, "Helvetica Neue", Arial, sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:28px 16px 60px; }
+  h1 { font-size:26px; margin:0 0 4px; }
+  p.sub { margin:0 0 22px; color:var(--suave); }
+  .caja { background:var(--caja); border:1px solid var(--raya); border-radius:14px; padding:20px; margin-bottom:16px; }
+  ol { margin:0; padding-left:22px; }
+  li { margin-bottom:8px; }
+  button { font:inherit; font-weight:600; border:0; border-radius:10px; padding:14px 22px; cursor:pointer; color:#fff; }
+  #empezar { background:var(--azul); }
+  #parar { background:var(--rojo); display:none; }
+  button:disabled { opacity:.5; cursor:default; }
+  #estado { font-weight:600; margin:14px 0 6px; min-height:26px; }
+  #estado.mal { color:var(--rojo); }
+  #estado.bien { color:var(--verde); }
+  #reloj { font-size:44px; font-weight:700; font-variant-numeric:tabular-nums; }
+  .barra { height:16px; background:#e6eaf2; border-radius:8px; overflow:hidden; margin-top:6px; }
+  #nivel { height:100%; width:0; background:var(--verde); transition:width .08s linear; }
+  .peq { color:var(--suave); font-size:15px; }
+  #enlaces a { display:block; margin-top:10px; font-weight:600; color:var(--azul); }
+  code { background:#eef1f7; padding:1px 6px; border-radius:5px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Grabador de pestaña</h1>
+  <p class="sub">Graba la imagen y el sonido de una pestaña de Chrome, sin micrófono. Todo se queda en tu ordenador.</p>
+
+  <div class="caja">
+    <ol>
+      <li>Deja el programa abierto en otra pestaña de <b>este mismo Chrome</b>, en pausa, unos segundos antes de lo que quieres.</li>
+      <li>Pulsa <b>Elegir pestaña y grabar</b>.</li>
+      <li>En la ventana de Chrome elige <b>«Pestaña de Chrome»</b>, marca la pestaña del programa y comprueba que está activado <b>«Compartir también el audio de la pestaña»</b>. Pulsa <b>Compartir</b>.</li>
+      <li>Chrome te lleva a esa pestaña: dale al <b>play</b>, pon el vídeo a pantalla completa y no muevas el ratón.</li>
+      <li>Al terminar, sal de la pantalla completa y pulsa <b>«Dejar de compartir»</b> (aviso de Chrome) o vuelve aquí y pulsa <b>Parar</b>. El archivo se descarga solo.</li>
+    </ol>
+  </div>
+
+  <div class="caja">
+    <button id="empezar">Elegir pestaña y grabar</button>
+    <button id="parar">Parar y guardar</button>
+    <div id="estado"></div>
+    <div id="reloj">00:00</div>
+    <div class="peq">Tamaño del archivo hasta ahora: <b id="peso">0.0 MB</b> (unos 20 MB por minuto)</div>
+    <div class="peq">Sonido que está entrando (tiene que moverse mientras suena el programa):</div>
+    <div class="barra"><div id="nivel"></div></div>
+    <div id="enlaces"></div>
+  </div>
+
+  <p class="peq">El archivo es un <code>.webm</code> y se guarda en Descargas. Si el vídeo saliera en negro, la emisión está protegida contra copia y este método no sirve.</p>
+</main>
+<script>
+(function () {
+  var empezar = document.getElementById('empezar'), parar = document.getElementById('parar');
+  var estado = document.getElementById('estado'), reloj = document.getElementById('reloj');
+  var nivel = document.getElementById('nivel'), enlaces = document.getElementById('enlaces');
+  var flujo = null, grabador = null, trozos = [], t0 = 0, tic = null, ctx = null, tipo = '', pesado = 0;
+  var peso = document.getElementById('peso');
+  window.__grabador = { estado: 'listo', bytes: 0, pistasAudio: 0, picoAudio: 0 };
+
+  function di(texto, clase) { estado.textContent = texto; estado.className = clase || ''; }
+  function dos(n) { return (n < 10 ? '0' : '') + n; }
+
+  function elegirTipo() {
+    var lista = ['video/webm;codecs=vp9,opus', 'video/webm;codecs=vp8,opus', 'video/webm'];
+    for (var i = 0; i < lista.length; i++) if (window.MediaRecorder && MediaRecorder.isTypeSupported(lista[i])) return lista[i];
+    return '';
+  }
+
+  function medir(pista) {
+    try {
+      ctx = new (window.AudioContext || window.webkitAudioContext)();
+      var an = ctx.createAnalyser(); an.fftSize = 1024;
+      ctx.createMediaStreamSource(new MediaStream([pista])).connect(an);
+      var buf = new Float32Array(an.fftSize);
+      (function pinta() {
+        if (!ctx) return;
+        an.getFloatTimeDomainData(buf);
+        var p = 0; for (var i = 0; i < buf.length; i++) { var v = Math.abs(buf[i]); if (v > p) p = v; }
+        if (p > window.__grabador.picoAudio) window.__grabador.picoAudio = p;
+        nivel.style.width = Math.min(100, Math.round(p * 140)) + '%';
+        requestAnimationFrame(pinta);
+      })();
+    } catch (e) { /* el medidor es solo una ayuda visual */ }
+  }
+
+  function terminar() {
+    if (tic) { clearInterval(tic); tic = null; }
+    if (ctx) { try { ctx.close(); } catch (e) {} ctx = null; }
+    if (flujo) { flujo.getTracks().forEach(function (p) { p.stop(); }); flujo = null; }
+    nivel.style.width = '0';
+    parar.style.display = 'none'; empezar.style.display = ''; empezar.disabled = false;
+  }
+
+  function guardar() {
+    var blob = new Blob(trozos, { type: 'video/webm' });
+    var d = new Date();
+    var nombre = 'grabacion-pestana-' + d.getFullYear() + dos(d.getMonth() + 1) + dos(d.getDate()) + '-' + dos(d.getHours()) + dos(d.getMinutes()) + dos(d.getSeconds()) + '.webm';
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement('a'); a.href = url; a.download = nombre;
+    a.textContent = 'Descargar otra vez: ' + nombre + ' (' + (blob.size / 1048576).toFixed(1) + ' MB)';
+    enlaces.appendChild(a); a.click();
+    window.__grabador.estado = 'guardado'; window.__grabador.bytes = blob.size; window.__grabador.nombre = nombre;
+    di('Grabación guardada en Descargas: ' + nombre, 'bien');
+  }
+
+  empezar.addEventListener('click', function () {
+    if (!navigator.mediaDevices || !navigator.mediaDevices.getDisplayMedia || !window.MediaRecorder) {
+      di('Este navegador no puede grabar pestañas. Abre este archivo con Google Chrome.', 'mal'); return;
+    }
+    empezar.disabled = true; di('Elige la pestaña en la ventana de Chrome…');
+    navigator.mediaDevices.getDisplayMedia({
+      video: { frameRate: { ideal: 25, max: 30 }, width: { max: 1920 }, height: { max: 1080 } },
+      audio: { echoCancellation: false, noiseSuppression: false, autoGainControl: false },
+      selfBrowserSurface: 'exclude', systemAudio: 'exclude', surfaceSwitching: 'exclude'
+    }).then(function (s) {
+      flujo = s;
+      var audio = s.getAudioTracks();
+      window.__grabador.pistasAudio = audio.length;
+      if (!audio.length) {
+        terminar();
+        di('No ha llegado sonido: no he grabado nada. Vuelve a pulsar, elige «Pestaña de Chrome» (no ventana ni pantalla) y activa «Compartir también el audio de la pestaña».', 'mal');
+        return;
+      }
+      tipo = elegirTipo(); trozos = []; pesado = 0;
+      grabador = new MediaRecorder(s, tipo ? { mimeType: tipo, videoBitsPerSecond: 2500000, audioBitsPerSecond: 128000 } : undefined);
+      grabador.ondataavailable = function (e) { if (e.data && e.data.size) { trozos.push(e.data); pesado += e.data.size; peso.textContent = (pesado / 1048576).toFixed(1) + ' MB'; } };
+      grabador.onstop = function () { terminar(); guardar(); };
+      s.getVideoTracks()[0].addEventListener('ended', function () { if (grabador && grabador.state !== 'inactive') grabador.stop(); });
+      grabador.start(1000);
+      medir(audio[0]);
+      t0 = Date.now(); window.__grabador.estado = 'grabando';
+      tic = setInterval(function () { var s2 = Math.floor((Date.now() - t0) / 1000); reloj.textContent = dos(Math.floor(s2 / 60)) + ':' + dos(s2 % 60); }, 500);
+      empezar.style.display = 'none'; parar.style.display = 'inline-block';
+      di('Grabando con sonido. Ve a la pestaña del programa y dale al play.', 'bien');
+    }).catch(function (e) {
+      terminar();
+      di(e && e.name === 'NotAllowedError' ? 'Has cancelado la selección o Chrome no tiene permiso para grabar la pantalla.' : 'No se ha podido empezar: ' + (e && e.message ? e.message : e), 'mal');
+    });
+  });
+
+  parar.addEventListener('click', function () { if (grabador && grabador.state !== 'inactive') grabador.stop(); });
+  window.addEventListener('beforeunload', function (e) { if (grabador && grabador.state === 'recording') { e.preventDefault(); e.returnValue = ''; } });
+})();
+</script>
+</body>
+</html>

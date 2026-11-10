@@ -1,0 +1,76 @@
+{
+ "id": "C6c-derechos-desconocidos-corto",
+ "categoria": "TUS DERECHOS",
+ "portada_pie": "Guía rápida · ERREKLAMATU",
+ "titulo": [
+  "3 derechos del pasajero que quizá no conocías",
+  "y que *te pueden valer dinero*"
+ ],
+ "titulo_tam": 84,
+ "portada_dato": [
+  "5 años",
+  "para reclamar tu vuelo"
+ ],
+ "tramos": [
+  {
+   "tipo": "gancho",
+   "subtitulos": [
+    "Tres derechos del pasajero que casi nadie conoce, y que valen dinero."
+   ],
+   "locucion": "Tres derechos del pasajero que casi nadie conoce, y que valen dinero.",
+   "voz": "../../../recursos/voces/consejos-v1/C6c-1.mp3",
+   "stock": "pasajeros-varados-malas-noticias_7578287.mp4",
+   "modo": "marco",
+   "marco_y": 820
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Uno: el overbooking también da derecho a compensación."
+   ],
+   "locucion": "Uno: el overbooking también da derecho a compensación.",
+   "num": "DERECHO 1 DE 3",
+   "grande": "Overbooking: *también hay compensación*",
+   "voz": "../../../recursos/voces/consejos-v1/C6c-2.mp3",
+   "stock": "pasajeros-varados-malas-noticias_7578287.mp4",
+   "modo": "marco",
+   "desde": 17
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Dos: depende de la distancia, no de lo que pagaste por el billete."
+   ],
+   "locucion": "Dos: depende de la distancia, no de lo que pagaste por el billete.",
+   "num": "DERECHO 2 DE 3",
+   "grande": "Depende de *la distancia*, no del precio",
+   "voz": "../../../recursos/voces/consejos-v1/C6c-3.mp3",
+   "stock": "ruta-avion-atlantico-mapa_7641082.mp4",
+   "modo": "marco",
+   "desde": 8
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Tres: en el Estado español, tienes cinco años para reclamar."
+   ],
+   "locucion": "Tres: en el Estado español, tienes cinco años para reclamar.",
+   "num": "DERECHO 3 DE 3",
+   "grande": "*5 años* para reclamar",
+   "voz": "../../../recursos/voces/consejos-v1/C6c-4.mp3",
+   "stock": "calendario-pasando-meses_3297288.mp4",
+   "modo": "marco"
+  }
+ ],
+ "cierre": {
+  "titulo": "¿Te ha pasado?",
+  "texto": "Te ayudamos a reclamar a la aerolínea.",
+  "subtitulos": [
+   "Llama al 944 027 596"
+  ],
+  "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
+  "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
+  "legal": "Reglamento (CE) 261/2004. Imágenes de archivo. Cada caso se estudia de forma individual."
+ },
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3"
+}
