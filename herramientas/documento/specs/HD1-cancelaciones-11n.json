@@ -17,16 +17,16 @@
    "subtitulos": [],
    "locucion": "Dieciséis vuelos cancelados en nuestros aeropuertos el día de la huelga general.",
    "voz": "/mnt/user-data/uploads/Magnific/voces/huelga-11n-datos/HD-1.mp3",
-   "stock": "aeropuerto-espera-retraso_7781157.mp4",
+   "stock": "madre-nina-dormidas-terminal_56937.mp4",
    "modo": "marco",
-   "desde": 1,
+   "desde": 2,
    "marco_y": 820
   },
   {
    "tipo": "lista",
    "subtitulos": [],
-   "locucion": "Doce en Bilbo: seis con Madrid, cuatro con Barcelona y dos con Santiago. Dos en Iruñea, con Madrid. Uno en Gasteiz, y otro en Donostia.",
-   "voz": "/mnt/user-data/uploads/Magnific/voces/huelga-11n-datos/HD-2.mp3",
+   "locucion": "Doce en Bilbo: seis con Madrid, cuatro con Barcelona y dos con Santiago. Dos en Iruña, con Madrid. Uno en Gasteiz, y otro en Donosti.",
+   "voz": "/mnt/user-data/uploads/Magnific/voces/huelga-11n-datos/HD-2b.mp3",
    "stock": "hombre-movil-aeropuerto_6122122.mp4",
    "modo": "lleno",
    "desde": 0,
@@ -40,7 +40,7 @@
     {
      "t": "Iruñea: 2",
      "d": "con Madrid",
-     "palabra": "Dos en Iruñea"
+     "palabra": "Dos en Iruña"
     },
     {
      "t": "Gasteiz: 1",
@@ -50,7 +50,7 @@
     {
      "t": "Donostia: 1",
      "d": "con Madrid",
-     "palabra": "otro en Donostia"
+     "palabra": "otro en Donosti"
     }
    ],
    "total": [
@@ -120,7 +120,7 @@
   "legal": "Reglamento (CE) 261/2004. Cifras: Aena y Radio Nervión. Imágenes de aeropuerto: archivo. Intervención: EITB."
  },
  "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3",
- "portada_stock": "aeropuerto-espera-retraso_7781157.mp4",
+ "portada_stock": "madre-nina-dormidas-terminal_56937.mp4",
  "portada_desde": 4,
  "portada_modo": "marco"
 }
