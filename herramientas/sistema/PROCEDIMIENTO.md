@@ -2,6 +2,30 @@
 
 Última actualización: 3 de octubre de 2026; reparto de herramientas, 12 de octubre de 2026; enlaces de Facebook, 14 de octubre de 2026. Este documento es la referencia de cómo funciona el sistema. Quien lo ejecute (una sesión nueva de Claude, sin memoria de las anteriores) debe leerlo entero antes de actuar.
 
+## COMPENSACIÓN EN VUELOS CANCELADOS O RETRASADOS: SE DICE CLARO (Sergio, 9 y 12 de noviembre de 2026: «a estas alturas no deberíamos estar corrigiendo esto») — prevalece sobre cualquier instrucción de una tarea que diga «depende de la causa»
+
+Se razona con la causa que da la propia pieza y se dice sin rodeos, sin «depende de la causa», «puede ser» ni «normalmente»:
+- **Huelga general, huelga de personal ajeno a la aerolínea (controladores, aeropuerto…), temporal o fenómeno meteorológico:** NO hay compensación, porque es una circunstancia extraordinaria que la aerolínea no puede evitar.
+- **Huelga del personal de la propia aerolínea:** sí cabe compensación.
+- **Causa desconocida:** no se habla de compensación.
+- En todos los casos se deben el reembolso o el transporte alternativo y la asistencia (MSG-007 y MSG-022).
+Origen: PUB-0610 (12/11/2026) salió de la tarea «hacer pieza pedida» con «¿Compensación? Depende de la causa» para la huelga general del 11-N. Aprendizaje AP-055.
+
+## SENTENCIAS: LA NOTICIA PRIMERO Y CON PRECISIÓN (Sergio, 12 de noviembre de 2026, PUB-0609; aprendizaje AP-056)
+
+En las piezas sobre una sentencia se abre con la noticia: qué tribunal, qué ha resuelto y en qué se basa («La Audiencia Provincial de A Coruña aplica la sentencia del TJUE…»). Terminología jurídica exacta pero comprensible; nada de «un tribunal ya lo aplica». Después, la norma y qué hacer. Nunca «España»: «tribunales del Estado».
+
+## NINGUNA RED SE QUEDA SIN PUBLICAR EN SILENCIO (Sergio, 9 de noviembre de 2026, 9:41: «El aviso que sea notorio, sino no lo veré») — obligatorio para todas las tareas
+
+Origen: PUB-0559 (vídeo de la huelga general) no salió el 9/11 en X, TikTok ni YouTube. El vídeo estaba marcado solo para Facebook e Instagram (`uso`), pero `pendiente_redes` listaba X, TikTok y YouTube; las tareas de la víspera y de la mañana se saltaron esas redes y solo lo anotaron en el registro. Ese mismo día Buffer rechazó el YouTube de PUB-0533 (título de más de 100 caracteres) y tampoco se le avisó.
+
+Regla. Cuando una tarea (o Claude en el chat) no pueda cargar o publicar una pieza aprobada en alguna red por la razón que sea —contradicción entre `uso` y `pendiente_redes`, rechazo de Buffer o de Meta, título o texto demasiado largo, creatividad sin copia pública, falta de navegador, cola llena…— hace las TRES cosas:
+1. **Alerta en rojo en el centro.** Crea un documento en la colección `alertas`: `id` (`AL-AAAAMMDD-HHMM-PUB-XXXX`), `creado_el` (ISO con hora de Madrid), `estado` «Abierta», `ref` (la pieza, p. ej. «PUB-0559»), `autor` (qué tarea), `texto` (una o dos frases: qué redes no salen, por qué y qué decisión hace falta o qué propone Claude). La página la enseña en una franja roja fija arriba de todas las pestañas y en el título de la pestaña del navegador hasta que Sergio pulse «Visto, resuelto». No se crea otra alerta si ya hay una «Abierta» con la misma `ref` y el mismo motivo.
+2. **Correo a sergiolabayen@gmail.com** en el momento, con asunto «⚠ Erreklamatu RRSS: PUB-XXXX no sale en …» y el mismo texto que la alerta. Un solo correo por pieza y motivo.
+3. **Registro**, como siempre.
+Además: **si se puede resolver sin decidir nada (la creatividad sirve para esa red y hay textos), se publica**; ante la duda entre publicar y no publicar en una red que Sergio aprobó, se avisa a tiempo de que él decida antes de la hora, no después. Un reparto propuesto por Claude en las notas no cuenta como decidido si Sergio no lo ha dicho expresamente.
+Cuando Claude resuelve la causa de una alerta desde el chat, la pasa a «Resuelta» (`resuelta_el`).
+
 ## REPARTO DE HERRAMIENTAS VIGENTE (desde el 11 de octubre de 2026) — prevalece sobre todo lo que diga en contra este documento
 
 Cambio decidido por Sergio el 8/10/2026 y hecho el 11/10/2026 desde el chat del proyecto (registro: chat-20261011-1717-buffer-desconectado, chat-20261011-1721-buffer-tiktok-youtube, chat-20261011-1736-paso3, chat-20261011-1756-recordatorios y chat-20261011-1737-para-claude-code). Canales de Buffer leídos en vivo con `list_channels` el 12/10/2026: solo X, TikTok y YouTube.
