@@ -1,0 +1,126 @@
+{
+ "id": "HD1-cancelaciones-11n",
+ "categoria": "HUELGA GENERAL · 11-N",
+ "titulo": [
+  "16 vuelos cancelados",
+  "en nuestros aeropuertos por la *huelga general*"
+ ],
+ "titulo_tam": 92,
+ "portada_dato": [
+  "16 vuelos cancelados",
+  "Bilbo · Iruñea · Gasteiz · Donostia"
+ ],
+ "portada_pie": "Consulta gratuita · 944 027 596",
+ "tramos": [
+  {
+   "tipo": "gancho",
+   "subtitulos": [],
+   "locucion": "Dieciséis vuelos cancelados en nuestros aeropuertos el día de la huelga general.",
+   "voz": "/mnt/user-data/uploads/Magnific/voces/huelga-11n-datos/HD-1.mp3",
+   "stock": "aeropuerto-espera-retraso_7781157.mp4",
+   "modo": "marco",
+   "desde": 1,
+   "marco_y": 820
+  },
+  {
+   "tipo": "lista",
+   "subtitulos": [],
+   "locucion": "Doce en Bilbo: seis con Madrid, cuatro con Barcelona y dos con Santiago. Dos en Iruñea, con Madrid. Uno en Gasteiz, y otro en Donostia.",
+   "voz": "/mnt/user-data/uploads/Magnific/voces/huelga-11n-datos/HD-2.mp3",
+   "stock": "hombre-movil-aeropuerto_6122122.mp4",
+   "modo": "lleno",
+   "desde": 0,
+   "cabecera": "Vuelos cancelados",
+   "items": [
+    {
+     "t": "Bilbo: 12",
+     "d": "6 con Madrid · 4 con Barcelona · 2 con Santiago",
+     "palabra": "Doce en Bilbo"
+    },
+    {
+     "t": "Iruñea: 2",
+     "d": "con Madrid",
+     "palabra": "Dos en Iruñea"
+    },
+    {
+     "t": "Gasteiz: 1",
+     "d": "a Barcelona",
+     "palabra": "Uno en Gasteiz"
+    },
+    {
+     "t": "Donostia: 1",
+     "d": "con Madrid",
+     "palabra": "otro en Donostia"
+    }
+   ],
+   "total": [
+    "En total",
+    "16 vuelos"
+   ],
+   "extra": 0.5
+  },
+  {
+   "tipo": "lista",
+   "subtitulos": [],
+   "locucion": "Si ibas en uno de ellos, tú eliges: el reembolso del billete, u otro vuelo. Y si tuviste que esperar, te deben comida y, si hizo falta, hotel. ¿Compensación? Con una huelga general, no: es una circunstancia extraordinaria.",
+   "voz": "/mnt/user-data/uploads/Magnific/voces/huelga-11n-datos/HD-3.mp3",
+   "stock": "joven-movil-ventanal-aviones_10300111.mp4",
+   "modo": "lleno",
+   "desde": 0,
+   "cabecera": "Si ibas en uno",
+   "items": [
+    {
+     "t": "Reembolso u otro vuelo",
+     "d": "tú eliges",
+     "palabra": "tú eliges"
+    },
+    {
+     "t": "Comida y, si hizo falta, hotel",
+     "d": "si tuviste que esperar",
+     "palabra": "Y si tuviste"
+    },
+    {
+     "t": "¿Compensación? No",
+     "d": "huelga general: circunstancia extraordinaria",
+     "palabra": "¿Compensación?"
+    }
+   ],
+   "total": [
+    "Te miramos el caso",
+    "gratis"
+   ],
+   "extra": 0.5
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "¿Y si no te ofrecen otro vuelo?",
+    "Nuestro abogado Óscar Sánchez",
+    "lo explicaba así en ETB."
+   ],
+   "locucion": "¿Y si no te ofrecen otro vuelo? Nuestro abogado Óscar Sánchez lo explicaba así en E T B.",
+   "voz": "/mnt/user-data/uploads/Magnific/voces/huelga-11n-datos/HD-4.mp3",
+   "stock": "mujer-aeropuerto-llamada-movil_8620685.mp4",
+   "modo": "marco",
+   "desde": 7,
+   "num": "Y SI NO TE OFRECEN OTRO VUELO",
+   "grande": "Te lo explica *Óscar Sánchez*",
+   "pequeno": "abogado de Erreklamatu, en ETB",
+   "tam": 84
+  }
+ ],
+ "cierre": {
+  "titulo": "¿Te cancelaron el vuelo?",
+  "texto": "Te decimos qué puedes reclamar.",
+  "subtitulos": [
+   "Llama al 944 027 596"
+  ],
+  "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
+  "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
+  "legal": "Reglamento (CE) 261/2004. Cifras: Aena y Radio Nervión. Imágenes de aeropuerto: archivo. Intervención: EITB."
+ },
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3",
+ "portada_stock": "aeropuerto-espera-retraso_7781157.mp4",
+ "portada_desde": 4,
+ "portada_modo": "marco"
+}
