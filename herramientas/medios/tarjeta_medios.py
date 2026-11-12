@@ -68,7 +68,7 @@ def v_tit(s,foto):
 def v_cara(s,foto):
     cara=b64(s["cara"],"image/jpeg")
     return (f'<div class="s cara"><div class="disco"></div><div class="top"><div class="k">Erreklamatu en los medios</div>'
-            f'<div class="medio">{e(s["medio"])}<small>{e(s["formato"])} · {e(s["fecha"])}</small></div></div>'
+            f'<div class="medio">{e(s["medio"])}<small>{" · ".join(x for x in (e(s.get("formato_tarjeta","")), e(s["fecha"])) if x)}</small></div></div>'
             f'<div class="av" style="background-image:url({cara})"></div><div class="quien"><b>{e(s["abogado"])}</b>{e(s["cargo"])}</div>'
             f'<div class="q"><div class="comillas">“</div><blockquote>{s["cita_html"]}</blockquote></div>{pie(s)}</div>')
 async def main(spec,out):
