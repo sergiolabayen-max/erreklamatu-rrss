@@ -1,0 +1,144 @@
+{
+ "id": "EEUU2-apagon-control-aereo-v1",
+ "categoria": "ACTUALIDAD",
+ "portada_pie": "Qué puedes pedir · ERREKLAMATU",
+ "titulo": [
+  "Apagón del control aéreo en EE. UU.",
+  "*Más de 10.000 vuelos* afectados"
+ ],
+ "titulo_tam": 84,
+ "portada_dato": [
+  "+10.000",
+  "vuelos afectados"
+ ],
+ "tramos": [
+  {
+   "tipo": "gancho",
+   "subtitulos": [
+    "Más de diez mil vuelos afectados en unas horas.",
+    "Esto es lo que ha dejado",
+    "el apagón del control aéreo de Estados Unidos."
+   ],
+   "locucion": "Más de diez mil vuelos afectados en unas horas. Esto es lo que ha dejado el apagón del control aéreo de Estados Unidos.",
+   "voz": "../../../recursos/voces/eeuu2/EEUU2-1.mp3",
+   "stock": "torre-control-noche_3426414.mp4",
+   "modo": "marco",
+   "marco_y": 820
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Cuando se dio la orden,",
+    "más de tres mil quinientos aviones estaban en el aire.",
+    "Hubo unos seiscientos desvíos",
+    "y casi cuatro mil quinientas cancelaciones."
+   ],
+   "locucion": "Cuando se dio la orden, más de tres mil quinientos aviones estaban en el aire. Hubo unos seiscientos desvíos y casi cuatro mil quinientas cancelaciones.",
+   "num": "LOS DATOS",
+   "grande": "*3.500 aviones* en el aire",
+   "voz": "../../../recursos/voces/eeuu2/EEUU2-2.mp3",
+   "stock": "aviones-aeropuerto-noche_3031375.mp4",
+   "modo": "marco"
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "El Gobierno lo achaca a unos routers antiguos que se saturaron,",
+    "y descarta un ciberataque.",
+    "Un día antes, el secretario de Transporte había pedido al Congreso",
+    "más de treinta mil millones de dólares para renovar el control aéreo."
+   ],
+   "locucion": "El Gobierno lo achaca a unos routers antiguos que se saturaron, y descarta un ciberataque. Un día antes, el secretario de Transporte había pedido al Congreso más de treinta mil millones de dólares para renovar el control aéreo.",
+   "num": "LAS REACCIONES",
+   "grande": "Equipos *saturados*, sin ciberataque",
+   "tam": 80,
+   "voz": "../../../recursos/voces/eeuu2/EEUU2-3.mp3",
+   "stock": "siluetas-terminal-espera_10349502.mp4",
+   "modo": "marco",
+   "planos": [
+    {
+     "stock": "siluetas-terminal-espera_10349502.mp4",
+     "desde": 0,
+     "dur": 7
+    },
+    {
+     "stock": "torre-control-noche_3426414.mp4",
+     "desde": 3
+    }
+   ]
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "En Europa, Eurocontrol frenó las salidas hacia Estados Unidos",
+    "de once de la noche a seis de la mañana.",
+    "Hoy puede haber retrasos en vuelos desde Madrid o Barcelona,",
+    "también si sales de Bilbo con escala."
+   ],
+   "locucion": "En Europa, Eurocontrol frenó las salidas hacia Estados Unidos de once de la noche a seis de la mañana. Hoy puede haber retrasos en vuelos desde Madrid o Barcelona, también si sales de Bilbo con escala.",
+   "num": "EN EUROPA",
+   "grande": "Salidas a EE. UU. *frenadas* de 23:00 a 6:00",
+   "tam": 76,
+   "voz": "../../../recursos/voces/eeuu2/EEUU2-4.mp3",
+   "stock": "madrid-barajas-noche_8292056.mp4",
+   "modo": "marco",
+   "desde": 0
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "¿Te han cancelado el vuelo?",
+    "Si sale de la Unión Europea, o vuelas con una aerolínea europea,",
+    "tú eliges: el reembolso en siete días, u otro vuelo.",
+    "Y mientras esperas, comida y, si hace falta, hotel."
+   ],
+   "locucion": "¿Te han cancelado el vuelo? Si sale de la Unión Europea, o vuelas con una aerolínea europea, tú eliges: el reembolso en siete días, u otro vuelo. Y mientras esperas, comida y, si hace falta, hotel.",
+   "num": "SI TE CANCELAN",
+   "grande": "Reembolso *u otro vuelo*: tú eliges",
+   "voz": "../../../recursos/voces/eeuu2/EEUU2-5.mp3",
+   "stock": "siluetas-terminal-espera_10349502.mp4",
+   "modo": "marco",
+   "planos": [
+    {
+     "stock": "siluetas-terminal-espera_10349502.mp4",
+     "desde": 7,
+     "dur": 7
+    },
+    {
+     "stock": "aviones-aeropuerto-noche_3031375.mp4",
+     "desde": 4
+    }
+   ]
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Compensación no hay:",
+    "un fallo del control aéreo es una circunstancia extraordinaria.",
+    "Pide otro vuelo antes de comprarte un billete,",
+    "y guarda los avisos y los tiques."
+   ],
+   "locucion": "Compensación no hay: un fallo del control aéreo es una circunstancia extraordinaria. Pide otro vuelo antes de comprarte un billete, y guarda los avisos y los tiques.",
+   "num": "QUÉ HACER",
+   "grande": "Guarda *los avisos y los tiques*",
+   "voz": "../../../recursos/voces/eeuu2/EEUU2-6.mp3",
+   "stock": "madrid-barajas-noche_8292056.mp4",
+   "modo": "marco",
+   "desde": 24
+  }
+ ],
+ "cierre": {
+  "titulo": "¿Te han cancelado el vuelo?",
+  "texto": "Te decimos qué puedes reclamar.",
+  "subtitulos": [
+   "Llama al 944 027 596"
+  ],
+  "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
+  "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
+  "legal": "Reglamento (CE) 261/2004. Imágenes de archivo. Cada caso se estudia de forma individual."
+ },
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3",
+ "portada_stock": "torre-control-noche_3426414.mp4",
+ "portada_desde": 2,
+ "portada_modo": "marco"
+}
