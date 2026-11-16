@@ -16,29 +16,29 @@
  "planos": {
   "jon": [
    {
-    "foto": "/home/claude/erreklamatu-rrss/recursos/jon-ortiz-cara-FOTO-15.jpg",
+    "foto": "../../recursos/jon-ortiz-encuadre-radio.jpg",
     "a": [
      0,
      0,
-     620
+     1080
     ],
     "b": [
-     25,
-     20,
-     575
+     110,
+     30,
+     860
     ]
    },
    {
-    "foto": "/home/claude/erreklamatu-rrss/recursos/jon-ortiz-cara-FOTO-15.jpg",
+    "foto": "../../recursos/jon-ortiz-encuadre-radio.jpg",
     "a": [
+     110,
      30,
-     10,
-     600
+     860
     ],
     "b": [
+     20,
      0,
-     0,
-     620
+     1040
     ]
    }
   ]

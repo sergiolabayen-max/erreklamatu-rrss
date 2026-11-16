@@ -4,12 +4,12 @@
  "portada_pie": "Qué puedes reclamar · ERREKLAMATU",
  "titulo": [
   "¿Te vaciaron la cuenta con un SMS falso?",
-  "*Tres bancos*, condenados a devolver el dinero"
+  "*Tres bancos* condenados a pagar"
  ],
  "titulo_tam": 78,
  "portada_dato": [
   "3 bancos",
-  "condenados a devolver"
+  "condenados a devolver el dinero"
  ],
  "tramos": [
   {
@@ -24,7 +24,8 @@
    "voz": "../../../recursos/voces/phishing-tjue/PH-1.mp3",
    "stock": "mujer-preocupada-movil-banco_3443448.mp4",
    "modo": "marco",
-   "desde": 1
+   "desde": 2,
+   "marco_y": 820
   },
   {
    "tipo": "consejo",
@@ -37,7 +38,7 @@
    ],
    "locucion": "En octubre, el Tribunal de Justicia de la Unión Europea lo dejó claro: si te hacen un cargo que no autorizaste, el banco tiene que devolverte el dinero de inmediato. Si cree que fuiste negligente, puede intentar recuperarlo después, pero tiene que probarlo él.",
    "num": "LA JUSTICIA EUROPEA",
-   "grande": "Primero, *te devuelven el dinero*",
+   "grande": "Te lo *devuelven primero*",
    "tam": 76,
    "voz": "../../../recursos/voces/phishing-tjue/PH-2.mp3",
    "stock": "banderas-ue-edificio_8236909.mp4",
@@ -46,13 +47,14 @@
     {
      "stock": "banderas-ue-edificio_8236909.mp4",
      "desde": 0,
-     "dur": 7
+     "dur": 8
     },
     {
      "stock": "mazo-juez-libros_3091123.mp4",
-     "desde": 0
+     "desde": 4
     }
-   ]
+   ],
+   "oscurecer": -0.5
   },
   {
    "tipo": "consejo",
@@ -68,7 +70,20 @@
    "voz": "../../../recursos/voces/phishing-tjue/PH-3.mp3",
    "stock": "mujer-tarjeta-portatil-pago_5074581.mp4",
    "modo": "marco",
-   "desde": 2
+   "desde": 2,
+   "oscurecer": -0.45,
+   "planos": [
+    {
+     "stock": "mujer-tarjeta-portatil-pago_5074581.mp4",
+     "desde": 1,
+     "dur": 6
+    },
+    {
+     "stock": "mujer-tarjeta-portatil-pago_5074581.mp4",
+     "desde": 9,
+     "zoom": 0.25
+    }
+   ]
   },
   {
    "tipo": "consejo",
@@ -91,8 +106,8 @@
    "planos": [
     {
      "stock": "hombre-llamada-preocupado_2806324.mp4",
-     "desde": 2,
-     "dur": 12
+     "desde": 6,
+     "dur": 13.5
     },
     {
      "stock": "pareja-preocupada-movil-papeles_9218505.mp4",
@@ -114,7 +129,8 @@
    "voz": "../../../recursos/voces/phishing-tjue/PH-5.mp3",
    "stock": "mujer-llamada-tarjeta-sofa_4249417.mp4",
    "modo": "marco",
-   "desde": 1
+   "desde": 1,
+   "oscurecer": -0.45
   }
  ],
  "cierre": {
@@ -128,7 +144,8 @@
   "legal": "TJUE, sentencia de 15/10 (C-70/25). Imágenes de archivo. Cada caso se estudia de forma individual."
  },
  "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3",
- "portada_stock": "mujer-preocupada-movil-banco_3443448.mp4",
+ "portada_stock": "mujer-llamada-tarjeta-sofa_4249417.mp4",
  "portada_desde": 3,
- "portada_modo": "marco"
+ "portada_foto_x": 42,
+ "portada_foto_y": 50
 }

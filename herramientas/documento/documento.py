@@ -254,7 +254,7 @@ def fondo(t, D, sal):
     if t.get("modo", "lleno") == "lleno":
         fl = f"[0:v]fps=30,{cover},scale=w='{VW}*(1+{z}*t/{D})':h=-1:eval=frame,crop={VW}:{VH},format=yuv420p[v]"
     else:
-        fl = (f"[0:v]fps=30,split[a][b];[a]{cover},boxblur=30:2,eq=brightness=-0.25[bg];"
+        fl = (f"[0:v]fps=30,split[a][b];[a]{cover},boxblur=30:2,eq=brightness={t.get('oscurecer', -0.25)}[bg];"
               f"[b]scale={VW}:{MARCO_H}:force_original_aspect_ratio=increase,crop={VW}:{MARCO_H},scale=w='{VW}*(1+{z}*t/{D})':h=-1:eval=frame,crop={VW}:{MARCO_H}[fg];[bg][fg]overlay=0:{t.get('marco_y', MARCO_Y)},format=yuv420p[v]")
     run("ffmpeg", "-v", "error", "-y", "-stream_loop", -1, "-ss", ss, "-i", src, "-t", D, "-filter_complex", fl, "-map", "[v]", "-an", "-r", 30, "-c:v", "libx264", "-crf", 18, sal)
 
