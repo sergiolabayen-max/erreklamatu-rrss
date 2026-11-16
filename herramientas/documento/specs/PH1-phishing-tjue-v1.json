@@ -1,0 +1,134 @@
+{
+ "id": "PUB-0617-phishing-tjue-v1",
+ "categoria": "ACTUALIDAD",
+ "portada_pie": "Qué puedes reclamar · ERREKLAMATU",
+ "titulo": [
+  "¿Te vaciaron la cuenta con un SMS falso?",
+  "*Tres bancos*, condenados a devolver el dinero"
+ ],
+ "titulo_tam": 78,
+ "portada_dato": [
+  "3 bancos",
+  "condenados a devolver"
+ ],
+ "tramos": [
+  {
+   "tipo": "gancho",
+   "subtitulos": [
+    "¿Te llegó un SMS o una llamada",
+    "que parecía de tu banco,",
+    "y después te vaciaron la cuenta?",
+    "Esto te interesa."
+   ],
+   "locucion": "¿Te llegó un SMS o una llamada que parecía de tu banco, y después te vaciaron la cuenta? Esto te interesa.",
+   "voz": "../../../recursos/voces/phishing-tjue/PH-1.mp3",
+   "stock": "mujer-preocupada-movil-banco_3443448.mp4",
+   "modo": "marco",
+   "desde": 1
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "En octubre, el Tribunal de Justicia de la Unión Europea lo dejó claro:",
+    "si te hacen un cargo que no autorizaste,",
+    "el banco tiene que devolverte el dinero de inmediato.",
+    "Si cree que fuiste negligente, puede intentar recuperarlo después,",
+    "pero tiene que probarlo él."
+   ],
+   "locucion": "En octubre, el Tribunal de Justicia de la Unión Europea lo dejó claro: si te hacen un cargo que no autorizaste, el banco tiene que devolverte el dinero de inmediato. Si cree que fuiste negligente, puede intentar recuperarlo después, pero tiene que probarlo él.",
+   "num": "LA JUSTICIA EUROPEA",
+   "grande": "Primero, *te devuelven el dinero*",
+   "tam": 76,
+   "voz": "../../../recursos/voces/phishing-tjue/PH-2.mp3",
+   "stock": "banderas-ue-edificio_8236909.mp4",
+   "modo": "marco",
+   "planos": [
+    {
+     "stock": "banderas-ue-edificio_8236909.mp4",
+     "desde": 0,
+     "dur": 7
+    },
+    {
+     "stock": "mazo-juez-libros_3091123.mp4",
+     "desde": 0
+    }
+   ]
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Hace unos días, la Audiencia Provincial de A Coruña",
+    "confirmó la condena a Abanca:",
+    "tiene que devolver 8.874 euros a una clienta",
+    "por cargos con su tarjeta que ella no autorizó."
+   ],
+   "locucion": "Hace unos días, la Audiencia Provincial de A Coruña confirmó la condena a Abanca: tiene que devolver ocho mil ochocientos setenta y cuatro euros a una clienta por cargos con su tarjeta que ella no autorizó.",
+   "num": "ABANCA",
+   "grande": "*8.874 €* a una clienta",
+   "voz": "../../../recursos/voces/phishing-tjue/PH-3.mp3",
+   "stock": "mujer-tarjeta-portatil-pago_5074581.mp4",
+   "modo": "marco",
+   "desde": 2
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Y no es un caso aislado.",
+    "La Audiencia Provincial de Zaragoza ha condenado a Ibercaja",
+    "a devolver más de 6.000 euros, más intereses, a unos clientes",
+    "a los que unos estafadores, haciéndose pasar por el banco, les sacaron las claves.",
+    "Y un juzgado de A Coruña ha condenado a Unicaja",
+    "a devolver 12.000 euros a una familia",
+    "engañada con SMS y llamadas falsas.",
+    "Esta todavía no es firme."
+   ],
+   "locucion": "Y no es un caso aislado. La Audiencia Provincial de Zaragoza ha condenado a Ibercaja a devolver más de seis mil euros, más intereses, a unos clientes a los que unos estafadores, haciéndose pasar por el banco, les sacaron las claves. Y un juzgado de A Coruña ha condenado a Unicaja a devolver doce mil euros a una familia engañada con SMS y llamadas falsas. Esta todavía no es firme.",
+   "num": "IBERCAJA Y UNICAJA",
+   "grande": "*6.147 €* y *12.000 €*",
+   "voz": "../../../recursos/voces/phishing-tjue/PH-4.mp3",
+   "stock": "hombre-llamada-preocupado_2806324.mp4",
+   "modo": "marco",
+   "planos": [
+    {
+     "stock": "hombre-llamada-preocupado_2806324.mp4",
+     "desde": 2,
+     "dur": 12
+    },
+    {
+     "stock": "pareja-preocupada-movil-papeles_9218505.mp4",
+     "desde": 3
+    }
+   ]
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Si te ha pasado, avisa al banco cuanto antes,",
+    "denuncia y reclama por escrito.",
+    "En Erreklamatu revisamos tu caso gratis,",
+    "y solo cobramos si recuperamos tu dinero."
+   ],
+   "locucion": "Si te ha pasado, avisa al banco cuanto antes, denuncia y reclama por escrito. En Erreklamatu revisamos tu caso gratis, y solo cobramos si recuperamos tu dinero.",
+   "num": "QUÉ HACER",
+   "grande": "Avisa, denuncia *y reclama*",
+   "voz": "../../../recursos/voces/phishing-tjue/PH-5.mp3",
+   "stock": "mujer-llamada-tarjeta-sofa_4249417.mp4",
+   "modo": "marco",
+   "desde": 1
+  }
+ ],
+ "cierre": {
+  "titulo": "¿Te han robado con un SMS falso?",
+  "texto": "Revisamos tu caso gratis.",
+  "subtitulos": [
+   "Llama al 944 027 596"
+  ],
+  "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
+  "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
+  "legal": "TJUE, sentencia de 15/10 (C-70/25). Imágenes de archivo. Cada caso se estudia de forma individual."
+ },
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3",
+ "portada_stock": "mujer-preocupada-movil-banco_3443448.mp4",
+ "portada_desde": 3,
+ "portada_modo": "marco"
+}
