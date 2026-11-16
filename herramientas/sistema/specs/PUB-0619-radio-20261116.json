@@ -1,0 +1,73 @@
+{
+ "fuente": "fuente.mp3",
+ "audio": "audio16.wav",
+ "idioma": "es",
+ "emisora": "Radio Euskadi",
+ "programa": "Informativo de las 14:00",
+ "credito": "Audio: Radio Euskadi · Informativo de las 14:00",
+ "rotulos": {
+  "jon": "{\\b1}Jon Ortiz{\\b0}  ·  Abogado de Erreklamatu  ·  en la radio",
+  "presentadora": "{\\b1}Radio Euskadi{\\b0}  ·  Informativo de las 14:00"
+ },
+ "preguntan": [
+  "presentadora"
+ ],
+ "prefijo": "",
+ "planos": {
+  "jon": [
+   {
+    "foto": "/home/claude/erreklamatu-rrss/recursos/jon-ortiz-cara-FOTO-15.jpg",
+    "a": [
+     0,
+     0,
+     620
+    ],
+    "b": [
+     25,
+     20,
+     575
+    ]
+   },
+   {
+    "foto": "/home/claude/erreklamatu-rrss/recursos/jon-ortiz-cara-FOTO-15.jpg",
+    "a": [
+     30,
+     10,
+     600
+    ],
+    "b": [
+     0,
+     0,
+     620
+    ]
+   }
+  ]
+ },
+ "crf": 24,
+ "preset": "faster",
+ "clips": [
+  {
+   "id": "PUB-0619",
+   "kicker": "En los medios",
+   "titular": [
+    "Vuelo cancelado en EE. UU.:",
+    "¿qué puedes reclamar?"
+   ],
+   "principal": "jon",
+   "tramos": [
+    {
+     "inicio": 15.55,
+     "fin": 46.2,
+     "quien": "presentadora",
+     "texto": "¿Y qué es lo que deberíamos hacer en el caso de que nos hubiera afectado una incidencia así? Los usuarios a quienes se les haya podido suspender un vuelo de esta naturaleza pueden exigir la devolución de su billete siete días después, o que les lleven a su destino, según ha informado el colectivo de abogados especializado en reclamaciones, Erreklamatu. Este derecho afecta a los usuarios que salgan de la Unión Europea o que vuelen hacia Estados Unidos con una aerolínea europea. Mientras dura esta espera, la aerolínea debe atender al usuario, usuaria, con comida, bebida y alojamiento. Jon Ortiz es abogado de Erreklamatu."
+    },
+    {
+     "inicio": 46.6,
+     "fin": 65.8,
+     "quien": "jon",
+     "texto": "Las vías son un poco las mismas. Lo primero sería dirigirse a la compañía por los medios rutinarios, digamos, que suele ser su página web o un email que tengan habilitado para ello, y solicitar el reembolso de los vuelos cancelados y los gastos que hayamos podido tener también."
+    }
+   ]
+  }
+ ]
+}
