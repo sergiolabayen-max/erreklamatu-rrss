@@ -1,10 +1,10 @@
 {
  "id": "D17-volotea-lourdes",
  "categoria": "UN CASO REAL",
- "juzgado": "Tribunal de Instancia de Bilbo",
+ "juzgado": "Tribunal de Instancia de Bilbo, Sección Civil, plaza 9",
  "fecha": "9 de noviembre de 2026",
  "pdf": "sentencia-D17.pdf",
- "rotulo": "Sentencia del Tribunal de Instancia de Bilbo · 9 de noviembre de 2026",
+ "rotulo": "Sentencia del Tribunal de Instancia de Bilbo, Sección Civil, plaza 9 · 9 de noviembre de 2026",
  "cita_etiqueta": "Texto literal de la sentencia",
  "portada_pie": "Caso real de ERREKLAMATU",
  "titulo": [
@@ -125,9 +125,9 @@
    "voz": "../../../recursos/voces/volotea-lourdes/VL-4.mp3",
    "doc_entra": 0.0,
    "extra": 1.0,
-   "stock": "pago-aparcamiento-tarjeta_333517.mp4",
+   "stock": "maleta-maletero-aeropuerto_2971254.mp4",
    "modo": "marco",
-   "desde": 1
+   "desde": 0
   },
   {
    "tipo": "lista",
@@ -175,7 +175,18 @@
    "norma": "Reglamento (CE) 261/2004, arts. 5 y 7",
    "stock": "mujer-mirando-panel-vuelos_5916077.mp4",
    "modo": "marco",
-   "desde": 1
+   "desde": 1,
+   "planos": [
+    {
+     "stock": "mujer-mirando-panel-vuelos_5916077.mp4",
+     "desde": 1,
+     "dur": 6.2
+    },
+    {
+     "stock": "pago-aparcamiento-tarjeta-recorte_333517.mp4",
+     "desde": 0.8
+    }
+   ]
   }
  ],
  "cierre": {
