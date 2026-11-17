@@ -1,0 +1,195 @@
+{
+ "id": "D17-volotea-lourdes",
+ "categoria": "UN CASO REAL",
+ "juzgado": "Tribunal de Instancia de Bilbo",
+ "fecha": "9 de noviembre de 2026",
+ "pdf": "sentencia-D17.pdf",
+ "rotulo": "Sentencia del Tribunal de Instancia de Bilbo · 9 de noviembre de 2026",
+ "cita_etiqueta": "Texto literal de la sentencia",
+ "portada_pie": "Caso real de ERREKLAMATU",
+ "titulo": [
+  "Volotea les canceló el vuelo de Nápoles a Bilbo y las mandó a Lourdes",
+  "*1.010 €* para cuatro viajeras"
+ ],
+ "titulo_tam": 72,
+ "portada_dato": [
+  "1.010 €",
+  "para 4 viajeras, más intereses y costas"
+ ],
+ "tramos": [
+  {
+   "tipo": "gancho",
+   "subtitulos": [
+    "Volotea les canceló el vuelo de Nápoles a Bilbo…",
+    "y las mandó a Lourdes.",
+    "Una sentencia de hace unos días obliga ahora a la aerolínea",
+    "a pagar más de 1.000 € a estas cuatro viajeras."
+   ],
+   "locucion": "Volotea les canceló el vuelo de Nápoles a Bilbo... y las mandó a Lourdes. Una sentencia de hace unos días obliga ahora a la aerolínea a pagar más de mil euros a estas cuatro viajeras.",
+   "voz": "../../../recursos/voces/volotea-lourdes/VL-1.mp3",
+   "stock": "napoles-castel-dellovo-vesubio_2789044.mp4",
+   "modo": "lleno",
+   "planos": [
+    {
+     "stock": "napoles-castel-dellovo-vesubio_2789044.mp4",
+     "desde": 1,
+     "dur": 2.9
+    },
+    {
+     "stock": "lourdes-basilica-aerea_1744246.mp4",
+     "desde": 4,
+     "dur": 3.4
+    },
+    {
+     "stock": "avion-despegando-atardecer_3036567.mp4",
+     "desde": 0
+    }
+   ]
+  },
+  {
+   "tipo": "doc",
+   "pagina_num": 2,
+   "subrayar": [
+    "recolocadas por la propia compañía aérea en un vuelo",
+    "alternativo Nápoles-Lourdes con salida el día 4 de mayo"
+   ],
+   "margen": [
+    150,
+    110
+   ],
+   "cita": "«… las pasajeras fueron *recolocadas por la propia compañía aérea en un vuelo alternativo Nápoles-Lourdes* con salida el día 4 de mayo…»",
+   "subtitulos": [
+    "La propia aerolínea las recolocó en otro vuelo, al día siguiente.",
+    "Pero no a Bilbo: a Lourdes, en Francia."
+   ],
+   "locucion": "La propia aerolínea las recolocó en otro vuelo, al día siguiente. Pero no a Bilbo: a Lourdes, en Francia.",
+   "voz": "../../../recursos/voces/volotea-lourdes/VL-2.mp3",
+   "doc_entra": 0.0,
+   "extra": 0.6,
+   "stock": "panel-salidas-cancelados-rojo_7578445.mp4",
+   "modo": "marco",
+   "desde": 1
+  },
+  {
+   "tipo": "doc",
+   "pagina_num": 2,
+   "subrayar": [
+    "No consta alegación ni prueba alguna por parte de la compañía aérea",
+    "carga probatoria que corresponde al transportista aéreo"
+   ],
+   "margen": [
+    150,
+    110
+   ],
+   "cita": "«*No consta alegación ni prueba alguna por parte de la compañía aérea* acerca de la concurrencia de circunstancias extraordinarias (…), *carga probatoria que corresponde al transportista aéreo*.»",
+   "subtitulos": [
+    "Volotea ni siquiera contestó a la demanda.",
+    "Y la sentencia lo deja claro: era la aerolínea la que tenía que probar",
+    "que hubo circunstancias extraordinarias. No lo hizo."
+   ],
+   "locucion": "Volotea ni siquiera contestó a la demanda. Y la sentencia lo deja claro: era la aerolínea la que tenía que probar que hubo circunstancias extraordinarias. No lo hizo.",
+   "voz": "../../../recursos/voces/volotea-lourdes/VL-3.mp3",
+   "doc_entra": 0.0,
+   "extra": 0.6,
+   "stock": "mazo-juez-libros_3091123.mp4",
+   "modo": "marco",
+   "planos": [
+    {
+     "stock": "mazo-juez-libros_3091123.mp4",
+     "desde": 3,
+     "dur": 5
+    },
+    {
+     "stock": "mujer-leyendo-documento-firmar_5086529.mp4",
+     "desde": 1
+    }
+   ]
+  },
+  {
+   "tipo": "doc",
+   "pagina_num": 3,
+   "subrayar": [
+    "prolongación del",
+    "estacionamiento del vehículo utilizado para acudir al aeropuerto"
+   ],
+   "margen": [
+    150,
+    110
+   ],
+   "cita": "«… el perjuicio económico derivado de la *prolongación del estacionamiento del vehículo utilizado para acudir al aeropuerto* de salida del viaje.»",
+   "subtitulos": [
+    "Y como tuvieron el coche más días de la cuenta en el aparcamiento del aeropuerto,",
+    "también tendrá que pagarles ese gasto."
+   ],
+   "locucion": "Y como tuvieron el coche más días de la cuenta en el aparcamiento del aeropuerto, también tendrá que pagarles ese gasto.",
+   "voz": "../../../recursos/voces/volotea-lourdes/VL-4.mp3",
+   "doc_entra": 0.0,
+   "extra": 1.0,
+   "stock": "pago-aparcamiento-tarjeta_333517.mp4",
+   "modo": "marco",
+   "desde": 1
+  },
+  {
+   "tipo": "lista",
+   "subtitulos": [],
+   "locucion": "Esto es lo que Volotea tendrá que pagarles: doscientos cincuenta euros a cada una, diez euros con treinta y cuatro del aparcamiento, y además los intereses y las costas del juicio.",
+   "voz": "../../../recursos/voces/volotea-lourdes/VL-5.mp3",
+   "cabecera": "Lo que Volotea tendrá que pagarles",
+   "total": [
+    "En total, para las 4:",
+    "1.010,34 €"
+   ],
+   "extra": 1.2,
+   "items": [
+    {
+     "t": "250 € a cada una",
+     "d": "de compensación por la cancelación",
+     "palabra": "doscientos"
+    },
+    {
+     "t": "10,34 € del aparcamiento",
+     "d": "por los días de más",
+     "palabra": "diez"
+    },
+    {
+     "t": "Los intereses y las costas",
+     "d": "del juicio",
+     "palabra": "intereses"
+    }
+   ],
+   "stock": "avion-aterrizando-ciudad_4215534.mp4",
+   "modo": "lleno",
+   "desde": 2
+  },
+  {
+   "tipo": "consejo",
+   "subtitulos": [
+    "Aunque la aerolínea te recoloque en otro vuelo,",
+    "si llegas a tu destino con mucho retraso, puedes reclamar la compensación.",
+    "Y guarda los tiques del aparcamiento: también cuentan."
+   ],
+   "locucion": "Aunque la aerolínea te recoloque en otro vuelo, si llegas a tu destino con mucho retraso, puedes reclamar la compensación. Y guarda los tiques del aparcamiento: también cuentan.",
+   "voz": "../../../recursos/voces/volotea-lourdes/VL-6.mp3",
+   "grande": "¿Te recolocaron *en otro vuelo*?",
+   "pequeno": "Si llegaste con mucho retraso, puedes reclamar. Y guarda los tiques del aparcamiento.",
+   "norma": "Reglamento (CE) 261/2004, arts. 5 y 7",
+   "stock": "mujer-mirando-panel-vuelos_5916077.mp4",
+   "modo": "marco",
+   "desde": 1
+  }
+ ],
+ "cierre": {
+  "titulo": "¿Te ha pasado?",
+  "texto": "Te ayudamos a reclamar a la aerolínea.",
+  "subtitulos": [
+   "Llama al 944 027 596"
+  ],
+  "locucion": "Llama al nueve cuatro cuatro, cero dos siete, cinco nueve seis.",
+  "voz": "../../../recursos/voces/comics-v2/voz-cierre.mp3",
+  "legal": "Reglamento (CE) 261/2004, arts. 5 y 7. Sentencia firme. Imágenes de archivo. Cada caso se estudia de forma individual."
+ },
+ "musica": "../../../recursos/musica/musica-lofi-100bpm.mp3",
+ "portada_stock": "lourdes-basilica-aerea_1744246.mp4",
+ "portada_desde": 8,
+ "portada_foto_y": 45
+}
