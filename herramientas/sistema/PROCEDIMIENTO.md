@@ -26,6 +26,11 @@ Regla. Cuando una tarea (o Claude en el chat) no pueda cargar o publicar una pie
 Además: **si se puede resolver sin decidir nada (la creatividad sirve para esa red y hay textos), se publica**; ante la duda entre publicar y no publicar en una red que Sergio aprobó, se avisa a tiempo de que él decida antes de la hora, no después. Un reparto propuesto por Claude en las notas no cuenta como decidido si Sergio no lo ha dicho expresamente.
 Cuando Claude resuelve la causa de una alerta desde el chat, la pasa a «Resuelta» (`resuelta_el`).
 
+**Comprobaciones previas obligatorias al cargar cualquier pieza (26/11/2026, tras los fallos del 25/11 de PUB-0534 y PUB-0462):**
+- **Título de YouTube: 100 caracteres como máximo, contados antes de cargar** (en Buffer o en Metricool). Si pasa de 100, la tarea lo acorta ella misma conservando el dato principal (p. ej. «Air Canada no le dejó embarcar en Montreal y el juez le reconoce 1.385,46 €») y lo anota en el registro; no se carga nunca un título largo. Ya falló así con PUB-0533 (9/11) y PUB-0534 (25/11).
+- **X con «Please reauthorize your channel connection»:** Buffer sigue mostrando el canal como conectado, así que el fallo solo se ve en las piezas con error. Autorizar a Buffer en X lo tiene que hacer Sergio (Buffer → Settings → Channels → X → ⋮ → Refresh Connection → «Autorizar la aplicación»). En cuanto aparezca: alerta + correo con esas instrucciones, y las piezas de X que hayan fallado se reprograman ese mismo día en cuanto Sergio confirme, en horas libres de X (sin pisar las ya programadas).
+- **Creatividad sin copia pública:** se sube en el momento a `piezas/` con el nombre con versión y se rellenan `publica` y `uso`; no se deja para «al programar».
+
 ## REPARTO DE HERRAMIENTAS VIGENTE (desde el 11 de octubre de 2026) — prevalece sobre todo lo que diga en contra este documento
 
 Cambio decidido por Sergio el 8/10/2026 y hecho el 11/10/2026 desde el chat del proyecto (registro: chat-20261011-1717-buffer-desconectado, chat-20261011-1721-buffer-tiktok-youtube, chat-20261011-1736-paso3, chat-20261011-1756-recordatorios y chat-20261011-1737-para-claude-code). Canales de Buffer leídos en vivo con `list_channels` el 12/10/2026: solo X, TikTok y YouTube.
